@@ -1,0 +1,19 @@
+#Makes iron bars climbable if a rope is below them.
+climbableBars = false
+#Replace the cauldron block to allow it to hold other liquids and perform extended recipes.
+cauldron = true
+#Replace carpet blocks, allowing them to fit to stairs below them.
+fittedCarpets = true
+#Replace hopper blocks, allowing them to be waterlogged.
+waterlogHoppers = true
+
+[enchantments]
+	#If true, axes can receive available weapon enchantments at the enchantment table
+	axeTable = false
+	#If true, shields can now be enchanted with enchantments such as protection, fire aspect, knockback, and thorns. This requires replacing these enchantments.
+	moreShield = true
+	#If true, shields can be enchanted in an enchantment table. Does not support modded shields as it requires a registry substitution
+	shieldTable = true
+	#If true, axes will be able to be enchanted with weapon enchants such as looting, fire aspect, and knockback
+	axeWeapon = false
+

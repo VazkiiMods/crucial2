@@ -1,0 +1,16 @@
+{
+	"name": "Automatic Crafting",
+	"icon": "minecraft:crafting_table",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there's a method in which one block can automatically craft anything a $(item)Crafting Table$() can. Supposedly, the method involves laying down the crafting materials behind said block, either inside chests, or as blocks in the world."
+		},
+		{
+			"type": "quest",
+			"text": "Find a way you can craft automatically."
+		}
+	]
+}

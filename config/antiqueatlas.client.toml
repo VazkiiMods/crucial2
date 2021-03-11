@@ -1,0 +1,116 @@
+
+[performance]
+	#Whether to rescan chunks in the area that have been previously mapped. This is useful in case of changes in coastline (including small ponds of water and lava), or if land disappears completely (for sky worlds).
+	#Disable for better performance.
+	doRescan = true
+	#Whether to perform additional scanning to locate ravines.
+	#Disable for better performance.
+	doScanRavines = true
+	#If true, map render time will be output.
+	debugRender = false
+	#The radius of the area around the player which is scanned by the Atlas at regular intervals.
+	#Note that this will not force faraway chunks to load, unless force_chunk_loading is enabled.
+	#Lower value gives better performance.
+	#Range: > 0
+	scanRadius = 11
+	#The maximum number of markers a particular atlas can hold.
+	#Range: > 0
+	markerLimit = 1024
+	#Whether to perform additional scanning to locate small ponds of water or lava.
+	#Disable for better performance.
+	doScanPonds = true
+	#Force loading of chunks within scan radius even if it exceeds regular chunk loading distance.
+	#Enabling this may SEVERELY decrease performance!
+	forceChunkLoading = false
+	#Time in seconds between two scans of the area.
+	#Higher value gives better performance.
+	#Range: 0.0 ~ 2.147483647E9
+	newScanInterval = 1.0
+	#The number of area scans between full rescans.
+	#Higher value gives better performance.
+	#Range: 1 ~ 1000
+	rescanRate = 4
+
+[overlayAppearance]
+	#The size (in GUI pixels) of a marker on the map.
+	#Note that this will change with Minecraft's GUI scale configuration.
+	#Range: > 0
+	markerSize = 16
+	#The size (in GUI pixels) of a map's tile.
+	#Note that this will change with Minecraft's GUI scale configuration.
+	#When using a small gui scale, the map may look better with a TILE_SIZE of 16 or more.
+	#Range: 1 ~ 10
+	tileSize = 8
+	#If true, the minimap will show the map of an atlas only while it is held.
+	#If false, the minimap will show the map of the first atlas in the hotbar.
+	requiresHold = true
+	#The width (in GUI pixels) of the player's icon.
+	#Range: > 0
+	playerIconWidth = 14
+	#The height (in GUI pixels) of the player's icon.
+	#Range: > 0
+	playerIconHeight = 16
+	#The width of the map border on the left and right sides of the minimap tiles.
+	#Represented as a fraction of the image width.
+	#Below a certain threshold, this border will be overtaken by the map border graphic.
+	#Range: 0.0 ~ 0.5
+	borderX = 0.05
+	#Set true to enable minimap
+	enabled = false
+	#The width of the map border on the top and bottom sides of the minimap tiles.
+	#Represented as a fraction of the image width.
+	#Below a certain threshold, this border will be overtaken by the map border graphic.
+	#Range: 0.0 ~ 0.5
+	borderY = 0.05
+
+[overlayPosition]
+	#Map's minimum position along the x axis in GUI pixels.
+	#Note that this will change with Minecraft's GUI scale configuration.
+	#Range: > 0
+	xPosition = 2
+	#Map's minimum position along the y axis in GUI pixels.
+	#Note that this will change with Minecraft's GUI scale configuration.
+	#Range: > 0
+	yPosition = 2
+	#Map's width in GUI pixels.
+	#Note that this will change with Minecraft's GUI scale configuration.
+	#Range: > 0
+	width = 155
+	#If true, the map position's x axis will align 0 to the right
+	#of the screen, increasing towards the left.
+	alignRight = false
+	#If true, the map position's y axis will align 0 to the bottom
+	#of the screen, increasing towards the top.
+	alignBottom = false
+	#Map's height in GUI pixels.
+	#Note that this will change with Minecraft's GUI scale configuration.
+	#Range: > 0
+	height = 109
+
+[userInterface]
+	#Default zoom level. The number corresponds to the size of a block on the map relative to the size of a GUI pixel. Preferrably a power of 2.
+	#Range: 0.001953125 ~ 16.0
+	defaultScale = 0.5
+	#Maximum zoom level. The number corresponds to the size of a block on the map relative to the size of a GUI pixel. Preferrably a power of 2.
+	#Range: 0.001953125 ~ 16.0
+	maxScale = 4.0
+	#If false (by default), then mousewheel up is zoom in, mousewheel down is zoom out.
+	#If true, then the direction is reversed.
+	doReverseWheelZoom = false
+	#Minimum zoom level. The number corresponds to the size of a block on the map relative to the size of a GUI pixel. Preferrably a power of 2. Smaller values may decrease performance!
+	#Range: 0.001953125 ~ 16.0
+	minScale = 0.03125
+
+[gameplay]
+	#Whether to add local marker for the spot where the player died.
+	autoDeathMarker = true
+	#Player will need to craft atlas item to use atlas.
+	itemNeeded = true
+	#Whether to remember last open browsing position and zoom level for each dimension in every atlas.
+	#If disabled, all dimensions and all atlases will be "synchronized" at the same coordinates and zoom level, and map will "follow" player by default.
+	doSaveBrowsingPos = true
+	#Whether to add global markers for Nether Portals.
+	autoNetherPortalMarkers = true
+	#Whether to add global markers for NPC villages.
+	autoVillageMarkers = true
+

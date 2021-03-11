@@ -1,0 +1,16 @@
+{
+	"name": "Fantastical Mounts",
+	"icon": "minecraft:diamond_horse_armor",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, incredibly rare shining horses with horns have been spotted roaming around the world.$(br2)Those who claim to have tamed these mystical beasts boast of their blazing speed, innate frost walking, and ability to carry more than one person."
+		},
+		{
+			"type": "quest",
+			"text": "Find and tame one of these elusive $(thing)horned horses$(), whatever they may be called."
+		}
+	]
+}

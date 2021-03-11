@@ -1,0 +1,32 @@
+{
+	"name": "Discovering Content",
+	"icon": "minecraft:compass",
+	"sortnum": 1,
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Basic introductions out of the way, let's talk about how you can discover what content $(thing)Crucial 2$() has to offer.$(br2)You might've already noticed the big panel of items on the right of your screen when you open your inventory. If you're a modding veteran, this is nothing new, but for you newbies, we call it $(item)JEI$() ($(item)Just Enough Items$())"
+		},
+		{
+			"type": "text",
+			"text": "In here, you can see every relevant item in the game. We took the liberty of hiding the non-relevant ones (thank us later!)$(br2)You can left click an item to see how it's crafted, or right click it to see what can be crafted out of it. Pressing the $(thing)R$() and $(thing)U$() keys respectively also has this behavior."
+		},
+		{
+			"type": "text",
+			"text": "In $(thing)Crucial 2$(), however, we also introduce some additional systems to help you find the content you desire.$(br2)In addition of being able to search items by their name, you can also search them by $(thing)Category$(), $(thing)Color$(), or both at once!$(br2)For example, you can totally just type $(item)Red Building Blocks$(), and you'll get just that handed to you on a silver platter. Cool, isn't it?"
+		},
+		{
+			"type": "text",
+			"text": "Some available categories are as follows:$(br) $(li)Building Blocks$(li)Decorative Blocks$(li)Variant Blocks$(li)Functional Blocks$(li)Technical Blocks$(li)Crops$(li)Food Items$(li)Equipment$(li)Utility Items$(br2)Search around at your leisure, there's a lot of other things you can look for."
+		},
+		{
+			"type": "text",
+			"text": "Once you find something you like, you can bookmark it, by hovering over it in $(item)JEI$() and pressing the $(thing)A$() key. This puts it on the side panel, and you can look at it at any time.$(br2)If you want to take some notes on what you want to do next, or simply remember something, try pressing $(thing)N$() while ingame - this opens up a new $(item)Notes$() panel where you can write down anything you need. You can even pin notes to your screen!"
+		},
+		{
+			"type": "text",
+			"text": "Just as a final pointer, a lot of items have an $(thing)Info Tab$() attached to them when you click them in $(item)JEI$(), so even if something seems like it's not crafted, or if you don't know what it does, consider checking its recipe or uses."
+		}
+	]
+}

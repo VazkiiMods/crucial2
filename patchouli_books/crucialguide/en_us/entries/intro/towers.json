@@ -1,0 +1,25 @@
+{
+	"name": "Wild Towers",
+	"icon": "minecraft:filled_map",
+	"sortnum": 8,
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Strewn across the overworld, you will rarely find new $(thing)Wild Towers$(). These tall structures contain a $(item)Waystone$() on top, as well as some goodies to loot.$(br2)$(item)Waystones$() can be used to teleport between towers instantly. Simply right click one, and choose where you want to go. You can only teleport between ones you've already discovered. though!"
+		},
+        {
+            "type": "image",
+            "images": [
+                "patchouli:wild_towers.png"
+            ],
+            "title": "Wild Towers",
+            "border": true,
+            "text": "A $(thing) Wild Tower$(), and the loot you can get from it."
+        },
+        {
+			"type": "text",
+			"text": "Inside the chest located in every $(thing)Wild Tower$(), you'll find at least one $(item)Paraglider$() - these can be used when held to glide down slowly and cover vast distances through the air.$(br2)Lastly, please take note that while you can break the $(item)Waystone$(), you $(l)can not harvest it.$() If you try to do so, you'll just destroy it, like a $(item)Monster Spawner$()."
+		}
+	]
+}

@@ -1,0 +1,252 @@
+{
+  "parent": "",
+  "text": "root.txt",
+  "title": "Animal Dictionary",
+  "linked_page_buttons": [
+    {
+      "linked_page": "grizzly_bear.json",
+      "text": "Grizzly Bear",
+      "x": 290,
+      "y": 10,
+      "page": 0
+    },
+    {
+      "linked_page": "roadrunner.json",
+      "text": "Roadrunner",
+      "x": 290,
+      "y": 35,
+      "page": 0
+    },
+    {
+      "linked_page": "bone_serpent.json",
+      "text": "Bone Serpent",
+      "x": 290,
+      "y": 60,
+      "page": 0
+    },
+    {
+      "linked_page": "gazelle.json",
+      "text": "Gazelle",
+      "x": 290,
+      "y": 85,
+      "page": 0
+    },
+    {
+      "linked_page": "crocodile.json",
+      "text": "Crocodile",
+      "x": 290,
+      "y": 110,
+      "page": 0
+    },
+    {
+      "linked_page": "fly.json",
+      "text": "Fly",
+      "x": 290,
+      "y": 135,
+      "page": 0
+    },
+    {
+      "linked_page": "hummingbird.json",
+      "text": "Hummingbird",
+      "x": 290,
+      "y": 160,
+      "page": 0
+    },
+    {
+      "linked_page": "orca.json",
+      "text": "Orca",
+      "x": 90,
+      "y": 10,
+      "page": 1
+    },
+    {
+      "linked_page": "sunbird.json",
+      "text": "Sunbird",
+      "x": 90,
+      "y": 35,
+      "page": 1
+    },
+    {
+      "linked_page": "gorilla.json",
+      "text": "Gorilla",
+      "x": 90,
+      "y": 60,
+      "page": 1
+    },
+    {
+      "linked_page": "crimson_mosquito.json",
+      "text": "Crimson Mosquito",
+      "x": 90,
+      "y": 85,
+      "page": 1
+    },
+    {
+      "linked_page": "rattlesnake.json",
+      "text": "Rattlesnake",
+      "x": 90,
+      "y": 110,
+      "page": 1
+    },
+    {
+      "linked_page": "endergrade.json",
+      "text": "Endergrade",
+      "x": 90,
+      "y": 135,
+      "page": 1
+    },
+    {
+      "linked_page": "crow.json",
+      "text": "Crow",
+      "x": 90,
+      "y": 160,
+      "page": 1
+    },
+    {
+      "linked_page": "lobster.json",
+      "text": "Lobster",
+      "x": 290,
+      "y": 10,
+      "page": 1
+    },
+    {
+      "linked_page": "komodo_dragon.json",
+      "text": "Komodo Dragon",
+      "x": 290,
+      "y": 35,
+      "page": 1
+    },
+    {
+      "linked_page": "spectre.json",
+      "text": "Spectre",
+      "x": 290,
+      "y": 60,
+      "page": 1
+    },
+    {
+      "linked_page": "cave_centipede.json",
+      "text": "Cave Centipede",
+      "x": 290,
+      "y": 85,
+      "page": 1
+    },
+    {
+      "linked_page": "warped_toad.json",
+      "text": "Warped Toad",
+      "x": 290,
+      "y": 110,
+      "page": 1
+    },
+    {
+      "linked_page": "moose.json",
+      "text": "Moose",
+      "x": 290,
+      "y": 135,
+      "page": 1
+    },
+    {
+      "linked_page": "mimicube.json",
+      "text": "Mimicube",
+      "x": 290,
+      "y": 160,
+      "page": 1
+    },
+    {
+      "linked_page": "raccoon.json",
+      "text": "Raccoon",
+      "x": 90,
+      "y": 10,
+      "page": 2
+    },
+    {
+      "linked_page": "snow_leopard.json",
+      "text": "Snow Leopard",
+      "x": 90,
+      "y": 35,
+      "page": 2
+    },
+    {
+      "linked_page": "seal.json",
+      "text": "Seal",
+      "x": 90,
+      "y": 60,
+      "page": 2
+    },
+    {
+      "linked_page": "cockroach.json",
+      "text": "Cockroach",
+      "x": 90,
+      "y": 85,
+      "page": 2
+    },
+    {
+      "linked_page": "shoebill.json",
+      "text": "Shoebill",
+      "x": 90,
+      "y": 110,
+      "page": 2
+    },
+    {
+      "linked_page": "elephant.json",
+      "text": "Elephant",
+      "x": 90,
+      "y": 135,
+      "page": 2
+    },
+    {
+      "linked_page": "soul_vulture.json",
+      "text": "Soul Vulture",
+      "x": 90,
+      "y": 160,
+      "page": 2
+    },
+    {
+      "linked_page": "capuchin_monkey.json",
+      "text": "Capuchin Monkey",
+      "x": 290,
+      "y": 10,
+      "page": 2
+    },
+    {
+      "linked_page": "alligator_snapping_turtle.json",
+      "text": "Alligator Snapping Turtle",
+      "x": 290,
+      "y": 35,
+      "page": 2
+    },
+    {
+      "linked_page": "mantis_shrimp.json",
+      "text": "Mantis Shrimp",
+      "x": 290,
+      "y": 60,
+      "page": 2
+    },
+    {
+      "linked_page": "guster.json",
+      "text": "Guster",
+      "x": 290,
+      "y": 85,
+      "page": 2
+    }
+  ],
+  "images": [
+
+  ],
+  "item_renders": [
+    {
+      "item" : "alexsmobs:tab_icon",
+      "x": 25,
+      "y": 14,
+      "page" : 0,
+      "scale": 2.75
+    }
+  ],
+  "recipes": [
+
+  ],
+  "tabula_renders": [
+
+  ],
+  "entity_renders": [
+
+  ]
+}

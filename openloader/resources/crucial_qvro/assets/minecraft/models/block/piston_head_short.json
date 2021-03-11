@@ -1,0 +1,44 @@
+{
+"__comment": "Designed by the resident Inuit with BDcraft Cubik PRO 0.96 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "block/piston_side",
+    "texture": "block/piston_side",
+    "piston_top_normal": "block/piston_top",
+    "piston": "block/piston_arm"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 16, 4 ],
+    "faces": {
+        "down":  { "uv": [ 0, 4, 16, 0 ], "texture": "#texture", "cullface": "down" },
+        "up":    { "uv": [ 16, 0, 0, 4 ], "texture": "#texture", "cullface": "up" },
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#piston_top_normal", "cullface": "north" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#piston_top_normal" },
+        "west":  { "uv": [ 16, 0, 0, 4 ], "rotation": 270, "texture": "#texture", "cullface": "west" },
+        "east":  { "uv": [ 16, 4, 0, 0 ], "rotation": 270, "texture": "#texture", "cullface": "east" }
+    }
+},
+{
+    "from": [ 6, 6, 4 ],
+    "to": [ 10, 10, 12 ],
+    "faces": {
+        "down":  { "uv": [ 0, 8, 4, 16 ], "rotation": 180, "texture": "#piston" },
+        "up":    { "uv": [ 0, 8, 4, 16 ], "texture": "#piston" },
+        "west":  { "uv": [ 0, 8, 4, 16 ], "rotation": 270, "texture": "#piston" },
+        "east":  { "uv": [ 0, 8, 4, 16 ], "rotation": 90, "texture": "#piston" }
+    }
+},
+{
+    "from": [ 5, 5, 12 ],
+    "to": [ 11, 11, 16 ],
+    "faces": {
+        "down":  { "uv": [ 10, 12, 4, 8 ], "texture": "#piston" },
+        "up":    { "uv": [ 4, 8, 10, 12 ], "texture": "#piston" },
+        "north": { "uv": [ 0, 2, 6, 8 ], "texture": "#piston" },
+        "west":  { "uv": [ 10, 12, 4, 8 ], "rotation": 90, "texture": "#piston" },
+        "east":  { "uv": [ 10, 12, 4, 8 ], "rotation": 270, "texture": "#piston" }
+    }
+}
+]
+}

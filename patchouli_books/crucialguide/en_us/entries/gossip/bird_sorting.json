@@ -1,0 +1,16 @@
+{
+	"name": "Bird Sorting",
+	"icon": "minecraft:egg",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there's a bird known for its organizational skills, that can help you sort your items.$(br2)Perhaps consulting an $(item)Animal Dictionary$() would be an ideal course of action here."
+		},
+		{
+			"type": "quest",
+			"text": "Find the elusive sorting bird."
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Faster Smelting",
+	"icon": "minecraft:furnace",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there's an animal native to the Nether that emits heat from its body. Supposedly its heat speeds up smelting.$(br2)Taming such a fiery beast might require some protection from the element, and maybe some fuel for it to gnaw on."
+		},
+		{
+			"type": "quest",
+			"text": "Find a way you can tame a Nether animal to speed up your smelting."
+		}
+	]
+}

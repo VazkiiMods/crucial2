@@ -1,0 +1,22 @@
+{
+	"name": "Raid Changes",
+	"icon": "minecraft:totem_of_undying",
+	"sortnum": 7,
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The way you summon $(item)Raids$() is changed in $(thing)Crucial 2$(). In order to summon a raid, you must now get an $(item)Omninous Banner$(), like how you would normally. You must then place the banner down and burn it with $(item)Flint and Steel$().$(br2)Additionally, you may notice raids have some more pillager variety to keep you on your toes..."
+		},
+        {
+            "type": "image",
+            "images": [
+                "patchouli:burning_banner.png",
+                "patchouli:griefer.png"
+            ],
+            "title": "Burning a Banner",
+            "border": true,
+            "text": "Burning a banner, as well as a new foe."
+        }
+	]
+}

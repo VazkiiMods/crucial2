@@ -1,0 +1,27 @@
+{
+	"credit": "Created by Stridey",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/tripwire",
+		"texture": "block/tripwire"
+	},
+	"elements": [
+		{
+			"from": [7, 1, 7],
+			"to": [16, 1, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [23, 8, 16]},
+			"faces": {
+				"up": {"uv": [0, 2, 9, 4], "texture": "#texture"},
+				"down": {"uv": [9, 2, 0, 4], "rotation": 180, "texture": "#texture"}
+			}
+		},
+		{
+			"from": [7, 1, 0],
+			"to": [9, 1, 7],
+			"faces": {
+				"up": {"uv": [9, 2, 16, 4], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [16, 2, 9, 4], "rotation": 90, "texture": "#texture"}
+			}
+		}
+	]
+}

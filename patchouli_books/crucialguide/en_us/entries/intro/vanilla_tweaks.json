@@ -1,0 +1,114 @@
+{
+	"name": "Vanilla Tweaks",
+	"icon": "minecraft:diamond_hoe",
+	"sortnum": 5,
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Many changes are made to basic vanilla behaviours in the $(thing)Crucial 2$() modpack to make gameplay more fun. This entry will quickly info-dump a few of the more relevant ones you may wish to know about.$(br2)Keep in mind this is not an exhaustive list, and you're bound to find more as you play!"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:andesite",
+			"title": "Big Stone Clusters",
+			"text": "Stones like $(item)Andesite$() will now generate in big clusters.$(br2)Different stones will genrate in different biomes, so check $(item)JEI$() for where to find them."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:campfire",
+			"title": "Campfire Boost",
+			"text": "Flying with an $(item)Elytra$() over a $(item)Campfire$() with a $(item)Hay Bale$() underneath will give you a quick altitude boost.$(br2)$(item)Soul Camprfires$() have the inverse effect."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:pink_carpet",
+			"title": "Carpeted Stairs",
+			"text": "Right clicking $(item)Carpet$() or $(item)Snow$() onto any type of stairs will attach the carpet or snow to them."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:chain",
+			"title": "Chain Features",
+			"text": "$(item)Chains$() can now be used to link together $(thing)Boats$() and $(thing)Minecarts$().$(br2)When moved by $(item)Pistons$(), they can also connect multiple blocks together if placed between them."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:compass",
+			"title": "Compass Everywhere",
+			"text": "$(item)Compasses$() can now be used in the $(thing)Nether$() and $()End$(). They'll point to either the portal you came in from, in the $(thing)Nether$(), or the portal to leave, in the $(thing)End$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:red_bed",
+			"title": "Customizable Bed",
+			"text": "$(item)Beds$() can now be customized with $(item)Banners$(), so you can further decorate your living space."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:elytra",
+			"title": "Customizable Elytra",
+			"text": "The $(item)Elytra$() can now be dyed just like leather armor, and you can even attach $(item)Banners$() to it, much like you would for a shield."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:grass_path",
+			"title": "Dirt to Path",
+			"text": "You can now create $(item)Grass Path$() with $(item)Dirt$(). Further right clicking with any $(item)Hoe$() produces $(item)Shallow Dirt$(), which can be waterlogged.$(br2)Paths are also available for other grassy style blocks."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:dispenser",
+			"title": "Dispenser Block Placing",
+			"text": "$(item)Dispensers$() can now place any block. The blocks are placed with the correct orientation too."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:diamond_hoe",
+			"title": "Hoe Harvesting",
+			"text": "$(item)Hoes$() can now be used to break a 3x3 area of vegetation. $(item)Diamond and Netherite Hoes$() can break a 5x5 instead.$(br2)Additionally, you can right click a crop to harvest and replant it; using a $(item)Hoe$() harvests the respective area."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:ladder",
+			"title": "Improved Ladders",
+			"text": "$(item)Ladders$() can now be dropped down by right clicking a placed ladder with another one.$(br2)You can also slide down quickly by looking down."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:piston",
+			"title": "Piston Buffs",
+			"text": "$(item)Pistons$() can now move twice as many blocks, up to 24. They also get the ability to move complex blocks known as $(thing)Tile Entities$() (e.g. $(item)Chests$(), $(item)Furnaces$(), etc).$(br2)If you need an immovable block, try $(item)Sturdy Stone$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:flower_pot",
+			"title": "Pot All The Things!",
+			"text": "$(item)Flower Pots$() can now hold a ton more flowers and crops, vanilla or otherwise.$(br2)You can also hang them from the ceiling, or from $(item)Chains$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:shield",
+			"title": "Shield Enchanting",
+			"text": "$(item)Shields$() can now be enchanted like any other item. The enchantments are all derived from vanilla ones, and are self-explanatory."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:emerald_block",
+			"title": "Villager Herding",
+			"text": "$(thing)Villagers$() will now follow players holding $(item)Emerald Blocks$(), making it easier to move them around."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:lantern",
+			"title": "Wall Lanterns",
+			"text": "$(thing)Lanterns$() can now be placed hanging from walls, rather than just ceilings. You can also hang them from $(item)Wooden Posts$(), alongside $(item)Chains$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:glass_pane",
+			"title": "Windowlogging",
+			"text": "You can now add $(item)Panes$(), glass or otherwise to any $(item)Slabs, Stairs, Fences, or Walls$() - simply right click with the pane style block you want onto an already placed block to merge them together."
+		}
+	]
+}

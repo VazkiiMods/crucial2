@@ -1,0 +1,16 @@
+{
+	"name": "Prevent Mob Spawning",
+	"icon": "minecraft:glowstone",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, players who have found inner peace will not be bothered by monsters appearing nearby.$(br2)How one can acquire this level of $(thing)tranqulity$() isn't exactly common knowledge, but allegedly, being in the presence of a special, exotic, fish may bring it out."
+		},
+		{
+			"type": "quest",
+			"text": "Discover the special fish that can prevent nearby mob spawning."
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"name": "Matrix Enchanting",
+	"icon": "minecraft:enchanting_table",
+	"sortnum": 6,
+	"category": "patchouli:intro",
+	"pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Crucial 2$() makes use of a new enchanting system called $(thing)Matrix Enchanting$(). This system allows you to better customize what enchantments you put on your tools, at the cost of a larger XP and Lapis investment.$(br2)As a bonus feature, the table will keep both your item and the lapis in it, good riddance."
+        },
+        {
+            "type": "image",
+            "images": [
+                "patchouli:matrix_enchanting.png"
+            ],
+            "title": "Enchanting UI",
+            "border": true,
+            "text": "The $(thing)Matrix Enchanting$() interface."
+        },
+        {
+            "type": "text",
+            "text": "To begin enchanting, start by placing your item in the top-left slot, and your lapis in the slot below it.$(br2)You may then press the $(bold)+$() button that shows up to add a new enchantment. The enchantment will show up on the side panel, which means it's ready to be selected.$(br2)To select an enchantment, simply left click it in side panel, and then left click it onto the 5x5 grid."
+        },
+        {
+            "type": "text",
+            "text": "As you would expect, enchantment \"blocks\" can not be on top of each other, so you need to be careful with how you place them. You may rotate your selected piece by right clicking.$(br2)You may not have multiple copies of the same enchantment in a grid. Should you wish to increase the level of an enchantment, select a piece from the side panel with the same enchantment, and left click it onto the one you already have placed."
+        },
+        {
+            "type": "text",
+            "text": "Naturally, the more you upgrade an enchantment, the more copies of that same block you'll need.$(br2)It's important to keep in mind that incompatible blocks will not show up. So, if you're aiming for a sword with Sharpness, you may assume you won't see it if you see Smite.$(br2)When you're done with your enchanting, just pull the enchanted item out, and you're finished!"
+        },
+        {
+        	"type": "patchouli:enchanting_influences"
+        }
+    ]
+}

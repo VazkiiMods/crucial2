@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_bars",
+    "quark:gold_bars",
+    "quark:red_crystal_pane",
+    "quark:orange_crystal_pane",
+    "quark:yellow_crystal_pane",
+    "quark:green_crystal_pane",
+    "quark:blue_crystal_pane",
+    "quark:indigo_crystal_pane",
+    "quark:violet_crystal_pane",
+    "quark:white_crystal_pane",
+    "quark:black_crystal_pane",
+	"quark:paper_wall",
+    "quark:paper_wall_big",
+    "quark:paper_wall_sakura"
+  ]
+}

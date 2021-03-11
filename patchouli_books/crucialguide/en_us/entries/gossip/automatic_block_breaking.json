@@ -1,0 +1,16 @@
+{
+	"name": "Automatic Block Breaking",
+	"icon": "minecraft:diamond_pickaxe",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, into the far reaches of the world, there's a block that synergizes with Pistons to break blocks automatically - a Block Breaker, you could call it."
+		},
+		{
+			"type": "quest",
+			"text": "Find a way you can create a Block Breaker."
+		}
+	]
+}

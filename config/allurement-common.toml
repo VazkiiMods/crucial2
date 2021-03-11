@@ -1,0 +1,21 @@
+
+[enchantments]
+	#Armor enchantment that heals the user when collecting experience
+	enableAlleviating = true
+	#Gear enchantment that very slowly repairs items over time
+	enableReforming = true
+	#Boots enchantment that creates a shockwave when taking fall damage
+	enableShockwave = true
+	#Crossbow enchantment that pulls targets towards the user
+	enableReeling = true
+
+[enchanting]
+	#Allow horse armor to be enchanted
+	enchantableHorseArmor = true
+
+[experience]
+	#Remove the amount of experience per level increasing (experimental)
+	removeLevelScaling = false
+	#The amount of experience per level
+	experiencePerLevel = 50
+

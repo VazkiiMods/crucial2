@@ -1,0 +1,185 @@
+
+[modules]
+	#Building blocks to improve decoration
+	building = true
+	#Adds tools for automation and redstone interaction
+	utility = true
+	#Contains tweaks to vanilla features
+	tweaks = true
+	#Includes new blocks that add new types of recipes
+	tools = true
+
+[general]
+	#Shows all variants for dynamically textured blocks, like bookshelves. If false just the first will be shown
+	showAllVariants = true
+
+[building]
+	#Enables rope: can be climbed like ladders and extended with additional rope
+	rope = false
+	#Enables rope ladders: right click ropes with sticks to extend the hitbox
+	ropeLadder = false
+	#Enables glass doors and trapdoors: basically doors, but made of glass. Not sure what you would expect.
+	glassDoor = false
+	#Enables mulch: a craftable falling block which supports plants such as flowers
+	mulch = false
+	#Enables stone paths: a carpet like decorative block for making decorative paths
+	path = false
+	#Enables additional flowers from breaking double flowers with shears.
+	flowers = true
+	#Enables enlightened bushes: bushes with lights.
+	enlightenedBush = false
+
+	[building.bookshelf]
+		#Enables the bookshelf: a decorative block to display books
+		enable = false
+		#Enables colored books: basically colored versions of the vanilla book to decorate bookshelves
+		coloredBooks = true
+		#If true, bookshelves will increase enchanting table power.
+		boostEnchanting = true
+		#Default power for a book for enchanting, can be overridden in the book overrides.
+		#Range: 0.0 ~ 15.0
+		defaultEnchanting = 1.5
+		#List of keywords for valid books, used to determine valid books in the bookshelf. Separate each by commas.
+		bookKeywords = "almanac, atlas, book, catalogue, concordance, dictionary, directory, encyclopedia, guide, journal, lexicon, manual, thesaurus, tome"
+
+[utility]
+	#Enables the trapped book: will emit redstone power when placed in a bookshelf. Requires bookshelf.
+	redstoneBook = false
+	#Enables the torch lever: basically a lever which looks like a torch
+	torchLever = false
+	#Enables carpeted trapdoors: a trapdoor which appears to be a carpet when closed
+	carpetedTrapdoor = true
+	#Allows placing a carpet on a stone pressure plate to hide it
+	carpetedPressurePlate = true
+	#Enables the collector: extracts items from inventories or the world similar to a hopper, but can face in all 6 directions and cannot place items in inventories
+	collector = true
+
+	[utility.pipe]
+		#Enables pipes: a more economical hopper that only outputs items, does not pull from inventories. Both cheaper and better for performance.
+		enable = false
+		#Allows pipes to output upwards. This removes a limitation on not being able to pipe items up without dropper elevators, but should be balanced alongside modded pipes.
+		upwards = true
+
+[recipes]
+
+	[recipes.cauldron]
+		#Allows additional recipes to be performed in the cauldron. If the block replacement is disabled, functionality will be limited to water in cauldrons.
+		enable = true
+		#Allows concrete to be made in the cauldron
+		concrete = true
+		#If true, the cauldron can be used to make ice when in a cold biome or surrounded with ice
+		ice = true
+		#If true, cauldrons fill faster in the rain.
+		fasterRain = true
+
+		[recipes.cauldron.fluids]
+			#Allows cauldrons to be filled with any fluid and use them in recipes
+			enable = true
+
+		[recipes.cauldron.dyeing]
+			#Allows cauldrons to be filled with dyes and dye items using cauldrons
+			enable = true
+			#Adds extra dyed bottle recipes to craft green and brown
+			extraBottleRecipes = true
+
+		[recipes.cauldron.potions]
+			#Allows cauldrons to be filled with potions and support brewing
+			enable = true
+			#Allows cauldrons to perform brewing recipes.
+			brewing = true
+			#Allows cauldrons to tip arrows with potions.
+			tippedArrow = true
+
+[tools]
+	#Enables the redstone charger: a quick pulse created with a flint and steel like item
+	redstoneCharger = true
+	#Enables the charged arrow: places a redstone pulse where it lands
+	chargedArrow = true
+	#Enables locks and keys: an item allowing you to lock a tile entity to only open for a special named item
+	lock = false
+	#Breaking a melon block with shears will always return 9 slices
+	reclaimMelons = true
+	#Enables the barometer: a tool to measure the player's height in world.
+	barometer = false
+	#Enables the photometer: a tool to measure light in world. Can be pointed at a block to measure the light level of that block.
+	photometer = false
+
+	[tools.shears]
+		#When shearing vines, any supported vines will also be sheared instead of just broken
+		harvestHangingVines = true
+
+	[tools.northCompass]
+		#Enables the north compass: a cheaper compass that always points north. Intended to either allow packs to replace the compass or as an alternative for F3 navigation
+		enable = true
+
+	[tools.waypointCompass]
+		#Enables the waypoint compass: a compass which points towards a full beacon.
+		enable = false
+		#If true, waypoint compasses can be dyed all vanilla colors
+		dye = true
+		#If true, waypoint compasses can be crafted using iron and a blaze rod. If false, they are obtained by using a vanilla compass on a beacon.
+		craft = true
+		#If true, waypoint compasses show the position target in the advanced item tooltip. Disable for packs that disable coordinates.
+		advTooltip = true
+		#If true, waypoint compasses work across dimensions. The coordinates between the overworld and nether will be adjusted, allowing for portal syncing.
+		crossDimension = true
+		#If true, you can copy the position of one waypoint compass to another in a crafting table, similarly to maps or compasses
+		copy = true
+
+	[tools.enchantments]
+		#If true, fixes the tooltip on shield items so it looks better with both patterns and enchantments
+		fixShieldTooltip = true
+
+[tweaks]
+	#Allows pigs to be desaddled by shift-right click with an empty hand
+	desaddlePig = true
+	#Dispensers will place anvils instead of dropping them. Plays well with anvil smashing.
+	dispensersPlaceAnvils = false
+	#Lily pads prevent fall damage, but break in the process
+	lilypadBreakFall = true
+	#Adds stackable recipes to some vanilla or Inspriations items that require unstackable items to craft
+	unstackableRecipeAlts = true
+	#If true, cave spiders will rarely drop webs, giving them an advantage to farm over regular spiders
+	caveSpiderWeb = false
+	#If true, skeletons will rarely drop their skull for consistency with wither skeletons. Does not affect creeper or zombie heads
+	skeletonSkull = false
+
+	[tweaks.bonemeal]
+		#Bonemeal can be used on mycelium to produce mushrooms
+		mushrooms = false
+		#Bonemeal can be used on sand to produce dead bushes
+		deadBush = false
+		#Bonemeal can be used on dirt to produce grass if adjecent to grass
+		grassSpread = false
+		#Bonemeal can be used on dirt to produce mycelium if adjecent to mycelium
+		myceliumSpread = false
+
+	[tweaks.heartbeet]
+		#Enables heartbeets: a rare drop from beetroots which can be eaten to restore a bit of health
+		enable = true
+		#Allows heartbeets to be used as an alternative to ghast tears in making potions of regeneration
+		brewRegeneration = true
+		#Chance of a heartbeet to drop instead of a normal drop. Formula is two 1 in [chance] chances for it to drop each harvest
+		#Range: 10 ~ 1000
+		chance = 75
+
+	[tweaks.milkCooldown]
+		#Adds a cooldown to milking cows, prevents practically infinite milk in modded worlds where milk is more useful.
+		enable = true
+		#Delay in seconds after milking a cow before it can be milked again.
+		#Range: 1 ~ 32767
+		time = 600
+
+	[tweaks.seeds]
+
+		[tweaks.seeds.blockCrops]
+			#If true, adds seeds for cactus and sugar cane, useful for recipes for the crops
+			enable = false
+			#If true, cactus and sugar cane will grow in 2 pixel increments using the block crops
+			smoothGrowth = false
+			#If true, allows bonemeal to be used to speed block crop growth
+			bonemeal = false
+			#If false, cactus seeds planted on cactus have fewer restrictions.
+			#Setting to true means cactus seeds are broken by neighboring blocks, meaning classic cactus farms will drop cactus seeds instead of full cactus.
+			nerfCactusFarms = false
+

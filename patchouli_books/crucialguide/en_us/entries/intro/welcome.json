@@ -1,0 +1,16 @@
+{
+	"name": "Welcome to Crucial 2",
+	"icon": "minecraft:writable_book",
+	"sortnum": 0,
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Welcome to $(thing)Crucial 2$()! This book will teach you the various things you need to know to play the modpack.$(br2)The information contained in the book is designed specifically to be short and sweet, so as to not keep you here for too long, so please do pay attention!"
+		},
+		{
+			"type": "text",
+			"text": "$(thing)Crucial 2$() is a vanilla styled modpack, designed to give you the best Minecraft gameplay possible, while adding boat loads of new content for all types of players.$(br2)Please take a little bit of time to read the entries here in the $(thing)Welcome$() category - they're not too long, and they'll get you up to speed with everything you need to know."
+		}
+	]
+}

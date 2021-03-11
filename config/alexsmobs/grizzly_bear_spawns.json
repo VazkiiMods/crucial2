@@ -1,0 +1,68 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": false,
+        "value": "forest"
+      },  
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "environmental:blossom_highlands"
+      },  
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "environmental:blossom_hills"
+      },  
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "environmental:blossom_valleys"
+      },  
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "environmental:blossom_woods"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "forest"
+      },  
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "environmental:blossom_highlands"
+      },  
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "environmental:blossom_hills"
+      },  
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "environmental:blossom_valleys"
+      },  
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "environmental:blossom_woods"
+      }
+    ]
+  ]
+}

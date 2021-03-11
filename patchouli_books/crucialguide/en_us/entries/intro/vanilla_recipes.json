@@ -1,0 +1,22 @@
+{
+	"name": "Recipe Changes",
+	"icon": "minecraft:crafting_table",
+	"sortnum": 3,
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Starting off, a few vanilla recipes are changed to better fit the content in the pack.$(br2)The most relevant one is the $(item)Eye of Ender$() change, which now requires various different items, in order to encourage exploring the new content."
+		},
+		{
+			"type": "crafting",
+			"recipe": "crafttweaker:cool_ender_eye",
+			"recipe2": "farmersdelight:lead_from_rope"
+		},
+		{
+			"type": "crafting",
+			"recipe": "farmersdelight:painting_from_canvas",
+			"recipe2": "farmersdelight:scaffolding_from_canvas"
+		}
+	]
+}

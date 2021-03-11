@@ -1,0 +1,12 @@
+
+[common]
+	"Whether vanilla cookie tiles are enabled" = true
+	"Whether chocolate cookie tiles are enabled" = true
+	"Whether vanilla cookies are enabled" = true
+	"Whether oreo cookies are enabled" = true
+	"Whether oreo cookie tiles are enabled" = true
+	"Whether sweet berry cookie tiles are enabled" = true
+	"Whether honey cookie tiles are enabled" = true
+	"Whether strawberry cookies are enabled" = true
+	"Whether strawberry cookie tiles are enabled" = true
+

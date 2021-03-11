@@ -1,0 +1,16 @@
+{
+	"name": "Potion Manipulation",
+	"icon": "minecraft:potion",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, a milk-based beverage is known to cause effects in the consumer's constitution. These drinks have been reported to alter the ways $(thing)Potion Effects$() affect anyone who drinks them.$(br2)Supposedly, each of the different known flavors can apply a different transformation."
+		},
+		{
+			"type": "quest",
+			"text": "Find out more about the mysterious potion altering drink, and maybe make some for yourself."
+		}
+	]
+}

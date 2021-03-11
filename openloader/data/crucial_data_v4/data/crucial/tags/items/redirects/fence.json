@@ -1,0 +1,19 @@
+{
+	"replace": false,
+	"values": [
+		"#quark:hedges",
+		"abundance:budding_jacaranda_hedge",
+		"abundance:budding_redbud_hedge",
+		"abundance:flowering_jacaranda_hedge",
+		"abundance:flowering_redbud_hedge",
+		"abundance:jacaranda_hedge",
+		"abundance:redbud_hedge",
+		"bayou_blues:cypress_hedge",
+		"environmental:blue_wisteria_hedge",
+		"environmental:cherry_hedge",
+		"environmental:pink_wisteria_hedge",
+		"environmental:purple_wisteria_hedge",
+		"environmental:white_wisteria_hedge",
+		"environmental:willow_hedge"
+	]
+}

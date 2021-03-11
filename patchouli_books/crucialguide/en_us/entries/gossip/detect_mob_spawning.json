@@ -1,0 +1,16 @@
+{
+	"name": "Detect Mob Spawning",
+	"icon": "minecraft:lantern",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there's a way you can easily see any places where monsters can spawn.$(br2)The term \"Prescience\" comes to mind on for you can accomplish this."
+		},
+		{
+			"type": "quest",
+			"text": "Find a way you can see where monsters spawn."
+		}
+	]
+}

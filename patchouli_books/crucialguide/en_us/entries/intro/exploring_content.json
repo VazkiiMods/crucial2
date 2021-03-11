@@ -1,0 +1,12 @@
+{
+	"name": "Exploring Content",
+	"icon": "minecraft:leather_boots",
+	"sortnum": 2,
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "If having access to every item at your fingertips in $(item)JEI$() isn't your thing, and you prefer exploring and discovering as you go - you can turn off JEI by pressing $(thing)Ctrl-O$() in your inventory. You can, and should, still see recipes and uses by pressing $(thing)R$() or $(thing)U$() respectively.$(br2)If a more exploration focused experience is your jam, this is definitely recommended."
+		}
+	]
+}

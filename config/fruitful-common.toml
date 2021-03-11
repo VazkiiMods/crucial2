@@ -1,0 +1,7 @@
+
+#Common configurations for Fruitful
+[common]
+	"Biomes where all oaks will be flowering" = ["minecraft:flower_forest"]
+	"Whether the lists below are a blacklist or whitelist" = true
+	"Biomes flowering oak trees can spawn in" = ["minecraft:forest", "minecraft:wooded_hills"]
+

@@ -1,0 +1,16 @@
+{
+	"name": "Flying Transport",
+	"icon": "minecraft:oak_boat",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, deep within the End, it's possible to find materials that can be used to create floating attachments for boats and creatures.$(br)Supposedly, with the correct usage, boats can be turned into a way of flying transportation!"
+		},
+		{
+			"type": "quest",
+			"text": "Go to the End, and locate the floating materials for flying boat transportation."
+		}
+	]
+}

@@ -1,0 +1,6 @@
+
+[entities]
+
+	[entities.creepers]
+		"Creepies have a sprout on their head" = true
+

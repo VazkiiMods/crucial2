@@ -1,0 +1,16 @@
+{
+	"name": "Renewable Sand",
+	"icon": "minecraft:sand",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there's a way to acquire unlimited $(item)Sand$() without causing mass desert murder.$(br2)The details are fuzzy, but apparently it has something to do with bubbles. Perhaps if you figure it out, you could even apply it to other falling blocks."
+		},
+		{
+			"type": "quest",
+			"text": "Find out how to get $(item)Sand$() and similar blocks renewably."
+		}
+	]
+}

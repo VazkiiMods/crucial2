@@ -1,0 +1,16 @@
+{
+	"name": "Longer Reach",
+	"icon": "minecraft:piston",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, a forlorn creature found in the underground holds the secret to being able to reach and place blocks further.$(br2)This rare entity is said to dwell in the depths of the world, carrying a set of enchanted equipment. Allegedly it's quite a strong foe."
+		},
+		{
+			"type": "quest",
+			"text": "Discover the lost creature and unlock its ability to reach further."
+		}
+	]
+}

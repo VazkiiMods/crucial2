@@ -1,0 +1,16 @@
+{
+	"name": "Ore Farming",
+	"icon": "minecraft:iron_nugget",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, in lieu of the ancient Iron Golem farming method, there's another elusive creature you can find that can be used to generate as much Iron as your heart contents. You've even heard it can generate ores other than Iron!"
+		},
+		{
+			"type": "quest",
+			"text": "Find a way you can generate Iron and other ores.$(br2)Hmm... what's some ore that is usually not farmable?"
+		}
+	]
+}

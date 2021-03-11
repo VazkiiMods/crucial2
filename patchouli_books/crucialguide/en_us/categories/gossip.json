@@ -1,0 +1,6 @@
+{
+	"name": "Gossip",
+	"description": "$(thing)Gossip$() describes content that exists in the modpack you can go out and discover. See if anything in here piques your interest, and go for it!$(br2)Note that this isn't a quest system, nor is it exhaustive; it's simply a way to help lead you to some of cool stuff the pack has to offer.",
+	"icon": "minecraft:totem_of_undying",
+	"sortnum": 1
+}

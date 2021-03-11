@@ -1,0 +1,51 @@
+
+[Unicorn]
+	#Should unicorns glow with a golden stew.
+	allowGlow = true
+	#Should unicorns be breed-able.
+	allowBreeding = true
+	#Unicorn spawn minimum count.
+	spawnMinCount = 0
+	#Unicorn passive brightness.
+	brightness = 1.0
+	#Should unicorns allow for two seater riding.
+	allowTwoSeater = true
+	#Unicorn custom spawn chance, lower this percentage to make rarer, i.e. 0.2 = 20% chance to spawn after succeeding spawn weight.
+	customSpawnChance = 0.2
+	#Unicorn spawn weight.
+	spawnWeight = 1
+	#Allow Unicorn's to spawn in the wild.
+	allowWildSpawns = true
+	#Should unicorns have frost walking on water.
+	allowFrostWalk = true
+	#Unicorn spawn maximum count.
+	spawnMaxCount = 1
+	#Unicorn glow range for glowing vision (in blocks).
+	glowingVisionRange = 500
+
+[Whistle]
+	#The sound volume of the whistle commands (1.0 = 100%).
+	soundVolume = 1.0
+	#Max blocks away your horse can be for the whistle commands.
+	maxDistance = 2000.0
+	#Should horses obey the golden whistle commands.
+	allowWhistle = true
+	#Horse immune while following you.
+	immuneWhileFollowing = true
+
+[Mount]
+	#Can passengers on two seater mounts turn their camera 360 degrees while riding.
+	allow360WhilePassenger = true
+
+[PolarBear]
+	#Polar Bear spawn minimum count.
+	spawnMinCount = 1
+	#Should Polar Bear's allow for two seater riding.
+	allowTwoSeater = true
+	#Polar Bear spawn weight.
+	spawnWeight = 1
+	#Allow Polar Bears to spawn in the wild.
+	allowWildSpawns = true
+	#Polar Bear spawn maximum count.
+	spawnMaxCount = 2
+

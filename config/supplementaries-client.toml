@@ -1,0 +1,115 @@
+
+#Tweak and change the various block animations +
+#only cosmetic stuff here. Lots of maths to tweak every aspect of the animation. leave default if not interested 
+#remember to delete this and server configs and let it refresh every once in a while cause I might have tweaked it
+[blocks]
+
+	[blocks.clock_block]
+		#display 24h time format. False for 12h format
+		24h_format = true
+
+	[blocks.pedestal]
+		#enable displayed item spin
+		spin = true
+		#enable swords to display inserted into the block
+		fancy_swords = true
+		#spin speed
+		#Range: 0.0 ~ 100.0
+		speed = 2.0
+
+	[blocks.captured_mobs]
+		#following here is a list of mob ids and 4 parameters that determine how they are displayed in jars and cages:
+		#1&2: these are the added height and width that will be added to the mob actual hitbox to determine its scale inside a cage or jar 
+		#you can increase them so this 'adjusted hitbox' will match the actual mob shape, in other words increase the to make the mob smaller
+		#3: this one determines if the mob should emit light
+		#4: the last parameter determines the animation type. It can be set to the following values:
+		#-'air' to make it stand in mid air like a flying animal (note that such mobs are set to this value by default)
+		#-'land' to force it to stand on the ground even if it is a flying animal
+		#-'floating' to to make it stand in mid air and wobble up and down
+		#-any number >0 to make it render as a 2d fish. The ordinal of the texture that will be shown will be the number
+		#-0 or any other values will be ignored and treated as default
+		rendering_parameters = [["minecraft:bee", "0.3125", "0.0"], ["minecraft:vex", "0.0", "0.125", "0", "FLOATING"], ["minecraft:silverfish", "0.0", "0.25"], ["minecraft:chicken", "0.25", "0.3125"], ["minecraft:endermite", "0.0", "0.0", "5"], ["supplementaries:firefly", "0.0", "0.0", "9", "FLOATING"], ["druidcraft:lunar_moth", "0.375", "0.1375", "10", "FLOATING"], ["iceandfire:pixie", "0.0", "0.0", "10"], ["minecraft:fish", "0.0", "0.125", "0", "1"], ["minecraft:tropical_fish", "0.0", "0.125", "0", "2"], ["minecraft:salmon", "0.0", "0.125", "0", "3"], ["minecraft:cod", "0.0", "0.125", "0", "4"], ["minecraft:pufferfish", "0.0", "0.125", "0", "5"], ["minecraft:axolotl", "0.0", "0.125", "0", "6"], ["fins:pea_wee", "0.0", "0.125", "0", "7"], ["fins:wee_wee", "0.0", "0.125", "0", "8"], ["fins:vibra_wee", "0.0", "0.125", "0", "9"], ["fins:blu_wee", "0.0", "0.125", "0", "10"], ["fins:ornate_bugfish", "0.0", "0.125", "0", "11"], ["fins:spindly_gem_crab", "0.0", "0.125", "0", "12"], ["fins:phantom_nudibranch", "0.0", "0.125", "0", "13"], ["fins:high_finned_blue", "0.0", "0.125", "0", "14"], ["fins:teal_arrowfish", "0.0", "0.125", "0", "15"], ["fins:midnight_squid", "0.0", "0.125", "0", "16"], ["fins:banded_redback_shrimp", "0.0", "0.125", "0", "17"], ["fins:flatback_sucker", "0.0", "0.125", "0", "18"], ["fins:swamp_mucker", "0.0", "0.125", "0", "19"], ["upgrade_aquatic:lionfish", "0.0", "0.125", "0", "20"], ["upgrade_aquatic:nautilus", "0.0", "0.125", "0", "21"], ["upgrade_aquatic:pike", "0.0", "0.125", "0", "22"], ["alexsmobs:stradpole", "0.0", "0.125", "0", "23"], ["alexsmobs:blobfish", "0.0", "0.125", "0", "24"], ["unnamedanimalmod:flashlight_fish", "0.0", "0.125", "0", "25"], ["unnamedanimalmod:elephantnose_fish", "0.0", "0.125", "0", "26"], ["unnamedanimalmod:black_diamond_stingray", "0.0", "0.125", "0", "27"], ["unnamedanimalmod:humphead_parrotfish", "0.0", "0.125", "0", "28"], ["unnamedanimalmod:tomato_frog", "0.0", "0.125", "0", "29"], ["unnamedanimalmod:pacman_frog", "0.0", "0.125", "0", "30"], ["bettas:betta_fish", "0.0", "0.125", "0", "31"], ["pogfish:pogfish", "0.0", "0.125", "0", "32"], ["undergarden:gwibling", "0.0", "0.125", "0", "33"], ["environmental:koi", "0.0", "0.125", "0", "34"], ["betterendforge:end_fish", "0.0", "0.125", "0", "35"], ["betteranimalsplus:flying_fish", "0.0", "0.125", "0", "36"], ["betteranimalsplus:nautilus", "0.0", "0.125", "0", "37"], ["betteranimalsplus:eel_freshwater", "0.0", "0.125", "0", "38"], ["betteranimalsplus:eel_saltwater", "0.0", "0.125", "0", "39"], ["betteranimalsplus:lamprey", "0.0", "0.125", "0", "40"], ["betteranimalsplus:piranha", "0.0", "0.125", "0", "41"], ["betteranimalsplus:barracuda", "0.0", "0.125", "0", "42"], ["rediscovered:fish", "0.0", "0.125", "0", "1"]]
+
+	[blocks.firefly_jar]
+		#particle spawn if this equation is true: time%period==0 and randomfloat>chance  where random float is a random number between 0.0 and 1.0
+		#how often they try to spawn
+		#Range: 1 ~ 20
+		spawn_period = 8
+		#spawn chance every period
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.3
+
+	[blocks.globe]
+		#enable a random globe texture for each world
+		random_world = true
+
+	[blocks.flag]
+		#Range: 0.0 ~ 100.0
+		amplitude = 1.0
+		#Range: 0.001 ~ 100.0
+		wavelenght = 15.0
+		#I don't remember what these are, I'll adde proper descriptions later. names may be a bit random and non descriptive
+		#Range: 0.0 ~ 10.0
+		speed = 1.0
+		#how much the wave amplitude increases each pixel
+		#Range: 0.0 ~ 10.0
+		amplitude_increment = 0.3
+
+	[blocks.wind_vane]
+		#this should be kept period_1/3 for a symmetric animation
+		#Range: 0.0 ~ 2000.0
+		period_2 = 150.0
+		#wind vane swings according to this equation: 
+		#+angle(time) = max_angle_1*sin(2pi*time*pow/period_1) + max_angle_2*sin(wpi*time*pow/period_2) 
+		#+where pow=max(1,redstone_power*power_scaling)
+		#how much frequency changes depending on power. 2 means it spins twice as fast each power level (2* for rain, 4* for thunder)
+		#+increase to have more distinct indication when weather changes
+		#Range: 1.0 ~ 100.0
+		power_scaling = 3.0
+		#Range: 0.0 ~ 360.0
+		max_angle_2 = 10.0
+		#amplitude (maximum angle) of first sine wave
+		#Range: 0.0 ~ 360.0
+		max_angle_1 = 30.0
+		#base period in ticks at 0 power of first sine wave
+		#Range: 0.0 ~ 2000.0
+		period_1 = 450.0
+
+	[blocks.item_shelf]
+		#translate down displayed 3d blocks so that they are touching the shelf. they will not be centered vertically this way
+		supported_blocks = true
+
+#particle parameters
+[particles]
+
+	#firefly jar particle
+	[particles.firefly_glow]
+		#max age. Note that actual max age with be this + a random number between 0 and 10
+		#Range: 1 ~ 256
+		max_age = 40
+		#scale multiplier
+		#Range: 0.0 ~ 1.0
+		scale = 0.075
+
+#entities parameters
+[entities]
+
+	[entities.firefly]
+		#affects how long the pulse last, not how frequently it occurs. 0.5 for normal sin wave. higher and it won't turn off completely
+		#Range: -100.0 ~ 1.0
+		intensity = 0.2
+		#glow animation uses following euation:
+		#alpha = scale = {max[(1-intensity)*sin(time*2pi/period)+intensity, 0]}^exponent
+		#period variable is located in common configs
+		#scale multiplier
+		#Range: 0.0 ~ 1.0
+		scale = 0.15
+		#affects the shape of the wave. stay under 0.5 for sharper transitions
+		#Range: 0.0 ~ 10.0
+		exponent = 0.5
+
+#general settings
+[general]
+	#show some tooltip hints to guide player through the mod
+	tooltip_hints = true
+

@@ -1,0 +1,5 @@
+
+[items]
+	#If this is set to true, elytras will use lower quality textures for the banners (requires reload)
+	elytras_use_low_quality_banners = false
+

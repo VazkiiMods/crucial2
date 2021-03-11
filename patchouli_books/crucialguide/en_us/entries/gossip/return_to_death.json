@@ -1,0 +1,16 @@
+{
+	"name": "Return to Death Point",
+	"icon": "minecraft:compass",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, a mysterious entity has been storing player's items upon death. Supposedly, if you don't die twice, the items stay safe until you return.$(br2)Apparently, there's also a way to modify an item to point to it..."
+		},
+		{
+			"type": "quest",
+			"text": "Find a way to locate your previous death point so you can easily gather your items if you die."
+		}
+	]
+}

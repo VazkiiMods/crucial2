@@ -1,0 +1,16 @@
+{
+	"name": "Locating Fortresses",
+	"icon": "minecraft:nether_wart",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, wandering souls travel the Soul Sand Valleys. Supposedly, they can be killed and released to locate nearby Nether Fortresses."
+		},
+		{
+			"type": "quest",
+			"text": "Find a way to locate Nether Fortresses in the Soul Sand Valley."
+		}
+	]
+}

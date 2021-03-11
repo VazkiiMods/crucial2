@@ -1,0 +1,28 @@
+
+[items]
+	#If milkable mobs can be milked with empty glass bottles
+	"Milking with Glass Bottles" = false
+	#The use time for Milk Buckets, in ticks
+	"Milk Bucket drink time" = 32
+
+[worldgen]
+
+	[worldgen.features]
+		"Banana Plant generation in Beaches" = true
+		#Range: 0 ~ 128
+		"Aduzki Sprouts generation chance in Forests" = 7
+		#Range: 0 ~ 128
+		"Strawberry Bush generation chance in Plains" = 9
+		"Banana Plant generation in Jungles" = true
+		#Range: 0 ~ 128
+		"Mint pond generation chance in Mountains" = 5
+		#Range: 0 ~ 128
+		"Vanilla Vine generation chance in Savannas" = 6
+
+[entities]
+
+	[entities.plantain_spider]
+		"Plantain Spider spawn from Banana Bundles" = true
+		"Plantain Spiders give Slipping" = true
+		"Plantain Spider spawning in Jungles" = true
+

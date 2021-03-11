@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:slabs",
+		"#minecraft:stairs",
+		"#minecraft:walls",
+		"#minecraft:fences",
+		"#forge:fence_gates",
+		"#quark:vertical_slab"
+	]
+}

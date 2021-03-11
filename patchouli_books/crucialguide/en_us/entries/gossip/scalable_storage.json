@@ -1,0 +1,16 @@
+{
+	"name": "Scalable Storage",
+	"icon": "minecraft:barrel",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there's a non-conventional storage block that can store a high amount of different items.$(br2)Unlike $(item)Chests$() and co, which are restricted to 27 slots, this block can store many many more."
+		},
+		{
+			"type": "quest",
+			"text": "Find the special $(thing)storage block$() that can store many different items."
+		}
+	]
+}

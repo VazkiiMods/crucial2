@@ -1,0 +1,23 @@
+{
+	"include": [
+	    {
+	        "template": "patchouli:candles",
+	        "as": "incl",
+	    	"x": 12,
+	    	"y": 15
+	    }
+	],
+	"components": [
+		{
+			"type": "header",
+			"text": "Candle Influences",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "text",
+			"text": "Up to 4 candles of one type can be used to make specific enchantments show up more often.",
+			"y": 110
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Mob Repelling",
+	"icon": "minecraft:skeleton_skull",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, monsters are averse to seeing their brethren's heads mounted on pikes.$(br2)Perhaps acquiring heads of some common overworld mobs and mounting them on a fence will strike fear into the hearts of onlookers."
+		},
+		{
+			"type": "quest",
+			"text": "Find a way you can repel monsters using their heads and skulls."
+		}
+	]
+}
