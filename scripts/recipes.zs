@@ -1,3 +1,4 @@
+var _string = <item:minecraft:string>;
 var air = <item:minecraft:air>;
 var alex_drops = <tag:items:crucial:alex_drops>;
 var animal_dictionary = <item:alexsmobs:animal_dictionary>;
@@ -10,6 +11,7 @@ var boof_block = <item:endergetic:boof_block>;
 var booflo_hide = <item:endergetic:booflo_hide>;
 var book = <item:minecraft:book>;
 var brick = <tag:items:forge:ingots/brick>;
+var bundle = <item:bundlesplus:bundle>;
 var canvas = <item:farmersdelight:canvas>;
 var clay = <item:minecraft:clay>;
 var clay_ball = <item:minecraft:clay_ball>;
@@ -19,33 +21,36 @@ var emerald = <item:minecraft:emerald>;
 var ender_eye = <item:minecraft:ender_eye>;
 var ender_pearl = <item:minecraft:ender_pearl>;
 var glass_item_frame = <item:quark:glass_item_frame>;
+var globe = <item:supplementaries:globe>;
+var globe_pattern = <item:minecraft:globe_banner_pattern>;
 var glowing_glass_item_frame = <item:quark:glowing_glass_item_frame>;
 var glowing_ink_sac = <item:upgrade_aquatic:glowing_ink_sac>;
 var grimwood_sapling = <item:atmospheric:grimwood_sapling>;
 var honeycomb = <item:minecraft:honeycomb>;
 var iron_ingot = <tag:items:forge:ingots/iron>;
 var kousa_sapling = <item:atmospheric:kousa_sapling>;
+var lantern = <item:minecraft:lantern>;
 var mimicream = <item:alexsmobs:mimicream>;
+var nether_star = <item:minecraft:nether_star>;
 var nether_wart = <item:minecraft:nether_wart>;
 var oak_sapling = <item:minecraft:oak_sapling>;
 var ochre_kelp = <item:upgrade_aquatic:ochre_kelp>;
 var organic_compost = <item:farmersdelight:organic_compost>;
+var paper = <item:minecraft:paper>;
 var pipe = <item:quark:pipe>;
 var piston = <item:minecraft:piston>;
 var piston_launcher = <item:supplementaries:piston_launcher>;
 var planter = <item:supplementaries:planter>;
 var polar_kelp = <item:upgrade_aquatic:polar_kelp>;
+var potato = <item:minecraft:potato>;
 var prismarine_crystals = <item:minecraft:prismarine_crystals>;
 var sack = <item:supplementaries:sack>;
+var soul_lantern = <item:minecraft:soul_lantern>;
 var spruce_sapling = <item:minecraft:spruce_sapling>;
 var thorny_kelp = <item:upgrade_aquatic:thorny_kelp>;
 var tongue_kelp = <item:upgrade_aquatic:tongue_kelp>;
 var wicks = <tag:items:buzzier_bees:candle_wick>;
 var yak_hair = <item:environmental:yak_hair>;
-var lantern = <item:minecraft:lantern>;
-var soul_lantern = <item:minecraft:soul_lantern>;
-var potato = <item:minecraft:potato>;
-var nether_star = <item:minecraft:nether_star>;
 
 // Remove specific recipes
 craftingTable.removeByName("autumnity:lead_from_snail_slime");
@@ -126,6 +131,18 @@ craftingTable.addShapeless("animal_dictionary_any",
 craftingTable.addShapeless("clay_reversion", 
 		clay_ball * 4, 
 		[clay]);
+
+// Canvas Bundle
+craftingTable.removeRecipe(bundle);
+craftingTable.addShaped("canvas_bundle", 
+		bundle, 
+		[[canvas, wicks],
+		 [canvas, canvas]]);
+
+// Globe to Globe Pattern
+craftingTable.addShapeless("globe_pattern", 
+		globe_pattern, 
+		[paper, globe]);
 
 // lol
 craftingTable.addShapeless("tater", 

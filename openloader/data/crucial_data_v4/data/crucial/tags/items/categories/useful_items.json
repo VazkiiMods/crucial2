@@ -85,6 +85,7 @@
 		"charm:netherite_nugget",
 		"neapolitan:magic_beans",
 		"supplementaries:key",
-		"supplementaries:rope_arrow"
+		"supplementaries:rope_arrow",
+		"bundlesplus:bundle"
 	]
 }

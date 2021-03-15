@@ -103,7 +103,7 @@
 
 [gameplay]
 	#Whether to add local marker for the spot where the player died.
-	autoDeathMarker = true
+	autoDeathMarker = false
 	#Player will need to craft atlas item to use atlas.
 	itemNeeded = true
 	#Whether to remember last open browsing position and zoom level for each dimension in every atlas.
@@ -112,5 +112,5 @@
 	#Whether to add global markers for Nether Portals.
 	autoNetherPortalMarkers = true
 	#Whether to add global markers for NPC villages.
-	autoVillageMarkers = true
+	autoVillageMarkers = false
 

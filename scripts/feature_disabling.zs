@@ -98,4 +98,5 @@ craftingTable.removeRecipe(<item:waystones:sandy_waystone>);
 
 villagerTrades.removeWanderingTrade(2, <item:alexsmobs:banana_peel>);
 villagerTrades.removeWanderingTrade(1, <item:environmental:rice>);
-villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:farmer>, 1, <item:environmental:rice>.definition);
+villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:farmer>, 1, <item:environmental:rice>);
+villagerTrades.removeItemsForEmeraldsTrade(<profession:minecraft:farmer>, 1, <item:environmental:rice>);

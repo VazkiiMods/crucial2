@@ -10,5 +10,5 @@
 	[entities.illagers]
 		#Illagers with banners will no longer give Bad Omen when you kill them
 		#Instead, you will have to place and burn the banner that they drop with flint and steel or a fire charge
-		"Illagers no longer give Bad Omen when killed" = false
+		"Illagers no longer give Bad Omen when killed" = true
 

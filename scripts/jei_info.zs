@@ -399,7 +399,7 @@ s = "Get this by bone mealing a Lily Pad.";
 i(<item:environmental:large_lily_pad>, s);
 i(<item:environmental:giant_lily_pad>, s);
 
-i(<item:environmental:cattail_seeds>, "Get by right clicking grown Cattails. Can also plant them to make more.");
+i(<item:environmental:cattail_seeds>, "Get by right clicking grown Cattails. Can also be planted, but they'll only grow on farmland underwater.");
 i(<item:environmental:cherries>, "Can drop from Cherry Tree leaves like apples.");
 i(<item:environmental:slabfish_effigy>, "haha funny slabfish mod");
 i(<item:environmental:kiln>, "It's faster at smelting anything a smoker and blast furnace can't. It's also the Ceramist villager workstation.");
@@ -604,7 +604,7 @@ i(<item:quark:iron_rod>, "Breaks any blocks in front when pushed by a piston.");
 i(<item:quark:magnet>, "Can push or pull metallic blocks when powered. When moved, stonecutters break the block above, and hoppers drop the item in front, or plant, if it's a seed.");
 i(<item:quark:myalite_crystal>, "Can be found in Spiral Pillars in the outer end. If placed in a line, can redirect any enderman or ender pearl teleportations between the two ends.");
 i(<item:quark:obsidian_pressure_plate>, "Only players can trigger this.");
-i(<item:quark:pipe>, "Put items in with a hopper. Items prefer to flow down, then fowards, sideways, and lastly upwards. Disable specific pipes with a redstone signal. Items can also fall out of and into open ends.");
+i(<item:quark:pipe>, "Put items in with a hopper. Items prefer to flow downwards, then forwards, sideways, and lastly upwards. Disable specific pipes with a redstone signal. Items can also fall out of and into open ends.");
 i(<item:quark:redstone_inductor>, "Adds up the inputs, can also be locked by pointing a repeater at it.");
 i(<item:quark:redstone_randomizer>, "Randomly repeats the input to the left or right.");
 i(<item:quark:seed_pouch>, "Can hold 10 stacks of a seed. Right click the seed onto it to add. Can also place 1 or 3x3 if sneaking.");
@@ -649,3 +649,5 @@ i(<item:supplementaries:netherite_door>, s);
 i(<item:supplementaries:netherite_trapdoor>, s);
 
 i(<item:paraglider:paraglider>, "Can be found on Wild Tower chests only. When held, right click to glide.");
+
+i(<item:bundlesplus:bundle>, "Works like a 1.17 Bundle, add items by right clicking them onto it and right click to take out. Can hold up to 64 items. Items with lower max stack sizes count proportionally (e.g. Ender Pearls, which stack to 16 count as 4 items)");
