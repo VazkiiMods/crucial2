@@ -20,7 +20,8 @@ server_mods_blacklist = [
 	238372 # Neat
 ]
 server_blacklisted_files = [
-	'openloader/resources'
+	'openloader/resources',
+	'manifest.json'
 ]
 
 temp_dir = '.ship_temp'
@@ -31,7 +32,7 @@ ship_dir = 'ship'
 
 mod_urls = []
 version = input('Modpack Version: ')
-print('Building', pack_name, version)
+print('Building', pack_name, 'version', version)
 
 def build_pack():
 	ensure_directory()
@@ -40,15 +41,17 @@ def build_pack():
 
 	# Client files
 	copy_files(files_to_copy, '', temp_dir)
-	clear_blacklist(blacklisted_files)
+	clear_files(temp_dir, blacklisted_files)
 	update_book()
 	make_manifests()
 	zip_temp('');
 
 	# Server files
 	copy_files(server_files_to_copy, 'ship/', temp_dir)
+	clear_files(temp_dir, server_blacklisted_files)
 	write_mods_csv()
 	zip_temp('-server');
+
 
 # Ensure we're working in the right directory
 def ensure_directory():
@@ -77,9 +80,13 @@ def copy_files(arr, in_dir, out_dir):
 			shutil.copy(target, out_path)
 
 # Delete blacklisted files
-def clear_blacklist(blacklist):
+def clear_files(dir_name, blacklist):
 	for f in blacklist:
-		os.remove(temp_dir + '/' + f)
+		target = dir_name + '/' + f
+		if os.path.isdir(target):
+			shutil.rmtree(target)
+		elif os.path.exists(target):
+			os.remove(target)
 
 # Update book.json with correct version
 def update_book():
