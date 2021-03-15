@@ -8,3 +8,4 @@
 !/scripts/
 !/ship/
 !/.gitignore
+/ship/output
