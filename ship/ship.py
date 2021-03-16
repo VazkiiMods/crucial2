@@ -20,11 +20,11 @@ server_mods_blacklist = [
 	238372 # Neat
 ]
 server_blacklisted_files = [
-	'openloader/resources',
-	'manifest.json'
+	'openloader/resources'
 ]
 
 temp_dir = '.ship_temp'
+overrides_dir = temp_dir + '/overrides'
 out_dir = 'ship/output'
 ship_dir = 'ship'
 
@@ -37,21 +37,21 @@ print('Building', pack_name, 'version', version)
 def build_pack():
 	ensure_directory()
 	clear_dir(temp_dir)
+	clear_dir(overrides_dir)
 	clear_dir(out_dir)
 
 	# Client files
-	copy_files(files_to_copy, '', temp_dir)
-	clear_files(temp_dir, blacklisted_files)
+	copy_files(files_to_copy, '', overrides_dir)
+	clear_files(overrides_dir, blacklisted_files)
 	update_book()
 	make_manifests()
-	zip_temp('');
+	zip_files(temp_dir, '');
 
 	# Server files
-	copy_files(server_files_to_copy, 'ship/', temp_dir)
-	clear_files(temp_dir, server_blacklisted_files)
+	copy_files(server_files_to_copy, 'ship/', overrides_dir)
+	clear_files(overrides_dir, server_blacklisted_files)
 	write_mods_csv()
-	zip_temp('-server');
-
+	zip_files(overrides_dir, '-server');
 
 # Ensure we're working in the right directory
 def ensure_directory():
@@ -94,7 +94,7 @@ def update_book():
 		book_data = json.load(in_file)
 		book_data['subtitle'] = ("Version " + version)
 
-		with open(temp_dir + '/' + book_file, 'w') as out_file:
+		with open(overrides_dir + '/' + book_file, 'w') as out_file:
 			json.dump(book_data, out_file, indent=4)
 
 # Build and write manifest.json
@@ -164,12 +164,12 @@ def make_manifests():
 			json.dump(out_manifest, out_file, indent=2)
 
 def write_mods_csv():
-	with open(temp_dir + '/mods.csv', 'w') as out_file:
+	with open(overrides_dir + '/mods.csv', 'w') as out_file:
 		for mod in mod_urls:
 			out_file.write(mod['url'] + ',' + mod['filename']+'\n')
 
-def zip_temp(denom):
+def zip_files(src_dir, denom):
 	out_file = out_dir + '/' + pack_name.replace(' ', '') + '-' + version + denom
-	shutil.make_archive(out_file, 'zip', temp_dir)
+	shutil.make_archive(out_file, 'zip', src_dir)
 
 build_pack()
