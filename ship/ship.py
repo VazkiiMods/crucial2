@@ -117,7 +117,17 @@ def make_manifests():
 		
 		files = []
 
+
 		addons = data['installedAddons']
+		expected = len([f for f in os.listdir('mods') if f.endswith('.jar')])
+		curr = len([a for a in addons if a['installedFile']])
+
+		if curr != expected:
+			print('Length of installedAddons array differs from amount of installed mod jars! (%d len vs %d expected)' % (curr, expected))
+			assert False
+
+		print('Making pack manifest with', curr, 'mods...')
+
 		for addon in addons:
 			installed_file = addon['installedFile']
 			project_id = addon['addonID']
