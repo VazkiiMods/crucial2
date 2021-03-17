@@ -42,6 +42,16 @@
 	[blocks.globe]
 		#enable a random globe texture for each world
 		random_world = true
+		#here you can put custom colors that will be assigned to each globe depending on its dimension:
+		#to do so you'll have to make a list of lists in the format [[id,colors...],[id,colors...],...]
+		#1: dimension id
+		#now follows 12 numbers that will be used to color all of the 17 possible 'biomes'. omitting even one will make the config invalid
+		#2: water, 3: water shaded, 4: water dark, 5: coast/taiga 
+		#6: forest, 7: plains
+		#8: savanna, 9: desert
+		#10: snow, 11: ice, 12: iceberg/island
+		#13: mushroom island
+		globe_colors = [["minecraft:overworld", "23658d", "25527d", "1d396d", "2d8a5c", "34a03a", "6ea14b", "89a83d", "b5ba65", "ccd7d5", "83b4c6", "2f83a2", "826e71"]]
 
 	[blocks.flag]
 		#Range: 0.0 ~ 100.0
@@ -110,6 +120,8 @@
 
 #general settings
 [general]
-	#show some tooltip hints to guide player through the mod
+	#tries to detect when the mod hasn't been downloaded from curseforge. set to false if you have manually changed the mod jar name
+	anti_reposting_warning = true
+	#show some tooltip hints to guide players through the mod
 	tooltip_hints = true
 

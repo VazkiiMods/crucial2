@@ -62,10 +62,12 @@ craftingTable.removeByName("farmersdelight:milk_bottle");
 craftingTable.removeByName("farmersdelight:rope");
 
 // Eye of Ender Needs Four Elements
+#snip modloaded caverns_and_chasms
 craftingTable.removeRecipe(ender_eye);
 craftingTable.addShapeless("cool_ender_eye", 
 		ender_eye, 
 		[ender_pearl, blaze_powder, prismarine_crystals, emerald, honeycomb]);
+#snip end
 
 // Post-end Structured Crafter
 craftingTable.removeRecipe(crafter);
