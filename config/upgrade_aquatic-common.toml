@@ -25,9 +25,9 @@
 [world]
 
 	[world.generation]
-		"Pickerelweed frequency (flower forests)" = 90
+		"Pickerelweed frequency (flower forests)" = 30
 		"Searocket frequency (beaches)" = 15
 		"Beachgrass frequency (beaches)" = 18
-		"Pickerelweed frequency (jungles, swamps, rivers)" = 28
+		"Pickerelweed frequency (jungles, swamps, rivers)" = 12
 		"Flowering Rush frequency (rivers)" = 15
 
