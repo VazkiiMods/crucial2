@@ -710,6 +710,23 @@
 		"supplementaries:sign_post_wisteria_env",
 		"supplementaries:sign_post_cherry_env",
 		"supplementaries:sign_post_jacaranda_ab",
-		"supplementaries:sign_post_willow_env"
+		"supplementaries:sign_post_willow_env",
+		"atmospheric:stripped_rosewood_post",
+		"atmospheric:rosewood_post",
+		"atmospheric:stripped_morado_post",
+		"atmospheric:morado_post",
+		"atmospheric:stripped_yucca_post",
+		"atmospheric:yucca_post",
+		"atmospheric:stripped_kousa_post",
+		"atmospheric:kousa_post",
+		"atmospheric:stripped_aspen_post",
+		"atmospheric:aspen_post",
+		"atmospheric:stripped_grimwood_post",
+		"atmospheric:grimwood_post",
+		"upgrade_aquatic:stripped_driftwood_post",
+		"upgrade_aquatic:driftwood_post",
+		"upgrade_aquatic:stripped_river_post",
+		"upgrade_aquatic:river_post",
+		"atmospheric:arid_sprouts"
 	]
 }

@@ -270,6 +270,8 @@
 		"seasonals:sweet_berry_ice_cream",
 		"seasonals:sweet_berry_milkshake",
 		"seasonals:sweet_berry_vanilla_yogurt",
-		"autumnity:foul_soup"
+		"autumnity:foul_soup",
+		"upgrade_aquatic:cooked_perch",
+		"upgrade_aquatic:perch"
 	]
 }

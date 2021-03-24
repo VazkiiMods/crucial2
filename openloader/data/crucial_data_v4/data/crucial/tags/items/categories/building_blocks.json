@@ -863,6 +863,10 @@
 		"neapolitan:adzuki_crate",
 		"neapolitan:roasted_adzuki_crate",
 		"neapolitan:mint_basket",
-		"supplementaries:stone_lamp"
+		"supplementaries:stone_lamp",
+		"atmospheric:arid_sand",
+		"atmospheric:red_arid_sand",
+		"atmospheric:cut_red_arid_sandstone",
+		"atmospheric:chiseled_red_arid_sandstone"
 	]
 }

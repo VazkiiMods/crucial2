@@ -17,6 +17,14 @@
 		"autumnity:red_maple_hedge",
 		"autumnity:orange_maple_hedge",
 		"autumnity:yellow_maple_hedge",
-		"autumnity:maple_hedge"
+		"autumnity:maple_hedge",
+		"atmospheric:rosewood_hedge",
+		"atmospheric:morado_hedge",
+		"atmospheric:flowering_morado_hedge",
+		"atmospheric:yucca_hedge",
+		"atmospheric:kousa_hedge",
+		"atmospheric:aspen_hedge",
+		"atmospheric:grimwood_hedge",
+		"upgrade_aquatic:river_hedge"
 	]
 }
