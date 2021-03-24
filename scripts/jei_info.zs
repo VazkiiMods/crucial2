@@ -546,6 +546,11 @@ i(<item:alexsmobs:soul_heart>, s);
 i(<item:alexsmobs:moose_ribs>, s);
 i(<item:alexsmobs:spiked_scute>, s);
 i(<item:alexsmobs:guster_eye>, s);
+i(<item:alexsmobs:emu_egg>, s);
+i(<item:alexsmobs:emu_feather>, s);
+i(<item:alexsmobs:dropbear_claw>, s);
+i(<item:alexsmobs:kangaroo_meat>, s);
+i(<item:alexsmobs:kangaroo_hide>, s);
 
 i(<item:alexsmobs:crocodile_scute>, "Sourced from Crocodiles, which spawn in Rivers and Swamps. Crocodiles may kill you. Consult an Animal Dictionary for more information.");
 i(<item:alexsmobs:animal_dictionary>, "Contains information on Alex's Mobs.");
@@ -553,6 +558,7 @@ i(<item:alexsmobs:mimicream>, "Drops from Mimicubes near end cities. Consult an 
 i(<item:alexsmobs:sombrero>, "La cucaracha, la cucaracha, ya no puede caminar.");
 i(<item:alexsmobs:pocket_sand>, "Can be used as a longrange weapon, if you're so inclined.");
 i(<item:alexsmobs:gustmaker>, "When given a redstone signal, sends a sand tornado in the direction it's facing.");
+i(<item:alexsmobs:fedora>, "Do bee do bee doo ba doo");
 
 // The section that brings all the boys to the yard
 s = "When drank or fed to a creature or mob, it ";

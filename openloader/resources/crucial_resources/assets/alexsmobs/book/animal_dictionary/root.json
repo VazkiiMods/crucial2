@@ -226,6 +226,41 @@
       "x": 290,
       "y": 85,
       "page": 2
+    },
+    {
+      "linked_page": "emu.json",
+      "text": "Emu",
+      "x": 290,
+      "y": 110,
+      "page": 2
+    },
+    {
+      "linked_page": "platypus.json",
+      "text": "Platypus",
+      "x": 290,
+      "y": 135,
+      "page": 2
+    },
+    {
+      "linked_page": "dropbear.json",
+      "text": "Dropbear",
+      "x": 290,
+      "y": 160,
+      "page": 2
+    },
+    {
+      "linked_page": "tasmanian_devil.json",
+      "text": "Tasmanian Devil",
+      "x": 90,
+      "y": 10,
+      "page": 3
+    },
+    {
+      "linked_page": "kangaroo.json",
+      "text": "Kangaroo",
+      "x": 90,
+      "y": 35,
+      "page": 3
     }
   ],
   "images": [
