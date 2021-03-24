@@ -1,6 +1,7 @@
 
-#Client only settings for Upgrade Aquatic
-[client]
-	#The amount of days till the insomnia overlay is rendered. Setting to 3 will make the overlay indicate phantom spawns. Default: Zero (No overlay at all)
-	daysTillRenderInsomniaOverlay = 0
+[misc]
+	#The amount of days till the insomnia overlay is rendered
+	#Setting to 3 will make the overlay indicate phantom spawns
+	#Setting to 0 will disable the overlay
+	"Days until insomnia overlay" = 0
 

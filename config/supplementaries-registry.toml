@@ -63,6 +63,7 @@
 		turn_table = true
 		faucet = true
 		gold_trapdoor = false
+		magma_cream_block = true
 		sconce_green = false
 		flute = true
 		pulley_block = true
