@@ -248,6 +248,16 @@
 		"enhanced_mushrooms:glowshroom_fence_gate",
 		"enhanced_mushrooms:glowshroom_button",
 		"enhanced_mushrooms:glowshroom_trapdoor",
-		"enhanced_mushrooms:glowshroom_door"
+		"enhanced_mushrooms:glowshroom_door",
+		"supplementaries:stone_lamp",
+		"quark:red_crystal_cluster",
+		"quark:orange_crystal_cluster",
+		"quark:yellow_crystal_cluster",
+		"quark:green_crystal_cluster",
+		"quark:blue_crystal_cluster",
+		"quark:indigo_crystal_cluster",
+		"quark:violet_crystal_cluster",
+		"quark:white_crystal_cluster",
+		"quark:black_crystal_cluster"
 	]
 }

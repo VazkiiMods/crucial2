@@ -31,7 +31,7 @@
 		sconce_ender = true
 		rope_arrow = true
 		checker_block = false
-		stone_lamp = false
+		stone_lamp = true
 		cog_block = false
 		crank = true
 		copper_lantern = false
