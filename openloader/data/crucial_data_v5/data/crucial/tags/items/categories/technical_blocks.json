@@ -102,6 +102,7 @@
 		"supplementaries:gold_trapdoor",
 		"supplementaries:netherite_door",
 		"supplementaries:netherite_trapdoor",
-		"alexsmobs:gustmaker"
+		"alexsmobs:gustmaker",
+		"supplementaries:magma_cream_block"
 	]
 }

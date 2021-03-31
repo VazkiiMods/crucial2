@@ -276,6 +276,16 @@
 		"alexsmobs:kangaroo_meat",
 		"alexsmobs:cooked_kangaroo_meat",
 		"alexsmobs:kangaroo_burger",
-		"alexsmobs:boiled_emu_egg"
+		"alexsmobs:boiled_emu_egg",
+		"farmersdelight:mutton_chops",
+		"farmersdelight:cooked_mutton_chops",
+		"farmersdelight:mutton_wrap",
+		"farmersdelight:cabbage_rolls",
+		"farmersdelight:noodle_soup",
+		"farmersdelight:roasted_mutton_chops",
+		"farmersdelight:shepherds_pie_block",
+		"abnormals_delight:perch_slice",
+		"abnormals_delight:cooked_perch_slice",
+		"abnormals_delight:escargot"
 	]
 }

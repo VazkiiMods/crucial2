@@ -867,6 +867,10 @@
 		"atmospheric:arid_sand",
 		"atmospheric:red_arid_sand",
 		"atmospheric:cut_red_arid_sandstone",
-		"atmospheric:chiseled_red_arid_sandstone"
+		"atmospheric:chiseled_red_arid_sandstone",
+		"quark:blackstone_bricks",
+		"quark:dirt_bricks",
+		"quark:netherrack_bricks",
+		"quark:vanilla_basalt_bricks"
 	]
 }

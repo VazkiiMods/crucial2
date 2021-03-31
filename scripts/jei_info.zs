@@ -305,6 +305,15 @@ i(<item:quark:red_crystal>, s);
 i(<item:quark:violet_crystal>, s);
 i(<item:quark:white_crystal>, s);
 i(<item:quark:yellow_crystal>, s);
+i(<item:quark:black_crystal_cluster>, s);
+i(<item:quark:blue_crystal_cluster>, s);
+i(<item:quark:green_crystal_cluster>, s);
+i(<item:quark:indigo_crystal_cluster>, s);
+i(<item:quark:orange_crystal_cluster>, s);
+i(<item:quark:red_crystal_cluster>, s);
+i(<item:quark:violet_crystal_cluster>, s);
+i(<item:quark:white_crystal_cluster>, s);
+i(<item:quark:yellow_crystal_cluster>, s);
 
 // World Stones
 i(<item:minecraft:andesite>, "This spawns in large clusters under Forest type biomes.");
@@ -644,6 +653,7 @@ i(<item:supplementaries:bellows>, "When powered fans fires and furnaces to keep 
 i(<item:supplementaries:key>, "Can be used to lock Safes. Name it in an anvil before usage.");
 i(<item:supplementaries:rope_arrow>, "Places down ropes wherever it lands so you can climb up.");
 i(<item:supplementaries:pulley_block>, "Can be given ropes or chains. When rotated with a Turn Table, can drop or pull said ropes or chains back up.");
+i(<item:supplementaries:magma_cream_block>, "Works like a slime block when moved by pistons, but only one of the sides is sticky.");
 
 s = "Works like a normal wooden one when unpowered. When powered, ignores interactions.";
 i(<item:supplementaries:gold_door>, s);

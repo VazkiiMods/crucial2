@@ -727,6 +727,15 @@
 		"upgrade_aquatic:driftwood_post",
 		"upgrade_aquatic:stripped_river_post",
 		"upgrade_aquatic:river_post",
-		"atmospheric:arid_sprouts"
+		"atmospheric:arid_sprouts",
+		"quark:red_crystal_cluster",
+		"quark:orange_crystal_cluster",
+		"quark:yellow_crystal_cluster",
+		"quark:green_crystal_cluster",
+		"quark:blue_crystal_cluster",
+		"quark:indigo_crystal_cluster",
+		"quark:violet_crystal_cluster",
+		"quark:white_crystal_cluster",
+		"quark:black_crystal_cluster"
 	]
 }
