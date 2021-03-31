@@ -127,6 +127,12 @@
 	Grate = true
 	"Variant Bookshelves" = true
 
+	[building.cobblestone_bricks]
+		"Enable Basalt Bricks" = true
+		"Enable Netherrack Bricks" = true
+		"Enable Dirt Bricks" = true
+		"Enable Blackstone Bricks" = true
+
 	[building.rope]
 		"Enable Dispenser Behavior" = true
 		#Set to true to allow ropes to move Tile Entities even if Pistons Push TEs is disabled.
@@ -503,9 +509,14 @@
 	[world.cave_crystal_underground_biome]
 		#The chance that a crystal can grow, this is on average 1 in X world ticks, set to a higher value to make them grow slower. Minimum is 1, for every tick. Set to 0 to disable growth.
 		"Cave Crystal Growth Chance" = 5
-		"Crystals Grow In Lava" = false
 		#Allowed values: [0,1]
-		"Crystal Spawn Chance" = 0.025
+		"Crystal Chance" = 0.16
+		#Allowed values: [0,1]
+		"Crystal Cluster On Sides Chance" = 0.6
+		#Allowed values: [0,1]
+		"Crystal Cluster Chance" = 0.2
+		#Allowed values: [0,1]
+		"Double Crystal Chance" = 0.2
 		"Crystals Craft Runes" = true
 
 		[world.cave_crystal_underground_biome.biome_settings]
@@ -1729,6 +1740,7 @@
 		"Pipe Speed" = 5
 
 [experimental]
+	Shiba = true
 	"Adjustable Chat" = false
 	"Narrator Readout" = false
 	"Overlay Shader" = false
@@ -1758,6 +1770,23 @@
 		"Disable Ice Roads" = false
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
 		"Nerf Villager Discount" = true
+
+	[experimental.shiba]
+
+		[experimental.shiba.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 40
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+
+			[experimental.shiba.spawn_config.biomes]
+				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
+				# icy, the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
+				"Biome Categories" = ["extreme_hills"]
+				"Is Blacklist" = false
 
 	[experimental.overlay_shader]
 		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).

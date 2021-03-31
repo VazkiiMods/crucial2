@@ -1,9 +1,0 @@
-{
-	"replace": false,
-	"values": [
-		"minecraft:ender_pearl",
-		"minecraft:chorus_fruit",
-		"charm:ender_pearl_block",
-		"quark:myalite_crystal"
-	]
-}

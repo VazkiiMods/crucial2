@@ -1,0 +1,20 @@
+{
+  "rarity": "uncommon",
+  "priority": 10,
+  "displayName": {
+    "translate": "Tiny Potato"
+  },
+  "tradable": false,
+  "conditions": [
+    {
+      "type": "environmental:rename",
+      "names": [
+        "tater",
+        "tinypotato",
+        "tiny potato",
+        "liltater",
+        "lil tater"
+      ]
+    }
+  ]
+}
