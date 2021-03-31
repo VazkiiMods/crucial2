@@ -145,14 +145,14 @@ var s = "Silver Ore replaces Gold Ore in cold biomes, like taigas, mountains, an
 c(<item:caverns_and_chasms:silver_ingot>, s);
 c(<item:caverns_and_chasms:silver_ore>, s);
 
-s = "Silver Tools apply Allfiction when hitting an undead mob. The mob takes damage when the effect expires.";
+s = "Silver Tools apply Affliction when hitting an undead mob. The mob takes damage when the effect expires.";
 c(<item:caverns_and_chasms:silver_sword>, s);
 c(<item:caverns_and_chasms:silver_hoe>, s);
 c(<item:caverns_and_chasms:silver_axe>, s);
 c(<item:caverns_and_chasms:silver_pickaxe>, s);
 c(<item:caverns_and_chasms:silver_shovel>, s);
 
-s = "Silver Armor applies Allfiction when an undead mob hits the wearer. The mob takes damage when the effect expires.";
+s = "Silver Armor applies Affliction when an undead mob hits the wearer. The mob takes damage when the effect expires.";
 c(<item:caverns_and_chasms:silver_helmet>, s);
 c(<item:caverns_and_chasms:silver_chestplate>, s);
 c(<item:caverns_and_chasms:silver_leggings>, s);
@@ -175,6 +175,6 @@ c(<item:caverns_and_chasms:sugilite>, "Can be found under Jungle and Desert biom
 c(<item:caverns_and_chasms:rotten_flesh_block>, "If set on fire, emits green Cursed Fire, which only harms undead.");
 c(<item:caverns_and_chasms:golden_bucket>, "Can hold up to 3 blocks of liquid.");
 c(<item:caverns_and_chasms:spiked_rail>, "Damages any mobs on minecarts that go through it.");
-c(<item:caverns_and_chasms:ore_detector>, "Glows there's ore within a few blocks of the holder. Can be enchanted with Treasure enchantments to react only to gems or metals.");
+c(<item:caverns_and_chasms:ore_detector>, "Glows when there's ore within a few blocks of the holder. Can be enchanted with Treasure enchantments to react only to gems or metals.");
 
 #snip end
