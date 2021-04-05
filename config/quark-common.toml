@@ -423,6 +423,9 @@
 		#Allowed values: (0,1]
 		"Percent Req" = 0.4
 
+	[tweaks.note_block_mob_sounds]
+		"Enable Vocaloid" = true
+
 	[tweaks.emotes]
 		#The enabled default emotes. Remove from this list to disable them. You can also re-order them, if you feel like it.
 		"Enabled Emotes" = ["no", "yes", "wave", "salute", "cheer", "clap", "think", "point", "shrug", "headbang", "weep", "facepalm"]

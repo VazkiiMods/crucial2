@@ -1,8 +1,11 @@
 placeSnowInBlock = true
 snowGravity = true
 snowAlwaysReplaceable = true
+#Unavailable if TerraForged mod installed
 snowAccumulationDuringSnowstorm = true
+#Unavailable if TerraForged mod installed
 snowAccumulationDuringSnowfall = false
+#Unavailable if TerraForged mod installed
 thinnerBoundingBox = true
 snowMakingIce = true
 snowOnIce = false
@@ -15,4 +18,8 @@ retainOriginalBlocks = false
 snowMeltsInWarmBiomes = false
 #Should snow melt if layers are more than 1
 snowNaturalMelt = true
+#9 = Unlimited
+#Range: 1 ~ 9
+snowAccumulationMaxLayers = 8
+advancedBlockInteraction = true
 

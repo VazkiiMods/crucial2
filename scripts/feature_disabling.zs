@@ -2,8 +2,6 @@ craftingTable.removeRecipe(<item:environmental:apple_pie>);
 
 craftingTable.removeByName("minecraft:yellow_dye_from_sunflower");
 
-craftingTable.removeByName("supplementaries:candelabra_recipe_3");
-
 craftingTable.removeByName("charm:extra_recipes/trident");
 craftingTable.removeByName("charm:extra_recipes/soul_torch");
 craftingTable.removeByName("charm:extra_recipes/green_dye");

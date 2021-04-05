@@ -53,7 +53,6 @@ var wicks = <tag:items:buzzier_bees:candle_wick>;
 var yak_hair = <item:environmental:yak_hair>;
 
 // Remove specific recipes
-craftingTable.removeByName("autumnity:lead_from_snail_slime");
 craftingTable.removeByName("minecraft:lead");
 craftingTable.removeByName("minecraft:painting");
 craftingTable.removeByName("minecraft:scaffolding");
