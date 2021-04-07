@@ -21,6 +21,7 @@
     "inventory": false,
     "beehive": false,
     "player_head": false,
+    "effective_tool": false,
     "harvest_tool": false,
     "hide_mod_name": true,
     "armor_stand": false,
@@ -36,6 +37,7 @@
     "command_block": false,
     "mob_growth": false,
     "painting": false,
+    "harvest_tool_new_line": false,
     "trapped_chest": true
   },
   "waila": {
