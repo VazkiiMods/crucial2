@@ -33,6 +33,9 @@
 	mungusBiomeTransformationType = 2
 	#List of all mungus mushrooms, biome transformations and surface blocks. Each is seperated by a |. Add an entry with a block registry name, biome registry name, and block registry name(for the ground).
 	mungusBiomeMatches = ["minecraft:red_mushroom|minecraft:mushroom_fields|minecraft:mycelium", "minecraft:brown_mushroom|minecraft:mushroom_fields|minecraft:mycelium", "minecraft:crimson_fungus|minecraft:crimson_forest|minecraft:crimson_nylium", "minecraft:warped_fungus|minecraft:warped_forest|minecraft:warped_nylium"]
+	#Percent chance for leafcutter ants to break leaves blocks when harvesting. Set to zero so that they can not break any blocks.
+	#Range: 0.0 ~ 1.0
+	leafcutterAntBreakLeavesChance = 0.2
 	#Whether to disable certain aspects of the Lava Vision Potion. Enable if issues with shaders persist.
 	shadersCompat = false
 	#List of extra(non mungus) mobs that will trigger a crimson mosquito to become a warped mosquito. Ex: "minecraft:mooshroom", "alexsmobs:warped_toad"
@@ -40,8 +43,14 @@
 	#1 out of this number chance for leaves to drop a banana when broken. Fortune is automatically factored in
 	#Range: > 0
 	bananaChance = 0
+	#Max number of ant entities allowed inside a leafcutter anthill.
+	#Range: 2 ~ 100000
+	leafcutterAntColonySize = 20
 	#Whether soul vulture spawns should be restricted solely to the nether fossil structure or to whatever biome is specified in their respective biome config.
 	soulVultureSpawnOnFossil = true
+	#Percent chance for fungus to grow per each leaf a leafcutter ant returns to the colony.
+	#Range: 0.0 ~ 1.0
+	leafcutterAntFungusGrowChance = 0.3
 	#Whether fish oil gives players a special levitation effect.
 	fishOilMeme = false
 	#Whether mimicubes spawns should be restricted solely to the end city structure or to whatever biome is specified in their respective biome config.
@@ -60,6 +69,9 @@
 	#Percent chance for emu leggings to dodge projectile attacks.
 	#Range: 0.0 ~ 1.0
 	emuPantsDodgeChance = 0.45
+	#How many feedings of leaves does a leafcutter colony need in order to regain a worker ant, if below half the max members.
+	#Range: 2 ~ 100000
+	leafcutterAntRepopulateFeedings = 25
 	#Whether wandering traders offer items like acacia blossoms, mosquito larva, crocodile egg, etc.
 	wanderingTraderOffers = true
 
@@ -214,9 +226,18 @@
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		rattlesnakeSpawnWeight = 3
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		cachalotWhaleSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		soulVultureSpawnWeight = 30
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		enderiophageSpawnRolls = 3
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		cachalotWhaleSpawnWeight = 2
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		mooseSpawnWeight = 15
@@ -303,6 +324,9 @@
 		snowLeopardSpawnWeight = 20
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
+		enderiophageSpawnWeight = 4
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
 		orcaSpawnWeight = 2
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
@@ -322,4 +346,17 @@
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		crimsonMosquitoSpawnWeight = 8
+
+		[general.spawning.uniqueSpawning]
+			#Delay (in ticks) between attempts to spawn beached cachalot whales. Default is a single day. Works like wandering traders.
+			#Range: > 0
+			beachedCachalotWhaleSpawnDelay = 24000
+			#Percent chance for leafcutter anthills to spawn as world gen in each chunk. Set to zero to disable spawning.
+			#Range: 0.0 ~ 1.0
+			leafcutterAnthillSpawnChance = 0.004999999888241291
+			#Whether to enable beached cachalot whales to spawn on beaches during thunder storms.
+			beachedCachalotWhales = true
+			#Percent chance increase for each failed attempt to spawn a beached cachalot whale. Higher value = more spawns.
+			#Range: 0 ~ 100
+			beachedCachalotWhaleSpawnChance = 5
 
