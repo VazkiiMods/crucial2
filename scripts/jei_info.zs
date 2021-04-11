@@ -560,6 +560,14 @@ i(<item:alexsmobs:emu_feather>, s);
 i(<item:alexsmobs:dropbear_claw>, s);
 i(<item:alexsmobs:kangaroo_meat>, s);
 i(<item:alexsmobs:kangaroo_hide>, s);
+i(<item:alexsmobs:straddlite>, s);
+i(<item:alexsmobs:stradpole_bucket>, s);
+i(<item:alexsmobs:straddleboard>, s);
+i(<item:alexsmobs:gongylidia>, s);
+i(<item:alexsmobs:leafcutter_ant_pupa>, s);
+i(<item:alexsmobs:enderiophage_rocket>, s);
+i(<item:alexsmobs:leafcutter_anthill>, s);
+i(<item:alexsmobs:leafcutter_ant_chamber>, s);
 
 i(<item:alexsmobs:crocodile_scute>, "Sourced from Crocodiles, which spawn in Rivers and Swamps. Crocodiles may kill you. Consult an Animal Dictionary for more information.");
 i(<item:alexsmobs:animal_dictionary>, "Contains information on Alex's Mobs.");
@@ -568,6 +576,7 @@ i(<item:alexsmobs:sombrero>, "La cucaracha, la cucaracha, ya no puede caminar.")
 i(<item:alexsmobs:pocket_sand>, "Can be used as a longrange weapon, if you're so inclined.");
 i(<item:alexsmobs:gustmaker>, "When given a redstone signal, sends a sand tornado in the direction it's facing.");
 i(<item:alexsmobs:fedora>, "Do bee do bee doo ba doo");
+i(<item:alexsmobs:capsid>, "Can drop from Enderiophages and used to transport items. Consult an Animal Dictionary for more information.");
 
 // The section that brings all the boys to the yard
 s = "When drank or fed to a creature or mob, it ";

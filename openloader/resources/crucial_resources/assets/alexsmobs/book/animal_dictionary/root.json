@@ -261,6 +261,36 @@
       "x": 90,
       "y": 35,
       "page": 3
+    },
+
+
+    {
+      "linked_page": "straddler.json",
+      "text": "Straddler",
+      "x": 90,
+      "y": 60,
+      "page": 3
+    },
+    {
+      "linked_page": "stradpole.json",
+      "text": "Stradpole",
+      "x": 90,
+      "y": 85,
+      "page": 3
+    },
+    {
+      "linked_page": "leafcutter_ant.json",
+      "text": "Leafcutter Ant",
+      "x": 90,
+      "y": 110,
+      "page": 3
+    },
+    {
+      "linked_page": "enderiophage.json",
+      "text": "Enderiophage",
+      "x": 90,
+      "y": 135,
+      "page": 3
     }
   ],
   "images": [
