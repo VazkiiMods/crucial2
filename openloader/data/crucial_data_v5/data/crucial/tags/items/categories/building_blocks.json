@@ -871,6 +871,7 @@
 		"quark:blackstone_bricks",
 		"quark:dirt_bricks",
 		"quark:netherrack_bricks",
-		"quark:vanilla_basalt_bricks"
+		"quark:vanilla_basalt_bricks",
+		"decorative_blocks:rocky_dirt"
 	]
 }

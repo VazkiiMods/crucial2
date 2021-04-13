@@ -736,6 +736,19 @@
 		"quark:indigo_crystal_cluster",
 		"quark:violet_crystal_cluster",
 		"quark:white_crystal_cluster",
-		"quark:black_crystal_cluster"
+		"quark:black_crystal_cluster",
+		"decorative_blocks:chain",
+		"decorative_blocks:chandelier",
+		"decorative_blocks:soul_chandelier",
+		"decorative_blocks:brazier",
+		"decorative_blocks:soul_brazier",
+		"decorative_blocks:stone_pillar",
+		"decorative_winter:dry_grass_block",
+		"decorative_winter:dry_grass",
+		"decorative_winter:dry_fern",
+		"decorative_winter:dry_tall_grass",
+		"decorative_winter:dry_large_fern",
+		"decorative_blocks_abnormals:ender_brazier",
+		"decorative_blocks_abnormals:ender_chandelier"
 	]
 }
