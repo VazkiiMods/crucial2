@@ -124,4 +124,11 @@
 	anti_reposting_warning = true
 	#show some tooltip hints to guide players through the mod
 	tooltip_hints = true
+	#enable Quark styled config button on main menu. Needs Configured installed to work
+	config_button = false
+
+#game tweaks
+[tweaks]
+	#make the brewing stand block get the correct color depending on the potions it's brewing
+	brewing_stand_colors = true
 

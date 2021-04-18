@@ -663,6 +663,7 @@ i(<item:supplementaries:key>, "Can be used to lock Safes. Name it in an anvil be
 i(<item:supplementaries:rope_arrow>, "Places down ropes wherever it lands so you can climb up.");
 i(<item:supplementaries:pulley_block>, "Can be given ropes or chains. When rotated with a Turn Table, can drop or pull said ropes or chains back up.");
 i(<item:supplementaries:magma_cream_block>, "Works like a slime block when moved by pistons, but only one of the sides is sticky.");
+i(<item:supplementaries:bomb>, "Can be thrown, explodes on contact for explosive damage without breaking blocks.");
 
 s = "Works like a normal wooden one when unpowered. When powered, ignores interactions.";
 i(<item:supplementaries:gold_door>, s);

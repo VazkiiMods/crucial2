@@ -50,11 +50,11 @@
 		netherite_door = true
 		sconce_soul = true
 		candle_holder = false
-		#WIP
 		flag = false
 		rope = false
 		notice_board = true
 		redstone_illuminator = true
+		crimson_lantern = true
 		lock_block = false
 		flax = false
 		planter = true

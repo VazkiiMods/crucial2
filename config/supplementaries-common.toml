@@ -2,6 +2,10 @@
 #Server side blocks configs
 [blocks]
 
+	[blocks.blackboard]
+		#enable to draw directly on a blackboard using any dye. Gui still only works in black and white
+		colored_blackboard = false
+
 	[blocks.turn_table]
 		#can rotate entities standing on it?
 		rotate_entities = true
@@ -18,6 +22,11 @@
 		cage_allow_all_mobs = false
 		#additional mobs that you'll be able to catch with the added condition that it has to be a baby variant. No need to include the ones already in cage_mobs
 		cage_baby_mobs = ["minecraft:cow", "minecraft:sheep", "minecraft:pig"]
+
+	[blocks.candle_holder]
+		#candle holder light level
+		#Range: 1 ~ 15
+		light_level = 12
 
 	[blocks.speaker_block]
 		#maximum range
@@ -115,11 +124,18 @@
 		weight = 3
 
 	[spawns.structures]
-		#enable experimental road sign structures. This will likely change in the nar future
-		experimental_road_signs = true
-		#the higher this number is the less sign posts you'll find
-		#Range: 1 ~ 2000
-		rarity = 80
+
+		[spawns.structures.road_sign]
+			#average distance apart in chunks between spawn attempts
+			#Range: 0 ~ 200
+			average_distance = 18
+			#with this option road signs will display the distance to the structure that they are pointing to
+			show_distance_text = true
+			#list of structure that a sign can point to. Note that they will only spawn in dimensions where vanilla villages can
+			villages = ["minecraft:village", "repurposed_structures:village_badlands", "repurposed_structures:village_dark_oak", "repurposed_structures:village_birch", "repurposed_structures:village_giant_taiga", "repurposed_structures:village_jungle", "repurposed_structures:village_mountains", "repurposed_structures:village_oak", "repurposed_structures:village_swamp", "pokecube:village", "pokecube_legends:village", "pokecube_legends:village/ocean", "valhelsia_structures:castle", "valhelsia_structures:castle_ruin", "valhelsia_structures:small_castle", "valhelsia_structures:tower_ruin"]
+			#minimum distance apart in chunks between spawn attempts
+			#Range: 0 ~ 200
+			minimum_distance = 9
 
 #entities parameters
 [entities]
