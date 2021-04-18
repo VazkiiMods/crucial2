@@ -1,9 +1,19 @@
 
-[entities]
+[mobs]
 	#Range: 0 ~ 255
 	"Deeper max spawn height" = 60
 	"Creeper explosions destroy blocks" = false
 
-[worldgen]
-	"Large emerald veins" = true
+[world]
+
+	[world.generation]
+		"Large emerald veins" = true
+
+[tweaks]
+
+	[tweaks.rails]
+		#Rails can be placed in the direction you're looking at by clicking on another rail, similar to scaffolding
+		"Better rail placement" = true
+		#The range in blocks that better rail placement can reach
+		"Placement range" = 7
 
