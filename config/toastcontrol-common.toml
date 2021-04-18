@@ -12,7 +12,7 @@
 		#If all vanilla toasts are blocked.
 		global_vanilla = false
 		#If advancement toasts are blocked.
-		advancements = true
+		advancements = false
 		#If system toasts are blocked.
 		system = false
 		#If all non-vanilla toasts are blocked.

@@ -17,7 +17,7 @@
 	#Enable Clyde Lantern
 	clyde_lantern = false
 	#Enable Yellow Ornament Soul Lantern
-	ornament_yellow_soul_lantern = true
+	ornament_yellow_soul_lantern = false
 	#Enable Brown Paper Soul Lantern
 	paper_brown_soul_lantern = true
 	#Enable Pac-Man Soul Lantern
@@ -25,7 +25,7 @@
 	#Enable Magenta Paper Soul Lantern
 	paper_magenta_soul_lantern = true
 	#Enable Black Ornament Soul Lantern
-	ornament_black_soul_lantern = true
+	ornament_black_soul_lantern = false
 	#Enable Zombie Lantern
 	zombie_lantern = false
 	#Enable Jellyfish Soul Lantern depends on mod: jellyfishing
@@ -37,15 +37,15 @@
 	#Enable Pufferfish Lantern
 	pufferfish_lantern = false
 	#Enable Light Blue Ornament Soul Lantern
-	ornament_light_blue_soul_lantern = true
+	ornament_light_blue_soul_lantern = false
 	#Enable Brown Paper Lantern
 	paper_brown_lantern = true
 	#Enable Zombie Soul Lantern
 	zombie_soul_lantern = false
 	#Enable Red Ornament Lantern
-	ornament_red_lantern = true
+	ornament_red_lantern = false
 	#Enable Purple Ornament Lantern
-	ornament_purple_lantern = true
+	ornament_purple_lantern = false
 	#Enable Blinky Lantern
 	blinky_lantern = false
 	#Enable Purple Paper Soul Lantern
@@ -53,21 +53,21 @@
 	#Enable Green Present Soul Lantern
 	present_green_soul_lantern = false
 	#Enable Light Blue Ornament Lantern
-	ornament_light_blue_lantern = true
+	ornament_light_blue_lantern = false
 	#Enable Orange Ornament Lantern
-	ornament_orange_lantern = true
+	ornament_orange_lantern = false
 	#Enable Purple Paper Lantern
 	paper_purple_lantern = true
 	#Enable Red Present Soul Lantern
 	present_red_soul_lantern = false
 	#Enable Cyan Ornament Lantern
-	ornament_cyan_lantern = true
+	ornament_cyan_lantern = false
 	#Enable Orange Paper Lantern
 	paper_orange_lantern = true
 	#Enable Inky Lantern
 	inky_lantern = false
 	#Enable Red Ornament Soul Lantern
-	ornament_red_soul_lantern = true
+	ornament_red_soul_lantern = false
 	#Enable Gray Paper Soul Lantern
 	paper_gray_soul_lantern = true
 	#Enable Cyan Paper Lantern
@@ -77,9 +77,9 @@
 	#Enable Red Paper Lantern
 	paper_lantern = true
 	#Enable Green Ornament Soul Lantern
-	ornament_green_soul_lantern = true
+	ornament_green_soul_lantern = false
 	#Enable Lime Ornament Soul Lantern
-	ornament_lime_soul_lantern = true
+	ornament_lime_soul_lantern = false
 	#Enable Ghost Lantern
 	ghost_lantern = false
 	#Enable Slime Lantern
@@ -91,13 +91,13 @@
 	#Enable Lime Paper Soul Lantern
 	paper_lime_soul_lantern = true
 	#Enable Blue Ornament Lantern
-	ornament_blue_lantern = true
+	ornament_blue_lantern = false
 	#Enable Light Gray Paper Soul Lantern
 	paper_light_gray_soul_lantern = true
 	#Enable Yellow Paper Lantern
 	paper_yellow_lantern = true
 	#Enable Gray Ornament Soul Lantern
-	ornament_gray_soul_lantern = true
+	ornament_gray_soul_lantern = false
 	#Enable Green Paper Soul Lantern
 	paper_green_soul_lantern = true
 	#Enable Magenta Paper Lantern
@@ -117,19 +117,19 @@
 	#Enable Blue Jellyfish Soul Lantern depends on mod: jellyfishing
 	blue_jellyfish_soul_lantern = true
 	#Enable Brown Ornament Soul Lantern
-	ornament_brown_soul_lantern = true
+	ornament_brown_soul_lantern = false
 	#Enable Cyan Ornament Soul Lantern
-	ornament_cyan_soul_lantern = true
+	ornament_cyan_soul_lantern = false
 	#Enable Black Ornament Lantern
-	ornament_black_lantern = true
+	ornament_black_lantern = false
 	#Enable Blue Ornament Soul Lantern
-	ornament_blue_soul_lantern = true
+	ornament_blue_soul_lantern = false
 	#Enable Orange Ornament Soul Lantern
-	ornament_orange_soul_lantern = true
+	ornament_orange_soul_lantern = false
 	#Enable Pink Paper Lantern
 	paper_pink_lantern = true
 	#Enable Light Gray Ornament Lantern
-	ornament_light_gray_lantern = true
+	ornament_light_gray_lantern = false
 	#Enable Gray Paper Lantern
 	paper_gray_lantern = true
 	#Enable White Paper Soul Lantern
@@ -143,17 +143,17 @@
 	#Enable Lime Paper Lantern
 	paper_lime_lantern = true
 	#Enable Brown Ornament Lantern
-	ornament_brown_lantern = true
+	ornament_brown_lantern = false
 	#Enable Wither Skeleton Soul Lantern
 	wither_skeleton_soul_lantern = true
 	#Enable Magenta Ornament Soul Lantern
-	ornament_magenta_soul_lantern = true
+	ornament_magenta_soul_lantern = false
 	#Enable White Paper Lantern
 	paper_white_lantern = true
 	#Enable Snowman Soul Lantern
 	snowman_soul_lantern = false
 	#Enable Light Gray Ornament Soul Lantern
-	ornament_light_gray_soul_lantern = true
+	ornament_light_gray_soul_lantern = false
 	#Enable Jellyfish Lantern depends on mod: jellyfishing
 	jellyfish_lantern = true
 	#Enable Blinky Soul Lantern
@@ -161,11 +161,11 @@
 	#Enable Clyde Soul Lantern
 	clyde_soul_lantern = false
 	#Enable Magenta Ornament Lantern
-	ornament_magenta_lantern = true
+	ornament_magenta_lantern = false
 	#Enable Pink Paper Soul Lantern
 	paper_pink_soul_lantern = true
 	#Enable Pink Ornament Lantern
-	ornament_pink_lantern = true
+	ornament_pink_lantern = false
 	#Enable Pac-Man Lantern
 	pacman_lantern = false
 	#Enable Bee Soul Lantern
@@ -183,7 +183,7 @@
 	#Enable Bee Lantern
 	bee_lantern = false
 	#Enable Gray Ornament Lantern
-	ornament_gray_lantern = true
+	ornament_gray_lantern = false
 	#Enable Light Blue Paper Soul Lantern
 	paper_light_blue_soul_lantern = true
 	#Enable Honey Lantern
@@ -197,21 +197,21 @@
 	#Enable Jack o'Lantern Lantern
 	jack_o_lantern_lantern = false
 	#Enable Green Ornament Lantern
-	ornament_green_lantern = true
+	ornament_green_lantern = false
 	#Enable Red Paper Soul Lantern
 	paper_soul_lantern = true
 	#Enable Jack o'Lantern Ender Lantern depends on mod: endergetic
 	jack_o_lantern_ender_lantern = false
 	#Enable Lime Ornament Lantern
-	ornament_lime_lantern = true
+	ornament_lime_lantern = false
 	#Enable Skeleton Lantern
 	skeleton_lantern = true
 	#Enable Pink Ornament Soul Lantern
-	ornament_pink_soul_lantern = true
+	ornament_pink_soul_lantern = false
 	#Enable Yellow Ornament Lantern
-	ornament_yellow_lantern = true
+	ornament_yellow_lantern = false
 	#Enable Purple Ornament Soul Lantern
-	ornament_purple_soul_lantern = true
+	ornament_purple_soul_lantern = false
 	#Enable Light Blue Paper Lantern
 	paper_light_blue_lantern = true
 	#Enable Pinky Lantern
@@ -219,9 +219,9 @@
 	#Enable Blue Paper Soul Lantern
 	paper_blue_soul_lantern = true
 	#Enable White Ornament Soul Lantern
-	ornament_white_soul_lantern = true
+	ornament_white_soul_lantern = false
 	#Enable White Ornament Lantern
-	ornament_white_lantern = true
+	ornament_white_lantern = false
 	#Enable Orange Paper Soul Lantern
 	paper_orange_soul_lantern = true
 	#Enable Skeleton Ender Lantern depends on mod: endergetic
