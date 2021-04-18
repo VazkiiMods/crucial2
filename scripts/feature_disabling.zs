@@ -112,6 +112,9 @@ craftingTable.removeRecipe(<item:skinnedlanterns:ornament_yellow_lantern_block>)
 craftingTable.removeRecipe(<item:skinnedlanterns:ornament_yellow_soul_lantern_block>);
 
 craftingTable.removeRecipe(<item:alexsmobs:fish_oil>);
+craftingTable.removeRecipe(<item:alexsmobs:poison_bottle>);
+craftingTable.removeRecipe(<item:alexsmobs:komodo_spit_bottle>);
+craftingTable.removeRecipe(<item:alexsmobs:centipede_leggings>);
 
 craftingTable.removeRecipe(<item:paraglider:spirit_orb>);
 craftingTable.removeRecipe(<item:paraglider:horned_statue>);
