@@ -676,3 +676,8 @@ i(<item:supplementaries:netherite_trapdoor>, s);
 i(<item:paraglider:paraglider>, "Can be found on Wild Tower chests only. When held, right click to glide.");
 
 i(<item:bundlesplus:bundle>, "Works like a 1.17 Bundle, add items by right clicking them onto it and right click to take out. Can hold up to 64 items. Items with lower max stack sizes count proportionally (e.g. Ender Pearls, which stack to 16 count as 4 items)");
+
+i(<item:conjurer_illager:conjurer_hat>, "This is the trademark accessory of the Conjurer illager, who resides in its theatre, located in Dark Forests. While worn, it keeps Bad Omens away.");
+
+i(<item:frozenup:frozen_truffle>, "Chilloos are known to scavenge this and other crops from the ground. You can find these creatures in cold biomes and use the Frozen Truffles to tame them.");
+i(<item:frozenup:chilloo_feather>, "Chilloos shed their feathers occasionally. You can find them in cold biomes and tame them with Frozen Truffles.");

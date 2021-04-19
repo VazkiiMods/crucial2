@@ -872,6 +872,10 @@
 		"quark:dirt_bricks",
 		"quark:netherrack_bricks",
 		"quark:vanilla_basalt_bricks",
-		"decorative_blocks:rocky_dirt"
+		"decorative_blocks:rocky_dirt",
+		"frozenup:chilloo_feather_block",
+		"frozenup:chilloo_feather_lamp",
+		"peculiars:aloe_ice_cream_block",
+		"neapolitan:adzuki_ice_cream_block"
 	]
 }

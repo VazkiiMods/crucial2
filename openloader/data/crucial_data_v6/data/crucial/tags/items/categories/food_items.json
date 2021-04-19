@@ -227,7 +227,6 @@
 		"peculiars:aloe_berry_smoothie",
 		"peculiars:aloe_cake",
 		"peculiars:aloe_ice_cream",
-		"peculiars:aloe_ice_cream_block",
 		"peculiars:aloe_jelly_slice",
 		"peculiars:aloe_milkshake",
 		"peculiars:passionfruit_cake",
@@ -250,7 +249,6 @@
 		"neapolitan:adzuki_ice_cream",
 		"neapolitan:adzuki_milkshake",
 		"neapolitan:adzuki_stew",
-		"neapolitan:adzuki_ice_cream_block",
 		"neapolitan:cooked_mint_chops",
 		"neapolitan:mint_cake",
 		"neapolitan:mint_candies",
@@ -287,6 +285,12 @@
 		"farmersdelight:shepherds_pie_block",
 		"abnormals_delight:perch_slice",
 		"abnormals_delight:cooked_perch_slice",
-		"abnormals_delight:escargot"
+		"abnormals_delight:escargot",
+		"frozenup:truffle",
+		"frozenup:truffle_muffin",
+		"frozenup:mug_of_milk",
+		"frozenup:mug_of_chocolate_milk",
+		"frozenup:mug_of_truffle_hot_chocolate",
+		"frozenup:truffle_cake"
 	]
 }
