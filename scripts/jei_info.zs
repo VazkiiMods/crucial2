@@ -345,11 +345,10 @@ i(<item:chimes:bamboo_chimes>, s);
 i(<item:chimes:metal_chimes>, s);
 
 // Traveller's Armor
-s = "Elusive Traveller's Armor. Perhaps you'll come across it in your travels...";
-i(<item:environmental:architect_belt>, s);
-i(<item:environmental:healer_pouch>, s);
-i(<item:environmental:thief_hood>, s);
-i(<item:environmental:wanderer_boots>, s);
+i(<item:environmental:architect_belt>, "Part of the Traveller's Armor set. Can be bought by master level Masons, Carpenters, or Ceramists and leveled up with use.");
+i(<item:environmental:healer_pouch>, "Part of the Traveller's Armor set. Can be acquired by killing mobs in basic abandoned Mineshafts and leveled up with use.");
+i(<item:environmental:thief_hood>, "Part of the Traveller's Armor set. Can be acquired rarely by killing Skeletons or Wither Skeletons and leveled up with use.");
+i(<item:environmental:wanderer_boots>, "Part of the Traveller's Armor set. Can be purchased from the Wandering Trader and leveled up with use.");
 
 // Maple Forest Features
 s = "This spawns in Maple Forests.";
@@ -410,7 +409,7 @@ i(<item:environmental:giant_lily_pad>, s);
 
 i(<item:environmental:cattail_seeds>, "Get by right clicking grown Cattails. Can also be planted, but they'll only grow on farmland underwater.");
 i(<item:environmental:cherries>, "Can drop from Cherry Tree leaves like apples.");
-i(<item:environmental:slabfish_effigy>, "haha funny slabfish mod");
+i(<item:environmental:slabfish_effigy>, "Can hold up to one item inside it, has no other purpose other than that and looking cool.");
 i(<item:environmental:kiln>, "It's faster at smelting anything a smoker and blast furnace can't. It's also the Ceramist villager workstation.");
 i(<item:environmental:sawmill>, "Cuts wood like a stonecutter. It's also the Carpenter villager workstation.");
 
@@ -505,7 +504,6 @@ i(<item:farmersdelight:cutting_board>, "Right click with an item and a knife to 
 i(<item:minecraft:poisonous_potato>, "Feeding this to a baby animal may poison it and prevent it from growing.");
 i(<item:minecraft:shulker_shell>, "Endermites can burrow into Purpur blocks, creating new Shulkers.");
 i(<item:minecraft:cobweb>, "Dropped by Wrapped, which can only spawn on Cobbedstone.");
-i(<item:minecraft:chain>, "Can be used to link minecarts and boats together. Can also connect blocks when pushed by pistons.");
 
 // Quark Items
 s = "Spawns in the Outer End. Teleports when touched, if touched a mob, can spawn endermites or spread.";
@@ -681,3 +679,9 @@ i(<item:conjurer_illager:conjurer_hat>, "This is the trademark accessory of the 
 
 i(<item:frozenup:frozen_truffle>, "Chilloos are known to scavenge this and other crops from the ground. You can find these creatures in cold biomes and use the Frozen Truffles to tame them.");
 i(<item:frozenup:chilloo_feather>, "Chilloos shed their feathers occasionally. You can find them in cold biomes and tame them with Frozen Truffles.");
+
+i(<item:alexsmobs:music_disc_thime>, "Can be acquired from bartering with Seals. Consult an Animal Dictionary for more information.");
+i(<item:environmental:music_disc_leaving_home>, "Can be acquired by having a Skeleton kill a Wandering Trader.");
+i(<item:environmental:music_disc_slabrave>, "Can be acquired by giving another Music Disc to a Slabfish.");
+i(<item:endergetic:music_disc_kilobyte>, "Can be acquired from chests in End Cities.");
+i(<item:berry_good:music_disc_fox>, "Can be acquired from Foxes, who randomly spawn with it in their mouths.");
