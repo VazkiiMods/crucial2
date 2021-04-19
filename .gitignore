@@ -9,3 +9,4 @@
 !/ship/
 !/.gitignore
 /ship/output
+*.pyc
