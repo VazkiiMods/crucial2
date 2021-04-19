@@ -12,6 +12,8 @@ var booflo_hide = <item:endergetic:booflo_hide>;
 var book = <item:minecraft:book>;
 var brick = <tag:items:forge:ingots/brick>;
 var bundle = <item:bundlesplus:bundle>;
+var candelabra = <item:supplementaries:candelabra>;
+var candles = <tag:items:buzzier_bees:candles>;
 var canvas = <item:farmersdelight:canvas>;
 var clay = <item:minecraft:clay>;
 var clay_ball = <item:minecraft:clay_ball>;
@@ -25,6 +27,7 @@ var globe = <item:supplementaries:globe>;
 var globe_pattern = <item:minecraft:globe_banner_pattern>;
 var glowing_glass_item_frame = <item:quark:glowing_glass_item_frame>;
 var glowing_ink_sac = <item:upgrade_aquatic:glowing_ink_sac>;
+var gold_ingot = <tag:items:forge:ingots/gold>;
 var grimwood_sapling = <item:atmospheric:grimwood_sapling>;
 var honeycomb = <item:minecraft:honeycomb>;
 var iron_ingot = <tag:items:forge:ingots/iron>;
@@ -153,3 +156,11 @@ craftingTable.addShapeless("tater",
 craftingTable.addShapeless("tater_soul", 
 		<item:skinnedlanterns:tiny_potato_soul_lantern_block>,
 		[soul_lantern, potato, nether_star, clay_ball]);
+
+// Candelabra Candles
+craftingTable.removeRecipe(candelabra);
+craftingTable.addShaped("candelabra_candles", 
+		candelabra, 
+		[[candles, candles, candles],
+		 [gold_ingot, gold_ingot, gold_ingot],
+		 [air, gold_ingot, air]]);
