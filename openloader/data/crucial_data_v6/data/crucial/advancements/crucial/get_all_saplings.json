@@ -1,0 +1,340 @@
+{
+  "parent": "minecraft:end/find_end_city",
+  "display": {
+    "icon": {
+      "item": "atmospheric:grimwood_sapling"
+    },
+    "title": {
+      "translate": "advancement.crucial.get_all_saplings"
+    },
+    "description": {
+      "translate": "advancement.crucial.get_all_saplings.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_sapling"
+          }
+        ]
+      }
+    },
+    "spruce_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_sapling"
+          }
+        ]
+      }
+    },
+    "birch_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_sapling"
+          }
+        ]
+      }
+    },
+    "jungle_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_sapling"
+          }
+        ]
+      }
+    },
+    "acacia_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:acacia_sapling"
+          }
+        ]
+      }
+    },
+    "dark_oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dark_oak_sapling"
+          }
+        ]
+      }
+    },
+    "crimson_fungus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crimson_fungus"
+          }
+        ]
+      }
+    },
+    "warped_fungus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:warped_fungus"
+          }
+        ]
+      }
+    },
+    "brown_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_mushroom"
+          }
+        ]
+      }
+    },
+    "red_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_mushroom"
+          }
+        ]
+      }
+    },
+    "willow_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "environmental:willow_sapling"
+          }
+        ]
+      }
+    },
+    "cherry_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "environmental:cherry_sapling"
+          }
+        ]
+      }
+    },
+    "pink_wisteria_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "environmental:pink_wisteria_sapling"
+          }
+        ]
+      }
+    },
+    "blue_wisteria_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "environmental:blue_wisteria_sapling"
+          }
+        ]
+      }
+    },
+    "purple_wisteria_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "environmental:purple_wisteria_sapling"
+          }
+        ]
+      }
+    },
+    "white_wisteria_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "environmental:white_wisteria_sapling"
+          }
+        ]
+      }
+    },
+    "rosewood_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "atmospheric:rosewood_sapling"
+          }
+        ]
+      }
+    },
+    "morado_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "atmospheric:morado_sapling"
+          }
+        ]
+      }
+    },
+    "yucca_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "atmospheric:yucca_sapling"
+          }
+        ]
+      }
+    },
+    "kousa_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "atmospheric:kousa_sapling"
+          }
+        ]
+      }
+    },
+    "aspen_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "atmospheric:aspen_sapling"
+          }
+        ]
+      }
+    },
+    "grimwood_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "atmospheric:grimwood_sapling"
+          }
+        ]
+      }
+    },
+    "red_maple_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "autumnity:red_maple_sapling"
+          }
+        ]
+      }
+    },
+    "orange_maple_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "autumnity:orange_maple_sapling"
+          }
+        ]
+      }
+    },
+    "yellow_maple_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "autumnity:yellow_maple_sapling"
+          }
+        ]
+      }
+    },
+    "maple_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "autumnity:maple_sapling"
+          }
+        ]
+      }
+    },
+    "river_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "upgrade_aquatic:river_sapling"
+          }
+        ]
+      }
+    },
+    "jacaranda_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "abundance:jacaranda_sapling"
+          }
+        ]
+      }
+    },
+    "redbud_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "abundance:redbud_sapling"
+          }
+        ]
+      }
+    },
+    "flowering_redbud_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "abundance:flowering_redbud_sapling"
+          }
+        ]
+      }
+    },
+    "cypress_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bayou_blues:cypress_sapling"
+          }
+        ]
+      }
+    },
+    "glowshroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "quark:glowshroom"
+          }
+        ]
+      }
+    }
+  }
+}

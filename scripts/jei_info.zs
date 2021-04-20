@@ -437,6 +437,7 @@ i(<item:neapolitan:mint_sprout>, "Found in patches in Mountain Biomes.");
 i(<item:neapolitan:white_strawberries>, "Can be gotten by growing strawberries at high altitudes (Y > 200).");
 i(<item:neapolitan:vanilla_pods>, "Found in patches in Plains Savannas. Grows taller if there's adjacent solid blocks.");
 i(<item:neapolitan:ice_cubes>, "Drop from ice if broken without Silk Touch.");
+i(<item:neapolitan:magic_beans>, "Can be planted to grow large beanstalks.");
 
 // Savage & Ravage
 i(<item:savageandravage:creeper_spores>, "Drops when a Creeper blows another Creeper up. Try throwing it to make friends!");
@@ -608,6 +609,7 @@ i(<item:charm:sugar_block>, "Falls like sand or gravel, and dissolves into air i
 i(<item:charm:netherite_nugget>, "Can be used to reset item repair cost in an anvil.");
 
 i(<item:environmental:koi_bucket>, "When near a Koi fish, players are given a Serenity effect, which prevents nearby mob spawns. Find these fish in Blossom Highlands.");
+i(<item:environmental:slabfish_bucket>, "Slabfish can be found in Swamps and Marshes, and tamed using Tropical Fish.");
 
 i(<item:inspirations:charged_arrow>, "Produces a 1 second long redstone signal if it hits a block.");
 i(<item:inspirations:north_compass>, "Always points to the north.");

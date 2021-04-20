@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:adventure/sleep_in_bed",
+  "display": {
+    "icon": {
+      "item": "quark:bottled_cloud"
+    },
+    "title": {
+      "translate": "advancement.crucial.get_bottled_cloud"
+    },
+    "description": {
+      "translate": "advancement.crucial.get_bottled_cloud.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bottled_cloud": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "quark:bottled_cloud"
+          }
+        ]
+      }
+    }
+  }
+}

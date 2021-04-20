@@ -1,0 +1,150 @@
+{
+  "parent": "atmospheric:husbandry/finish_gateau",
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "title": {
+      "translate": "advancement.crucial.get_all_cakes"
+    },
+    "description": {
+      "translate": "advancement.crucial.get_all_cakes.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cake"
+          }
+        ]
+      }
+    },
+    "chocolate_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "neapolitan:chocolate_cake"
+          }
+        ]
+      }
+    },
+    "strawberry_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "neapolitan:strawberry_cake"
+          }
+        ]
+      }
+    },
+    "vanilla_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "neapolitan:vanilla_cake"
+          }
+        ]
+      }
+    },
+    "banana_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "neapolitan:banana_cake"
+          }
+        ]
+      }
+    },
+    "mint_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "neapolitan:mint_cake"
+          }
+        ]
+      }
+    },
+    "adzuki_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "neapolitan:adzuki_cake"
+          }
+        ]
+      }
+    },
+    "yucca_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "peculiars:yucca_cake"
+          }
+        ]
+      }
+    },
+    "aloe_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "peculiars:aloe_cake"
+          }
+        ]
+      }
+    },
+    "passionfruit_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "peculiars:passionfruit_cake"
+          }
+        ]
+      }
+    },
+    "pumpkin_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "seasonals:pumpkin_cake"
+          }
+        ]
+      }
+    },
+    "sweet_berry_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "seasonals:sweet_berry_cake"
+          }
+        ]
+      }
+    },
+    "truffle_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "frozenup:truffle_cake"
+          }
+        ]
+      }
+    }
+  }
+}
