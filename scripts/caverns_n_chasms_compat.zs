@@ -29,6 +29,7 @@ var quark_mossycobblebrick = <item:quark:mossy_cobblestone_bricks>;
 # Remove Overlapping Content
 craftingTable.removeRecipe(<item:caverns_and_chasms:golden_bars>);
 craftingTable.removeRecipe(<item:caverns_and_chasms:golden_lantern>);
+craftingTable.removeRecipe(<item:caverns_and_chasms:rocky_dirt>);
 
 # Edit Overlapping Content
 craftingTable.removeRecipe(cc_cobblebrick);
@@ -69,7 +70,6 @@ tag.add(<item:caverns_and_chasms:sugilite_lamp>);
 tag.add(<item:caverns_and_chasms:lapis_bricks>);
 tag.add(<item:caverns_and_chasms:lapis_pillar>);
 tag.add(<item:caverns_and_chasms:lapis_lamp>);
-tag.add(<item:caverns_and_chasms:rocky_dirt>);
 tag.add(<item:caverns_and_chasms:dirt_bricks>);
 tag.add(<item:caverns_and_chasms:dirt_tiles>);
 tag.add(<item:caverns_and_chasms:cobblestone_tiles>);
