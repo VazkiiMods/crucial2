@@ -11,6 +11,8 @@ println("Chaverns & Chasms detected. Loading C&C Compat!");
 // INTEGRATION ======================
 
 var blaze_powder = <item:minecraft:blaze_powder>;
+var cc_cobblebrick = <item:caverns_and_chasms:cobblestone_bricks>;
+var cc_mossycobblebrick = <item:caverns_and_chasms:mossy_cobblestone_bricks>;
 var chest = <tag:items:forge:chests/wooden>;
 var crate = <item:quark:crate>;
 var emerald = <item:minecraft:emerald>;
@@ -21,10 +23,24 @@ var planks = <tag:items:minecraft:planks>;
 var prismarine_crystals = <item:minecraft:prismarine_crystals>;
 var silver = <tag:items:forge:ingots/silver>;
 var sugilite = <item:caverns_and_chasms:sugilite>;
+var quark_cobblebrick = <item:quark:cobblestone_bricks>;
+var quark_mossycobblebrick = <item:quark:mossy_cobblestone_bricks>;
 
 # Remove Overlapping Content
 craftingTable.removeRecipe(<item:caverns_and_chasms:golden_bars>);
 craftingTable.removeRecipe(<item:caverns_and_chasms:golden_lantern>);
+
+# Edit Overlapping Content
+craftingTable.removeRecipe(cc_cobblebrick);
+craftingTable.addShaped("cc_cobblebrick_compat", 
+		cc_cobblebrick * 4,  
+		[[quark_cobblebrick, quark_cobblebrick],
+		 [quark_cobblebrick, quark_cobblebrick]]);
+craftingTable.removeByName("caverns_and_chasms:cobblestone/mossy_cobblestone_bricks/mossy_cobblestone_bricks");
+craftingTable.addShaped("cc_mossycobblebrick_compat", 
+		cc_mossycobblebrick * 4,  
+		[[quark_mossycobblebrick, quark_mossycobblebrick],
+		 [quark_mossycobblebrick, quark_mossycobblebrick]]);
 
 # Crate uses Silver
 craftingTable.removeRecipe(crate);
