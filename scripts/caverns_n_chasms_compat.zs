@@ -15,6 +15,7 @@ var cc_cobblebrick = <item:caverns_and_chasms:cobblestone_bricks>;
 var cc_dirtbrick = <item:caverns_and_chasms:dirt_bricks>;
 var cc_mossycobblebrick = <item:caverns_and_chasms:mossy_cobblestone_bricks>;
 var chest = <tag:items:forge:chests/wooden>;
+var cobble = <item:minecraft:cobblestone>;
 var crate = <item:quark:crate>;
 var dirt = <item:minecraft:dirt>;
 var emerald = <item:minecraft:emerald>;
@@ -32,7 +33,6 @@ var quark_mossycobblebrick = <item:quark:mossy_cobblestone_bricks>;
 # Remove Overlapping Content
 craftingTable.removeRecipe(<item:caverns_and_chasms:golden_bars>);
 craftingTable.removeRecipe(<item:caverns_and_chasms:golden_lantern>);
-craftingTable.removeRecipe(<item:caverns_and_chasms:rocky_dirt>);
 
 # Edit Overlapping Content
 craftingTable.removeRecipe(cc_cobblebrick);
@@ -55,6 +55,15 @@ craftingTable.addShaped("cc_mossycobblebrick_compat",
 		cc_mossycobblebrick * 4,  
 		[[quark_mossycobblebrick, quark_mossycobblebrick],
 		 [quark_mossycobblebrick, quark_mossycobblebrick]]);
+
+# Change Deco. Blocks Rocky Dirt to be like C&C Rocky Dirt
+craftingTable.removeRecipe(<item:caverns_and_chasms:rocky_dirt>);
+craftingTable.removeByName("decorative_blocks:dirt_from_rocky_dirt");
+craftingTable.removeByName("decorative_blocks:rocky_dirt");
+craftingTable.addShaped("rockier_dirt",
+		<item:decorative_blocks:rocky_dirt> * 4,
+		[[dirt, cobble],
+		 [cobble, dirt]]);
 
 # Crate uses Silver
 craftingTable.removeRecipe(crate);
