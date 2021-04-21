@@ -12,9 +12,11 @@ println("Chaverns & Chasms detected. Loading C&C Compat!");
 
 var blaze_powder = <item:minecraft:blaze_powder>;
 var cc_cobblebrick = <item:caverns_and_chasms:cobblestone_bricks>;
+var cc_dirtbrick = <item:caverns_and_chasms:dirt_bricks>;
 var cc_mossycobblebrick = <item:caverns_and_chasms:mossy_cobblestone_bricks>;
 var chest = <tag:items:forge:chests/wooden>;
 var crate = <item:quark:crate>;
+var dirt = <item:minecraft:dirt>;
 var emerald = <item:minecraft:emerald>;
 var ender_eye = <item:minecraft:ender_eye>;
 var ender_pearl = <item:minecraft:ender_pearl>;
@@ -24,6 +26,7 @@ var prismarine_crystals = <item:minecraft:prismarine_crystals>;
 var silver = <tag:items:forge:ingots/silver>;
 var sugilite = <item:caverns_and_chasms:sugilite>;
 var quark_cobblebrick = <item:quark:cobblestone_bricks>;
+var quark_dirtbrick = <item:quark:dirt_bricks>;
 var quark_mossycobblebrick = <item:quark:mossy_cobblestone_bricks>;
 
 # Remove Overlapping Content
@@ -37,6 +40,16 @@ craftingTable.addShaped("cc_cobblebrick_compat",
 		cc_cobblebrick * 4,  
 		[[quark_cobblebrick, quark_cobblebrick],
 		 [quark_cobblebrick, quark_cobblebrick]]);
+craftingTable.removeRecipe(quark_dirtbrick);
+craftingTable.addShaped("quark_dirtbrick_compat", 
+		quark_dirtbrick * 4,  
+		[[dirt, dirt],
+		 [dirt, dirt]]);
+craftingTable.removeRecipe(cc_dirtbrick);
+craftingTable.addShaped("cc_dirtbrick_compat", 
+		cc_dirtbrick * 4,  
+		[[quark_dirtbrick, quark_dirtbrick],
+		 [quark_dirtbrick, quark_dirtbrick]]);
 craftingTable.removeByName("caverns_and_chasms:cobblestone/mossy_cobblestone_bricks/mossy_cobblestone_bricks");
 craftingTable.addShaped("cc_mossycobblebrick_compat", 
 		cc_mossycobblebrick * 4,  
