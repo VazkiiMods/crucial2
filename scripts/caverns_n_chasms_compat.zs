@@ -11,8 +11,12 @@ println("Chaverns & Chasms detected. Loading C&C Compat!");
 // INTEGRATION ======================
 
 var blaze_powder = <item:minecraft:blaze_powder>;
+var cc_cobblebrick = <item:caverns_and_chasms:cobblestone_bricks>;
+var cc_dirtbrick = <item:caverns_and_chasms:dirt_bricks>;
+var cc_mossycobblebrick = <item:caverns_and_chasms:mossy_cobblestone_bricks>;
 var chest = <tag:items:forge:chests/wooden>;
 var crate = <item:quark:crate>;
+var dirt = <item:minecraft:dirt>;
 var emerald = <item:minecraft:emerald>;
 var ender_eye = <item:minecraft:ender_eye>;
 var ender_pearl = <item:minecraft:ender_pearl>;
@@ -21,10 +25,36 @@ var planks = <tag:items:minecraft:planks>;
 var prismarine_crystals = <item:minecraft:prismarine_crystals>;
 var silver = <tag:items:forge:ingots/silver>;
 var sugilite = <item:caverns_and_chasms:sugilite>;
+var quark_cobblebrick = <item:quark:cobblestone_bricks>;
+var quark_dirtbrick = <item:quark:dirt_bricks>;
+var quark_mossycobblebrick = <item:quark:mossy_cobblestone_bricks>;
 
 # Remove Overlapping Content
 craftingTable.removeRecipe(<item:caverns_and_chasms:golden_bars>);
 craftingTable.removeRecipe(<item:caverns_and_chasms:golden_lantern>);
+craftingTable.removeRecipe(<item:caverns_and_chasms:rocky_dirt>);
+
+# Edit Overlapping Content
+craftingTable.removeRecipe(cc_cobblebrick);
+craftingTable.addShaped("cc_cobblebrick_compat", 
+		cc_cobblebrick * 4,  
+		[[quark_cobblebrick, quark_cobblebrick],
+		 [quark_cobblebrick, quark_cobblebrick]]);
+craftingTable.removeRecipe(quark_dirtbrick);
+craftingTable.addShaped("quark_dirtbrick_compat", 
+		quark_dirtbrick * 4,  
+		[[dirt, dirt],
+		 [dirt, dirt]]);
+craftingTable.removeRecipe(cc_dirtbrick);
+craftingTable.addShaped("cc_dirtbrick_compat", 
+		cc_dirtbrick * 4,  
+		[[quark_dirtbrick, quark_dirtbrick],
+		 [quark_dirtbrick, quark_dirtbrick]]);
+craftingTable.removeByName("caverns_and_chasms:cobblestone/mossy_cobblestone_bricks/mossy_cobblestone_bricks");
+craftingTable.addShaped("cc_mossycobblebrick_compat", 
+		cc_mossycobblebrick * 4,  
+		[[quark_mossycobblebrick, quark_mossycobblebrick],
+		 [quark_mossycobblebrick, quark_mossycobblebrick]]);
 
 # Crate uses Silver
 craftingTable.removeRecipe(crate);
@@ -53,7 +83,6 @@ tag.add(<item:caverns_and_chasms:sugilite_lamp>);
 tag.add(<item:caverns_and_chasms:lapis_bricks>);
 tag.add(<item:caverns_and_chasms:lapis_pillar>);
 tag.add(<item:caverns_and_chasms:lapis_lamp>);
-tag.add(<item:caverns_and_chasms:rocky_dirt>);
 tag.add(<item:caverns_and_chasms:dirt_bricks>);
 tag.add(<item:caverns_and_chasms:dirt_tiles>);
 tag.add(<item:caverns_and_chasms:cobblestone_tiles>);
