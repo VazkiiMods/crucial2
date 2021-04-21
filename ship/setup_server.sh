@@ -7,7 +7,7 @@ fi
 
 mkdir mods
 echo Downloading modpack files...
-cat mods.csv | sed -r 's/(.+),(.+)\r?/-c "wget -c \1 -O \2"/g' | xargs -n2 bash
+cat mods.csv | sed -r 's/\r//g' | sed -r 's/(.+),(.+)/-c "wget -c \1 -O \2"/g' | xargs -n2 bash
 
 echo Installing server...
 java -jar forge-installer.jar --installServer
