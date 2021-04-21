@@ -1,3 +1,268 @@
 [
-
+  {
+    "sealID": "crucial:miner",
+    "sealLangKey": "crucial.miner",
+    "requisites": [
+      "minecraft:story/upgrade_tools"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:stone_pickaxe"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:crafter",
+    "sealLangKey": "crucial.crafter",
+    "requisites": [
+      "minecraft:story/upgrade_tools"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:crafting_table"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:audiophile",
+    "sealLangKey": "crucial.audiophile",
+    "requisites": [
+      "crucial:crucial/get_all_music_discs"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "endergetic:music_disc_kilobyte"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:backstabber",
+    "sealLangKey": "crucial.backstabber",
+    "requisites": [
+      "minecraft:nether/uneasy_alliance"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:ghast_tear"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:breeder",
+    "sealLangKey": "crucial.breeder",
+    "requisites": [
+      "minecraft:husbandry/bred_all_animals"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:golden_carrot"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:concocted",
+    "sealLangKey": "crucial.concocted",
+    "requisites": [
+      "minecraft:nether/all_potions"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:milk_bucket"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:dedicated",
+    "sealLangKey": "crucial.dedicated",
+    "requisites": [
+      "minecraft:husbandry/obtain_netherite_hoe"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:netherite_hoe"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:dragonslayer",
+    "sealLangKey": "crucial.dragonslayer",
+    "requisites": [
+      "minecraft:end/kill_dragon"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:dragon_head"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:fortress",
+    "sealLangKey": "crucial.fortress",
+    "requisites": [
+      "minecraft:nether/netherite_armor"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:netherite_chestplate"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:globetrotter",
+    "sealLangKey": "crucial.globetrotter",
+    "requisites": [
+      "minecraft:adventure/adventuring_time"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "supplementaries:globe"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:glutton",
+    "sealLangKey": "crucial.glutton",
+    "requisites": [
+      "minecraft:husbandry/balanced_diet"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:apple"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:hero",
+    "sealLangKey": "crucial.hero",
+    "requisites": [
+      "minecraft:adventure/hero_of_the_village"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:emerald"
+      }
+    },
+    "invisible": true
+  },
+  {
+    "sealID": "crucial:hunter",
+    "sealLangKey": "crucial.hunter",
+    "requisites": [
+      "minecraft:adventure/kill_all_mobs"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:diamond_sword"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:marksman",
+    "sealLangKey": "crucial.marksman",
+    "requisites": [
+      "minecraft:adventure/two_birds_one_arrow"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:crossbow"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:returned",
+    "sealLangKey": "crucial.returned",
+    "requisites": [
+      "minecraft:adventure/totem_of_undying"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:totem_of_undying"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:sniper",
+    "sealLangKey": "crucial.sniper",
+    "requisites": [
+      "minecraft:adventure/sniper_duel"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:bow"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:suspended",
+    "sealLangKey": "crucial.suspended",
+    "requisites": [
+      "minecraft:end/levitate"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:shulker_shell"
+      }
+    },
+    "invisible": false
+  },
+  {
+    "sealID": "crucial:tater",
+    "sealLangKey": "crucial.tater",
+    "requisites": [
+      "crucial:crucial/get_tater"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "skinnedlanterns:tiny_potato_lantern_block"
+      }
+    },
+    "invisible": true
+  },
+  {
+    "sealID": "crucial:untouchable",
+    "sealLangKey": "crucial.untouchable",
+    "requisites": [
+      "minecraft:nether/return_to_sender"
+    ],
+    "icon": {
+      "type": "item",
+      "value": {
+        "stack": "minecraft:fire_charge"
+      }
+    },
+    "invisible": false
+  }
 ]

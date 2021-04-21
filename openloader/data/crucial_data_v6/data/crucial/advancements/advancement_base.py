@@ -2,8 +2,28 @@ import os, json
 
 namespace = 'crucial'
 
+seals = []
 known_parents = []
 known_advancements = ['root']
+
+def seal(id, adv, icon, invisible=False):
+	obj = {
+		'sealID': ('{}:{}'.format(namespace, id)),
+		'sealLangKey': ('{}.{}'.format(namespace, id)),
+		'requisites': [ adv ],
+		'icon': {
+			'type': 'item',
+			'value': {
+				'stack': icon
+			}
+		},
+		'invisible': invisible
+	}
+	seals.append(obj)
+
+def print_seals():
+	with open('seals.json', 'w') as out:
+		json.dump(seals, out, indent = 2, sort_keys = False)
 
 def fetch(name, icon, parent, targets=None, display_type='task'):
 	if not targets:

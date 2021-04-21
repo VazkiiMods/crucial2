@@ -1,0 +1,16 @@
+{
+	"name": "New Advancements",
+	"icon": "minecraft:grass_block",
+	"sortnum": 9,
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(thing)Crucial 2$() comes with several new $(item)Advancements$() to help give you new challenges.$(br2)Make sure to click on the $(item)Advancements$() button in the pause menu to check it out!$(br2)Also, you can now see what things are missing for advancements with multiple requirements by holding $(thing)Shift$()."
+		},
+        {
+			"type": "text",
+			"text": "On the left of the window, you'll also see a selection of buttons. These are $(item)Titles$(). Once you complete their linked advancements, you can click one, and it'll show under your name in multiplayer for other players!$(br2)$(#ff0000)$(bold)Known Bug!$(br)$()If you're playing on a large GUI scale, you may not be able to see every title. You can temporarily lower it to see them all."
+		}
+	]
+}

@@ -10,7 +10,7 @@
     "description": {
       "translate": "advancement.crucial.get_paraglider.desc"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

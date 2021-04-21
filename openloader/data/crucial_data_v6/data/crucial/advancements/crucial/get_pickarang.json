@@ -1,5 +1,5 @@
 {
-  "parent": "crucial:get_pickarang",
+  "parent": "crucial:crucial/get_diamond_heart",
   "display": {
     "icon": {
       "item": "quark:pickarang"
