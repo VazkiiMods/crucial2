@@ -525,7 +525,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 42
 			#Allowed values: [0,)
-			Rarity = 400
+			Rarity = 300
 			#Allowed values: [0,)
 			"Horizontal Variation" = 22
 			#Allowed values: [0,255]
@@ -565,7 +565,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 60
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -790,7 +790,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 50
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -942,7 +942,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 200
+			Rarity = 150
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -977,7 +977,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 50
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1009,7 +1009,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
 			#Allowed values: [0,255]
@@ -1037,7 +1037,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
 			#Allowed values: [0,255]
@@ -1065,7 +1065,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
 			#Allowed values: [0,255]
@@ -1144,7 +1144,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
 			#Allowed values: [0,255]
@@ -1172,7 +1172,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
 			#Allowed values: [0,255]
@@ -1200,7 +1200,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
 			#Allowed values: [0,255]
@@ -1228,7 +1228,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
 			#Allowed values: [0,255]
@@ -1258,7 +1258,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 60
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1287,7 +1287,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 50
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1316,7 +1316,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 60
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1345,7 +1345,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 50
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1424,7 +1424,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 120
+			Rarity = 90
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
