@@ -164,12 +164,3 @@ craftingTable.addShaped("candelabra_candles",
 		[[candles, candles, candles],
 		 [gold_ingot, gold_ingot, gold_ingot],
 		 [air, gold_ingot, air]]);
-
-// Rockier Dirt
-// Recipe inspired by Caverns & Chasms's Rocky Dirt
-craftingTable.removeByName("decorative_blocks:dirt_from_rocky_dirt");
-craftingTable.removeByName("decorative_blocks:rocky_dirt");
-craftingTable.addShaped("rockier_dirt",
-		<item:decorative_blocks:rocky_dirt> * 4,
-		[[<item:minecraft:dirt>, <item:minecraft:cobblestone>],
-		 [<item:minecraft:cobblestone>, <item:minecraft:dirt>]]);
