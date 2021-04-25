@@ -16,8 +16,9 @@ blacklisted_files = [
 
 server_files_to_copy = ['setup_server.bat', 'setup_server.sh']
 server_mods_blacklist = [
+	401648, # BetterF3
 	440465, # Panorama
-	238372 # Neat
+	238372
 ]
 server_blacklisted_files = [
 	'openloader/resources'
