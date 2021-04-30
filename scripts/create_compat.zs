@@ -1,3 +1,5 @@
+// Create integration provided by MobiusFlip
+
 #snip modnotloaded create
 import mods.jei.JEI as JEI;
 
