@@ -21,6 +21,9 @@
 	"Enable Stereo to Mono Conversion" = true
 	#Possible sounds to play when client reaches main game menu
 	"Startup Sound List" = ["minecraft:entity.experience_orb.pickup"]
+	#Number of streaming sound channels to configure
+	#Range: 8 ~ 16
+	"Streaming Sound Count" = 10
 
 #Defines parameters for special effects
 ["Effect Options"]
