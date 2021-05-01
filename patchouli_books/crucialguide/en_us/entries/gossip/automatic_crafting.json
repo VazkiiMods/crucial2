@@ -12,5 +12,6 @@
 			"type": "quest",
 			"text": "Find a way you can craft automatically."
 		}
-	]
+	],
+	"flag": "!mod:create"
 }
