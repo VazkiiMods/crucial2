@@ -346,7 +346,7 @@ i(<item:chimes:metal_chimes>, s);
 
 // Traveller's Armor
 i(<item:environmental:architect_belt>, "Part of the Traveller's Armor set. Can be bought by master level Masons, Carpenters, or Ceramists and leveled up with use.");
-i(<item:environmental:healer_pouch>, "Part of the Traveller's Armor set. Can be acquired by killing mobs in basic abandoned Mineshafts and leveled up with use.");
+i(<item:environmental:healer_pouch>, "Part of the Traveller's Armor set. Can be acquired via Piglin Bartering.");
 i(<item:environmental:thief_hood>, "Part of the Traveller's Armor set. Can be acquired rarely by killing Skeletons or Wither Skeletons and leveled up with use.");
 i(<item:environmental:wanderer_boots>, "Part of the Traveller's Armor set. Can be purchased from the Wandering Trader and leveled up with use.");
 
