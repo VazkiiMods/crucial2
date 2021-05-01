@@ -40,6 +40,7 @@ var oak_sapling = <item:minecraft:oak_sapling>;
 var ochre_kelp = <item:upgrade_aquatic:ochre_kelp>;
 var organic_compost = <item:farmersdelight:organic_compost>;
 var paper = <item:minecraft:paper>;
+var paraglider = <item:paraglider:paraglider>;
 var pipe = <item:quark:pipe>;
 var piston = <item:minecraft:piston>;
 var piston_launcher = <item:supplementaries:piston_launcher>;
@@ -164,3 +165,6 @@ craftingTable.addShaped("candelabra_candles",
 		[[candles, candles, candles],
 		 [gold_ingot, gold_ingot, gold_ingot],
 		 [air, gold_ingot, air]]);
+
+// Recycle Paraglider
+craftingTable.addShapeless("recycle_paraglider", canvas * 4, [paraglider]);
