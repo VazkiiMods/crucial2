@@ -50,5 +50,8 @@
 	"seal.crucial.sniper": "The Sniper",
 	"seal.crucial.suspended": "The Suspended",
 	"seal.crucial.tater": "Tater Fan",
-	"seal.crucial.untouchable": "The Untouchable"
+	"seal.crucial.untouchable": "The Untouchable",
+
+	"advancements.crucial.override.upgrade_healer_pouch.title": "Panic! At the Bastion",
+	"advancements.crucial.override.upgrade_healer_pouch.description": "Collect the Healer's Pouch rarely from Piglin Bartering and completely level it up"
 }
