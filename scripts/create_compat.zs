@@ -5,7 +5,7 @@
 import crafttweaker.api.events.CTEventManager;
 CTEventManager.register<crafttweaker.api.event.entity.player.MCPlayerLoggedInEvent>((event) => {
      var player = event.player;
-     player.sendMessage("You need create tweaker dummy");
+     player.sendMessage("You need create tweaker dummy: https://www.curseforge.com/minecraft/mc-mods/createtweaker");
 });
 #snip end
 
