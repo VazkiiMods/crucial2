@@ -1,4 +1,13 @@
 // Create integration provided by MobiusFlip
+#snip modnotloaded createtweaker
+
+#snip modloaded create
+import crafttweaker.api.events.CTEventManager;
+CTEventManager.register<crafttweaker.api.event.entity.player.MCPlayerLoggedInEvent>((event) => {
+     var player = event.player;
+     player.sendMessage("You need create tweaker dummy");
+});
+#snip end
 
 #snip modnotloaded create
 import mods.jei.JEI as JEI;
@@ -773,5 +782,6 @@ tag = <tag:items:crucial:categories/useful_items>;
 tag.add(<item:create:goggles>);
 tag.add(<item:create:super_glue>);
 tag.add(<item:create:wrench>);
+#snip end
 
 #snip end
