@@ -1,7 +1,7 @@
 // Create integration provided by MobiusFlip
-#snip modnotloaded createtweaker
+#snip modnotloaded create
 
-#snip modloaded create
+#snip modloaded createtweaker
 import crafttweaker.api.events.CTEventManager;
 CTEventManager.register<crafttweaker.api.event.entity.player.MCPlayerLoggedInEvent>((event) => {
      var player = event.player;
@@ -9,7 +9,7 @@ CTEventManager.register<crafttweaker.api.event.entity.player.MCPlayerLoggedInEve
 });
 #snip end
 
-#snip modnotloaded create
+#snip modnotloaded createtweaker
 import mods.jei.JEI as JEI;
 
 println("Create detected. Loading Create Compat!");
