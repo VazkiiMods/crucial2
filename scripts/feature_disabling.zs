@@ -32,18 +32,6 @@ var removeByItem = [
   <item:inspirations:barometer>,
   <item:inspirations:photometer>,
 
-  <item:skinnedlanterns:bee_lantern_block>,
-  <item:skinnedlanterns:bee_soul_lantern_block>,
-  <item:skinnedlanterns:blinky_lantern_block>,
-  <item:skinnedlanterns:blinky_soul_lantern_block>,
-  <item:skinnedlanterns:clyde_lantern_block>,
-  <item:skinnedlanterns:clyde_soul_lantern_block>,
-  <item:skinnedlanterns:creeper_lantern_block>,
-  <item:skinnedlanterns:creeper_soul_lantern_block>,
-  <item:skinnedlanterns:creeper_ender_lantern_block>,
-  <item:skinnedlanterns:ghost_lantern_block>,
-  <item:skinnedlanterns:ghost_soul_lantern_block>,
-
   <item:alexsmobs:fish_oil>,
   <item:alexsmobs:poison_bottle>,
   <item:alexsmobs:komodo_spit_bottle>,
