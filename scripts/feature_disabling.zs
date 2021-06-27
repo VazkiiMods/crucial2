@@ -3,22 +3,6 @@
 var removeByItem = [
   <item:environmental:apple_pie>,
 
-  <item:inspirations:bookshelf>,
-  <item:inspirations:ancient_bookshelf>,
-  <item:inspirations:white_enlightened_bush>,
-  <item:inspirations:red_enlightened_bush>,
-  <item:inspirations:green_enlightened_bush>,
-  <item:inspirations:blue_enlightened_bush>,
-  
-  <item:inspirations:brown_mulch>,
-  <item:inspirations:red_mulch>,
-  <item:inspirations:black_mulch>,
-  <item:inspirations:blue_mulch>,
-
-  <item:inspirations:rock_path>,
-  <item:inspirations:tile_path>,
-  <item:inspirations:brick_path>,
-
   <item:inspirations:rope>,
   <item:inspirations:vine>,
 
@@ -36,8 +20,6 @@ var removeByItem = [
   <item:alexsmobs:poison_bottle>,
   <item:alexsmobs:komodo_spit_bottle>,
   <item:alexsmobs:centipede_leggings>,
-
-  <item:waystones:warp_stone>,
 
   <item:decorative_winter:festive_chain>,
   <item:decorative_winter:frosty_wand>,
@@ -57,6 +39,11 @@ var removeByRecipe = [
 
 // used for skinned lanterns and deco blocks because typing them out is pain
 var removeByRegex = [
+  "inspirations:.*bookcase",
+  "inspirations:.*enlightened_bush",
+  "inspirations:.*mulch",
+  "inspirations:.*path",
+
   "skinnedlanterns:.*bee.*lantern_block",
   "skinnedlanterns:.*blinky.*lantern_block",
   "skinnedlanterns:.*clyde.*lantern_block",
