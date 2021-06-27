@@ -1,35 +1,122 @@
-craftingTable.removeRecipe(<item:environmental:apple_pie>);
+// note: these arrays are shortcuts for removing CRAFTING TABLE recipes
+// use the normal way to remove other kinds of recipe
+var removeByItem = [
+  <item:environmental:apple_pie>,
 
-craftingTable.removeByName("minecraft:yellow_dye_from_sunflower");
+  <item:inspirations:bookshelf>,
+  <item:inspirations:ancient_bookshelf>,
+  <item:inspirations:white_enlightened_bush>,
+  <item:inspirations:red_enlightened_bush>,
+  <item:inspirations:green_enlightened_bush>,
+  <item:inspirations:blue_enlightened_bush>,
+  
+  <item:inspirations:brown_mulch>,
+  <item:inspirations:red_mulch>,
+  <item:inspirations:black_mulch>,
+  <item:inspirations:blue_mulch>,
 
-craftingTable.removeByName("charm:extra_recipes/trident");
-craftingTable.removeByName("charm:extra_recipes/soul_torch");
-craftingTable.removeByName("charm:extra_recipes/green_dye");
-craftingTable.removeByName("charm:extra_recipes/gilded_blackstone");
-craftingTable.removeByName("charm:extra_recipes/cyan_dye");
+  <item:inspirations:rock_path>,
+  <item:inspirations:tile_path>,
+  <item:inspirations:brick_path>,
 
-craftingTable.removeRecipe(<item:inspirations:bookshelf>);
-craftingTable.removeRecipe(<item:inspirations:ancient_bookshelf>);
-craftingTable.removeRecipe(<item:inspirations:white_enlightened_bush>);
-craftingTable.removeRecipe(<item:inspirations:red_enlightened_bush>);
-craftingTable.removeRecipe(<item:inspirations:green_enlightened_bush>);
-craftingTable.removeRecipe(<item:inspirations:blue_enlightened_bush>);
-craftingTable.removeRecipe(<item:inspirations:brown_mulch>);
-craftingTable.removeRecipe(<item:inspirations:red_mulch>);
-craftingTable.removeRecipe(<item:inspirations:black_mulch>);
-craftingTable.removeRecipe(<item:inspirations:blue_mulch>);
-craftingTable.removeRecipe(<item:inspirations:rock_path>);
-craftingTable.removeRecipe(<item:inspirations:tile_path>);
-craftingTable.removeRecipe(<item:inspirations:brick_path>);
-craftingTable.removeRecipe(<item:inspirations:rope>);
-craftingTable.removeRecipe(<item:inspirations:vine>);
-craftingTable.removeRecipe(<item:inspirations:torch_lever>);
-craftingTable.removeRecipe(<item:inspirations:redstone_book>);
-craftingTable.removeRecipe(<item:inspirations:pipe>);
-craftingTable.removeRecipe(<item:inspirations:lock>);
-craftingTable.removeRecipe(<item:inspirations:key>);
-craftingTable.removeRecipe(<item:inspirations:barometer>);
-craftingTable.removeRecipe(<item:inspirations:photometer>);
+  <item:inspirations:rope>,
+  <item:inspirations:vine>,
+
+  <item:inspirations:torch_lever>,
+  <item:inspirations:redstone_book>,
+
+  <item:inspirations:pipe>,
+  <item:inspirations:lock>,
+  <item:inspirations:key>,
+
+  <item:inspirations:barometer>,
+  <item:inspirations:photometer>,
+
+  <item:skinnedlanterns:bee_lantern_block>,
+  <item:skinnedlanterns:bee_soul_lantern_block>,
+  <item:skinnedlanterns:blinky_lantern_block>,
+  <item:skinnedlanterns:blinky_soul_lantern_block>,
+  <item:skinnedlanterns:clyde_lantern_block>,
+  <item:skinnedlanterns:clyde_soul_lantern_block>,
+  <item:skinnedlanterns:creeper_lantern_block>,
+  <item:skinnedlanterns:creeper_soul_lantern_block>,
+  <item:skinnedlanterns:creeper_ender_lantern_block>,
+  <item:skinnedlanterns:ghost_lantern_block>,
+  <item:skinnedlanterns:ghost_soul_lantern_block>,
+
+  <item:alexsmobs:fish_oil>,
+  <item:alexsmobs:poison_bottle>,
+  <item:alexsmobs:komodo_spit_bottle>,
+  <item:alexsmobs:centipede_leggings>,
+
+  <item:paraglider:spirit_orb>,
+  <item:paraglider:horned_statue>,
+  <item:paraglider:deku_leaf>,
+  <item:paraglider:paraglider>,
+  <item:paraglider:heart_container>,
+  <item:paraglider:stamina_vessel>,
+
+  <item:waystones:warp_stone>,
+
+  <item:decorative_winter:festive_chain>,
+  <item:decorative_winter:frosty_wand>,
+  <item:decorative_winter:wreath>,
+];
+
+var removeByRecipe = [
+  "minecraft:yellow_dye_from_sunflower",
+
+  "charm:extra_recipes/trident",
+  "charm:extra_recipes/soul_torch",
+  "charm:extra_recipes/green_dye",
+  "charm:extra_recipes/cyan_dye",
+  "charm:extra_recipes/gilded_blackstone",
+
+];
+
+// used for skinned lanterns and deco blocks because typing them out is pain
+var removeByRegex = [
+  "skinnedlanterns:.*bee.*lantern_block",
+  "skinnedlanterns:.*blinky.*lantern_block",
+  "skinnedlanterns:.*clyde.*lantern_block",
+  "skinnedlanterns:.*creeper.*lantern_block",
+  "skinnedlanterns:.*ghost.*lantern_block",
+  "skinnedlanterns:.*guardian.*lantern_block",
+  "skinnedlanterns:.*honey.*lantern_block",
+  "skinnedlanterns:.*inky.*lantern_block",
+  "skinnedlanterns:.*jack_o_lantern.*lantern_block",
+  "skinnedlanterns:.*ornament.*lantern_block",
+  "skinnedlanterns:.*pacman.*lantern_block",
+  "skinnedlanterns:.*pinky.*lantern_block",
+  "skinnedlanterns:.*present.*lantern_block",
+  "skinnedlanterns:.*pufferfish.*lantern_block",
+  "skinnedlanterns:.*slime.*lantern_block",
+  "skinnedlanterns:.*snowman.*lantern_block",
+  "skinnedlanterns:.*zombie.*lantern_block",
+
+  "decorative_blocks.*beam",
+  "decorative_blocks.*palisade",
+  "decorative_blocks.*seat",
+  "decorative_blocks.*support",
+
+  "decorative_winter:.*thin_branch",
+
+  "waystones",
+
+  "buzzier_bees:.*scented_candle"
+];
+
+for i in removeByItem {
+  craftingTable.removeRecipe(i);
+}
+
+for i in removeByRecipe {
+  craftingTable.removeByName(i);
+}
+
+for i in removeByRegex {
+  craftingTable.removeByRegex(i);
+}
 
 stoneCutter.removeRecipe(<item:inspirations:plain_mulch>);
 stoneCutter.removeRecipe(<item:inspirations:rock_path>);
@@ -41,217 +128,7 @@ campfire.removeRecipe(<item:farmersdelight:fried_egg>);
 furnace.removeRecipe(<item:farmersdelight:fried_egg>);
 smoker.removeRecipe(<item:farmersdelight:fried_egg>);
 
-craftingTable.removeRecipe(<item:skinnedlanterns:bee_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:bee_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:blinky_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:blinky_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:clyde_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:clyde_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:creeper_ender_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:creeper_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:creeper_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ghost_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ghost_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:guardian_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:guardian_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:honey_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:honey_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:inky_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:inky_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:jack_o_lantern_ender_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:jack_o_lantern_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:jack_o_lantern_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:pacman_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:pacman_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:pinky_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:pinky_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:present_green_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:present_green_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:present_red_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:present_red_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:pufferfish_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:pufferfish_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:slime_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:slime_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:snowman_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:snowman_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:zombie_ender_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:zombie_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:zombie_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_black_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_black_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_blue_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_blue_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_brown_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_brown_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_cyan_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_cyan_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_gray_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_gray_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_green_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_green_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_light_blue_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_light_blue_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_light_gray_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_light_gray_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_lime_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_lime_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_magenta_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_magenta_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_orange_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_orange_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_pink_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_pink_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_purple_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_purple_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_red_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_red_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_white_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_white_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_yellow_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_yellow_soul_lantern_block>);
-
-craftingTable.removeRecipe(<item:alexsmobs:fish_oil>);
-craftingTable.removeRecipe(<item:alexsmobs:poison_bottle>);
-craftingTable.removeRecipe(<item:alexsmobs:komodo_spit_bottle>);
-craftingTable.removeRecipe(<item:alexsmobs:centipede_leggings>);
-
-craftingTable.removeRecipe(<item:paraglider:spirit_orb>);
-craftingTable.removeRecipe(<item:paraglider:horned_statue>);
-craftingTable.removeRecipe(<item:paraglider:deku_leaf>);
-craftingTable.removeRecipe(<item:paraglider:paraglider>);
-craftingTable.removeRecipe(<item:paraglider:heart_container>);
-craftingTable.removeRecipe(<item:paraglider:stamina_vessel>);
-
-craftingTable.removeRecipe(<item:waystones:return_scroll>);
-craftingTable.removeRecipe(<item:waystones:bound_scroll>);
-craftingTable.removeRecipe(<item:waystones:warp_scroll>);
-craftingTable.removeRecipe(<item:waystones:warp_stone>);
-craftingTable.removeRecipe(<item:waystones:waystone>);
-craftingTable.removeRecipe(<item:waystones:mossy_waystone>);
-craftingTable.removeRecipe(<item:waystones:sandy_waystone>);
-
 villagerTrades.removeWanderingTrade(2, <item:alexsmobs:banana_peel>);
 villagerTrades.removeWanderingTrade(1, <item:environmental:rice>);
 villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:farmer>, 1, <item:environmental:rice>);
 villagerTrades.removeItemsForEmeraldsTrade(<profession:minecraft:farmer>, 1, <item:environmental:rice>);
-
-craftingTable.removeRecipe(<item:decorative_blocks:acacia_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks:acacia_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks:acacia_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks:acacia_support>);
-craftingTable.removeRecipe(<item:decorative_blocks:bar_panel>);
-craftingTable.removeRecipe(<item:decorative_blocks:birch_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks:birch_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks:birch_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks:birch_support>);
-craftingTable.removeRecipe(<item:decorative_blocks:crimson_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks:crimson_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks:crimson_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks:crimson_support>);
-craftingTable.removeRecipe(<item:decorative_blocks:dark_oak_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks:dark_oak_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks:dark_oak_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks:dark_oak_support>);
-craftingTable.removeRecipe(<item:decorative_blocks:jungle_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks:jungle_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks:jungle_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks:jungle_support>);
-craftingTable.removeRecipe(<item:decorative_blocks:lattice>);
-craftingTable.removeRecipe(<item:decorative_blocks:oak_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks:oak_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks:oak_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks:oak_support>);
-craftingTable.removeRecipe(<item:decorative_blocks:spruce_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks:spruce_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks:spruce_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks:spruce_support>);
-craftingTable.removeRecipe(<item:decorative_blocks:warped_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks:warped_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks:warped_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks:warped_support>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:brown_mushroom_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:brown_mushroom_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:brown_mushroom_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:brown_mushroom_support>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:driftwood_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:driftwood_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:driftwood_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:driftwood_support>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:maple_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:maple_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:maple_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:maple_support>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:morado_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:morado_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:morado_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:morado_support>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:poise_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:poise_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:poise_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:poise_support>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:red_mushroom_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:red_mushroom_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:red_mushroom_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:red_mushroom_support>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:river_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:river_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:river_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:river_support>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:rosewood_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:rosewood_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:rosewood_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:rosewood_support>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:yucca_beam>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:yucca_palisade>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:yucca_seat>);
-craftingTable.removeRecipe(<item:decorative_blocks_abnormals:yucca_support>);
-craftingTable.removeRecipe(<item:decorative_winter:acacia_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:birch_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:crimson_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:dark_oak_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:festive_chain>);
-craftingTable.removeRecipe(<item:decorative_winter:frosty_wand>);
-craftingTable.removeRecipe(<item:decorative_winter:jungle_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:oak_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:spruce_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:warped_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:wreath>);
-
-craftingTable.removeRecipe(<item:buzzier_bees:allium_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:autumn_crocus_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:azure_bluet_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:blue_orchid_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:bluebell_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:buttercup_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:cartwheel_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:cornflower_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:dandelion_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:dianthus_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:gilia_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:hot_monkey_brush_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:lily_of_the_valley_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:magenta_hibiscus_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:orange_hibiscus_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:orange_tulip_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:oxeye_daisy_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:pink_clover_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:pink_hibiscus_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:pink_searocket_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:pink_tulip_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:poppy_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:purple_hibiscus_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:red_hibiscus_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:red_lotus_flower_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:red_tulip_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:scalding_monkey_brush_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:violet_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:warm_monkey_brush_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:water_hyacinth_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:white_clover_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:white_lotus_flower_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:white_searocket_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:white_tulip_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:wither_rose_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:yellow_hibiscus_scented_candle>);
-craftingTable.removeRecipe(<item:buzzier_bees:yucca_flower_scented_candle>);
