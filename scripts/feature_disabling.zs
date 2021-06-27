@@ -37,13 +37,6 @@ var removeByItem = [
   <item:alexsmobs:komodo_spit_bottle>,
   <item:alexsmobs:centipede_leggings>,
 
-  <item:paraglider:spirit_orb>,
-  <item:paraglider:horned_statue>,
-  <item:paraglider:deku_leaf>,
-  <item:paraglider:paraglider>,
-  <item:paraglider:heart_container>,
-  <item:paraglider:stamina_vessel>,
-
   <item:waystones:warp_stone>,
 
   <item:decorative_winter:festive_chain>,
@@ -81,6 +74,8 @@ var removeByRegex = [
   "skinnedlanterns:.*slime.*lantern_block",
   "skinnedlanterns:.*snowman.*lantern_block",
   "skinnedlanterns:.*zombie.*lantern_block",
+
+  "paraglider",
 
   "decorative_blocks.*beam",
   "decorative_blocks.*palisade",
