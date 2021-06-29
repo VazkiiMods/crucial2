@@ -36,7 +36,7 @@
 		crank = true
 		copper_lantern = false
 		pancake = true
-		statue = true
+		statue = false
 		iron_gate = true
 		piston_launcher = true
 		netherite_trapdoor = true
@@ -51,7 +51,7 @@
 		blackboard = true
 		netherite_door = true
 		candle_holder = true
-		flag = true
+		flag = false
 		rope = true
 		notice_board = true
 		redstone_illuminator = true
@@ -65,7 +65,7 @@
 		faucet = true
 		gold_trapdoor = true
 		magma_cream_block = true
-		goblet = true
+		goblet = false
 		sconce_green = false
 		flute = true
 		pulley_block = true

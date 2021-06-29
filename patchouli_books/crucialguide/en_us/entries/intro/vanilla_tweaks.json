@@ -28,6 +28,12 @@
 		},
 		{
 			"type": "spotlight",
+			"item": "minecraft:pink_banner",
+			"title": "Ceiling Banners",
+			"text": "$(item)Banners$() can now be hoisted from ceilings, alongside the basic floors and walls.$(br2)Also, a few new $(item)Banner Patterns$() are available for your use."
+		},
+		{
+			"type": "spotlight",
 			"item": "minecraft:chain",
 			"title": "Chain Features",
 			"text": "$(item)Chains$() can now be used to link together $(thing)Boats$() and $(thing)Minecarts$().$(br2)When moved by $(item)Pistons$(), they can also connect multiple blocks together if placed between them."
@@ -48,7 +54,7 @@
 			"type": "spotlight",
 			"item": "minecraft:elytra",
 			"title": "Customizable Elytra",
-			"text": "The $(item)Elytra$() can now be dyed just like leather armor, and you can even attach $(item)Banners$() to it, much like you would for a shield."
+			"text": "The $(item)Elytra$() can now be dyed just like leather armor, and you can even attach $(item)Banners$() to it, much like you would for a shield.$(br2)Also, you no longer need to jump before using a rocket, hurray!"
 		},
 		{
 			"type": "spotlight",
@@ -73,6 +79,12 @@
 			"item": "minecraft:ladder",
 			"title": "Improved Ladders",
 			"text": "$(item)Ladders$() can now be dropped down by right clicking a placed ladder with another one.$(br2)You can also slide down quickly by looking down."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:filled_map",
+			"title": "Map Decorations",
+			"text": "Additional decorations can be added to $(item)Maps$().$(br2)Right clicking one onto a $(item)Beacon$(), $(item)Lodestone$(), $(item)Respawn Anchor$(), $(item)Bed$(), $(item)Conduit$(), $(item)Portal$(), or $(item)Sign Post$() will add it to the map."
 		},
 		{
 			"type": "spotlight",

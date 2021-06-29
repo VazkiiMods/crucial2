@@ -773,6 +773,8 @@
 		"decorative_blocks_abnormals:redbud_palisade",
 		"decorative_blocks_abnormals:jacaranda_palisade",
 		"decorative_blocks_abnormals:cherry_palisade",
-		"decorative_blocks_abnormals:willow_palisade"
+		"decorative_blocks_abnormals:willow_palisade",
+		"supplementaries:raked_gravel",
+		"supplementaries:iron_gate"
 	]
 }

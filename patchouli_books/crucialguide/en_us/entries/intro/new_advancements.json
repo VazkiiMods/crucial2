@@ -10,7 +10,7 @@
 		},
         {
 			"type": "text",
-			"text": "On the left of the window, you'll also see a selection of buttons. These are $(item)Titles$(). Once you complete their linked advancements, you can click one, and it'll show under your name in multiplayer for other players!$(br2)$(#ff0000)$(bold)Known Bug!$(br)$()If you're playing on a large GUI scale, you may not be able to see every title. You can temporarily lower it to see them all."
+			"text": "On the left of the window, you'll also see a selection of buttons. These are $(item)Titles$(). Once you complete their linked advancements, you can click one, and it'll show under your name in multiplayer for other players!"
 		}
 	]
 }

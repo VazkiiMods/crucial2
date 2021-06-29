@@ -10,7 +10,7 @@
 		},
 		{
 			"type": "text",
-			"text": "The nerfs applied to vanilla are as follows:$(br) $(li)$(item)Villager$() discounts when de-zombified no longer stack with eachother, this prevents you from reducing every price down to 1.$(br) $(li)$(item)Iron Golems$() no longer drop $(item)Iron Ingots$(), removing classic Iron Farms. Do note that $(thing)Crucial 2$() provides an alternative way to farm iron and other ores."
+			"text": "The nerfs applied to vanilla are as follows:$(br) $(li)$(item)Villager$() discounts when de-zombified no longer stack with eachother, this prevents you from reducing every price down to 1.$(br) $(li)$(item)Iron Golems$() no longer drop $(item)Iron Ingots$(), removing classic Iron Farms. Do note that an alternative farm is available, look it up on $(thing)JEI$()."
 		}
 	]
 }

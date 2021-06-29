@@ -212,7 +212,7 @@
 		#Range: 0 ~ 20
 		cost = 2
 		#Allow bottling up xp by using a bottle on an enchanting table
-		enabled = true
+		enabled = false
 
 	[tweaks.bells_tweaks]
 		#ring a bell by clicking on a chain that's connected to it
@@ -245,7 +245,7 @@
 		block_map_markers = true
 		#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure.
 		#Best kept disabled if you are adding custom adventurer maps with its config
-		random_adventurer_maps = true
+		random_adventurer_maps = false
 
 [items]
 
