@@ -45,9 +45,11 @@
 		#The minimum base xp cost
 		#Range: 0.0 ~ Infinity
 		minimumXpCost = 0.0
-		#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all XP costs
+		#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all distance-based XP costs
 		#Range: 0.0 ~ Infinity
 		maximumXpCost = 0.0
+		#Set to true if experience cost should be inverted, meaning the shorter the distance, the more expensive. Can be used to encourage other methods for short-distance travel.
+		inverseXpCost = false
 		#The amount of blocks per xp level requirement. If set to 500, the base xp cost for travelling 1000 blocks will be 2 levels.
 		#Range: > 1
 		blocksPerXPLevel = 1000
@@ -66,6 +68,12 @@
 		#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 		#Range: 0.0 ~ Infinity
 		waystoneXpCostMultiplier = 1.0
+		#The multiplier applied to the base xp cost when teleporting from a portstone.
+		#Range: 0.0 ~ Infinity
+		portstoneXpCostMultiplier = 0.0
+		#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
+		#Range: 0.0 ~ Infinity
+		sharestoneXpCostMultiplier = 1.0
 
 	#These options apply to the global waystones.
 	[server.globalWaystones]
@@ -89,4 +97,13 @@
 		transportLeashedDimensional = true
 		#Which leashed mobs cannot be taken with you when travelling.
 		leashedBlacklist = ["minecraft:wither"]
+
+	#These options apply to warp plates.
+	[server.warpPlate]
+		#The time in ticks that it takes to use a warp plate. This is the time the player has to stand on top for.
+		#Range: > 0
+		warpPlateUseTime = 20
+		#The multiplier applied to the base xp cost when teleporting from one warp plate to another.
+		#Range: 0.0 ~ Infinity
+		warpPlateXpCostMultiplier = 0.0
 

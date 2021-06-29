@@ -683,6 +683,7 @@ i(<item:frozenup:frozen_truffle>, "Chilloos are known to scavenge this and other
 i(<item:frozenup:chilloo_feather>, "Chilloos shed their feathers occasionally. You can find them in cold biomes and tame them with Frozen Truffles.");
 
 i(<item:alexsmobs:music_disc_thime>, "Can be acquired from bartering with Seals. Consult an Animal Dictionary for more information.");
+i(<item:alexsmobs:music_disc_daze>, "Can be acquired by placing any Music Disc inside a Capsid.");
 i(<item:environmental:music_disc_leaving_home>, "Can be acquired by having a Skeleton kill a Wandering Trader.");
 i(<item:environmental:music_disc_slabrave>, "Can be acquired by giving another Music Disc to a Slabfish.");
 i(<item:endergetic:music_disc_kilobyte>, "Can be acquired from chests in End Cities.");

@@ -112,3 +112,13 @@
 	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
 	biomes = "minecraft:soul_sand_valley"
 
+["quark compat"]
+	#Percent chance for monster boxes from Quark to generate in the buried dungeon
+	#Range: 0 ~ 100
+	bigger_dungeon_monster_box_chance = 70
+
+["waystones compat"]
+	#Percent chance for a waystone from Waystones to generate on top of the tower
+	#Range: 0 ~ 100
+	tower_waystone_chance = 0
+

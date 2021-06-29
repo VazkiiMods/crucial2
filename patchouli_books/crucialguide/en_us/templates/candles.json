@@ -51,6 +51,10 @@
 						{
 							"lvl": 1,
 							"id": "charm:acquisition"
+						},
+						{
+							"lvl": 1,
+							"id": "allurement:launch"
 						}
 					]
 				}

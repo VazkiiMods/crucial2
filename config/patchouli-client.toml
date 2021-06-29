@@ -1,5 +1,8 @@
 
 [client]
+	#Set how text overflow should be coped with: overflow the text off the page, truncate overflowed text, or resize everything to fit. Relogin after changing.
+	#Allowed Values: OVERFLOW, TRUNCATE, RESIZE
+	textOverflowMode = "OVERFLOW"
 	#Set this to true to disable advancement locking for ALL books, making all entries visible at all times. Config Flag: advancements_disabled
 	"Disable Advancement Locking" = false
 	#Set this to true to use Shift instead of Ctrl for the inventory quick lookup feature.

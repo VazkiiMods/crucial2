@@ -61,7 +61,6 @@ craftingTable.removeByName("minecraft:lead");
 craftingTable.removeByName("minecraft:painting");
 craftingTable.removeByName("minecraft:scaffolding");
 craftingTable.removeByName("alexsmobs:sopa_de_macaco");
-craftingTable.removeByName("farmersdelight:milk_bottle");
 craftingTable.removeByName("farmersdelight:rope");
 
 // Eye of Ender Needs Four Elements

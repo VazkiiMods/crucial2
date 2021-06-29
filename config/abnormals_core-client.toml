@@ -1,6 +1,8 @@
 
 #Client only settings for Abnormals Core.
 [client]
+	#If sky color transition should be smooth; Default: True
+	smoothSkyColor = true
 
 	#Slabfish patron hat settings.
 	[client.slabfishSettings]
