@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"#crucial:redirects/iron_farm",
+		"quark:root_item",
+		"quark:iron_rod"
+	]
+}

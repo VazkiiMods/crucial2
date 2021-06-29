@@ -10,11 +10,16 @@ i(<item:quark:backpack>, "When wearing this, you'll have 27 more inventory slots
 i(<item:quark:ravager_hide>, "This drops from Ravagers. Call in a raid to get them over.");
 
 // Toretoise Stuff
-var s = "Toretoises can spawn this. Find them underground and feed them Cave Roots. Iron Rods can pop it automatically, or manually with a Pickaxe.";
+var s = "Toretoises can spawn this. Find them underground and feed them Cave Roots. Iron Rods can pop the ore automatically, or manually by hitting it with a Pickaxe.";
+i(<item:minecraft:iron_ingot>, s);
 i(<item:minecraft:iron_nugget>, s);
 i(<item:minecraft:redstone>, s);
 i(<item:minecraft:coal>, s);
 i(<item:minecraft:lapis_lazuli>, s);
+i(<item:minecraft:iron_ore>, s);
+i(<item:minecraft:redstone_ore>, s);
+i(<item:minecraft:coal_ore>, s);
+i(<item:minecraft:lapis_ore>, s);
 
 s = "These can be found underground. Stick them on a wall in a dark area to grow them.";
 i(<item:quark:root>, s);
@@ -624,7 +629,7 @@ i(<item:quark:grate>, "Animals can't walk through this, and items fall right thr
 i(<item:quark:gravisand>, "When given a redstone signal, falls or floats upwards if it can't, also propagates this behavior. Outputs a comparator signal of 15.");
 i(<item:quark:iron_button>, "Emits a 5 second long pulse.");
 i(<item:quark:iron_ladder>, "Can stand without a block behind it as long as at least one ladder above it has one.");
-i(<item:quark:iron_rod>, "Breaks any blocks in front when pushed by a piston.");
+i(<item:quark:iron_rod>, "Breaks any blocks in front when pushed by a piston. Can also be used to mine the ore on a Toretoise.");
 i(<item:quark:magnet>, "Can push or pull metallic blocks when powered. When moved, stonecutters break the block above, and hoppers drop the item in front, or plant, if it's a seed.");
 i(<item:quark:myalite_crystal>, "Can be found in Spiral Pillars in the outer end. If placed in a line, can redirect any enderman or ender pearl teleportations between the two ends.");
 i(<item:quark:obsidian_pressure_plate>, "Only players can trigger this.");
