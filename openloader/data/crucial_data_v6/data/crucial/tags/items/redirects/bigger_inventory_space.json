@@ -3,7 +3,6 @@
 	"values": [
 		"quark:backpack",
 		"supplementaries:sack",
-		"quark:crate",
-		"bundlesplus:bundle"
+		"quark:crate"
 	]
 }

@@ -86,9 +86,9 @@
 		"neapolitan:magic_beans",
 		"supplementaries:key",
 		"supplementaries:rope_arrow",
-		"bundlesplus:bundle",
 		"alexsmobs:enderiophage_rocket",
 		"alexsmobs:straddleboard",
-		"supplementaries:bomb"
+		"supplementaries:bomb",
+		"quark:abacus"
 	]
 }

@@ -156,6 +156,16 @@
         ]
       }
     },
+    "music_disc_daze": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "alexsmobs:music_disc_daze"
+          }
+        ]
+      }
+    },
     "music_disc_leaving_home": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {

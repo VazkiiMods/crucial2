@@ -295,7 +295,7 @@ i(<item:quark:white_rune>, s);
 i(<item:quark:yellow_rune>, s);
 
 // Cave Crystals
-s = "This can be found randomly underground. They can grow if placed deep underground, look for the particles.";
+s = "This can be found randomly underground. They can grow if placed deep underground, look for the semi-transparent swirly particles.";
 i(<item:quark:black_crystal>, s);
 i(<item:quark:blue_crystal>, s);
 i(<item:quark:green_crystal>, s);
@@ -305,6 +305,8 @@ i(<item:quark:red_crystal>, s);
 i(<item:quark:violet_crystal>, s);
 i(<item:quark:white_crystal>, s);
 i(<item:quark:yellow_crystal>, s);
+
+s = "This can be found randomly underground and can be grown via normal Corundum. Can redirect beacon beams, provided the last one faces upwards, and can also be moved via pistons alongside adjacent Corundum blocks of the same color.";
 i(<item:quark:black_crystal_cluster>, s);
 i(<item:quark:blue_crystal_cluster>, s);
 i(<item:quark:green_crystal_cluster>, s);
@@ -474,7 +476,6 @@ i(<item:minecraft:red_sand>, "Can be acquired by making an upwards bubble column
 i(<item:minecraft:gravel>, "Can be acquired by making an upwards bubble column with Cobblestone directly above.");
 
 // Farmers Delight Materials
-i(<item:farmersdelight:straw>, "Can also be gotten by breaking grass or wheat with any Knife.");
 i(<item:farmersdelight:ham>, "Dropped when hitting a Pig or Hoglin with a knife.");
 
 s = "Wild patches spawn in Beaches.";
@@ -515,7 +516,7 @@ s = "Drops from Crabs, which spawn in beaches. Breed them with Wheat, Chicken, o
 i(<item:quark:crab_leg>, s);
 i(<item:quark:crab_shell>, s);
 
-s = "Item frame without a background. Can be right clicked through onto chests, placed onto signs, or serve as wallpaper with banners.";
+s = "Item frame without a background. Can be right clicked through onto chests, placed onto signs, or serve as wallpaper with banners. Can also update Maps in real time.";
 i(<item:quark:glass_item_frame>, s);
 i(<item:quark:glowing_glass_item_frame>, s);
 
@@ -633,6 +634,7 @@ i(<item:quark:redstone_randomizer>, "Randomly repeats the input to the left or r
 i(<item:quark:seed_pouch>, "Can hold 10 stacks of a seed. Right click the seed onto it to add. Can also place 1 or 3x3 if sneaking.");
 i(<item:quark:soul_compass>, "Points to where you last died.");
 i(<item:quark:trowel>, "Randomly places one block from your hotbar, great for paths!");
+i(<item:quark:abacus>, "Right Click a block to set the source - from there, the Abacus will count the distance from the block you're looking at to that one, provided you're holding it.");
 i(<item:quark:crate>, "Can hold up to 640 items. Unlike Chests, the amount of slots expands based on the different items you put in, so it's good for holding a high variety of things.");
 i(<item:quark:chute>, "Can receive items with Hoppers and the like. Any items that end up in it are immediately ejected downwards into the world.");
 
@@ -675,8 +677,6 @@ i(<item:supplementaries:netherite_trapdoor>, s);
 
 i(<item:paraglider:paraglider>, "Can be found on Wild Tower chests only. When held, right click to glide.");
 
-i(<item:bundlesplus:bundle>, "Works like a 1.17 Bundle, add items by right clicking them onto it and right click to take out. Can hold up to 64 items. Items with lower max stack sizes count proportionally (e.g. Ender Pearls, which stack to 16 count as 4 items)");
-
 i(<item:conjurer_illager:conjurer_hat>, "This is the trademark accessory of the Conjurer illager, who resides in its theatre, located in Dark Forests. While worn, it keeps Bad Omens away.");
 
 i(<item:frozenup:frozen_truffle>, "Chilloos are known to scavenge this and other crops from the ground. You can find these creatures in cold biomes and use the Frozen Truffles to tame them.");
@@ -688,3 +688,13 @@ i(<item:environmental:music_disc_leaving_home>, "Can be acquired by having a Ske
 i(<item:environmental:music_disc_slabrave>, "Can be acquired by giving another Music Disc to a Slabfish.");
 i(<item:endergetic:music_disc_kilobyte>, "Can be acquired from chests in End Cities.");
 i(<item:berry_good:music_disc_fox>, "Can be acquired from Foxes, who randomly spawn with it in their mouths.");
+
+s = "Can be cooked by placing above a fire or campfire. This will result in a slight loss of fish.";
+i(<item:fish_in_planks:cod_barrel>, s);
+i(<item:fish_in_planks:lionfish_barrel>, s);
+i(<item:fish_in_planks:pike_barrel>, s);
+i(<item:fish_in_planks:pufferfish_barrel>, s);
+i(<item:fish_in_planks:salmon_barrel>, s);
+i(<item:fish_in_planks:tropical_fish_barrel>, s);
+i(<item:fish_in_planks:perch_barrel>, s);
+i(<item:fish_in_planks:koi_barrel>, s);

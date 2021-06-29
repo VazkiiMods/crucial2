@@ -30,11 +30,11 @@
 		raked_gravel = true
 		jar = true
 		rope_arrow = true
-		checker_block = true
-		stone_lamp = true
-		cog_block = true
+		checker_block = false
+		stone_lamp = false
+		cog_block = false
 		crank = true
-		copper_lantern = true
+		copper_lantern = false
 		pancake = true
 		statue = true
 		iron_gate = true
@@ -57,7 +57,7 @@
 		redstone_illuminator = true
 		crimson_lantern = true
 		lock_block = true
-		flax = true
+		flax = false
 		planter = true
 		wind_vane = true
 		item_shelf = true

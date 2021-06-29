@@ -11,7 +11,6 @@ var boof_block = <item:endergetic:boof_block>;
 var booflo_hide = <item:endergetic:booflo_hide>;
 var book = <item:minecraft:book>;
 var brick = <tag:items:forge:ingots/brick>;
-var bundle = <item:bundlesplus:bundle>;
 var candelabra = <item:supplementaries:candelabra>;
 var candles = <tag:items:buzzier_bees:candles>;
 var canvas = <item:farmersdelight:canvas>;
@@ -55,6 +54,8 @@ var thorny_kelp = <item:upgrade_aquatic:thorny_kelp>;
 var tongue_kelp = <item:upgrade_aquatic:tongue_kelp>;
 var wicks = <tag:items:buzzier_bees:candle_wick>;
 var yak_hair = <item:environmental:yak_hair>;
+var koi = <item:environmental:koi>;
+var koi_barrel = <item:fish_in_planks:koi_barrel>;
 
 // Remove specific recipes
 craftingTable.removeByName("minecraft:lead");
@@ -62,6 +63,13 @@ craftingTable.removeByName("minecraft:painting");
 craftingTable.removeByName("minecraft:scaffolding");
 craftingTable.removeByName("alexsmobs:sopa_de_macaco");
 craftingTable.removeByName("farmersdelight:rope");
+
+// Koi in Barrel missing recipe from the mod
+craftingTable.addShaped("koi_barrel_fix", 
+		koi_barrel,  
+		[[koi, koi, koi],
+		 [koi, koi, koi],
+		 [koi, koi, koi]]);
 
 // Eye of Ender Needs Four Elements
 #snip modloaded caverns_and_chasms
@@ -135,13 +143,6 @@ craftingTable.addShapeless("animal_dictionary_any",
 craftingTable.addShapeless("clay_reversion", 
 		clay_ball * 4, 
 		[clay]);
-
-// Canvas Bundle
-craftingTable.removeRecipe(bundle);
-craftingTable.addShaped("canvas_bundle", 
-		bundle, 
-		[[canvas, wicks],
-		 [canvas, canvas]]);
 
 // Globe to Globe Pattern
 craftingTable.addShapeless("globe_pattern", 

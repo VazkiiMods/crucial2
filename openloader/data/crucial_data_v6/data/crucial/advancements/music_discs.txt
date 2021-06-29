@@ -12,6 +12,7 @@ minecraft:music_disc_11
 minecraft:music_disc_wait
 minecraft:music_disc_pigstep
 alexsmobs:music_disc_thime
+alexsmobs:music_disc_daze
 environmental:music_disc_leaving_home
 environmental:music_disc_slabrave
 endergetic:music_disc_kilobyte
