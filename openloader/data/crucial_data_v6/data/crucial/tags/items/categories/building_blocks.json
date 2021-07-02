@@ -901,6 +901,8 @@
 		"decorative_blocks_abnormals:redbud_beam",
 		"decorative_blocks_abnormals:jacaranda_beam",
 		"decorative_blocks_abnormals:willow_beam",
-		"decorative_blocks_abnormals:cherry_beam"
+		"decorative_blocks_abnormals:cherry_beam",
+		"iron_and_gold:block_of_raw_gold",
+		"iron_and_gold:block_of_raw_iron"
 	]
 }

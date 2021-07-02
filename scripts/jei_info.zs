@@ -21,6 +21,8 @@ i(<item:minecraft:redstone_ore>, s);
 i(<item:minecraft:coal_ore>, s);
 i(<item:minecraft:lapis_ore>, s);
 
+i(<item:minecraft:minecart>, "Minecarts are one of the few ways to properly move Toretoises. They get comfy in there!");
+
 s = "These can be found underground. Stick them on a wall in a dark area to grow them.";
 i(<item:quark:root>, s);
 i(<item:quark:root_item>, s);
@@ -705,3 +707,6 @@ i(<item:fish_in_planks:salmon_barrel>, s);
 i(<item:fish_in_planks:tropical_fish_barrel>, s);
 i(<item:fish_in_planks:perch_barrel>, s);
 i(<item:fish_in_planks:koi_barrel>, s);
+
+i(<item:iron_and_gold:raw_iron>, "Drops from Iron Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
+i(<item:iron_and_gold:raw_gold>, "Drops from Gold Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
