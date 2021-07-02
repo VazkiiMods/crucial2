@@ -1,14 +1,14 @@
 
 [settings]
-	#How much the FOV should change when zooming
-	#Calculated as current FOV divided by this number (higher value equals greater zooming effect)
-	#Range: 2 ~ 16
-	fovModifier = 6
+	#Whether scrolling should be enabled to dynamically change the FOV while zooming
+	#When enabled, FOV modifier is the initial zoom amount
+	scrolling = false
 	#Whether smooth camera movement should be enabled while zooming
 	smoothCamera = true
 	#Whether the scope overlay should be rendered while zooming
 	scopeOverlay = true
-	#Whether scrolling should be enabled to dynamically change the FOV while zooming
-	#When enabled, FOV modifier is the initial zoom amount
-	scrolling = false
+	#How much the FOV should change when zooming
+	#Calculated as current FOV divided by this number (higher value equals greater zooming effect)
+	#Range: 2 ~ 16
+	fovModifier = 6
 

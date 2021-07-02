@@ -30,8 +30,11 @@ var gold_ingot = <tag:items:forge:ingots/gold>;
 var grimwood_sapling = <item:atmospheric:grimwood_sapling>;
 var honeycomb = <item:minecraft:honeycomb>;
 var iron_ingot = <tag:items:forge:ingots/iron>;
+var koi = <item:environmental:koi>;
+var koi_barrel = <item:fish_in_planks:koi_barrel>;
 var kousa_sapling = <item:atmospheric:kousa_sapling>;
 var lantern = <item:minecraft:lantern>;
+var leather = <item:minecraft:leather>;
 var mimicream = <item:alexsmobs:mimicream>;
 var nether_star = <item:minecraft:nether_star>;
 var nether_wart = <item:minecraft:nether_wart>;
@@ -50,12 +53,11 @@ var prismarine_crystals = <item:minecraft:prismarine_crystals>;
 var sack = <item:supplementaries:sack>;
 var soul_lantern = <item:minecraft:soul_lantern>;
 var spruce_sapling = <item:minecraft:spruce_sapling>;
+var spyglass = <item:farsight_spyglasses:spyglass>;
 var thorny_kelp = <item:upgrade_aquatic:thorny_kelp>;
 var tongue_kelp = <item:upgrade_aquatic:tongue_kelp>;
 var wicks = <tag:items:buzzier_bees:candle_wick>;
 var yak_hair = <item:environmental:yak_hair>;
-var koi = <item:environmental:koi>;
-var koi_barrel = <item:fish_in_planks:koi_barrel>;
 
 // Remove specific recipes
 craftingTable.removeByName("minecraft:lead");
@@ -168,3 +170,11 @@ craftingTable.addShaped("candelabra_candles",
 
 // Recycle Paraglider
 craftingTable.addShapeless("recycle_paraglider", canvas * 4, [paraglider]);
+
+// Spyglass
+craftingTable.removeRecipe(spyglass);
+craftingTable.addShaped("spyglass_crystals", 
+		spyglass, 
+		[[air, gold_ingot, prismarine_crystals],
+		 [gold_ingot, prismarine_crystals, gold_ingot],
+		 [leather, gold_ingot, air]]);

@@ -11,6 +11,8 @@ fetch('get_empty_antique_atlas', 'antiqueatlas:empty_antique_atlas', 'minecraft:
 fetch('get_paraglider', 'paraglider:paraglider', 'minecraft:adventure/sleep_in_bed')
 fetch('get_seed_pouch', 'quark:seed_pouch', 'minecraft:husbandry/plant_seed')
 fetch('get_beanstalk', 'neapolitan:beanstalk', 'minecraft:husbandry/plant_seed')
+fetch('get_spyglass', 'farsight_spyglasses:spyglass', 'minecraft:adventure/sleep_in_bed')
+
 fetch('get_tater', 'skinnedlanterns:tiny_potato_lantern_block', 'minecraft:nether/summon_wither', display_type='hidden')
 
 fetch('get_all_cakes', 'minecraft:cake', 'atmospheric:husbandry/finish_gateau', 'cakes.txt', 'challenge')

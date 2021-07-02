@@ -710,3 +710,5 @@ i(<item:fish_in_planks:koi_barrel>, s);
 
 i(<item:iron_and_gold:raw_iron>, "Drops from Iron Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
 i(<item:iron_and_gold:raw_gold>, "Drops from Gold Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
+
+i(<item:farsight_spyglasses:spyglass>, "Can be used to zoom in wherever you're looking at.");
