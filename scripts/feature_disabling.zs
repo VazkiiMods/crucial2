@@ -8,8 +8,10 @@ craftingTable.removeByName("charm:extra_recipes/green_dye");
 craftingTable.removeByName("charm:extra_recipes/gilded_blackstone");
 craftingTable.removeByName("charm:extra_recipes/cyan_dye");
 
-craftingTable.removeRecipe(<item:inspirations:bookshelf>);
-craftingTable.removeRecipe(<item:inspirations:ancient_bookshelf>);
+craftingTable.removeRecipe(<item:inspirations:shelf>);
+craftingTable.removeRecipe(<item:inspirations:ancient_shelf>);
+craftingTable.removeRecipe(<item:inspirations:rainbow_shelf>);
+craftingTable.removeRecipe(<item:inspirations:tomes_shelf>);
 craftingTable.removeRecipe(<item:inspirations:white_enlightened_bush>);
 craftingTable.removeRecipe(<item:inspirations:red_enlightened_bush>);
 craftingTable.removeRecipe(<item:inspirations:green_enlightened_bush>);
