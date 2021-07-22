@@ -2,6 +2,7 @@
 	"name": "Welcome to Crucial 2",
 	"icon": "minecraft:writable_book",
 	"sortnum": 0,
+	"priority": true,
 	"category": "patchouli:intro",
 	"pages": [
 		{

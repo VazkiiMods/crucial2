@@ -1,0 +1,14 @@
+{
+	"name": "Wall Lanterns",
+	"icon": "minecraft:lantern",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:lantern",
+            "title": "Wall Lanterns",
+            "text": "$(thing)Lanterns$() can now be placed hanging from walls, rather than just ceilings. You can also hang them from $(item)Wooden Posts$(), alongside $(item)Chains$()."
+        }
+	]
+}

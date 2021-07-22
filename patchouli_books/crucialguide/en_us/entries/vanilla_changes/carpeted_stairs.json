@@ -1,0 +1,14 @@
+{
+	"name": "Carpeted Stairs",
+	"icon": "minecraft:pink_carpet",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:pink_carpet",
+            "title": "Carpeted Stairs",
+            "text": "Right clicking $(item)Carpet$() or $(item)Snow$() onto any type of stairs will attach the carpet or snow to them."
+        }
+	]
+}

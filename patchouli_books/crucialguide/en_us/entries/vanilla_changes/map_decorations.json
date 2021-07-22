@@ -1,0 +1,14 @@
+{
+	"name": "Map Decorations",
+	"icon": "minecraft:filled_map",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:filled_map",
+            "title": "Map Decorations",
+            "text": "Additional decorations can be added to $(item)Maps$().$(br2)Right clicking one onto a $(item)Beacon$(), $(item)Lodestone$(), $(item)Respawn Anchor$(), $(item)Bed$(), $(item)Conduit$(), $(item)Portal$(), or $(item)Sign Post$() will add it to the map."
+        }
+	]
+}

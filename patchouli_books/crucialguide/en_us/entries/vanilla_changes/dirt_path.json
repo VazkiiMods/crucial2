@@ -1,0 +1,14 @@
+{
+	"name": "Dirt to Path",
+	"icon": "minecraft:grass_path",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:grass_path",
+            "title": "Dirt to Path",
+            "text": "You can now create $(item)Grass Path$() with $(item)Dirt$(). Further right clicking with any $(item)Hoe$() produces $(item)Shallow Dirt$(), which can be waterlogged.$(br2)Paths are also available for other grassy style blocks."
+        }
+	]
+}

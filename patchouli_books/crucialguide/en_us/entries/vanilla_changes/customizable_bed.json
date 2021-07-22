@@ -1,0 +1,14 @@
+{
+	"name": "Customizable Bed",
+	"icon": "minecraft:red_bed",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:red_bed",
+            "title": "Customizable Bed",
+            "text": "$(item)Beds$() can now be customized with $(item)Banners$(), so you can further decorate your living space."
+        }
+	]
+}

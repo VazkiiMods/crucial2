@@ -1,0 +1,14 @@
+{
+	"name": "Shield Enchanting",
+	"icon": "minecraft:shield",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:shield",
+            "title": "Shield Enchanting",
+            "text": "$(item)Shields$() can now be enchanted like any other item. The enchantments are all derived from vanilla ones, and are self-explanatory."
+        }
+	]
+}

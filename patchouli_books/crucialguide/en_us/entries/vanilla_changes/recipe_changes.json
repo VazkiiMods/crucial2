@@ -1,12 +1,14 @@
 {
 	"name": "Recipe Changes",
 	"icon": "minecraft:crafting_table",
+	"category": "patchouli:vanilla_changes",
+	"read_by_default": true,
 	"sortnum": 3,
-	"category": "patchouli:intro",
+    "priority": true,
 	"pages": [
 		{
 			"type": "text",
-			"text": "Starting off, a few vanilla recipes are changed to better fit the content in the pack.$(br2)The most relevant one is the $(item)Eye of Ender$() change, which now requires various different items, in order to encourage exploring the new content."
+			"text": "A few vanilla recipes are changed to better fit the content in the pack.$(br2)The most relevant one is the $(item)Eye of Ender$() change, which now requires various different items, in order to encourage exploring the new content."
 		},
 		{
 			"type": "crafting",

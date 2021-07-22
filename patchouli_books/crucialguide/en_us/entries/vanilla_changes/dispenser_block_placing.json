@@ -1,0 +1,14 @@
+{
+	"name": "Dispenser Block Placing",
+	"icon": "minecraft:dispenser",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:dispenser",
+            "title": "",
+            "text": "$(item)Dispensers$() can now place any block. The blocks are placed with the correct orientation too."
+        }
+	]
+}

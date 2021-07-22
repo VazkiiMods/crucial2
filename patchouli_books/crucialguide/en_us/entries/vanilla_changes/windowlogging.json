@@ -1,0 +1,14 @@
+{
+	"name": "Windowlogging",
+	"icon": "minecraft:glass_pane",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:glass_pane",
+            "title": "Windowlogging",
+            "text": "You can now add $(item)Panes$(), glass or otherwise to any $(item)Slabs, Stairs, Fences, or Walls$() - simply right click with the pane style block you want onto an already placed block to merge them together."
+        }
+	]
+}

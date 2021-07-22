@@ -1,0 +1,17 @@
+{
+	"name": "Vanilla Tweaks",
+	"icon": "minecraft:diamond_hoe",
+	"sortnum": 0,
+	"priority": true,
+	"category": "patchouli:vanilla_changes",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Many changes are made to basic vanilla behaviours in the $(thing)Crucial 2$() modpack to make gameplay more fun. This section covers a few of the more relevant ones you may wish to know about.$(br2)Keep in mind this is not an exhaustive list, and you're bound to find more as you play!"
+		},
+		{
+			"type": "text",
+			"text": "The entries initially highlighted with exclamation marks are very important ones you should know ahead of time. Anything else, you can just come back and read up when relevant.$(br2)Make sure to check back often so you don't miss cool changes!"
+		}
+	]
+}

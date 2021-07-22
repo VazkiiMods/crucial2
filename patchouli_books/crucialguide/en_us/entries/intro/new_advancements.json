@@ -1,7 +1,6 @@
 {
 	"name": "New Advancements",
 	"icon": "minecraft:grass_block",
-	"sortnum": 9,
 	"category": "patchouli:intro",
 	"pages": [
 		{

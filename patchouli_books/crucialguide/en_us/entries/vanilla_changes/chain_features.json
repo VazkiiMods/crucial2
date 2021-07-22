@@ -1,0 +1,14 @@
+{
+	"name": "Chain Features",
+	"icon": "minecraft:chain",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:chain",
+            "title": "Chain Features",
+            "text": "$(item)Chains$() can now be used to link together $(thing)Boats$() and $(thing)Minecarts$().$(br2)When moved by $(item)Pistons$(), they can also connect multiple blocks together if placed between them."
+        }
+	]
+}

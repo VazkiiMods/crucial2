@@ -1,0 +1,14 @@
+{
+	"name": "Hoe Harvesting",
+	"icon": "minecraft:diamond_hoe",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:diamond_hoe",
+            "title": "Hoe Harvesting",
+            "text": "$(item)Hoes$() can now be used to break a 3x3 area of vegetation. $(item)Diamond and Netherite Hoes$() can break a 5x5 instead.$(br2)Additionally, you can right click a crop to harvest and replant it; using a $(item)Hoe$() harvests the respective area."
+        }
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "Piston Buffs",
+	"icon": "minecraft:piston",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:piston",
+            "title": "Piston Buffs",
+            "text": "$(item)Pistons$() can now move twice as many blocks, up to 24. They also get the ability to move complex blocks known as $(thing)Tile Entities$() (e.g. $(item)Chests$(), $(item)Furnaces$(), etc).$(br2)If you need an immovable block, try $(item)Sturdy Stone$()."
+        }
+	]
+}

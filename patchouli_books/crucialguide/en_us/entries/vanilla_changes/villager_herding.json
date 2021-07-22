@@ -1,0 +1,14 @@
+{
+	"name": "Villager Herding",
+	"icon": "minecraft:emerald_block",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:emerald_block",
+            "title": "Villager Herding",
+            "text": "$(thing)Villagers$() will now follow players holding $(item)Emerald Blocks$(), making it easier to move them around."
+        }
+	]
+}

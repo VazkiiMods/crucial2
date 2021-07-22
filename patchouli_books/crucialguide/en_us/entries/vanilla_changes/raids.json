@@ -1,8 +1,9 @@
 {
 	"name": "Raid Changes",
 	"icon": "minecraft:totem_of_undying",
-	"sortnum": 7,
-	"category": "patchouli:intro",
+	"category": "patchouli:vanilla_changes",
+    "sortnum": 2,
+    "priority": true,
 	"pages": [
 		{
 			"type": "text",

@@ -1,0 +1,14 @@
+{
+	"name": "Big Stone Clusters",
+	"icon": "minecraft:andesite",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+		{
+            "type": "spotlight",
+            "item": "minecraft:andesite",
+            "title": "Big Stone Clusters",
+            "text": "Stones like $(item)Andesite$() will now generate in big clusters.$(br2)Different stones will generate in different biomes, so check $(item)JEI$() for where to find them."
+        }
+	]
+}

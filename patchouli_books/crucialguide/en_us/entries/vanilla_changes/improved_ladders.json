@@ -1,0 +1,14 @@
+{
+	"name": "Improved Ladders",
+	"icon": "minecraft:ladder",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:ladder",
+            "title": "Improved Ladders",
+            "text": "$(item)Ladders$() can now be dropped down by right clicking a placed ladder with another one.$(br2)You can also slide down quickly by looking down."
+        }
+	]
+}

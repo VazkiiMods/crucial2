@@ -1,8 +1,9 @@
 {
-	"name": "Vanilla Nerfs",
+	"name": "Game Nerfs",
 	"icon": "minecraft:wooden_hoe",
-	"sortnum": 4,
-	"category": "patchouli:intro",
+	"sortnum": 1,
+	"priority": true,
+	"category": "patchouli:vanilla_changes",
 	"pages": [
 		{
 			"type": "text",

@@ -1,7 +1,6 @@
 {
 	"name": "Exploring Content",
 	"icon": "minecraft:leather_boots",
-	"sortnum": 2,
 	"category": "patchouli:intro",
 	"pages": [
 		{

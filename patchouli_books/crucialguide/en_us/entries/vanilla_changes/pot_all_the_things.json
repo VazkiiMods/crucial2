@@ -1,0 +1,14 @@
+{
+	"name": "Pot All The Things!",
+	"icon": "minecraft:flower_pot",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:flower_pot",
+            "title": "Pot All The Things!",
+            "text": "$(item)Flower Pots$() can now hold a ton more flowers and crops, vanilla or otherwise.$(br2)You can also hang them from the ceiling, or from $(item)Chains$()."
+        }
+	]
+}

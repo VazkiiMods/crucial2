@@ -1,0 +1,14 @@
+{
+	"name": "Customizable Elytra",
+	"icon": "minecraft:elytra",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:elytra",
+            "title": "Customizable Elytra",
+            "text": "The $(item)Elytra$() can now be dyed just like leather armor, and you can even attach $(item)Banners$() to it, much like you would for a shield.$(br2)Also, you no longer need to jump before using a rocket, hurray!"
+        }
+	]
+}

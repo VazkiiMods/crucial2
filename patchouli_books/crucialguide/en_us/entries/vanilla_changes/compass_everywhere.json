@@ -1,0 +1,14 @@
+{
+	"name": "Compass Everywhere",
+	"icon": "minecraft:compass",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:compass",
+            "title": "Compass Everywhere",
+            "text": "$(item)Compasses$() can now be used in the $(thing)Nether$() and $()End$(). They'll point to either the portal you came in from, in the $(thing)Nether$(), or the portal to leave, in the $(thing)End$()."
+        }
+	]
+}

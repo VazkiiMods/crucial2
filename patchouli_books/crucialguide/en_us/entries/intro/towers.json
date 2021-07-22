@@ -1,7 +1,6 @@
 {
 	"name": "Wild Towers",
 	"icon": "minecraft:filled_map",
-	"sortnum": 8,
 	"category": "patchouli:intro",
 	"pages": [
 		{
