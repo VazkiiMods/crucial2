@@ -57,5 +57,7 @@
 	"seal.crucial.untouchable": "The Untouchable",
 
 	"advancements.crucial.override.upgrade_healer_pouch.title": "Panic! At the Bastion",
-	"advancements.crucial.override.upgrade_healer_pouch.description": "Collect the Healer's Pouch rarely from Piglin Bartering and completely level it up"
+	"advancements.crucial.override.upgrade_healer_pouch.description": "Collect the Healer's Pouch rarely from Piglin Bartering and completely level it up",
+
+	"text.betterf3.line.endergetic:end_creature": "End Creatures"
 }
