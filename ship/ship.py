@@ -177,7 +177,7 @@ def make_manifests():
 def write_mods_csv():
 	with open(overrides_dir + '/mods.csv', 'w') as out_file:
 		for mod in mod_urls:
-			out_file.write(mod['url'] + ',' + mod['filename']+'\n')
+			out_file.write(mod['url'] + ',' + mod['filename'].replace(' ', '_') + '\n')
 
 def zip_files(src_dir, denom):
 	out_file = out_dir + '/' + pack_name.replace(' ', '') + '-' + version + denom
