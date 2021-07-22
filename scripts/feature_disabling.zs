@@ -205,6 +205,17 @@ craftingTable.removeRecipe(<item:decorative_blocks_abnormals:rosewood_seat>);
 craftingTable.removeRecipe(<item:decorative_blocks_abnormals:rosewood_support>);
 craftingTable.removeRecipe(<item:decorative_blocks_abnormals:yucca_seat>);
 craftingTable.removeRecipe(<item:decorative_blocks_abnormals:yucca_support>);
+craftingTable.removeRecipe(<item:decorative_blocks_abnormals:cherry_seat>);
+craftingTable.removeRecipe(<item:decorative_blocks_abnormals:cherry_support>);
+craftingTable.removeRecipe(<item:decorative_blocks_abnormals:cypress_seat>);
+craftingTable.removeRecipe(<item:decorative_blocks_abnormals:cypress_support>);
+craftingTable.removeRecipe(<item:decorative_blocks_abnormals:jacaranda_seat>);
+craftingTable.removeRecipe(<item:decorative_blocks_abnormals:jacaranda_support>);
+craftingTable.removeRecipe(<item:decorative_blocks_abnormals:redbud_seat>);
+craftingTable.removeRecipe(<item:decorative_blocks_abnormals:redbud_support>);
+craftingTable.removeRecipe(<item:decorative_blocks_abnormals:willow_seat>);
+craftingTable.removeRecipe(<item:decorative_blocks_abnormals:willow_support>);
+
 craftingTable.removeRecipe(<item:decorative_winter:acacia_thin_branch>);
 craftingTable.removeRecipe(<item:decorative_winter:birch_thin_branch>);
 craftingTable.removeRecipe(<item:decorative_winter:crimson_thin_branch>);
