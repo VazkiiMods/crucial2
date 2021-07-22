@@ -5,6 +5,8 @@ function i(m as IItemStack, s as string) as void {
 	JEI.addInfo(m, [s]);	
 }
 
+i(<item:minecraft:chest>, "If needed, can be acquired by the standard recipe, mixing two or more types of wood.");
+
 // Backpack
 i(<item:quark:backpack>, "When wearing this, you'll have 27 more inventory slots. You can even dye it to look fancy!");
 i(<item:quark:ravager_hide>, "This drops from Ravagers. Call in a raid to get them over.");
@@ -282,7 +284,7 @@ i(<item:endergetic:white_bolloom_balloon>, s);
 i(<item:endergetic:yellow_bolloom_balloon>, s);
 
 // Runes
-s = "Runes can be found in loot chests. Only some colors can be crafted.";
+s = "Runes can be applied to an enchanted item in an Anvil to change the color of the glow.";
 i(<item:quark:black_rune>, s);
 i(<item:quark:blue_rune>, s);
 i(<item:quark:brown_rune>, s);
@@ -300,6 +302,21 @@ i(<item:quark:rainbow_rune>, s);
 i(<item:quark:red_rune>, s);
 i(<item:quark:white_rune>, s);
 i(<item:quark:yellow_rune>, s);
+
+i(<item:quark:blank_rune>, "Can be found in select loot chests. Can be crafted into a colored rune of any color. Will also work like a colored rune, removing any glow on an enchanted item.");
+
+// Speleothems
+s = "Can be placed on a solid block, up to three tall, shrinking in size every time. Falling on the lowest size will deal 50 percent increased fall damage.";
+i(<item:quark:stone_speleothem>, s);
+i(<item:quark:netherrack_speleothem>, s);
+i(<item:quark:granite_speleothem>, s);
+i(<item:quark:diorite_speleothem>, s);
+i(<item:quark:andesite_speleothem>, s);
+i(<item:quark:marble_speleothem>, s);
+i(<item:quark:limestone_speleothem>, s);
+i(<item:quark:jasper_speleothem>, s);
+i(<item:quark:slate_speleothem>, s);
+i(<item:quark:basalt_speleothem>, s);
 
 // Cave Crystals
 s = "This can be found randomly underground. They can grow if placed deep underground, look for the semi-transparent swirly particles.";
@@ -324,6 +341,17 @@ i(<item:quark:violet_crystal_cluster>, s);
 i(<item:quark:white_crystal_cluster>, s);
 i(<item:quark:yellow_crystal_cluster>, s);
 
+s = "Waxed variants do not emit particles or grow, but share all other properties.";
+i(<item:quark:waxed_black_crystal>, s);
+i(<item:quark:waxed_blue_crystal>, s);
+i(<item:quark:waxed_green_crystal>, s);
+i(<item:quark:waxed_indigo_crystal>, s);
+i(<item:quark:waxed_orange_crystal>, s);
+i(<item:quark:waxed_red_crystal>, s);
+i(<item:quark:waxed_violet_crystal>, s);
+i(<item:quark:waxed_white_crystal>, s);
+i(<item:quark:waxed_yellow_crystal>, s);
+
 // World Stones
 i(<item:minecraft:andesite>, "This spawns in large clusters under Forest type biomes.");
 i(<item:minecraft:diorite>, "This spawns in large clusters under Savannas, Jungles, and Mushroom Islands.");
@@ -338,6 +366,9 @@ i(<item:quark:marble>, "This spawns in large clusters under Plains.");
 i(<item:quark:myalite>, "This spawns in large clusters on top of the Outer End.");
 i(<item:quark:permafrost>, "This spawns in large clusters under icy and snowy biomes.");
 i(<item:quark:slate>, "This spawns in large clusters under icy and snowy biomes.");
+i(<item:quark:deepslate>, "This spawns in a large sheet towards the bottom of the world.");
+i(<item:quark:cobbled_deepslate>, "Dropped by Deepslate, which spawns in a large sheet towards the bottom of the world.");
+i(<item:quark:smooth_basalt>, "This spawns topping the large sheet of Deepslate towards the bottom of the world.");
 
 // Slime Blocks
 s = "Slime blocks will only stick to ones composed of their color or vice versa. (e.g. Red won't stick to Blue, but it'll stick to Magenta, as Magenta contains Red)";
@@ -508,6 +539,9 @@ i(<item:farmersdelight:basket>, "Can store items like a chest. Automatically pic
 i(<item:farmersdelight:cooking_pot>, "Put over a heat source such as fire or a stove to start cooking.");
 i(<item:farmersdelight:stove>, "Serves as heat source for a Cooking Pot.");
 i(<item:farmersdelight:cutting_board>, "Right click with an item and a knife to cut it.");
+i(<item:farmersdelight:rich_soil>, "Can be used to plant crops. Crops planted in this will grow faster, as if bone mealed every now and then. Can be tilled into Rich Farmland, which doesn't get trampled.");
+i(<item:farmersdelight:brown_mushroom_colony>, "Can be gotten by planting Red Mushrooms on Rich Soil under sufficient darkness.");
+i(<item:farmersdelight:red_mushroom_colony>, "Can be gotten by planting Red Mushrooms on Rich Soil under sufficient darkness.");
 
 // Quark Tweaks
 i(<item:minecraft:poisonous_potato>, "Feeding this to a baby animal may poison it and prevent it from growing.");
@@ -527,7 +561,17 @@ s = "Item frame without a background. Can be right clicked through onto chests, 
 i(<item:quark:glass_item_frame>, s);
 i(<item:quark:glowing_glass_item_frame>, s);
 
-i(<item:quark:ancient_tome>, "Can be found in loot chests. Combine with the equivalent enchanted book to limit break.");
+s = "Just like a Music Disc, but plays a looping ambient sound. Can be acquired when a Skeleton kills a Spider.";
+i(<item:quark:music_disc_drips>, s);
+i(<item:quark:music_disc_ocean>, s);
+i(<item:quark:music_disc_rain>, s);
+i(<item:quark:music_disc_wind>, s);
+i(<item:quark:music_disc_fire>, s);
+i(<item:quark:music_disc_clock>, s);
+i(<item:quark:music_disc_crickets>, s);
+i(<item:quark:music_disc_chatter>, s);
+
+i(<item:quark:ancient_tome>, "Rare item found in loot chests. When combined in anvil with an item that already has the respective enchantment, it increases the level by one. Can also increase the enchantment level up to one past the maximum.");
 i(<item:quark:biotite>, "Spawns in the middle end island after killing a dragon."); 
 i(<item:quark:bottled_cloud>, "Right click an empty bottle at cloud level to get this. Can place a block in midair.");
 
@@ -660,6 +704,7 @@ i(<item:supplementaries:notice_board>, "Can display maps, or the first page of a
 i(<item:supplementaries:pedestal>, "Can display items, including their names. Can also be stacked vertically for decor.");
 i(<item:supplementaries:piston_launcher>, "Pushes entities, like the original piston mod! You can also jump on it while it's extended.");
 i(<item:supplementaries:planter>, "Can grow crops just like irrigated farmland.");
+i(<item:supplementaries:planter_rich>, "Can grow crops just like irrigated farmland, but with the faster speed of rich soil.");
 i(<item:supplementaries:redstone_illuminator>, "Outputs a lower light level the higher the redstone signal its given.");
 i(<item:supplementaries:sack>, "Can store items, you can take it with you like a shulker box. If you try to carry multiple, it'll slow you down.");
 i(<item:supplementaries:turn_table>, "While powered, keeps rotating whatever block is attached to it. Also rotates entities on top. Right click to invert the rotation.");

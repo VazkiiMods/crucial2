@@ -17,3 +17,11 @@ environmental:music_disc_leaving_home
 environmental:music_disc_slabrave
 endergetic:music_disc_kilobyte
 berry_good:music_disc_fox
+quark:music_disc_drips
+quark:music_disc_ocean
+quark:music_disc_rain
+quark:music_disc_wind
+quark:music_disc_fire
+quark:music_disc_clock
+quark:music_disc_crickets
+quark:music_disc_chatter

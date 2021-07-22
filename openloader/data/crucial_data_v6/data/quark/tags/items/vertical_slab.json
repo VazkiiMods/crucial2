@@ -177,6 +177,11 @@
 		"quark:blackstone_bricks_vertical_slab",
 		"quark:netherrack_bricks_vertical_slab",
 		"quark:vanilla_basalt_bricks_vertical_slab",
-		"quark:dirt_bricks_vertical_slab"
+		"quark:dirt_bricks_vertical_slab",
+		"quark:cobbled_deepslate_vertical_slab",
+		"quark:polished_deepslate_vertical_slab",
+		"quark:deepslate_bricks_vertical_slab",
+		"quark:deepslate_tiles_vertical_slab",
+		"quark:smooth_basalt_vertical_slab"
 	]
 }

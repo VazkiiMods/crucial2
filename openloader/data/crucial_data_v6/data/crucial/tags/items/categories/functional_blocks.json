@@ -201,6 +201,7 @@
 		"quark:indigo_crystal_cluster",
 		"quark:violet_crystal_cluster",
 		"quark:white_crystal_cluster",
-		"quark:black_crystal_cluster"
+		"quark:black_crystal_cluster",
+		"supplementaries:planter_rich"
 	]
 }

@@ -775,6 +775,7 @@
 		"decorative_blocks_abnormals:cherry_palisade",
 		"decorative_blocks_abnormals:willow_palisade",
 		"supplementaries:raked_gravel",
-		"supplementaries:iron_gate"
+		"supplementaries:iron_gate",
+		"supplementaries:gold_gate"
 	]
 }

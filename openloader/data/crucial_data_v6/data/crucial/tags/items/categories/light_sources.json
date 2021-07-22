@@ -191,6 +191,15 @@
 		"quark:violet_crystal_cluster",
 		"quark:white_crystal_cluster",
 		"quark:black_crystal_cluster",
-		"frozenup:chilloo_feather_lamp"
+		"frozenup:chilloo_feather_lamp",
+		"quark:waxed_black_crystal",
+		"quark:waxed_blue_crystal",
+		"quark:waxed_green_crystal",
+		"quark:waxed_indigo_crystal",
+		"quark:waxed_orange_crystal",
+		"quark:waxed_red_crystal",
+		"quark:waxed_violet_crystal",
+		"quark:waxed_white_crystal",
+		"quark:waxed_yellow_crystal"
 	]
 }

@@ -173,6 +173,12 @@
 		"cookielicious:strawberry_cookie_tile_vertical_slab",
 		"cookielicious:sweet_berry_cookie_tile_vertical_slab",
 		"cookielicious:vanilla_cookie_tile_vertical_slab",
-		"lepton:gilded_blackstone_vertical_slab"
+		"lepton:gilded_blackstone_vertical_slab",
+		"quark:cobbled_deepslate_vertical_slab",
+		"quark:polished_deepslate_vertical_slab",
+		"quark:deepslate_bricks_vertical_slab",
+		"quark:deepslate_tiles_vertical_slab",
+		"quark:smooth_basalt_vertical_slab"
 	]
 }
+

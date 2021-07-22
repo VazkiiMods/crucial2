@@ -205,6 +205,86 @@
           }
         ]
       }
+    },
+    "music_disc_drips": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "quark:music_disc_drips"
+          }
+        ]
+      }
+    },
+    "music_disc_ocean": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "quark:music_disc_ocean"
+          }
+        ]
+      }
+    },
+    "music_disc_rain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "quark:music_disc_rain"
+          }
+        ]
+      }
+    },
+    "music_disc_wind": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "quark:music_disc_wind"
+          }
+        ]
+      }
+    },
+    "music_disc_fire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "quark:music_disc_fire"
+          }
+        ]
+      }
+    },
+    "music_disc_clock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "quark:music_disc_clock"
+          }
+        ]
+      }
+    },
+    "music_disc_crickets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "quark:music_disc_crickets"
+          }
+        ]
+      }
+    },
+    "music_disc_chatter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "quark:music_disc_chatter"
+          }
+        ]
+      }
     }
   }
 }
