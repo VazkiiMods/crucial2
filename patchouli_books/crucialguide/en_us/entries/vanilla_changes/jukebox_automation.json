@@ -1,0 +1,14 @@
+{
+	"name": "Jukebox Automation",
+	"icon": "minecraft:jukebox",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:jukebox",
+            "title": "Jukebox Automation",
+            "text": "$(item)Jukeboxes$() can now play music automatically, by having it inserted with a $(item)Dispenser$() facing it. To take out the disc, a $(item)Hopper$() can be used from the bottom."
+        }
+	]
+}
