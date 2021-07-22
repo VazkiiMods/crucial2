@@ -8,6 +8,8 @@ craftingTable.removeByName("charm:extra_recipes/green_dye");
 craftingTable.removeByName("charm:extra_recipes/gilded_blackstone");
 craftingTable.removeByName("charm:extra_recipes/cyan_dye");
 
+craftingTable.removeRecipe(<item:atmospheric:passionfruit_sorbet>);
+
 craftingTable.removeRecipe(<item:inspirations:shelf>);
 craftingTable.removeRecipe(<item:inspirations:ancient_shelf>);
 craftingTable.removeRecipe(<item:inspirations:rainbow_shelf>);
