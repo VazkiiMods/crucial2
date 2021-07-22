@@ -1,0 +1,9 @@
+
+[atmospheric]
+	#If passionfruit sorbet recipe is disabled; defaults to true
+	DisableSorbet = true
+	#If Atmospheric-flavored foods' recipes are enabled; defaults to true
+	EnableAtmosphericFood = true
+	#If passionfruit tart gives spitting effect; defaults to true
+	TartSpitting = true
+

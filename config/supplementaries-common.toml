@@ -18,14 +18,14 @@
 		light_level = 12
 
 	[blocks.speaker_block]
-		#maximum range
-		#Range: 0 ~ 256
+		#Maximum block range
+		#Range: 0 ~ 100000000
 		range = 64
 
 	[blocks.sack]
-		#additional sack slots divided by 2. Number of slots will be 5 + additional_slots*2
-		#Range: 0 ~ 2
-		additional_slots = 0
+		#How many slots should a sack have
+		#Range: 1 ~ 27
+		slots = 9
 		#Penalize the player with slowness effect when carrying too many sacks
 		sack_penality = true
 		#maximum number of sacks after which the slowness effect will be applied. each multiple of this number will further slow the player down
@@ -189,6 +189,13 @@
 		#allow wall lanterns placement
 		enabled = true
 
+	[tweaks.zombie_horse]
+		#Amount of rotten flesh needed
+		#Range: 1 ~ 1000
+		rotten_flesh = 64
+		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
+		zombie_horse_conversion = true
+
 	[tweaks.throwable_bricks]
 		#throw bricks at your foes! Might break glass blocks
 		enabled = true
@@ -196,6 +203,10 @@
 	[tweaks.hanging_flower_pots]
 		#allows you to place hanging flower pots. Works with any modded pot too
 		enabled = true
+
+	[tweaks.enchanting_table]
+		#Allows enchanting table to interact with bokshelf even if they have carpets or other tagged items in the way. You can add more blocks by adding them to 'enchantment_bypass' block tag
+		ignore_carpets = true
 
 	[tweaks.raked_gravel]
 		#allow gravel to be raked with a hoe
@@ -215,14 +226,14 @@
 		enabled = false
 
 	[tweaks.bells_tweaks]
-		#ring a bell by clicking on a chain that's connected to it
+		#Ring a bell by clicking on a chain that's connected to it
 		chain_ringing = true
-		#max chain length that allows a bell to ring
-		#Range: 0 ~ 1024
+		#Max chain length that allows a bell to ring
+		#Range: 0 ~ 256
 		chain_length = 16
 
 	[tweaks.ceiling_banners]
-		#allow banners to be placed on ceilings
+		#Allow banners to be placed on ceilings
 		enabled = true
 
 	[tweaks.map_tweaks]
@@ -243,7 +254,7 @@
 		custom_adventurer_maps = [[""]]
 		#enables beacons, lodestones, respawn anchors, beds, conduits, portals to be displayed on maps by clicking one of them with a map
 		block_map_markers = true
-		#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure.
+		#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
 		#Best kept disabled if you are adding custom adventurer maps with its config
 		random_adventurer_maps = false
 
@@ -256,6 +267,13 @@
 		#radius in which an unbound flute will search pets
 		#Range: 0 ~ 500
 		unbound_radius = 64
+
+	[items.bomb]
+		#Do bombs break blocks like tnt?
+		break_blocks = false
+		#Bomb explosion radius (damage depends on this)
+		#Range: 0.1 ~ 10.0
+		explosion_radius = 2.0
 
 	[items.rope_arrow]
 		#If you really don't like my ropes you can specify here the block id ofa rope from another mod which will get deployed by rope arrows instead of mine

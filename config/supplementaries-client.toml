@@ -168,6 +168,8 @@
 	#Colors the brewing stand potion texture depending on the potions it's brewing.
 	#If using a resource pack add tint index from 0 to 3 to the 3 potion layers
 	brewing_stand_colors = true
+	#Allow to right click with a clock to display current time in numerical form
+	clock_right_click = true
 	#Makes tipped arrows show their colors when loaded with a crossbow
 	crossbows_colors = true
 

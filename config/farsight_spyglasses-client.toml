@@ -1,10 +1,17 @@
 
 [settings]
+	#Whether a zooming keybinding should be enabled to activate the spyglass from anywhere in the inventory
+	#Required when using the spyglass as a Curio
+	#If disabled, is not bound by default and has no effect
+	zoomingKey = false
 	#Whether scrolling should be enabled to dynamically change the FOV while zooming
-	#When enabled, FOV modifier is the initial zoom amount
+	#If enabled, FOV modifier is the initial zoom amount
 	scrolling = false
 	#Whether smooth camera movement should be enabled while zooming
 	smoothCamera = true
+	#Whether the Sanctuary Guardian What meme should be shown when zooming
+	#If enabled, sound and scope assets are replaced with the respective What assets
+	whatMeme = false
 	#Whether the scope overlay should be rendered while zooming
 	scopeOverlay = true
 	#How much the FOV should change when zooming

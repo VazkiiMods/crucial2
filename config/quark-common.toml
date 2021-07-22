@@ -42,6 +42,7 @@
 	"Weather Sensor" = false
 	"Ender Watcher" = true
 	"Endermites Form Shulkers" = true
+	"Jukebox Automation" = true
 	"Chains Connect Blocks" = true
 	"Color Slime" = true
 	"Dispensers Place Blocks" = true
@@ -190,6 +191,7 @@
 		"Stick Block Fuel Time" = 900
 
 	[building.variant_chests]
+		"Enable Reverting Wooden Chests" = true
 		"Replace Worldgen Chests" = true
 		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:endcity=quark:purpur_chest", "bettermineshafts:mineshaft=quark:oak_chest", "cobbler:shulker_factory=quark:purpur_chest", "conjurer_illager:theatre=quark:dark_oak_chest", "dungeoncrawl:dungeon=quark:oak_chest", "dungeons_plus:bigger_dungeon=quark:oak_chest", "dungeons_plus:end_ruins=quark:purpur_chest", "dungeons_plus:leviathan=quark:jungle_chest", "dungeons_plus:snowy_temple=quark:spruce_chest", "dungeons_plus:soul_prison=quark:warped_chest", "dungeons_plus:tower=quark:oak_chest", "dungeons_plus:warped_garden=quark:warped__chest", "hunterillager:hunterhouse=quark:oak_chest", "iceandfire:gorgon_temple=quark:jungle_chest", "pandoras_creatures:end_prison=quark:purpur_chest", "repurposed_structures:fortress_jungle=quark:jungle_chest", "repurposed_structures:igloo_grassy=quark:oak_chest", "repurposed_structures:igloo_stone=quark:spruce_chest", "repurposed_structures:mineshaft_birch=quark:birch_chest", "repurposed_structures:mineshaft_desert=quark:jungle_chest", "repurposed_structures:mineshaft_end=quark:purpur_chest", "repurposed_structures:mineshaft_icy=quark:spruce_chest", "repurposed_structures:mineshaft_jungle=quark:jungle_chest", "repurposed_structures:mineshaft_nether=quark:nether_brick_chest", "repurposed_structures:mineshaft_ocean=quark:prismarine_chest", "repurposed_structures:mineshaft_savanna=quark:acacia_chest", "repurposed_structures:mineshaft_stone=quark:spruce_chest", "repurposed_structures:mineshaft_swamp_or_dark_forest=quark:dark_oak_chest", "repurposed_structures:mineshaft_taiga=quark:spruce_chest", "repurposed_structures:outpost_badlands=quark:dark_oak_chest", "repurposed_structures:outpost_birch=quark:birch_chest", "repurposed_structures:outpost_crimson=quark:crimson_chest", "repurposed_structures:outpost_desert=quark:jungle_chest", "repurposed_structures:outpost_giant_tree_taiga=quark:spruce_chest", "repurposed_structures:outpost_icy=quark:spruce_chest", "repurposed_structures:outpost_jungle=quark:jungle_chest", "repurposed_structures:outpost_nether_brick=quark:nether_brick_chest", "repurposed_structures:outpost_snowy=quark:spruce_chest", "repurposed_structures:outpost_warped=quark:warped_chest", "repurposed_structures:pyramid_badlands=quark:dark_oak_chest", "repurposed_structures:pyramid_nether=quark:nether_brick_chest", "repurposed_structures:ruined_portal_end=quark:purpur_chest", "repurposed_structures:shipwreck_crimson=quark:crimson_chest", "repurposed_structures:shipwreck_end=quark:purpur_chest", "repurposed_structures:shipwreck_nether_bricks=quark:nether_brick_chest", "repurposed_structures:shipwreck_warped=quark:warped_chest", "repurposed_structures:stronghold_nether=quark:nether_brick_chest", "repurposed_structures:stronghold_stonebrick=quark:oak_chest", "repurposed_structures:temple_nether_basalt=quark:nether_brick_chest", "repurposed_structures:temple_nether_crimson=quark:crimson_chest", "repurposed_structures:temple_nether_soul=quark:warped_chest", "repurposed_structures:temple_nether_warped=quark:warped_chest", "repurposed_structures:temple_nether_wasteland=quark:nether_brick_chest", "repurposed_structures:village_badlands=quark:dark_oak_chest", "repurposed_structures:village_birch=quark:birch_chest", "repurposed_structures:village_crimson=quark:crimson_chest", "repurposed_structures:village_dark_oak=quark:dark_oak_chest", "repurposed_structures:village_giant_taiga=quark:spruce_chest", "repurposed_structures:village_jungle=quark:jungle_chest", "repurposed_structures:village_mountains=quark:spruce_chest", "repurposed_structures:village_oak=quark:oak_chest", "repurposed_structures:village_swamp=quark:oak_chest", "repurposed_structures:village_warped=quark:warped_chest", "valhelsia_structures:castle=quark:spruce_chest", "valhelsia_structures:castle_ruin=quark:oak_chest", "valhelsia_structures:desert_house=quark:spruce_chest", "valhelsia_structures:forge=quark:spruce_chest", "valhelsia_structures:player_house=quark:oak_chest", "valhelsia_structures:small_castle=quark:oak_chest", "valhelsia_structures:small_dungeon=quark:oak_chest", "valhelsia_structures:tower_ruin=quark:spruce_chest"]
@@ -246,6 +248,7 @@
 
 [tools]
 	Pickarang = true
+	"Ambient Discs" = true
 	"Seed Pouch" = true
 	"Pathfinder Maps" = true
 	"Bottled Cloud" = true
@@ -256,8 +259,11 @@
 	Trowel = true
 	Abacus = true
 
+	[tools.ambient_discs]
+		"Drop On Spider Kill" = true
+
 	[tools.trowel]
-		#Amount of blocks placed is this value + 1. Default is 255 (4 stacks).
+		#Amount of blocks placed is this value + 1.
 		#Set to 0 to make the Trowel unbreakable
 		#Allowed values: [0,)
 		"Trowel Max Durability" = 255
@@ -269,13 +275,14 @@
 	[tools.ancient_tomes]
 		#Set to 0 to not generate in Underwater Ruins
 		"Underwater Ruin Weight" = 0
+		"Normal Upgrade Cost" = 10
 		#Set to 0 to not generate in Woodland Mansions
 		"Woodland Mansion Weight" = 15
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing", "farmersdelight:backstabbing", "allurement:reeling", "allurement:shockwave", "allurement:launch"]
-		"Apply Cost" = 35
+		"Item Quality" = 2
 		#Set to 0 to not generate in Dungeons
 		"Dungeon Weight" = 20
-		"Item Quality" = 2
+		"Limit Break Upgrade Cost" = 30
 		#Set to 0 to not generate in Stronghold Libraries
 		"Library Weight" = 30
 		#Set to 0 to not generate in Nether Fortresses
@@ -284,7 +291,6 @@
 		"Bastion Weight" = 25
 		#Set to 0 to not generate in Monster Boxes
 		"Monster Box Weight" = 5
-		"Merge Cost" = 35
 
 	[tools.pathfinder_maps]
 		#In this section you can add custom Pathfinder Maps. This works for both vanilla and modded biomes.
@@ -367,6 +373,7 @@
 	"Snow Golem Player Heads" = true
 	"Glass Shard" = true
 	"Campfires Boost Elytra" = true
+	"More Banner Layers" = true
 	"Better Elytra Rocket" = true
 
 	[tweaks.sign_editing]
@@ -476,6 +483,10 @@
 		#How many times the algorithm for finding out where a block would be placed is allowed to turn. If you set this to large values (> 3) it may start producing weird effects.
 		"Max Bounces" = 1
 
+	[tweaks.more_banner_layers]
+		#Allowed values: [1,16]
+		"Layer Limit" = 16
+
 [world]
 	"New Stone Types" = true
 	"Lush Underground Biome" = true
@@ -502,6 +513,7 @@
 	"Overgrown Underground Biome" = true
 	"Cave Roots" = true
 	"Spider Nest Underground Biome" = true
+	Deepslate = true
 	"Monster Box" = true
 
 	[world.monster_box]
@@ -567,6 +579,7 @@
 	[world.speleothems]
 		"Speleothems Per Chunk In Nether" = 12
 		"Tries Per Chunk In Nether" = 4
+		"Small Speleothems Increase Fall Damage" = true
 		"Max Ylevel" = 55
 		"Speleothems Per Chunk" = 12
 		"Tries Per Chunk" = 60
@@ -845,6 +858,15 @@
 			[world.spider_nest_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
+
+	[world.deepslate]
+		"Sheet Height Variance" = 6
+		"Sheet Y Start" = 0
+		"Sheet Height" = 18
+
+		[world.deepslate.dimensions]
+			Dimensions = ["minecraft:overworld"]
+			"Is Blacklist" = false
 
 	[world.blossom_trees]
 
@@ -1895,13 +1917,13 @@
 
 	[client.greener_grass]
 		"Leaves List" = ["minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:oak_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:dark_oak_leaves", "atmospheric:rosewood_leaves", "atmospheric:morado_leaves", "atmospheric:yucca_leaves", "autumnity:maple_leaves", "environmental:willow_leaves", "environmental:hanging_willow_leaves", "minecraft:vine"]
-		"Blue Shift" = -30
-		"Green Shift" = 30
 		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane", "environmental:giant_tall_grass"]
-		"Alpha Grass" = false
-		"Absolute Values" = false
-		"Red Shift" = -30
 		"Affect Leaves" = true
+
+		[client.greener_grass.color_matrix]
+			R = [0.89, 0.0, 0.0]
+			B = [0.0, 0.0, 0.89]
+			G = [0.0, 1.11, 0.0]
 
 [oddities]
 	"Totem Of Holding" = true
@@ -1952,6 +1974,8 @@
 		"Show Tooltip" = true
 		#Set to false to disable the ability to create Enchanted Books
 		"Allow Books" = true
+		#If you set this to false, the vanilla Enchanting Table will no longer automatically convert to the Matrix Enchanting table. You'll have to add a recipe for the Matrix Enchanting Table to make use of this.
+		"Automatically Convert" = true
 		#The higher this is, the better enchantments you'll get on books
 		"Book Enchantability" = 12
 		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
