@@ -12,6 +12,7 @@ blacklisted_files = [
 	'config/jei/ingredient-list-type-sort-order.ini',
 	'config/jei/recipe-category-sort-order.ini',
 	'config/jei/bookmarks.ini',
+	'config/sodium-options.json'
 ]
 
 server_files_to_copy = ['setup_server.bat', 'setup_server.sh']
