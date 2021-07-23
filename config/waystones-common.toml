@@ -21,7 +21,7 @@
 			worldGenDimensionAllowList = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
 			#Approximate chunk distance between waystones generated freely in world generation. Set to 0 to disable generation.
 			#Range: > 0
-			worldGenFrequency = 25
+			worldGenFrequency = 0
 			#List of dimensions that waystones are not allowed to spawn in through world gen. Only used if worldGenDimensionAllowList is empty.
 			worldGenDimensionDenyList = []
 
