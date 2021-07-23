@@ -169,11 +169,14 @@
 		"bayou_blues:algae_thatch_vertical_slab",
 		"cookielicious:chocolate_cookie_tile_vertical_slab",
 		"cookielicious:honey_cookie_tile_vertical_slab",
-		"cookielicious:sandwich_cookie_tile_vertical_slab",
 		"cookielicious:strawberry_cookie_tile_vertical_slab",
 		"cookielicious:sweet_berry_cookie_tile_vertical_slab",
 		"cookielicious:vanilla_cookie_tile_vertical_slab",
 		"lepton:gilded_blackstone_vertical_slab",
+		"quark:blackstone_bricks_vertical_slab",
+		"quark:netherrack_bricks_vertical_slab",
+		"quark:vanilla_basalt_bricks_vertical_slab",
+		"quark:dirt_bricks_vertical_slab",
 		"quark:cobbled_deepslate_vertical_slab",
 		"quark:polished_deepslate_vertical_slab",
 		"quark:deepslate_bricks_vertical_slab",
@@ -181,4 +184,3 @@
 		"quark:smooth_basalt_vertical_slab"
 	]
 }
-

@@ -88,12 +88,12 @@
 		"upgrade_aquatic:thorny_kelp_block",
 		"upgrade_aquatic:tongue_kelp_block",
 		"upgrade_aquatic:tooth_block",
-		"cookielicious:chocolate_cookie_crate",
-		"cookielicious:sandwich_cookie_crate",
-		"cookielicious:strawberry_cookie_crate",
-		"cookielicious:vanilla_cookie_crate",
 		"neapolitan:adzuki_crate",
 		"neapolitan:roasted_adzuki_crate",
-		"neapolitan:mint_basket"
+		"neapolitan:mint_basket",
+		"cookielicious:cookie_tiles",
+		"cookielicious:banana_cookie_tiles",
+		"cookielicious:mint_cookie_tiles",
+		"cookielicious:adzuki_cookie_tiles"
 	]
 }
