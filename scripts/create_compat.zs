@@ -5,10 +5,19 @@
 import crafttweaker.api.events.CTEventManager;
 CTEventManager.register<crafttweaker.api.event.entity.player.MCPlayerLoggedInEvent>((event) => {
      var player = event.player;
-     player.sendMessage("CreateTweaker is required for Create integration to work properly. Please make sure you have the latest version installed: https://www.curseforge.com/minecraft/mc-mods/createtweaker");
+     player.sendMessage("CreateTweaker and ContentTweaker are required for Create integration to work properly. Please make sure you have the latest versions installed: https://www.curseforge.com/minecraft/mc-mods/createtweaker https://www.curseforge.com/minecraft/mc-mods/contenttweaker");
 });
 #snip end
 
+#snip modloaded contenttweaker
+import crafttweaker.api.events.CTEventManager;
+CTEventManager.register<crafttweaker.api.event.entity.player.MCPlayerLoggedInEvent>((event) => {
+     var player = event.player;
+     player.sendMessage("CreateTweaker and ContentTweaker are required for Create integration to work properly. Please make sure you have the latest versions installed: https://www.curseforge.com/minecraft/mc-mods/createtweaker https://www.curseforge.com/minecraft/mc-mods/contenttweaker");
+});
+#snip end
+
+#snip modnotloaded contenttweaker
 #snip modnotloaded createtweaker
 import mods.jei.JEI as JEI;
 
@@ -29,6 +38,18 @@ blastFurnace.removeRecipe(<item:create:zinc_ingot>);
 <recipetype:create:mixing>.removeRecipe(<item:create:crushed_brass>);
 <recipetype:create:mixing>.addRecipe("quartz_brass_ingot", "heated", <item:create:brass_ingot> * 2, [<item:create:copper_ingot>, <item:minecraft:quartz>]);
 <recipetype:create:mixing>.addRecipe("quartz_crushed_brass", "heated", <item:create:crushed_brass> * 2, [<item:create:crushed_copper_ore>, <item:minecraft:quartz>]);
+
+// Raw Ores =======================================================================================
+craftingTable.addShaped("raw_copper_compact", <item:contenttweaker:raw_copper_block>, [[<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>]]);
+craftingTable.addShapeless("raw_copper_uncompact", <item:contenttweaker:raw_copper> * 9, [<item:contenttweaker:raw_copper_block>]);
+JEI.addInfo(<item:contenttweaker:raw_copper>, ["Drops from Copper Ore when mined without Silk Touch. Using Fortune increases the amount dropped."]);
+
+<recipetype:create:milling>.addRecipe("raw_iron_milling", [<item:create:crushed_iron_ore>], <item:iron_and_gold:raw_iron>);
+<recipetype:create:milling>.addRecipe("raw_gold_milling", [<item:create:crushed_gold_ore>], <item:iron_and_gold:raw_gold>);
+<recipetype:create:milling>.addRecipe("raw_copper_milling", [<item:create:crushed_copper_ore>], <item:contenttweaker:raw_copper>);
+<recipetype:create:crushing>.addRecipe("raw_iron_crushing", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_iron>);
+<recipetype:create:crushing>.addRecipe("raw_gold_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_gold>);
+<recipetype:create:crushing>.addRecipe("raw_copper_crushing", [<item:create:crushed_copper_ore>, <item:create:crushed_copper_ore> % 30, <item:minecraft:gravel> % 6], <item:contenttweaker:raw_copper>);
 
 // Tweaks =========================================================================================
 <recipetype:create:splashing>.removeByName("create:splashing/gravel");
@@ -277,8 +298,6 @@ craftingTable.removeRecipe(<item:create:shadow_steel_casing>);
 craftingTable.removeRecipe(<item:create:refined_radiance_casing>);
 <recipetype:create:crushing>.removeRecipe(<item:create:powdered_obsidian>);
 <recipetype:create:mixing>.removeRecipe(<item:create:chromatic_compound>);
-craftingTable.removeRecipe(<item:create:handheld_blockzapper>);
-craftingTable.removeRecipe(<item:create:deforester>);
 craftingTable.removeRecipe(<item:create:wand_of_symmetry>);
 <recipetype:create:mechanical_crafting>.removeRecipe(<item:create:extendo_grip>);
 
@@ -782,6 +801,7 @@ tag = <tag:items:crucial:categories/useful_items>;
 tag.add(<item:create:goggles>);
 tag.add(<item:create:super_glue>);
 tag.add(<item:create:wrench>);
+#snip end
 #snip end
 
 #snip end
