@@ -11,7 +11,7 @@
     "use_vertex_array_objects": true,
     "use_chunk_multidraw": true,
     "translucency_sorting": true,
-    "use_leaves_culling": true,
+    "use_leaves_culling": false,
     "animate_only_visible_textures": true,
     "use_entity_culling": true,
     "use_particle_culling": true,
