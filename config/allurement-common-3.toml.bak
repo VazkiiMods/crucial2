@@ -1,0 +1,73 @@
+
+[enchantments]
+
+	[enchantments.vengeance]
+		#Armor enchantment that stores incoming damage and applies it to user's next attack
+		"Enable Vengeance" = true
+		#How much the damage taken with vengeance is multiplied for attacks
+		"Damage factor" = 0.025
+
+	[enchantments.reforming]
+		#How many ticks it takes a reforming item to repair
+		"Reforming tick rate" = 600
+		#Gear enchantment that very slowly repairs items over time
+		"Enable Reforming" = true
+
+	[enchantments.missile]
+		#How much the target is affected on the vertical axis
+		"Vertical factor" = 0.35
+		#Weapon enchantment that launches enemies upwards rather than away
+		"Enable Launch" = true
+
+	[enchantments.reeling]
+		#Crossbow enchantment that pulls targets towards the user
+		"Enable Reeling" = true
+		#How much the target is affected on the vertical axis
+		"Vertical factor" = 0.25
+		#How much the target is affected on the horizontal axis
+		"Horizontal factor" = 0.5
+
+	[enchantments.alleviating]
+		#Armor enchantment that heals the user when collecting experience
+		"Enable Alleviating" = true
+		#How much the experience value is multiplied by into health
+		"Healing factor" = 0.25
+
+	[enchantments.shockwave]
+		#Boots enchantment that creates a shockwave when taking fall damage
+		"Enable Shockwave" = true
+
+[tweaks]
+
+	[tweaks.horse_armor]
+		#Allow horse armor to be enchanted
+		"Enchantable horse armor" = true
+		#Which loot tables horse armor can't appear enchanted in
+		"Unenchanted loot tables" = ["minecraft:chests/village/village_weaponsmith", "minecraft:chests/stronghold_corridor", "minecraft:chests/nether_bridge"]
+		#If horse armor can appear enchanted when found in loot tables
+		"Generates in loot tables" = true
+
+	[tweaks.soul_speed]
+		#Instead of losing durability as you run, Soul Speed makes incoming damage increase when on Soul Speed blocks
+		"Soul Speed change" = true
+		#How much damage is multiplied when hurt on Soul Speed blocks
+		"Damage factor" = 1.5
+
+	[tweaks.level_scaling]
+		#The amount of experience per level, if level scaling is removed (experimental)
+		"Experience per level" = 50
+		#Remove the amount of experience per level increasing (experimental)
+		"Remove level scaling" = false
+
+	[tweaks.infinity]
+		#If Infinity requires an arrow in the player's inventory in order to shoot
+		"Infinity requires arrows" = false
+
+	[tweaks.protection]
+		#Remove the base Protection enchantment, requiring players to choose between the other types
+		"Disable Protection" = false
+
+	[tweaks.riptide]
+		#Allow Riptide to function when in cauldrons
+		"Riptide works in cauldrons" = true
+
