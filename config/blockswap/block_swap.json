@@ -1,8 +1,7 @@
 {
   "retroGen": false,
   "swapper": {
-    "dummymodid:dummyblocktoreplace": "dummymodid2:replacer",
-    "dummymodid:dummyblocktoreplace2": "dummymodid2:replacer2",
-    "dummymodid:dummyblocktoreplace3": "dummymodid2:replacer3"
+    "infernalexp:polished_basalt_tiles": "architects_palette:basalt_tiles",
+    "infernalexp:polished_basalt_tiles_slab": "architects_palette:basalt_tile_slab"
   }
 }

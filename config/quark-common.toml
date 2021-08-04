@@ -140,7 +140,7 @@
 		"Glass Item Frames Update Maps" = true
 
 	[building.cobblestone_bricks]
-		"Enable Basalt Bricks" = true
+		"Enable Basalt Bricks" = false
 		"Enable Netherrack Bricks" = true
 		"Enable Dirt Bricks" = true
 		"Enable Blackstone Bricks" = true
