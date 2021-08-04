@@ -413,6 +413,7 @@ i(<item:buzzier_bees:honey_pot>, "Stores honey, can take in honeycombs. It's als
 // Poise Forest Stuff
 i(<item:endergetic:booflo_hide>, "Dropped from Booflos on death or growth. They spawn in the outer end, tame them with Bolloom Fruit, and breed with Poise Clusters.");
 i(<item:endergetic:bolloom_fruit>, "Spawns in the outer end, Puff Bug mobs can pollinate buds to make more.");
+i(<item:endergetic:boof_block>, "Puffs up when jumped on, making it into a trampoline of sorts.");
 
 s = "Spawns in the Poise Forest, located in the Outer End.";
 i(<item:endergetic:eumus>, s);
@@ -759,3 +760,26 @@ i(<item:iron_and_gold:raw_gold>, "Drops from Gold Ore when mined without Silk To
 i(<item:farsight_spyglasses:spyglass>, "Can be used to zoom in wherever you're looking at.");
 
 i(<item:fruitful:flowering_oak_sapling>, "Can be found in Forests and more commonly in Flowering Forests. Can be pollinated by bees during full moons to sprout apples.");
+
+i(<item:architects_palette:entrails>, "Can be traded for with a Butcher villager.");
+i(<item:architects_palette:warpstone>, "Can be acquired by sending a Clay Block through a Nether Portal.");
+i(<item:architects_palette:withered_bone>, "Drops from Wither Skeletons. Not sure what you expected.");
+i(<item:architects_palette:moonstone>, "Sold only by the Wandering Trader. Glows at night.");
+i(<item:architects_palette:sunstone>, "Sold only by the Wandering Trader. Glows during the day.");
+i(<item:architects_palette:chiseled_abyssaline_bricks>, "Serves as the main source for lighting up Abyssaline blocks. Can be powered on by using a Heart of the Sea on it.");
+
+s = "Can be carved out of an Acacia Totem by taking an axe to it.";
+i(<item:architects_palette:grinning_acacia_totem>, s);
+i(<item:architects_palette:placid_acacia_totem>, s);
+i(<item:architects_palette:shocked_acacia_totem>, s);
+
+s = "Can be lit up by adjacent Abyssaline blocks, starting with a powered Chiseled Abyssaline Brick block.";
+i(<item:architects_palette:abyssaline>, s);
+i(<item:architects_palette:abyssaline_bricks>, s);
+i(<item:architects_palette:abyssaline_pillar>, s);
+i(<item:architects_palette:abyssaline_brick_slab>, s);
+i(<item:architects_palette:abyssaline_tiles>, s);
+i(<item:architects_palette:abyssaline_tile_slab>, s);
+i(<item:architects_palette:abyssaline_lamp>, s);
+i(<item:architects_palette:abyssaline_brick_vertical_slab>, s);
+i(<item:architects_palette:abyssaline_tile_vertical_slab>, s);
