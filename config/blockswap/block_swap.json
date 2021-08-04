@@ -1,0 +1,8 @@
+{
+  "retroGen": false,
+  "swapper": {
+    "dummymodid:dummyblocktoreplace": "dummymodid2:replacer",
+    "dummymodid:dummyblocktoreplace2": "dummymodid2:replacer2",
+    "dummymodid:dummyblocktoreplace3": "dummymodid2:replacer3"
+  }
+}

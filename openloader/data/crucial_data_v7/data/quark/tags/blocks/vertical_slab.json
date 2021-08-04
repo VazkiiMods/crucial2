@@ -181,6 +181,21 @@
 		"quark:polished_deepslate_vertical_slab",
 		"quark:deepslate_bricks_vertical_slab",
 		"quark:deepslate_tiles_vertical_slab",
-		"quark:smooth_basalt_vertical_slab"
+		"quark:smooth_basalt_vertical_slab",
+		"architects_palette:abyssaline_brick_vertical_slab",
+		"architects_palette:abyssaline_tile_vertical_slab",
+		"architects_palette:olivestone_brick_vertical_slab",
+		"architects_palette:olivestone_tile_vertical_slab",
+		"architects_palette:algal_brick_vertical_slab",
+		"architects_palette:overgrown_algal_brick_vertical_slab",
+		"architects_palette:flint_tile_vertical_slab",
+		"architects_palette:polished_packed_ice_vertical_slab",
+		"architects_palette:sunmetal_vertical_slab",
+		"architects_palette:osseous_brick_vertical_slab",
+		"architects_palette:withered_osseous_brick_vertical_slab",
+		"architects_palette:entwine_vertical_slab",
+		"architects_palette:gilded_sandstone_vertical_slab",
+		"architects_palette:warpstone_vertical_slab",
+		"architects_palette:basalt_tile_vertical_slab"
 	]
 }

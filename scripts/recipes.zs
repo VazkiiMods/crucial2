@@ -7,6 +7,7 @@ var banana = <item:neapolitan:banana>;
 var banana_bunch = <item:neapolitan:banana_bunch>;
 var birch_sapling = <item:minecraft:birch_sapling>;
 var blaze_powder = <item:minecraft:blaze_powder>;
+var bone_block = <item:minecraft:bone_block>;
 var boof_block = <item:endergetic:boof_block>; 
 var booflo_hide = <item:endergetic:booflo_hide>;
 var book = <item:minecraft:book>;
@@ -14,6 +15,8 @@ var brick = <tag:items:forge:ingots/brick>;
 var candelabra = <item:supplementaries:candelabra>;
 var candles = <tag:items:buzzier_bees:candles>;
 var canvas = <item:farmersdelight:canvas>;
+var charcoal = <item:minecraft:charcoal>;
+var charcoal_block = <item:architects_palette:charcoal_block>;
 var chiseled_coal_ore_bricks = <item:architects_palette:chiseled_coal_ore_bricks>;
 var chiseled_diamond_ore_bricks = <item:architects_palette:chiseled_diamond_ore_bricks>;
 var chiseled_emerald_ore_bricks = <item:architects_palette:chiseled_emerald_ore_bricks>;
@@ -21,11 +24,16 @@ var chiseled_gold_ore_bricks = <item:architects_palette:chiseled_gold_ore_bricks
 var chiseled_iron_ore_bricks = <item:architects_palette:chiseled_iron_ore_bricks>;
 var chiseled_lapis_ore_bricks = <item:architects_palette:chiseled_lapis_ore_bricks>;
 var chiseled_redstone_ore_bricks = <item:architects_palette:chiseled_redstone_ore_bricks>;
+var chiseled_stone_bricks = <item:minecraft:chiseled_stone_bricks>;
 var clay = <item:minecraft:clay>;
 var clay_ball = <item:minecraft:clay_ball>;
+var coal = <item:minecraft:coal>;
+var cod = <item:minecraft:cod>;
+var cod_log = <item:architects_palette:cod_log>;
 var crafter = <item:structuredcrafting:structured_crafter>;
 var crafting_table = <item:minecraft:crafting_table>;
-var emerald = <item:minecraft:emerald>;
+var diamond = <tag:items:forge:gems/diamond>;
+var emerald = <tag:items:forge:gems/emerald>;
 var ender_eye = <item:minecraft:ender_eye>;
 var ender_pearl = <item:minecraft:ender_pearl>;
 var glass_item_frame = <item:quark:glass_item_frame>;
@@ -42,7 +50,9 @@ var koi = <item:environmental:koi>;
 var koi_barrel = <item:fish_in_planks:koi_barrel>;
 var kousa_sapling = <item:atmospheric:kousa_sapling>;
 var lantern = <item:minecraft:lantern>;
+var lapis = <tag:items:forge:gems/lapis>;
 var leather = <item:minecraft:leather>;
+var logs = <tag:items:minecraft:logs>;
 var mimicream = <item:alexsmobs:mimicream>;
 var nether_star = <item:minecraft:nether_star>;
 var nether_wart = <item:minecraft:nether_wart>;
@@ -60,7 +70,12 @@ var polar_kelp = <item:upgrade_aquatic:polar_kelp>;
 var polished_packed_ice = <item:architects_palette:polished_packed_ice>;
 var potato = <item:minecraft:potato>;
 var prismarine_crystals = <item:minecraft:prismarine_crystals>;
+var raw_gold = <item:iron_and_gold:raw_gold>;
+var raw_iron = <item:iron_and_gold:raw_iron>;
+var redstone = <tag:items:forge:dusts/redstone>;
 var sack = <item:supplementaries:sack>;
+var salmon = <item:minecraft:salmon>;
+var salmon_log = <item:architects_palette:salmon_log>;
 var soul_lantern = <item:minecraft:soul_lantern>;
 var spruce_sapling = <item:minecraft:spruce_sapling>;
 var spyglass = <item:farsight_spyglasses:spyglass>;
@@ -197,7 +212,14 @@ stoneCutter.removeRecipe(chiseled_iron_ore_bricks);
 stoneCutter.removeRecipe(chiseled_gold_ore_bricks);
 stoneCutter.removeRecipe(chiseled_emerald_ore_bricks);
 stoneCutter.removeRecipe(chiseled_diamond_ore_bricks);
-// TODO
+
+craftingTable.addShapeless("coal_bricks", chiseled_coal_ore_bricks, [chiseled_stone_bricks, coal]);
+craftingTable.addShapeless("lapis_bricks", chiseled_lapis_ore_bricks, [chiseled_stone_bricks, lapis]);
+craftingTable.addShapeless("redstone_bricks", chiseled_redstone_ore_bricks, [chiseled_stone_bricks, redstone]);
+craftingTable.addShapeless("iron_bricks", chiseled_iron_ore_bricks, [chiseled_stone_bricks, raw_iron]);
+craftingTable.addShapeless("gold_bricks", chiseled_gold_ore_bricks, [chiseled_stone_bricks, raw_gold]);
+craftingTable.addShapeless("emerald_bricks", chiseled_emerald_ore_bricks, [chiseled_stone_bricks, emerald]);
+craftingTable.addShapeless("diamond_bricks", chiseled_diamond_ore_bricks, [chiseled_stone_bricks, diamond]);
 
 // Packed Ice Bricks
 craftingTable.removeRecipe(ice_bricks);
@@ -205,3 +227,22 @@ craftingTable.addShaped("packed_ice_bricks",
 		ice_bricks * 4, 
 		[[polished_packed_ice, polished_packed_ice],
 		 [polished_packed_ice, polished_packed_ice]]);
+
+// Charcoal Block -> Charred Log
+craftingTable.removeRecipe(charcoal_block);
+craftingTable.addShaped("charred_log", 
+		charcoal_block, 
+		[[charcoal], [logs], [charcoal]]);
+
+// Salmon and Cod Cuts
+craftingTable.addShaped("salmon_cut", 
+		salmon_log * 4, 
+		[[salmon, salmon, salmon], 
+		[salmon, bone_block, salmon], 
+		[salmon, salmon, salmon]]);
+
+craftingTable.addShaped("cod_cut", // crl
+		cod_log * 4, 
+		[[cod, cod, cod], 
+		[cod, bone_block, cod], 
+		[cod, cod, cod]]);

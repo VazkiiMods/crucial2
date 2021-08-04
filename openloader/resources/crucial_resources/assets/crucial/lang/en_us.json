@@ -59,5 +59,12 @@
 	"advancements.crucial.override.upgrade_healer_pouch.title": "Panic! At the Bastion",
 	"advancements.crucial.override.upgrade_healer_pouch.description": "Collect the Healer's Pouch rarely from Piglin Bartering and completely level it up",
 
-	"text.betterf3.line.endergetic:end_creature": "End Creatures"
+	"block.architects_palette.charcoal_block": "Charred Log",
+	"block.architects_palette.chiseled_coal_ore_bricks": "Coal Etched Stone Bricks",
+	"block.architects_palette.chiseled_lapis_ore_bricks": "Lapis Etched Stone Bricks",
+	"block.architects_palette.chiseled_redstone_ore_bricks": "Redstone Etched Stone Bricks",
+	"block.architects_palette.chiseled_iron_ore_bricks": "Iron Etched Stone Bricks",
+	"block.architects_palette.chiseled_gold_ore_bricks": "Gold Etched Stone Bricks",
+	"block.architects_palette.chiseled_emerald_ore_bricks": "Emerald Etched Stone Bricks",
+	"block.architects_palette.chiseled_diamond_ore_bricks": "Diamond Etched Stone Bricks"
 }

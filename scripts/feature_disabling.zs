@@ -127,6 +127,8 @@ craftingTable.removeRecipe(<item:alexsmobs:falconry_hood>);
 craftingTable.removeRecipe(<item:alexsmobs:mysterious_worm>);
 craftingTable.removeRecipe(<item:alexsmobs:shield_of_the_deep>);
 craftingTable.removeRecipe(<item:alexsmobs:shrimp_fried_rice>);
+craftingTable.removeRecipe(<item:alexsmobs:endolocator>);
+craftingTable.removeRecipe(<item:alexsmobs:echolocator>);
 
 craftingTable.removeRecipe(<item:paraglider:spirit_orb>);
 craftingTable.removeRecipe(<item:paraglider:horned_statue>);
