@@ -251,7 +251,7 @@
 		crimsonMosquitoSpawnWeight = 8
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		straddlerSpawnWeight = 85
+		straddlerSpawnWeight = 35
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		hummingbirdSpawnWeight = 39
