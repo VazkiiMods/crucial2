@@ -226,6 +226,11 @@
 		"decorative_blocks:chandelier",
 		"decorative_blocks:soul_chandelier",
 		"decorative_blocks_abnormals:ender_brazier",
-		"decorative_blocks_abnormals:ender_chandelier"
+		"decorative_blocks_abnormals:ender_chandelier",
+		"architects_palette:illuminated_olivestone",
+		"architects_palette:algal_lamp",
+		"architects_palette:wither_lamp",
+		"architects_palette:sunstone",
+		"architects_palette:moonstone"
 	]
 }

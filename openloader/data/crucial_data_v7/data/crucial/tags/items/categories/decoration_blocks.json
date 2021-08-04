@@ -789,6 +789,12 @@
 		"fruitful:budding_oak_leaf_carpet",
 		"fruitful:blossoming_oak_leaf_carpet",
 		"fruitful:apple_oak_leaf_carpet",
-		"fruitful:flowering_oak_sapling"
+		"fruitful:flowering_oak_sapling",
+		"architects_palette:sunmetal_bars",
+		"architects_palette:entwine_bars",
+		"architects_palette:grinning_acacia_totem",
+		"architects_palette:placid_acacia_totem",
+		"architects_palette:shocked_acacia_totem",
+		"architects_palette:blank_acacia_totem"
 	]
 }

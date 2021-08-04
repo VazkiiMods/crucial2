@@ -202,6 +202,8 @@
 		"quark:violet_crystal_cluster",
 		"quark:white_crystal_cluster",
 		"quark:black_crystal_cluster",
-		"supplementaries:planter_rich"
+		"supplementaries:planter_rich",
+		"architects_palette:sunstone",
+		"architects_palette:moonstone"
 	]
 }

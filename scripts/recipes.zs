@@ -84,6 +84,13 @@ var tongue_kelp = <item:upgrade_aquatic:tongue_kelp>;
 var wicks = <tag:items:buzzier_bees:candle_wick>;
 var yak_hair = <item:environmental:yak_hair>;
 
+var olivestone_bricks = <item:architects_palette:olivestone_bricks>;
+var stone_bricks = <item:minecraft:stone_bricks>;
+var cactus_paste = <item:quark:cactus_paste>;
+var stick = <item:minecraft:stick>;
+var stripped_acacia_log = <item:minecraft:stripped_acacia_log>;
+var blank_acacia_totem = <item:architects_palette:blank_acacia_totem>;
+
 // Remove specific recipes
 craftingTable.removeByName("minecraft:lead");
 craftingTable.removeByName("minecraft:painting");
@@ -246,3 +253,18 @@ craftingTable.addShaped("cod_cut", // crl
 		[[cod, cod, cod], 
 		[cod, bone_block, cod], 
 		[cod, cod, cod]]);
+
+// Olivestone Bricks
+craftingTable.removeRecipe(olivestone_bricks);
+craftingTable.addShaped("cactus_paste_olivestone", 
+		olivestone_bricks * 8, 
+		[[stone_bricks, stone_bricks, stone_bricks], 
+		[stone_bricks, cactus_paste, stone_bricks], 
+		[stone_bricks, stone_bricks, stone_bricks]]);
+
+// Blank Acacia Totem as Default
+craftingTable.removeByName("architects_palette:grinning_acacia_totem");
+craftingTable.addShaped("blank_acacia_totem", 
+		blank_acacia_totem * 2, 
+		[[stick, stripped_acacia_log, stick], 
+		[air, stripped_acacia_log, air]]);

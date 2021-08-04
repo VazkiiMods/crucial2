@@ -66,5 +66,6 @@
 	"block.architects_palette.chiseled_iron_ore_bricks": "Iron Etched Stone Bricks",
 	"block.architects_palette.chiseled_gold_ore_bricks": "Gold Etched Stone Bricks",
 	"block.architects_palette.chiseled_emerald_ore_bricks": "Emerald Etched Stone Bricks",
-	"block.architects_palette.chiseled_diamond_ore_bricks": "Diamond Etched Stone Bricks"
+	"block.architects_palette.chiseled_diamond_ore_bricks": "Diamond Etched Stone Bricks",
+	"block.architects_palette.blank_acacia_totem": "Acacia Totem"
 }
