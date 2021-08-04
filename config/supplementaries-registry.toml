@@ -52,7 +52,7 @@
 		netherite_door = true
 		candle_holder = true
 		flag = false
-		rope = true
+		rope = false
 		notice_board = true
 		redstone_illuminator = true
 		crimson_lantern = true
