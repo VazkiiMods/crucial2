@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "neapolitan:beanstalk"
+    },
+    "title": {
+      "translate": "advancement.crucial.get_beanstalk"
+    },
+    "description": {
+      "translate": "advancement.crucial.get_beanstalk.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beanstalk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "neapolitan:beanstalk"
+          }
+        ]
+      }
+    }
+  }
+}

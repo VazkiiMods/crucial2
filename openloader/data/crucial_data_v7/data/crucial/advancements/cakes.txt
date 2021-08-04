@@ -1,0 +1,13 @@
+minecraft:cake
+neapolitan:chocolate_cake
+neapolitan:strawberry_cake
+neapolitan:vanilla_cake
+neapolitan:banana_cake
+neapolitan:mint_cake
+neapolitan:adzuki_cake
+peculiars:yucca_cake
+peculiars:aloe_cake
+peculiars:passionfruit_cake
+seasonals:pumpkin_cake
+seasonals:sweet_berry_cake
+frozenup:truffle_cake

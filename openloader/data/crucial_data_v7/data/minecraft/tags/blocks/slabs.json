@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		"better_badlands:kindling_slab",
+		"neapolitan:frond_thatch_slab",
+		"savageandravage:blast_proof_slab",
+		"autumnity:snail_shell_tile_slab",
+		"autumnity:snail_shell_brick_slab",
+		"upgrade_aquatic:luminous_prismarine_slab",
+		"upgrade_aquatic:luminous_elder_prismarine_slab",
+		"bayou_blues:algae_thatch_slab"
+	]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "crucial:crucial/get_diamond_heart",
+  "display": {
+    "icon": {
+      "item": "quark:pickarang"
+    },
+    "title": {
+      "translate": "advancement.crucial.get_pickarang"
+    },
+    "description": {
+      "translate": "advancement.crucial.get_pickarang.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pickarang": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "quark:pickarang"
+          }
+        ]
+      }
+    }
+  }
+}

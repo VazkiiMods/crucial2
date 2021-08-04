@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:adventure/throw_trident",
+  "display": {
+    "icon": {
+      "item": "upgrade_aquatic:coralstone"
+    },
+    "title": {
+      "translate": "advancement.crucial.get_coralstone"
+    },
+    "description": {
+      "translate": "advancement.crucial.get_coralstone.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coralstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "upgrade_aquatic:coralstone"
+          }
+        ]
+      }
+    }
+  }
+}

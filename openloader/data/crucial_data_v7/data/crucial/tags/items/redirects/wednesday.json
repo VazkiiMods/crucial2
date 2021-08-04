@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"quark:frog_leg",
+		"quark:cooked_frog_leg",
+		"quark:golden_frog_leg",
+		"minecraft:clock"
+	]
+}
