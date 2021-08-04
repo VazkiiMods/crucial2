@@ -25,6 +25,10 @@
 		"atmospheric:kousa_hedge",
 		"atmospheric:aspen_hedge",
 		"atmospheric:grimwood_hedge",
-		"upgrade_aquatic:river_hedge"
+		"upgrade_aquatic:river_hedge",
+		"fruitful:flowering_oak_hedge",
+		"fruitful:budding_oak_hedge",
+		"fruitful:blossoming_oak_hedge",
+		"fruitful:apple_oak_hedge"
 	]
 }

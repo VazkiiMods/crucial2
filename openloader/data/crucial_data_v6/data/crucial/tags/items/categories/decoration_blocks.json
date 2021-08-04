@@ -776,6 +776,19 @@
 		"decorative_blocks_abnormals:willow_palisade",
 		"supplementaries:raked_gravel",
 		"supplementaries:iron_gate",
-		"supplementaries:gold_gate"
+		"supplementaries:gold_gate",
+		"fruitful:flowering_oak_hedge",
+		"fruitful:budding_oak_hedge",
+		"fruitful:blossoming_oak_hedge",
+		"fruitful:apple_oak_hedge",
+		"fruitful:flowering_oak_leaves",
+		"fruitful:budding_oak_leaves",
+		"fruitful:blossoming_oak_leaves",
+		"fruitful:apple_oak_leaves",
+		"fruitful:flowering_oak_leaf_carpet",
+		"fruitful:budding_oak_leaf_carpet",
+		"fruitful:blossoming_oak_leaf_carpet",
+		"fruitful:apple_oak_leaf_carpet",
+		"fruitful:flowering_oak_sapling"
 	]
 }

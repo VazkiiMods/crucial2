@@ -14,6 +14,13 @@ var brick = <tag:items:forge:ingots/brick>;
 var candelabra = <item:supplementaries:candelabra>;
 var candles = <tag:items:buzzier_bees:candles>;
 var canvas = <item:farmersdelight:canvas>;
+var chiseled_coal_ore_bricks = <item:architects_palette:chiseled_coal_ore_bricks>;
+var chiseled_diamond_ore_bricks = <item:architects_palette:chiseled_diamond_ore_bricks>;
+var chiseled_emerald_ore_bricks = <item:architects_palette:chiseled_emerald_ore_bricks>;
+var chiseled_gold_ore_bricks = <item:architects_palette:chiseled_gold_ore_bricks>;
+var chiseled_iron_ore_bricks = <item:architects_palette:chiseled_iron_ore_bricks>;
+var chiseled_lapis_ore_bricks = <item:architects_palette:chiseled_lapis_ore_bricks>;
+var chiseled_redstone_ore_bricks = <item:architects_palette:chiseled_redstone_ore_bricks>;
 var clay = <item:minecraft:clay>;
 var clay_ball = <item:minecraft:clay_ball>;
 var crafter = <item:structuredcrafting:structured_crafter>;
@@ -29,6 +36,7 @@ var glowing_ink_sac = <item:upgrade_aquatic:glowing_ink_sac>;
 var gold_ingot = <tag:items:forge:ingots/gold>;
 var grimwood_sapling = <item:atmospheric:grimwood_sapling>;
 var honeycomb = <item:minecraft:honeycomb>;
+var ice_bricks = <item:environmental:ice_bricks>;
 var iron_ingot = <tag:items:forge:ingots/iron>;
 var koi = <item:environmental:koi>;
 var koi_barrel = <item:fish_in_planks:koi_barrel>;
@@ -41,6 +49,7 @@ var nether_wart = <item:minecraft:nether_wart>;
 var oak_sapling = <item:minecraft:oak_sapling>;
 var ochre_kelp = <item:upgrade_aquatic:ochre_kelp>;
 var organic_compost = <item:farmersdelight:organic_compost>;
+var packed_ice = <item:minecraft:packed_ice>;
 var paper = <item:minecraft:paper>;
 var paraglider = <item:paraglider:paraglider>;
 var pipe = <item:quark:pipe>;
@@ -48,6 +57,7 @@ var piston = <item:minecraft:piston>;
 var piston_launcher = <item:supplementaries:piston_launcher>;
 var planter = <item:supplementaries:planter>;
 var polar_kelp = <item:upgrade_aquatic:polar_kelp>;
+var polished_packed_ice = <item:architects_palette:polished_packed_ice>;
 var potato = <item:minecraft:potato>;
 var prismarine_crystals = <item:minecraft:prismarine_crystals>;
 var sack = <item:supplementaries:sack>;
@@ -178,3 +188,20 @@ craftingTable.addShaped("spyglass_crystals",
 		[[air, gold_ingot, prismarine_crystals],
 		 [gold_ingot, prismarine_crystals, gold_ingot],
 		 [leather, gold_ingot, air]]);
+
+// Better recipes for Chiseled Ore Bricks
+stoneCutter.removeRecipe(chiseled_coal_ore_bricks);
+stoneCutter.removeRecipe(chiseled_lapis_ore_bricks);
+stoneCutter.removeRecipe(chiseled_redstone_ore_bricks);
+stoneCutter.removeRecipe(chiseled_iron_ore_bricks);
+stoneCutter.removeRecipe(chiseled_gold_ore_bricks);
+stoneCutter.removeRecipe(chiseled_emerald_ore_bricks);
+stoneCutter.removeRecipe(chiseled_diamond_ore_bricks);
+// TODO
+
+// Packed Ice Bricks
+craftingTable.removeRecipe(ice_bricks);
+craftingTable.addShaped("packed_ice_bricks", 
+		ice_bricks * 4, 
+		[[polished_packed_ice, polished_packed_ice],
+		 [polished_packed_ice, polished_packed_ice]]);
