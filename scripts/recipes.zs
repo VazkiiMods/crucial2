@@ -83,7 +83,6 @@ var thorny_kelp = <item:upgrade_aquatic:thorny_kelp>;
 var tongue_kelp = <item:upgrade_aquatic:tongue_kelp>;
 var wicks = <tag:items:buzzier_bees:candle_wick>;
 var yak_hair = <item:environmental:yak_hair>;
-
 var olivestone_bricks = <item:architects_palette:olivestone_bricks>;
 var stone_bricks = <item:minecraft:stone_bricks>;
 var cactus_paste = <item:quark:cactus_paste>;

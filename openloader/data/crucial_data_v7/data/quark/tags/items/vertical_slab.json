@@ -196,6 +196,24 @@
 		"architects_palette:entwine_vertical_slab",
 		"architects_palette:gilded_sandstone_vertical_slab",
 		"architects_palette:warpstone_vertical_slab",
-		"architects_palette:basalt_tile_vertical_slab"
+		"architects_palette:basalt_tile_vertical_slab",
+		"infernalexp:basalt_brick_vertical_slab",
+		"infernalexp:basalt_cobbled_vertical_slab",
+		"infernalexp:basalt_vertical_slab",
+		"infernalexp:dimstone_brick_vertical_slab",
+		"infernalexp:dullstone_brick_vertical_slab",
+		"infernalexp:glowdust_stone_brick_vertical_slab",
+		"infernalexp:glowdust_stone_vertical_slab",
+		"infernalexp:glowstone_brick_vertical_slab",
+		"infernalexp:polished_basalt_vertical_slab",
+		"infernalexp:smooth_dimstone_vertical_slab",
+		"infernalexp:smooth_dullstone_vertical_slab",
+		"infernalexp:smooth_glowstone_vertical_slab",
+		"infernalexp:soul_sand_vertical_slab",
+		"infernalexp:soul_slate_brick_vertical_slab",
+		"infernalexp:soul_slate_vertical_slab",
+		"infernalexp:soul_soil_vertical_slab",
+		"infernalexp:soul_stone_brick_vertical_slab",
+		"infernalexp:soul_stone_vertical_slab"
 	]
 }

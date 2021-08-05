@@ -309,6 +309,10 @@
 		"irregularchef:thrasher_soup",
 		"irregularchef:turtle_gallimaufry",
 		"irregularchef:turtle_gallimaufry_block",
-		"fruitful:baked_apple"
+		"fruitful:baked_apple",
+		"infernalexp:blindsight_tongue_stew",
+		"infernalexp:cured_jerky",
+		"infernalexp:raw_hogchop",
+		"infernalexp:cooked_hogchop"
 	]
 }

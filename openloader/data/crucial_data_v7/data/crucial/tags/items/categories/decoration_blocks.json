@@ -795,6 +795,21 @@
 		"architects_palette:grinning_acacia_totem",
 		"architects_palette:placid_acacia_totem",
 		"architects_palette:shocked_acacia_totem",
-		"architects_palette:blank_acacia_totem"
+		"architects_palette:blank_acacia_totem",
+		"infernalexp:glowdust",
+		"infernalexp:glow_lantern",
+		"infernalexp:glow_campfire",
+		"infernalexp:luminous_fungus",
+		"infernalexp:shroomlight_fungus",
+		"infernalexp:crimson_nylium_path",
+		"infernalexp:warped_nylium_path",
+		"infernalexp:crimson_nylium_carpet",
+		"infernalexp:warped_nylium_carpet",
+		"infernalexp:soul_soil_path",
+		"infernalexp:quartz_glass_pane",
+		"infernalexp:glow_glass_pane",
+		"infernalexp:glow_torch",
+		"infernalexp:dullthorns",
+		"infernalexp:infernal_painting"
 	]
 }

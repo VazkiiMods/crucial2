@@ -743,6 +743,8 @@ i(<item:environmental:music_disc_leaving_home>, "Can be acquired by having a Ske
 i(<item:environmental:music_disc_slabrave>, "Can be acquired by giving another Music Disc to a Slabfish.");
 i(<item:endergetic:music_disc_kilobyte>, "Can be acquired from chests in End Cities.");
 i(<item:berry_good:music_disc_fox>, "Can be acquired from Foxes, who randomly spawn with it in their mouths.");
+i(<item:infernalexp:music_disc_soul_spunk>, "Is rarely dropped by Embodies, which spawn in Soul Sand Valleys.");
+i(<item:infernalexp:music_disc_flush>, "Is rarely dropped by Glowsquitoes, which spawn in the Glowstone Canyon biome in the Nether.");
 
 s = "Can be cooked by placing above a fire or campfire. This will result in a slight loss of fish.";
 i(<item:fish_in_planks:cod_barrel>, s);
@@ -783,3 +785,39 @@ i(<item:architects_palette:abyssaline_tile_slab>, s);
 i(<item:architects_palette:abyssaline_lamp>, s);
 i(<item:architects_palette:abyssaline_brick_vertical_slab>, s);
 i(<item:architects_palette:abyssaline_tile_vertical_slab>, s);
+
+s = "Can be found in the Glowstone Canyon biome in the Nether.";
+i(<item:infernalexp:dimstone>, s);
+i(<item:infernalexp:dullstone>, s);
+i(<item:infernalexp:luminous_wart_block>, s);
+i(<item:infernalexp:glowdust_sand>, s);
+i(<item:infernalexp:glowdust>, s);
+i(<item:infernalexp:trapped_glowdust_sand>, s);
+i(<item:infernalexp:glowdust_stone>, s);
+i(<item:infernalexp:crumbling_blackstone>, s);
+i(<item:infernalexp:dullthorns>, s);
+i(<item:infernalexp:luminous_fungus>, s);
+
+s = "Can be found in the Basalt Deltas biome in the Nether.";
+i(<item:infernalexp:basalt_iron_ore>, s);
+i(<item:infernalexp:basaltic_magma>, s);
+
+s = "Can be acquired by using a hoe on the respective block.";
+i(<item:infernalexp:crimson_nylium_path>, s);
+i(<item:infernalexp:warped_nylium_path>, s);
+i(<item:infernalexp:soul_soil_path>, s);
+
+i(<item:infernalexp:infernal_painting>, "Displays different art from the regular one.");
+i(<item:infernalexp:raw_hogchop>, "Dropped by Hoglins.");
+i(<item:infernalexp:glowcoal>, "Dropped by Glowsquitoes, which can be found in the Glowstone Canyon biome in the Nether.");
+i(<item:infernalexp:glownuggets>, "Dropped by mining Dullstone or Dimstone, which can be found in the Glowstone Canyon biome in the Nether.");
+i(<item:infernalexp:blindsight_tongue>, "Dropped by Blindsights, which can be found in the Glowstone Canyon biome in the Nether.");
+i(<item:infernalexp:moth_dust>, "Dropped by Glow Moths, which can be found in the Glowstone Canyon biome in the Nether.");
+i(<item:infernalexp:molten_gold_cluster>, "Can be acquired through feeding Volines gold items by dropping them. Volines can be found in Nether Wastes and Crimson Forests.");
+i(<item:infernalexp:glowsilk>, "Can be harvested from Glowsilk Cocoons and used to repair items in an anvil.");
+i(<item:infernalexp:glowsilk_cocoon>, "Can be found underground in the Nether, similarly to Ancient Debris, and harvested using a Diamond or Netherite hoe.");
+i(<item:infernalexp:soul_salt_clump>, "Dropped by Embodies, which can be found in Soul Sand Valleys.");
+i(<item:infernalexp:ascus_bomb>, "Dropped by Shroomloins, which can be found in Crimson Forests. Can be thrown to release an Infection cloud. Infection is dangerous and contagious, so be careful.");
+i(<item:infernalexp:glowsilk_bow>, "An upgrade to the standard Bow. Shoots twice as far and tips normal arrows with Luminance. Arrows with Luminance emit light and can be used to light up far away areas.");
+i(<item:infernalexp:blindsight_tongue_whip>, "A melee weapon with higher reach and knockback than usual. Must be charged by right clicking before using.");
+i(<item:infernalexp:shroomlight_fungus>, "Can be found on grown fungi in the Nether, or created by using Bone Meal on a Shroomlight block.");

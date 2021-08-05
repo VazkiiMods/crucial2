@@ -9,7 +9,7 @@
   },
   "advanced": {
     "use_vertex_array_objects": true,
-    "use_chunk_multidraw": true,
+    "use_chunk_multidraw": false,
     "translucency_sorting": true,
     "use_leaves_culling": false,
     "animate_only_visible_textures": true,
