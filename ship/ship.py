@@ -6,7 +6,7 @@ pack_name = 'Crucial 2'
 pack_author = 'Vazkii'
 
 book_file = 'patchouli_books/crucialguide/book.json'
-files_to_copy = ['config', 'defaultconfigs', 'openloader', 'patchouli_books', 'scripts']
+files_to_copy = ['config', 'defaultconfigs', 'openloader', 'patchouli_books', 'scripts', 'packmenu']
 blacklisted_files = [
 	'config/jei/ingredient-list-mod-sort-order.ini',
 	'config/jei/ingredient-list-type-sort-order.ini',

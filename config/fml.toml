@@ -1,7 +1,7 @@
 # Enable forge global version checking
 versionCheck = false
 # does the splashscreen run
-splashscreen = true
+splashscreen = false
 defaultConfigPath = "defaultconfigs"
 # max threads for parallel loading : -1 uses Runtime#availableProcessors
 maxThreads = -1
