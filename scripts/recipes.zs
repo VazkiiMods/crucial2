@@ -7,6 +7,7 @@ var banana = <item:neapolitan:banana>;
 var banana_bunch = <item:neapolitan:banana_bunch>;
 var birch_sapling = <item:minecraft:birch_sapling>;
 var blaze_powder = <item:minecraft:blaze_powder>;
+var blaze_rod = <item:minecraft:blaze_rod>;
 var bone_block = <item:minecraft:bone_block>;
 var boof_block = <item:endergetic:boof_block>; 
 var booflo_hide = <item:endergetic:booflo_hide>;
@@ -89,6 +90,10 @@ var cactus_paste = <item:quark:cactus_paste>;
 var stick = <item:minecraft:stick>;
 var stripped_acacia_log = <item:minecraft:stripped_acacia_log>;
 var blank_acacia_totem = <item:architects_palette:blank_acacia_totem>;
+var infernal_painting = <item:infernalexp:infernal_painting>;
+var polished_basalt = <item:minecraft:polished_basalt>;
+var basalt_bricks = <item:infernalexp:basalt_bricks>;
+var basalt_tiles = <item:architects_palette:basalt_tiles>;
 
 // Remove specific recipes
 craftingTable.removeByName("minecraft:lead");
@@ -267,3 +272,23 @@ craftingTable.addShaped("blank_acacia_totem",
 		blank_acacia_totem * 2, 
 		[[stick, stripped_acacia_log, stick], 
 		[air, stripped_acacia_log, air]]);
+
+// Canvas for Infernal Painting
+craftingTable.removeRecipe(infernal_painting);
+craftingTable.addShaped("canvas_infernal_painting", 
+		infernal_painting, 
+		[[blaze_rod, stick, blaze_rod], 
+		[stick, canvas, stick], 
+		[blaze_rod, stick, blaze_rod]]);
+
+// Fix Basalt Bricks and Tiles recipes
+craftingTable.removeRecipe(basalt_bricks);
+craftingTable.removeRecipe(basalt_tiles);
+craftingTable.addShaped("fixed_basalt_bricks", 
+		basalt_bricks * 4, 
+		[[polished_basalt, polished_basalt], 
+		[polished_basalt, polished_basalt]]);
+craftingTable.addShaped("fixed_basalt_tiles", 
+		basalt_tiles * 4, 
+		[[basalt_bricks, basalt_bricks], 
+		[basalt_bricks, basalt_bricks]]);

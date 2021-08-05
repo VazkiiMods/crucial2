@@ -285,6 +285,26 @@
           }
         ]
       }
+    },
+    "music_disc_soul_spunk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "infernalexp:music_disc_soul_spunk"
+          }
+        ]
+      }
+    },
+    "music_disc_flush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "infernalexp:music_disc_flush"
+          }
+        ]
+      }
     }
   }
 }

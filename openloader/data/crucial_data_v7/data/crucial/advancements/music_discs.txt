@@ -25,3 +25,5 @@ quark:music_disc_fire
 quark:music_disc_clock
 quark:music_disc_crickets
 quark:music_disc_chatter
+infernalexp:music_disc_soul_spunk
+infernalexp:music_disc_flush
