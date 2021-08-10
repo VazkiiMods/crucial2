@@ -826,6 +826,24 @@
 		"muchmoremodcompat:glow_chandelier",
 		"muchmoremodcompat:glow_brazier",
 		"muchmoremodcompat:gold_chain",
-		"muchmoremodcompat:ice_chain"
+		"muchmoremodcompat:ice_chain",
+		"supplementaries:flag_white",
+		"supplementaries:flag_orange",
+		"supplementaries:flag_magenta",
+		"supplementaries:flag_light_blue",
+		"supplementaries:flag_yellow",
+		"supplementaries:flag_lime",
+		"supplementaries:flag_pink",
+		"supplementaries:flag_gray",
+		"supplementaries:flag_light_gray",
+		"supplementaries:flag_cyan",
+		"supplementaries:flag_purple",
+		"supplementaries:flag_blue",
+		"supplementaries:flag_brown",
+		"supplementaries:flag_green",
+		"supplementaries:flag_red",
+		"supplementaries:flag_black",
+		"supplementaries:flower_box",
+		"supplementaries:sconce_glow"
 	]
 }

@@ -285,6 +285,7 @@
 		"bamboo_blocks:soul_bamboo_torch",
 		"bamboo_blocks:ender_bamboo_torch",
 		"muchmoremodcompat:glow_chandelier",
-		"muchmoremodcompat:glow_brazier"
+		"muchmoremodcompat:glow_brazier",
+		"supplementaries:sconce_glow"
 	]
 }

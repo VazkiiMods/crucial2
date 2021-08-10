@@ -1084,6 +1084,12 @@
 		"muchmoremodcompat:kousa_beam",
 		"muchmoremodcompat:aspen_beam",
 		"muchmoremodcompat:wisteria_beam",
-		"muchmoremodcompat:grimwood_beam"
+		"muchmoremodcompat:grimwood_beam",
+		"supplementaries:daub",
+		"supplementaries:daub_frame",
+		"supplementaries:daub_brace",
+		"supplementaries:daub_cross_brace",
+		"supplementaries:stone_tile",
+		"supplementaries:blackstone_tile"
 	]
 }

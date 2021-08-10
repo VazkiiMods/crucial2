@@ -719,6 +719,7 @@ i(<item:supplementaries:pulley_block>, "Can be given ropes or chains. When rotat
 i(<item:supplementaries:magma_cream_block>, "Works like a slime block when moved by pistons, but only one of the sides is sticky.");
 i(<item:supplementaries:bomb>, "Can be thrown, explodes on contact for explosive damage without breaking blocks.");
 i(<item:supplementaries:raked_gravel>, "Can be gotten by using a Hoe on Gravel. Doing it from different directions creates unique patterns.");
+i(<item:supplementaries:flower_box>, "Can be placed on the floor or the side of a block. Holds up to 3 flowers.");
 i(<item:minecraft:rotten_flesh>, "Can be used to turn a Skeleton Horse into a Zombie Horse, by feeding it an entire stack.");
 
 s = "Works like a normal wooden one when unpowered. When powered, ignores interactions.";

@@ -17,6 +17,10 @@
 		#Enable special display types for items like swords, tridents or end crystals
 		fancy_renderers = true
 
+	[blocks.wall_lantern]
+		#Makes wall lantern use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animation. Needs texture pack reload
+		fast_lanterns = false
+
 	[blocks.captured_mobs]
 		#Here you can customize how mobs are displayed in jars and cages.
 		#Following will have to be a list with the format below:
@@ -82,8 +86,8 @@
 		#Range: 0 ~ 10000
 		slowness = 100
 		#At which graphic settings flags will have a fancy renderer: 0=fast, 1=fancy, 2=fabulous
-		#Range: 0 ~ 2
-		fanciness = 2
+		#Allowed Values: FAST, FANCY, FABULOUS
+		fanciness = "FABULOUS"
 		#How much the wave amplitude increases each pixel. (Amplitude increment per pixel)
 		#Range: 0.0 ~ 10.0
 		intensity_increment = 0.3
