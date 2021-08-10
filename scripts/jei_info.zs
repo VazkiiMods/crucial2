@@ -541,7 +541,7 @@ i(<item:farmersdelight:cooking_pot>, "Put over a heat source such as fire or a s
 i(<item:farmersdelight:stove>, "Serves as heat source for a Cooking Pot.");
 i(<item:farmersdelight:cutting_board>, "Right click with an item and a knife to cut it.");
 i(<item:farmersdelight:rich_soil>, "Can be used to plant crops. Crops planted in this will grow faster, as if bone mealed every now and then. Can be tilled into Rich Farmland, which doesn't get trampled.");
-i(<item:farmersdelight:brown_mushroom_colony>, "Can be gotten by planting Red Mushrooms on Rich Soil under sufficient darkness.");
+i(<item:farmersdelight:brown_mushroom_colony>, "Can be gotten by planting Brown Mushrooms on Rich Soil under sufficient darkness.");
 i(<item:farmersdelight:red_mushroom_colony>, "Can be gotten by planting Red Mushrooms on Rich Soil under sufficient darkness.");
 
 // Quark Tweaks
@@ -762,9 +762,9 @@ i(<item:iron_and_gold:raw_gold>, "Drops from Gold Ore when mined without Silk To
 
 i(<item:farsight_spyglasses:spyglass>, "Can be used to zoom in wherever you're looking at.");
 
-i(<item:fruitful:flowering_oak_sapling>, "Can be found in Forests and more commonly in Flowering Forests. Can be pollinated by bees during full moons to sprout apples.");
+i(<item:fruitful:flowering_oak_sapling>, "Can be found in Forests and more commonly in Flowering oFrests. Can be pollinated by bees during full moons to sprout apples.");
 
-i(<item:architects_palette:entrails>, "Can be traded for with a Butcher villager.");
+i(<item:architects_palette:entrails>, "Can be acquired by trading with a Butcher Villager");
 i(<item:architects_palette:warpstone>, "Can be acquired by sending a Clay Block through a Nether Portal.");
 i(<item:architects_palette:withered_bone>, "Drops from Wither Skeletons. Not sure what you expected.");
 i(<item:architects_palette:moonstone>, "Sold only by the Wandering Trader. Glows at night.");
@@ -793,15 +793,10 @@ i(<item:infernalexp:dullstone>, s);
 i(<item:infernalexp:luminous_wart_block>, s);
 i(<item:infernalexp:glowdust_sand>, s);
 i(<item:infernalexp:glowdust>, s);
-i(<item:infernalexp:trapped_glowdust_sand>, s);
 i(<item:infernalexp:glowdust_stone>, s);
 i(<item:infernalexp:crumbling_blackstone>, s);
 i(<item:infernalexp:dullthorns>, s);
 i(<item:infernalexp:luminous_fungus>, s);
-
-s = "Can be found in the Basalt Deltas biome in the Nether.";
-i(<item:infernalexp:basalt_iron_ore>, s);
-i(<item:infernalexp:basaltic_magma>, s);
 
 s = "Can be acquired by using a hoe on the respective block.";
 i(<item:infernalexp:crimson_nylium_path>, s);
@@ -822,3 +817,9 @@ i(<item:infernalexp:ascus_bomb>, "Dropped by Shroomloins, which can be found in 
 i(<item:infernalexp:glowsilk_bow>, "An upgrade to the standard Bow. Shoots twice as far and tips normal arrows with Luminance. Arrows with Luminance emit light and can be used to light up far away areas.");
 i(<item:infernalexp:blindsight_tongue_whip>, "A melee weapon with higher reach and knockback than usual. Must be charged by right clicking before using.");
 i(<item:infernalexp:shroomlight_fungus>, "Can be found on grown fungi in the Nether, or created by using Bone Meal on a Shroomlight block.");
+i(<item:infernalexp:cured_jerky>, "Gives 10 seconds of Speed II when eaten.");
+i(<item:infernalexp:trapped_glowdust_sand>, "Can be found in the Glowstone Canyone biome in the Nether. Be careful, as it falls when you walk close to it.");
+i(<item:infernalexp:basalt_iron_ore>, "Can be found in the Basalt Deltas biome in the Nether.");
+i(<item:infernalexp:basaltic_magma>, "Can be found in the Basalt Deltas biome in the Nether. Can be used to warm Striders or create a bubble column.");
+i(<item:infernalexp:quartz_glass>, "Can withstand explosions better than regular glass.");
+i(<item:infernalexp:quartz_glass_pane>, "Can withstand explosions better than regular glass.");
