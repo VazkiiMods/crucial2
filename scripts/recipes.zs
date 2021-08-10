@@ -91,9 +91,6 @@ var stick = <item:minecraft:stick>;
 var stripped_acacia_log = <item:minecraft:stripped_acacia_log>;
 var blank_acacia_totem = <item:architects_palette:blank_acacia_totem>;
 var infernal_painting = <item:infernalexp:infernal_painting>;
-var polished_basalt = <item:minecraft:polished_basalt>;
-var basalt_bricks = <item:infernalexp:basalt_bricks>;
-var basalt_tiles = <item:architects_palette:basalt_tiles>;
 
 // Remove specific recipes
 craftingTable.removeByName("minecraft:lead");
@@ -280,15 +277,3 @@ craftingTable.addShaped("canvas_infernal_painting",
 		[[blaze_rod, stick, blaze_rod], 
 		[stick, canvas, stick], 
 		[blaze_rod, stick, blaze_rod]]);
-
-// Fix Basalt Bricks and Tiles recipes
-craftingTable.removeRecipe(basalt_bricks);
-craftingTable.removeRecipe(basalt_tiles);
-craftingTable.addShaped("fixed_basalt_bricks", 
-		basalt_bricks * 4, 
-		[[polished_basalt, polished_basalt], 
-		[polished_basalt, polished_basalt]]);
-craftingTable.addShaped("fixed_basalt_tiles", 
-		basalt_tiles * 4, 
-		[[basalt_bricks, basalt_bricks], 
-		[basalt_bricks, basalt_bricks]]);
