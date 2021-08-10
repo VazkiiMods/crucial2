@@ -810,6 +810,22 @@
 		"infernalexp:glow_glass_pane",
 		"infernalexp:glow_torch",
 		"infernalexp:dullthorns",
-		"infernalexp:infernal_painting"
+		"infernalexp:infernal_painting",
+		"bamboo_blocks:bamboo_trapdoor",
+		"bamboo_blocks:bamboo_door",
+		"bamboo_blocks:bamboo_ladder",
+		"bamboo_blocks:bamboo_sign",
+		"bamboo_blocks:bamboo_torch",
+		"bamboo_blocks:soul_bamboo_torch",
+		"bamboo_blocks:ender_bamboo_torch",
+		"muchmoremodcompat:glowshroom_palisade",
+		"muchmoremodcompat:kousa_palisade",
+		"muchmoremodcompat:aspen_palisade",
+		"muchmoremodcompat:wisteria_palisade",
+		"muchmoremodcompat:grimwood_palisade",
+		"muchmoremodcompat:glow_chandelier",
+		"muchmoremodcompat:glow_brazier",
+		"muchmoremodcompat:gold_chain",
+		"muchmoremodcompat:ice_chain"
 	]
 }

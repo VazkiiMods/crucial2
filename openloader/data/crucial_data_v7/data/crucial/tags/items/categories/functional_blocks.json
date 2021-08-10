@@ -204,6 +204,8 @@
 		"quark:black_crystal_cluster",
 		"supplementaries:planter_rich",
 		"architects_palette:sunstone",
-		"architects_palette:moonstone"
+		"architects_palette:moonstone",
+		"bamboo_blocks:bamboo_beehive"
+
 	]
 }

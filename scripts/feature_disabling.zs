@@ -218,6 +218,19 @@ craftingTable.removeRecipe(<item:decorative_blocks_abnormals:redbud_support>);
 craftingTable.removeRecipe(<item:decorative_blocks_abnormals:willow_seat>);
 craftingTable.removeRecipe(<item:decorative_blocks_abnormals:willow_support>);
 
+craftingTable.removeRecipe(<item:muchmoremodcompat:bamboo_seat>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:bamboo_support>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:glowshroom_seat>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:glowshroom_support>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:kousa_seat>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:aspen_seat>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:wisteria_seat>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:grimwood_seat>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:kousa_support>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:aspen_support>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:wisteria_support>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:grimwood_support>);
+
 craftingTable.removeRecipe(<item:decorative_winter:acacia_thin_branch>);
 craftingTable.removeRecipe(<item:decorative_winter:birch_thin_branch>);
 craftingTable.removeRecipe(<item:decorative_winter:crimson_thin_branch>);

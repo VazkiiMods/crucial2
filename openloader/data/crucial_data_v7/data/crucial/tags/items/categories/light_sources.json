@@ -280,6 +280,11 @@
 		"infernalexp:luminous_fungus",
 		"infernalexp:shroomlight_fungus",
 		"infernalexp:glow_glass",
-		"infernalexp:glow_glass_pane"
+		"infernalexp:glow_glass_pane",
+		"bamboo_blocks:bamboo_torch",
+		"bamboo_blocks:soul_bamboo_torch",
+		"bamboo_blocks:ender_bamboo_torch",
+		"muchmoremodcompat:glow_chandelier",
+		"muchmoremodcompat:glow_brazier"
 	]
 }

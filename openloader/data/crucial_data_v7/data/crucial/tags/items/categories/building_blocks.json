@@ -1075,6 +1075,15 @@
 		"infernalexp:glowsilk_cocoon",
 		"infernalexp:dullthorns_block",
 		"infernalexp:quartz_glass",
-		"infernalexp:glow_glass"
+		"infernalexp:glow_glass",
+		"bamboo_blocks:bamboo_planks",
+		"bamboo_blocks:vertical_bamboo_planks",
+		"bamboo_blocks:bamboo_bookshelf",
+		"bamboo_blocks:reed_thatch",
+		"muchmoremodcompat:glowshroom_beam",
+		"muchmoremodcompat:kousa_beam",
+		"muchmoremodcompat:aspen_beam",
+		"muchmoremodcompat:wisteria_beam",
+		"muchmoremodcompat:grimwood_beam"
 	]
 }

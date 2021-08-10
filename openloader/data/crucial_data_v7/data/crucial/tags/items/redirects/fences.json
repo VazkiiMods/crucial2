@@ -1,6 +1,33 @@
 {
 	"replace": false,
 	"values": [
-		"#quark:hedges"
+		"#quark:hedges",
+		"decorative_blocks_abnormals:cypress_palisade",
+		"decorative_blocks:jungle_palisade",
+		"decorative_blocks:oak_palisade",
+		"decorative_blocks:dark_oak_palisade",
+		"decorative_blocks:spruce_palisade",
+		"decorative_blocks:acacia_palisade",
+		"decorative_blocks:birch_palisade",
+		"decorative_blocks:crimson_palisade",
+		"decorative_blocks:warped_palisade",
+		"decorative_blocks_abnormals:driftwood_palisade",
+		"decorative_blocks_abnormals:river_palisade",
+		"decorative_blocks_abnormals:yucca_palisade",
+		"decorative_blocks_abnormals:maple_palisade",
+		"decorative_blocks_abnormals:poise_palisade",
+		"decorative_blocks_abnormals:red_mushroom_palisade",
+		"decorative_blocks_abnormals:morado_palisade",
+		"decorative_blocks_abnormals:brown_mushroom_palisade",
+		"decorative_blocks_abnormals:rosewood_palisade",
+		"decorative_blocks_abnormals:redbud_palisade",
+		"decorative_blocks_abnormals:jacaranda_palisade",
+		"decorative_blocks_abnormals:cherry_palisade",
+		"decorative_blocks_abnormals:willow_palisade",
+		"muchmoremodcompat:glowshroom_palisade",
+		"muchmoremodcompat:kousa_palisade",
+		"muchmoremodcompat:aspen_palisade",
+		"muchmoremodcompat:wisteria_palisade",
+		"muchmoremodcompat:grimwood_palisade"
 	]
 }
