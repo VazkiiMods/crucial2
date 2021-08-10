@@ -23,7 +23,8 @@ server_mods_blacklist = [
 	448233  # Entity Culling
 ]
 server_blacklisted_files = [
-	'openloader/resources'
+	'openloader/resources',
+	'packmenu'
 ]
 
 temp_dir = '.ship_temp'
