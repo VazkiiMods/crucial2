@@ -1,28 +1,4 @@
 {
   "type": "minecraft:block",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "conditions": [
-            {
-              "condition": "minecraft:block_state_property",
-              "block": "waystones:sandy_waystone",
-              "properties": {
-                "half": "lower"
-              }
-            }
-          ],
-          "name": "waystones:sandy_waystone"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
-    }
-  ]
+  "pools": [ ]
 }
