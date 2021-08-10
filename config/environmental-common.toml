@@ -17,24 +17,24 @@
 
 [world]
 
-	[world.biomes]
-
-		[world.biomes.marsh]
-			"Marsh weight" = 6
-			"Mushroom Marsh weight" = 0
-
-		[world.biomes.blossom]
-			"Blossom Woods weight" = 3
-			"Blossom Hills weight" = 0
-			"Blossom Highlands weight" = 1
-			"Blossom Valleys weight" = 0
-
 	[world.generation]
 		"Giant Mushroom generation in Swamps" = true
 		"Giant Tall Grass generation" = true
 		"Wisteria Tree generation in Flower Forests" = true
-		"Delphinium generation in Flower Forests" = true
 		"Hibiscus generation in Jungles" = true
+		"Delphinium generation in Flower Forests" = true
+
+	[world.biomes]
+
+		[world.biomes.blossom]
+			"Blossom Woods weight" = 3
+			"Blossom Hills weight" = 0
+			"Blossom Valleys weight" = 0
+			"Blossom Highlands weight" = 1
+
+		[world.biomes.marsh]
+			"Mushroom Marsh weight" = 0
+			"Marsh weight" = 6
 
 [items]
 
