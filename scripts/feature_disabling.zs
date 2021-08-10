@@ -410,5 +410,8 @@ craftingTable.removeRecipe(<item:infernalexp:polished_basalt_tiles_slab>);
 craftingTable.removeRecipe(<item:infernalexp:polished_basalt_tiles_vertical_slab>);
 
 stoneCutter.removeRecipe(<item:infernalexp:polished_basalt_tiles>);
+craftingTable.removeRecipe(<item:infernalexp:basalt_cobbled_slab>);
+craftingTable.removeRecipe(<item:infernalexp:basalt_cobbled_vertical_slab>);
+furnace.removeRecipe(<item:infernalexp:basalt_cobbled>);
 
 furnace.removeRecipe(<item:charm:smooth_glowstone>);
