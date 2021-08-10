@@ -167,9 +167,6 @@ craftingTable.removeRecipe(<item:waystones:white_sharestone>);
 craftingTable.removeRecipe(<item:waystones:yellow_sharestone>);
 
 villagerTrades.removeWanderingTrade(2, <item:alexsmobs:banana_peel>);
-villagerTrades.removeWanderingTrade(1, <item:environmental:rice>);
-villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:farmer>, 1, <item:environmental:rice>);
-villagerTrades.removeItemsForEmeraldsTrade(<profession:minecraft:farmer>, 1, <item:environmental:rice>);
 
 craftingTable.removeRecipe(<item:decorative_blocks:acacia_seat>);
 craftingTable.removeRecipe(<item:decorative_blocks:acacia_support>);

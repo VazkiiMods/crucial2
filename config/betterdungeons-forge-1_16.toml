@@ -9,7 +9,7 @@
 		# List must be comma-separated values enclosed in square brackets.
 		# Entries must have the mod namespace included.
 		# For example: "[minecraft:plains, byg:alps]"
-		# Default: "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river]"
+		# Default: "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river, minecraft:deep_warm_ocean]"
 		"Skeleton Dungeon Blacklisted Biomes" = "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river]"
 		# Whether or not Skeleton Dungeons from Better Dungeons should spawn.
 		# Default: true
@@ -62,7 +62,7 @@
 		# List must be comma-separated values enclosed in square brackets.
 		# Entries must have the mod namespace included.
 		# For example: "[minecraft:plains, byg:alps]"
-		# Default: "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river]"
+		# Default: "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river, minecraft:deep_warm_ocean]"
 		"Zombie Dungeon Blacklisted Biomes" = "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river]"
 		# The maximum y-value at which the STARTING POINT of the zombie dungeon can spawn.
 		# Note that this point is the bottom of the zombie dungeon, so the various pieces of the dungeon can extend below it.
@@ -77,7 +77,7 @@
 		# List must be comma-separated values enclosed in square brackets.
 		# Entries must have the mod namespace included.
 		# For example: "[minecraft:plains, byg:alps]"
-		# Default: "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river]"
+		# Default: "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river, minecraft:deep_warm_ocean]"
 		"Spider Dungeon Blacklisted Biomes" = "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river]"
 		# List of dimensions that will have Spider Dungeons.
 		# List must be comma-separated values enclosed in square brackets.
@@ -102,6 +102,10 @@
 		# Whether or not Spider Dungeons from Better Dungeons should spawn.
 		# Default: true
 		"Spawn Spider Dungeons" = true
+		# Whether or not Cobbedstone from Quark should be used when generating Spider Caves, if Quark is installed.
+		# If Quark is not installed, this setting has no effect.
+		# Default: true
+		"Use Quark Cobbedstone" = true
 
 	###########################################################################################################
 	## General settings.
@@ -133,7 +137,7 @@
 		# List must be comma-separated values enclosed in square brackets.
 		# Entries must have the mod namespace included.
 		# For example: "[minecraft:plains, byg:alps]"
-		# Default: "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river]"
+		# Default: "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river, minecraft:deep_warm_ocean]"
 		"Small Dungeon Blacklisted Biomes" = "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river]"
 		# The minimum number of chests that are guaranteed to spawn in a single small dungeon.
 		# Default: 1
@@ -169,4 +173,8 @@
 		# The maximum y-value at which small dungeons can spawn.
 		# Default: 50
 		"Small Dungeon Max Start Y" = 50
+		# Whether or not Small Dungeons can rarely place ore blocks in the corners of the dungeon.
+		# If this is set to false, any ore blocks that spawn as part of a corner prop will instead be replaced with air.
+		# Default: true
+		"Allow Ore Blocks in Corners" = true
 
