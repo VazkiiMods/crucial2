@@ -753,6 +753,10 @@ JEI.addInfo(<item:quark:red_stool>, ["This item cannot be crafted. If you alread
 craftingTable.removeRecipe(<item:quark:black_stool>);
 craftingTable.addShapeless("black_stool_convert", <item:create:black_seat>, [<item:quark:black_stool>]);
 JEI.addInfo(<item:quark:black_stool>, ["This item cannot be crafted. If you already have one, it can be crafted into a seat, which works in the same way."]);
+craftingTable.removeRecipe(<item:farmersdelight:wheat_dough>);
+JEI.hideItem(<item:farmersdelight:wheat_dough>);
+furnace.removeByName("farmersdelight:bread_from_smelting");
+smoker.removeByName("farmersdelight:bread_from_smoking");
 
 // Tagging ========================================================================================
 var tag = <tag:items:crucial:categories/building_blocks>;
