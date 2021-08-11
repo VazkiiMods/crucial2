@@ -5,7 +5,7 @@ cauldron = true
 #Replace carpet blocks, allowing them to fit to stairs below them.
 fittedCarpets = true
 #Replace hopper blocks, allowing them to be waterlogged.
-waterlogHoppers = true
+waterlogHoppers = false
 
 [enchantments]
 	#If true, axes can receive available weapon enchantments at the enchantment table
