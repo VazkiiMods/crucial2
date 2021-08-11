@@ -34,21 +34,12 @@
 		"environmental:apple_pie",
 		"environmental:cherries",
 		"environmental:cherry_pie",
-		"environmental:cod_kelp_roll",
 		"environmental:cooked_duck",
 		"environmental:cooked_venison",
-		"environmental:crab_kelp_roll",
 		"environmental:duck",
 		"environmental:fried_egg",
 		"environmental:koi",
-		"environmental:koi_kelp_roll",
-		"environmental:lionfish_rice_cake",
-		"environmental:pike_kelp_roll",
-		"environmental:pufferfish_rice_cake",
-		"environmental:salmon_rice_cake",
 		"environmental:scrambled_eggs",
-		"environmental:squid_ink_risotto",
-		"environmental:tropical_fish_kelp_roll",
 		"environmental:venison",
 		"farmersdelight:apple_pie",
 		"farmersdelight:apple_pie_slice",
@@ -313,6 +304,9 @@
 		"infernalexp:blindsight_tongue_stew",
 		"infernalexp:cured_jerky",
 		"infernalexp:raw_hogchop",
-		"infernalexp:cooked_hogchop"
+		"infernalexp:cooked_hogchop",
+		"environmental:truffle",
+		"environmental:truffle_mash",
+		"environmental:truffle_pie"
 	]
 }

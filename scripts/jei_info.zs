@@ -448,11 +448,16 @@ s = "Get this by bone mealing a Lily Pad.";
 i(<item:environmental:large_lily_pad>, s);
 i(<item:environmental:giant_lily_pad>, s);
 
+s = "Temporarily increases your maximum health when eaten.";
+i(<item:environmental:truffle_mash>, s);
+i(<item:environmental:truffle_pie>, s);
+
 i(<item:environmental:cattail_seeds>, "Get by right clicking grown Cattails. Can also be planted, but they'll only grow on farmland underwater.");
 i(<item:environmental:cherries>, "Can drop from Cherry Tree leaves like apples.");
 i(<item:environmental:slabfish_effigy>, "Can hold up to one item inside it, has no other purpose other than that and looking cool.");
 i(<item:environmental:kiln>, "It's faster at smelting anything a smoker and blast furnace can't. It's also the Ceramist villager workstation.");
 i(<item:environmental:sawmill>, "Cuts wood like a stonecutter. It's also the Carpenter villager workstation.");
+i(<item:environmental:truffle>, "Can be scavenged by Pigs by feeding them Golden Carrots.");
 
 // Neapolitan
 s = "Spawns in tropical biomes and beaches. Can be farmed by planting Fronds.";

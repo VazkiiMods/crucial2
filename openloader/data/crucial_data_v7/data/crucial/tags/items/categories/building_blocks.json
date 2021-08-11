@@ -508,7 +508,6 @@
 		"neapolitan:vanilla_ice_cream_block",
 		"neapolitan:vanilla_pod_block",
 		"neapolitan:white_strawberry_basket",
-		"environmental:rice_sack",
 		"farmersdelight:carrot_crate",
 		"farmersdelight:potato_crate",
 		"farmersdelight:beetroot_crate",
@@ -1090,6 +1089,7 @@
 		"supplementaries:daub_brace",
 		"supplementaries:daub_cross_brace",
 		"supplementaries:stone_tile",
-		"supplementaries:blackstone_tile"
+		"supplementaries:blackstone_tile",
+		"environmental:truffle_crate"
 	]
 }
