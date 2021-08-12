@@ -20,7 +20,8 @@ server_mods_blacklist = [
 	401648, # BetterF3
 	440465, # Panorama
 	238372, # Neat
-	448233  # Entity Culling
+	448233, # Entity Culling
+	460819  # LazyDFU
 ]
 server_blacklisted_files = [
 	'openloader/resources',
