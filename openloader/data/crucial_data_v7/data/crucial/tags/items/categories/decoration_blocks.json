@@ -844,6 +844,8 @@
 		"supplementaries:flag_red",
 		"supplementaries:flag_black",
 		"supplementaries:flower_box",
-		"supplementaries:sconce_glow"
+		"supplementaries:sconce_glow",
+		"supplementaries:hanging_sign_bamboo",
+		"supplementaries:sign_post_bamboo"
 	]
 }
