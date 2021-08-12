@@ -11,7 +11,7 @@ secondChanceEnabled = true
 #Determines if the 'Second Chance' sound will play when the effect is activated.
 secondChanceSound = true
 #Determines if the 'Second Chance' feature will be activated by explosions.
-secondChanceExplosions = false
+secondChanceExplosions = true
 #Determines if the 'Second Chance' feature will be activated by mobs.
 secondChanceMobs = true
 #Determines how much health the player must start with for 'Second Chance' to activate.
