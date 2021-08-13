@@ -136,6 +136,10 @@ craftingTable.removeRecipe(<item:paraglider:deku_leaf>);
 craftingTable.removeRecipe(<item:paraglider:paraglider>);
 craftingTable.removeRecipe(<item:paraglider:heart_container>);
 craftingTable.removeRecipe(<item:paraglider:stamina_vessel>);
+craftingTable.removeRecipe(<item:paraglider:goddess_statue>);
+craftingTable.removeRecipe(<item:paraglider:kakariko_goddess_statue>);
+craftingTable.removeRecipe(<item:paraglider:goron_goddess_statue>);
+craftingTable.removeRecipe(<item:paraglider:rito_goddess_statue>);
 
 craftingTable.removeRecipe(<item:waystones:return_scroll>);
 craftingTable.removeRecipe(<item:waystones:bound_scroll>);
