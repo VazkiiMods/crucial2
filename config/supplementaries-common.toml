@@ -215,6 +215,10 @@
 		#allows you to place hanging flower pots. Works with any modded pot too
 		enabled = true
 
+	[tweaks.enchanting_table]
+		#Allows enchanting table to interact with bokshelf even if they have carpets or other tagged items in the way. You can add more blocks by adding them to 'enchantment_bypass' block tag
+		ignore_carpets = true
+
 	[tweaks.raked_gravel]
 		#allow gravel to be raked with a hoe
 		enabled = true
