@@ -5,11 +5,11 @@
 import crafttweaker.api.events.CTEventManager;
 CTEventManager.register<crafttweaker.api.event.entity.player.MCPlayerLoggedInEvent>((event) => {
      var player = event.player;
-     player.sendMessage("§cWARNING: Create Integration")
-     player.sendMessage("CreateTweaker is required for Create integration to work properly. Please make sure you have the latest version installed: https://www.curseforge.com/minecraft/mc-mods/createtweaker");
+     player.sendMessage("WARNING: Create Integration!");
+     player.sendMessage("CreateTweaker is required for Create integration to work properly. Please make sure you have the latest version installed:");
+     player.sendMessage("https://www.curseforge.com/minecraft/mc-mods/createtweaker");
 });
 #snip end
-
 
 #snip modnotloaded createtweaker
 import mods.jei.JEI as JEI;
