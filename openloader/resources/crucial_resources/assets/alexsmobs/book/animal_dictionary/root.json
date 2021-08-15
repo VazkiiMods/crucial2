@@ -186,8 +186,8 @@
       "page": 2
     },
     {
-      "linked_page": "elephant.json",
-      "text": "Elephant",
+      "linked_page": "tasmanian_devil.json",
+      "text": "Tasmanian Devil",
       "x": 90,
       "y": 135,
       "page": 2
@@ -249,24 +249,17 @@
       "page": 2
     },
     {
-      "linked_page": "tasmanian_devil.json",
-      "text": "Tasmanian Devil",
-      "x": 90,
-      "y": 10,
-      "page": 3
-    },
-    {
       "linked_page": "straddler.json",
       "text": "Straddler",
       "x": 90,
-      "y": 35,
+      "y": 10,
       "page": 3
     },
     {
       "linked_page": "stradpole.json",
       "text": "Stradpole",
       "x": 90,
-      "y": 60,
+      "y": 35,
       "page": 3
     }
   ],

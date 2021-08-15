@@ -36,6 +36,7 @@
 		stick = true
 		rope_arrow = true
 		checker_block = false
+		wattle_and_daub = true
 		stone_lamp = false
 		cog_block = false
 		crank = true
