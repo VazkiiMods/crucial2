@@ -1,0 +1,16 @@
+{
+	"name": "Beasts of Burden",
+	"icon": "minecraft:chest",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, large trusty rodents inhabit $(thing)Savanna$() biomes. These are well known for their love of $(item)Apples$(), ability to carry multiple $(item)Chests$() worth of items, and strange obedience towards $(item)Sticks$().$(br2)Having one at your side seems like a great way to help transport large hauls."
+		},
+		{
+			"type": "quest",
+			"text": "Discover and tame a beast of burden of your own."
+		}
+	]
+}
