@@ -652,6 +652,7 @@ i(<item:seasonals:sweet_berry_milkshake>, s + "shuffles active effects' levels a
 
 // Unique Functional Items
 i(<item:atmospheric:passion_vine_coil>, "Can be thrown. When it lands on a block, it drops down a vine you can climb.");
+i(<item:atmospheric:crustose>, "Can be created by growing Aspen Saplings in a 2x2 pattern.");
 
 i(<item:antiqueatlas:empty_antique_atlas>, "Works as a sort of map that catalogues where you go. Definitely a must have if you're going exploring!");
 
