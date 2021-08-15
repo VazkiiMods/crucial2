@@ -1,4 +1,8 @@
+var cooking = <recipetype:farmersdelight:cooking>;
+var warping = <recipetype:architects_palette:warping>;
+
 craftingTable.removeRecipe(<item:environmental:apple_pie>);
+cooking.removeByName("abnormals_delight:environmental/cooking/squid_ink_risotto");
 
 craftingTable.removeByName("minecraft:yellow_dye_from_sunflower");
 
@@ -302,7 +306,6 @@ villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:shepherd>, 2, <i
 villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:mason>, 1, <item:architects_palette:limestone>);
 villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:mason>, 1, <item:architects_palette:olivestone_bricks>);
 
-var warping = <recipetype:architects_palette:warping>;
 warping.removeRecipe(<item:architects_palette:twisted_log>);
 warping.removeRecipe(<item:architects_palette:twisted_sapling>);
 warping.removeRecipe(<item:architects_palette:twisted_leaves>);
