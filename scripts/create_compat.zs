@@ -5,19 +5,12 @@
 import crafttweaker.api.events.CTEventManager;
 CTEventManager.register<crafttweaker.api.event.entity.player.MCPlayerLoggedInEvent>((event) => {
      var player = event.player;
-     player.sendMessage("CreateTweaker and ContentTweaker are required for Create integration to work properly. Please make sure you have the latest versions installed: https://www.curseforge.com/minecraft/mc-mods/createtweaker https://www.curseforge.com/minecraft/mc-mods/contenttweaker");
+     player.sendMessage("§cWARNING: Create Integration")
+     player.sendMessage("CreateTweaker is required for Create integration to work properly. Please make sure you have the latest version installed: https://www.curseforge.com/minecraft/mc-mods/createtweaker");
 });
 #snip end
 
-#snip modloaded contenttweaker
-import crafttweaker.api.events.CTEventManager;
-CTEventManager.register<crafttweaker.api.event.entity.player.MCPlayerLoggedInEvent>((event) => {
-     var player = event.player;
-     player.sendMessage("CreateTweaker and ContentTweaker are required for Create integration to work properly. Please make sure you have the latest versions installed: https://www.curseforge.com/minecraft/mc-mods/createtweaker https://www.curseforge.com/minecraft/mc-mods/contenttweaker");
-});
-#snip end
 
-#snip modnotloaded contenttweaker
 #snip modnotloaded createtweaker
 import mods.jei.JEI as JEI;
 
@@ -815,7 +808,6 @@ tag = <tag:items:crucial:categories/useful_items>;
 tag.add(<item:create:goggles>);
 tag.add(<item:create:super_glue>);
 tag.add(<item:create:wrench>);
-#snip end
 #snip end
 
 #snip end

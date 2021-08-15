@@ -2,7 +2,6 @@
 
 #snip modnotloaded create
 #snip modnotloaded createtweaker
-#snip modnotloaded contenttweaker
 
 import mods.contenttweaker.block.BlockBuilder;
 import mods.contenttweaker.item.ItemBuilder;
@@ -18,6 +17,5 @@ new ItemBuilder()
     .withItemGroup(<itemgroup:misc>)
     .build("raw_copper");
 
-#snip end
 #snip end
 #snip end
