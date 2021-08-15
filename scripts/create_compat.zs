@@ -71,6 +71,10 @@ furnace.addRecipe("chocolate_stone", <item:neapolitan:chocolate_block>, <item:cr
 <recipetype:create:milling>.addRecipe("chocolate_milling", [<item:minecraft:soul_sand>, <item:neapolitan:chocolate_bar> % 50], <item:create:scoria_cobblestone>);
 <recipetype:create:crushing>.addRecipe("chocolate_crushing", [<item:minecraft:soul_sand>, <item:neapolitan:chocolate_bar> % 50], <item:create:scoria_cobblestone>);
 <recipetype:create:compacting>.addRecipe("blastproof_create", "none", <item:savageandravage:blast_proof_plating>, [<item:savageandravage:creeper_spores> * 3, <item:minecraft:gold_ingot> * 2], []);
+// Fix nether gold ore giving cobblestone
+<recipetype:create:crushing>.removeByName("create:crushing/gold_ore");
+<recipetype:create:crushing>.addRecipe("gold_ore_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> * 2 % 30, <item:minecraft:cobblestone> % 12], <item:minecraft:gold_ore>);
+<recipetype:create:crushing>.addRecipe("nether_gold_ore_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> * 2 % 30, <item:minecraft:netherrack> % 12], <item:minecraft:nether_gold_ore>);
 
 // Food and Drinks ================================================================================
 <recipetype:create:compacting>.removeRecipe(<item:create:bar_of_chocolate>);
@@ -274,6 +278,9 @@ furnace.addRecipe("chocolate_stone", <item:neapolitan:chocolate_block>, <item:cr
 <recipetype:create:milling>.addRecipe("purple_delphinium_milling", [<item:minecraft:purple_dye> * 3, <item:minecraft:purple_dye> * 2 % 25], <item:environmental:purple_delphinium>);
 <recipetype:create:crushing>.addRecipe("white_delphinium_crushing", [<item:minecraft:white_dye> * 3, <item:minecraft:white_dye> * 2 % 25], <item:environmental:white_delphinium>);
 <recipetype:create:milling>.addRecipe("white_delphinium_milling", [<item:minecraft:white_dye> * 3, <item:minecraft:white_dye> * 2 % 25], <item:environmental:white_delphinium>);
+
+<recipetype:create:milling>.addRecipe("basalt_iron_ore_milling", [<item:create:crushed_iron_ore>], <item:infernalexp:basalt_iron_ore>);
+<recipetype:create:crushing>.addRecipe("basalt_iron_ore_crushing", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> * 2 % 30, <item:minecraft:basalt> % 12], <item:infernalexp:basalt_iron_ore>);
 
 // Uninspirational Fluids =========================================================================
 <recipetype:create:filling>.removeRecipe(<item:inspirations:honey_bucket>);
