@@ -1,11 +1,17 @@
 var _string = <item:minecraft:string>;
+var adzuki_cookie = <item:cookielicious:adzuki_cookie>;
 var air = <item:minecraft:air>;
 var alex_drops = <tag:items:crucial:alex_drops>;
 var animal_dictionary = <item:alexsmobs:animal_dictionary>;
 var aspen_sapling = <item:atmospheric:aspen_sapling>;
 var banana = <item:neapolitan:banana>;
 var banana_bunch = <item:neapolitan:banana_bunch>;
+var banana_cookie = <item:cookielicious:banana_cookie>;
+var basalt_brick_slab = <item:infernalexp:basalt_brick_slab>;
+var basalt_bricks = <item:infernalexp:basalt_bricks>;
+var basalt_tiles = <item:architects_palette:basalt_tiles>;
 var birch_sapling = <item:minecraft:birch_sapling>;
+var blank_acacia_totem = <item:architects_palette:blank_acacia_totem>;
 var blaze_powder = <item:minecraft:blaze_powder>;
 var blaze_rod = <item:minecraft:blaze_rod>;
 var bone_block = <item:minecraft:bone_block>;
@@ -13,6 +19,7 @@ var boof_block = <item:endergetic:boof_block>;
 var booflo_hide = <item:endergetic:booflo_hide>;
 var book = <item:minecraft:book>;
 var brick = <tag:items:forge:ingots/brick>;
+var cactus_paste = <item:quark:cactus_paste>;
 var candelabra = <item:supplementaries:candelabra>;
 var candles = <tag:items:buzzier_bees:candles>;
 var canvas = <item:farmersdelight:canvas>;
@@ -26,6 +33,8 @@ var chiseled_iron_ore_bricks = <item:architects_palette:chiseled_iron_ore_bricks
 var chiseled_lapis_ore_bricks = <item:architects_palette:chiseled_lapis_ore_bricks>;
 var chiseled_redstone_ore_bricks = <item:architects_palette:chiseled_redstone_ore_bricks>;
 var chiseled_stone_bricks = <item:minecraft:chiseled_stone_bricks>;
+var chocolate_bar = <item:neapolitan:chocolate_bar>;
+var chocolate_cookie = <item:cookielicious:chocolate_cookie>;
 var clay = <item:minecraft:clay>;
 var clay_ball = <item:minecraft:clay_ball>;
 var coal = <item:minecraft:coal>;
@@ -34,6 +43,7 @@ var cod_log = <item:architects_palette:cod_log>;
 var crafter = <item:structuredcrafting:structured_crafter>;
 var crafting_table = <item:minecraft:crafting_table>;
 var diamond = <tag:items:forge:gems/diamond>;
+var dried_vanilla_pods = <item:neapolitan:dried_vanilla_pods>;
 var emerald = <tag:items:forge:gems/emerald>;
 var ender_eye = <item:minecraft:ender_eye>;
 var ender_pearl = <item:minecraft:ender_pearl>;
@@ -43,9 +53,12 @@ var globe_pattern = <item:minecraft:globe_banner_pattern>;
 var glowing_glass_item_frame = <item:quark:glowing_glass_item_frame>;
 var glowing_ink_sac = <item:upgrade_aquatic:glowing_ink_sac>;
 var gold_ingot = <tag:items:forge:ingots/gold>;
+var gooseberry_jam = <item:bayou_blues:gooseberry_jam>;
+var gooseberry_jam_cookie = <item:bayou_blues:gooseberry_jam_cookie>;
 var grimwood_sapling = <item:atmospheric:grimwood_sapling>;
 var honeycomb = <item:minecraft:honeycomb>;
 var ice_bricks = <item:environmental:ice_bricks>;
+var infernal_painting = <item:infernalexp:infernal_painting>;
 var iron_ingot = <tag:items:forge:ingots/iron>;
 var koi = <item:environmental:koi>;
 var koi_barrel = <item:fish_in_planks:koi_barrel>;
@@ -55,10 +68,13 @@ var lapis = <tag:items:forge:gems/lapis>;
 var leather = <item:minecraft:leather>;
 var logs = <tag:items:minecraft:logs>;
 var mimicream = <item:alexsmobs:mimicream>;
+var mint_cookie = <item:cookielicious:mint_cookie>;
+var mint_leaves = <item:neapolitan:mint_leaves>;
 var nether_star = <item:minecraft:nether_star>;
 var nether_wart = <item:minecraft:nether_wart>;
 var oak_sapling = <item:minecraft:oak_sapling>;
 var ochre_kelp = <item:upgrade_aquatic:ochre_kelp>;
+var olivestone_bricks = <item:architects_palette:olivestone_bricks>;
 var organic_compost = <item:farmersdelight:organic_compost>;
 var packed_ice = <item:minecraft:packed_ice>;
 var paper = <item:minecraft:paper>;
@@ -68,29 +84,31 @@ var piston = <item:minecraft:piston>;
 var piston_launcher = <item:supplementaries:piston_launcher>;
 var planter = <item:supplementaries:planter>;
 var polar_kelp = <item:upgrade_aquatic:polar_kelp>;
+var polished_basalt = <item:minecraft:polished_basalt>;
 var polished_packed_ice = <item:architects_palette:polished_packed_ice>;
 var potato = <item:minecraft:potato>;
 var prismarine_crystals = <item:minecraft:prismarine_crystals>;
 var raw_gold = <item:iron_and_gold:raw_gold>;
 var raw_iron = <item:iron_and_gold:raw_iron>;
 var redstone = <tag:items:forge:dusts/redstone>;
+var roasted_adzuki_beans = <item:neapolitan:roasted_adzuki_beans>;
 var sack = <item:supplementaries:sack>;
 var salmon = <item:minecraft:salmon>;
 var salmon_log = <item:architects_palette:salmon_log>;
 var soul_lantern = <item:minecraft:soul_lantern>;
 var spruce_sapling = <item:minecraft:spruce_sapling>;
 var spyglass = <item:farsight_spyglasses:spyglass>;
+var stick = <item:minecraft:stick>;
+var stone_bricks = <item:minecraft:stone_bricks>;
+var strawberries = <item:neapolitan:strawberries>;
+var strawberry_cookie = <item:cookielicious:strawberry_cookie>;
+var stripped_acacia_log = <item:minecraft:stripped_acacia_log>;
 var thorny_kelp = <item:upgrade_aquatic:thorny_kelp>;
 var tongue_kelp = <item:upgrade_aquatic:tongue_kelp>;
+var vanilla_cookie = <item:cookielicious:vanilla_cookie>;
+var wheat = <item:minecraft:wheat>;
 var wicks = <tag:items:buzzier_bees:candle_wick>;
 var yak_hair = <item:environmental:yak_hair>;
-var olivestone_bricks = <item:architects_palette:olivestone_bricks>;
-var stone_bricks = <item:minecraft:stone_bricks>;
-var cactus_paste = <item:quark:cactus_paste>;
-var stick = <item:minecraft:stick>;
-var stripped_acacia_log = <item:minecraft:stripped_acacia_log>;
-var blank_acacia_totem = <item:architects_palette:blank_acacia_totem>;
-var infernal_painting = <item:infernalexp:infernal_painting>;
 
 // Remove specific recipes
 craftingTable.removeByName("minecraft:lead");
@@ -277,3 +295,46 @@ craftingTable.addShaped("canvas_infernal_painting",
 		[[blaze_rod, stick, blaze_rod], 
 		[stick, canvas, stick], 
 		[blaze_rod, stick, blaze_rod]]);
+
+// Consistent cookies
+craftingTable.removeRecipe(gooseberry_jam_cookie);
+craftingTable.addShapeless("gooseberry_jam_cookie_shapeless",
+		gooseberry_jam_cookie * 8,
+		[gooseberry_jam, wheat, wheat]);
+craftingTable.removeRecipe(vanilla_cookie);
+craftingTable.addShapeless("vanilla_cookie_shapeless",
+		vanilla_cookie * 8,
+		[dried_vanilla_pods, wheat, wheat]);
+craftingTable.removeRecipe(chocolate_cookie);
+craftingTable.addShapeless("chocolate_cookie_shapeless",
+		chocolate_cookie * 8,
+		[chocolate_bar, wheat, wheat]);
+craftingTable.removeRecipe(strawberry_cookie);
+craftingTable.addShapeless("strawberry_cookie_shapeless",
+		strawberry_cookie * 8,
+		[strawberries, wheat, wheat]);
+craftingTable.removeRecipe(banana_cookie);
+craftingTable.addShapeless("banana_cookie_shapeless",
+		banana_cookie * 8,
+		[banana, wheat, wheat]);
+craftingTable.removeRecipe(mint_cookie);
+craftingTable.addShapeless("mint_cookie_shapeless",
+		mint_cookie * 8,
+		[mint_leaves, wheat, wheat]);
+craftingTable.removeRecipe(adzuki_cookie);
+craftingTable.addShapeless("adzuki_cookie_shapeless",
+		adzuki_cookie * 8,
+		[roasted_adzuki_beans, wheat, wheat]);
+
+// Fix overlapping Basalt tiles/bricks recipes
+craftingTable.removeRecipe(basalt_tiles);
+craftingTable.addShaped("basalt_tiles_from_bricks",
+		basalt_tiles * 4,
+		[[basalt_bricks, basalt_bricks],
+		 [basalt_bricks, basalt_bricks]]);
+
+// Basalt brick slab recipe fix
+craftingTable.removeRecipe(basalt_brick_slab);
+craftingTable.addShaped("basalt_brick_slab_fix",
+		basalt_brick_slab * 6,
+		[[basalt_bricks, basalt_bricks, basalt_bricks]]);

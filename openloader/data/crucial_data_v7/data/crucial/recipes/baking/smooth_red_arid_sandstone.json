@@ -1,0 +1,9 @@
+{
+  "type": "environmental:baking",
+  "ingredient": {
+    "item": "atmospheric:red_arid_sandstone"
+  },
+  "result": "atmospheric:smooth_red_arid_sandstone",
+  "experience": 1.0,
+  "cookingtime": 100
+}
