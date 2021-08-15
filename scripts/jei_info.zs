@@ -768,7 +768,7 @@ i(<item:iron_and_gold:raw_gold>, "Drops from Gold Ore when mined without Silk To
 
 i(<item:farsight_spyglasses:spyglass>, "Can be used to zoom in wherever you're looking at.");
 
-i(<item:fruitful:flowering_oak_sapling>, "Can be found in Forests and more commonly in Flowering oFrests. Can be pollinated by bees during full moons to sprout apples.");
+i(<item:fruitful:flowering_oak_sapling>, "Can be found in Forests and more commonly in Flowering Forests. Can be pollinated by bees during full moons to sprout apples.");
 
 i(<item:architects_palette:entrails>, "Can be acquired by trading with a Butcher Villager");
 i(<item:architects_palette:warpstone>, "Can be acquired by sending a Clay Block through a Nether Portal.");
