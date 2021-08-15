@@ -396,6 +396,7 @@ craftingTable.removeRecipe(<item:architects_palette:cracked_end_stone_bricks>);
 craftingTable.removeRecipe(<item:architects_palette:chiseled_end_stone_bricks>);
 craftingTable.removeRecipe(<item:architects_palette:molten_nether_bricks>);
 craftingTable.removeRecipe(<item:architects_palette:ender_pearl_block>);
+craftingTable.removeByName("architects_palette:ender_pearl_from_block");
 craftingTable.removeRecipe(<item:architects_palette:plating_wall>);
 craftingTable.removeRecipe(<item:architects_palette:redstone_cage_lantern>);
 craftingTable.removeRecipe(<item:architects_palette:glowstone_cage_lantern>);
