@@ -14,6 +14,8 @@ craftingTable.removeByName("charm:extra_recipes/cyan_dye");
 
 craftingTable.removeRecipe(<item:atmospheric:passionfruit_sorbet>);
 
+craftingTable.removeRecipe(<item:autumnity:pancake>);
+
 craftingTable.removeRecipe(<item:inspirations:shelf>);
 craftingTable.removeRecipe(<item:inspirations:ancient_shelf>);
 craftingTable.removeRecipe(<item:inspirations:rainbow_shelf>);

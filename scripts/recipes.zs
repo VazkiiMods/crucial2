@@ -44,6 +44,7 @@ var crafter = <item:structuredcrafting:structured_crafter>;
 var crafting_table = <item:minecraft:crafting_table>;
 var diamond = <tag:items:forge:gems/diamond>;
 var dried_vanilla_pods = <item:neapolitan:dried_vanilla_pods>;
+var eggs = <tag:items:forge:eggs>;
 var emerald = <tag:items:forge:gems/emerald>;
 var ender_eye = <item:minecraft:ender_eye>;
 var ender_pearl = <item:minecraft:ender_pearl>;
@@ -67,6 +68,7 @@ var lantern = <item:minecraft:lantern>;
 var lapis = <tag:items:forge:gems/lapis>;
 var leather = <item:minecraft:leather>;
 var logs = <tag:items:minecraft:logs>;
+var milk = <tag:items:forge:milk>;
 var mimicream = <item:alexsmobs:mimicream>;
 var mint_cookie = <item:cookielicious:mint_cookie>;
 var mint_leaves = <item:neapolitan:mint_leaves>;
@@ -77,6 +79,7 @@ var ochre_kelp = <item:upgrade_aquatic:ochre_kelp>;
 var olivestone_bricks = <item:architects_palette:olivestone_bricks>;
 var organic_compost = <item:farmersdelight:organic_compost>;
 var packed_ice = <item:minecraft:packed_ice>;
+var pancake = <item:supplementaries:pancake>;
 var paper = <item:minecraft:paper>;
 var paraglider = <item:paraglider:paraglider>;
 var pipe = <item:quark:pipe>;
@@ -103,6 +106,8 @@ var stone_bricks = <item:minecraft:stone_bricks>;
 var strawberries = <item:neapolitan:strawberries>;
 var strawberry_cookie = <item:cookielicious:strawberry_cookie>;
 var stripped_acacia_log = <item:minecraft:stripped_acacia_log>;
+var sugar = <item:minecraft:sugar>;
+var syrup = <item:autumnity:syrup_bottle>;
 var thorny_kelp = <item:upgrade_aquatic:thorny_kelp>;
 var tongue_kelp = <item:upgrade_aquatic:tongue_kelp>;
 var vanilla_cookie = <item:cookielicious:vanilla_cookie>;
@@ -338,3 +343,9 @@ craftingTable.removeRecipe(basalt_brick_slab);
 craftingTable.addShaped("basalt_brick_slab_fix",
 		basalt_brick_slab * 6,
 		[[basalt_bricks, basalt_bricks, basalt_bricks]]);
+
+// Syrup in Pancake
+craftingTable.removeRecipe(pancake);
+craftingTable.addShapeless("pancake_with_syrup",
+		pancake * 4,
+		[sugar, milk, wheat, eggs, syrup]);
