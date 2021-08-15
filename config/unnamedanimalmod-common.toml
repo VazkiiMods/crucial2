@@ -1,8 +1,8 @@
 
 [General]
-	#Which biome should Capybaras spawn in?
-	capybara_spawn_biome = "minecraft:savanna"
 	#How often should Capybaras spawn?
 	#Range: 1 ~ 1000
 	capybara_spawn_weight = 20
+	#Which biome should Capybaras spawn in?
+	capybara_spawn_biome = "minecraft:savanna"
 
