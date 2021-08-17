@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:armor_stand"
+		},
+		"title": "Armor Statues        ",
+		"description": ["",{"text":"Adds a unique book that allows you to alter the properties of armor stands in survival.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/trigger as_help","color":"yellow"},{"text":" for details.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/function armor_statues:admin/","color":"yellow"},{"text":" and use auto-complete to set config options.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
