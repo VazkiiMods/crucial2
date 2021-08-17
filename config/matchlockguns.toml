@@ -1,0 +1,13 @@
+
+[global]
+	#Enables a recipe for gunpowder -NOT WORKING-
+	enable_gunpowder_recipe = true
+	#If true, most guns are required to use the ramrod
+	use_ramrod = true
+	#Gun reload time multiplier
+	#Range: 0.0 ~ 100.0
+	reload_time_mul = 1.0
+	#Global damage dealt by guns multiplier
+	#Range: 0.0 ~ 100.0
+	damage_mul = 1.0
+
