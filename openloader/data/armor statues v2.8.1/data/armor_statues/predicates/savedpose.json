@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+	  "name": "armor_statues:savedpose_mainhand"
+    },
+	{
+      "condition": "minecraft:reference",
+	  "name": "armor_statues:savedpose_offhand"
+    }
+  ]
+}

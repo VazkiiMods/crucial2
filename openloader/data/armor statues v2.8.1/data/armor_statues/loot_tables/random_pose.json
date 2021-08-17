@@ -1,0 +1,201 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+	  "rolls": 1,
+	  "entries": [
+	    {
+		  "type": "minecraft:item",
+		  "name": "minecraft:stone_button",
+		  "functions": [
+		    {
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+			    {
+				  "name": "head_x",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "head_y",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "head_z",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "body_x",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "body_y",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "body_z",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "left_arm_x",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "left_arm_y",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "left_arm_z",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "right_arm_x",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "right_arm_y",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "right_arm_z",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "left_leg_x",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "left_leg_y",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "left_leg_z",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "right_leg_x",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "right_leg_y",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				},
+				{
+				  "name": "right_leg_z",
+				  "attribute": "generic.attack_damage",
+				  "amount": {
+				    "min": -180,
+					"max": 180
+				  },
+				  "slot": "mainhand",
+				  "operation": "addition"
+				}
+			  ]
+			}
+		  ]
+		}
+	  ]
+	}
+  ]
+}

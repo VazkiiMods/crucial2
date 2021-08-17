@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:armor_stand"
+    },
+    "title": {
+      "text":"craft_book"
+    },
+    "description": {
+      "text":""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "armor_statues:root",
+  "criteria": {
+    "craft_book": {
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+	    "items": [
+		  {
+		    "item": "minecraft:written_book",
+			"nbt": "{title:\"Statues\"}"
+		  }
+		]
+	  }
+    }
+  },
+  "requirements": [
+    [
+      "craft_book"
+    ]
+  ],
+  "rewards": {
+    "function": "armor_statues:craft_book"
+  }
+}
