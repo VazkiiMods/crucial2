@@ -10,4 +10,5 @@
 !/ship/
 !/.gitignore
 /ship/output
+/config/sodium-options.json
 *.pyc
