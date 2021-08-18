@@ -302,7 +302,7 @@ craftingTable.removeRecipe(<item:create:refined_radiance_casing>);
 <recipetype:create:crushing>.removeRecipe(<item:create:powdered_obsidian>);
 <recipetype:create:mixing>.removeRecipe(<item:create:chromatic_compound>);
 craftingTable.removeRecipe(<item:create:wand_of_symmetry>);
-<recipetype:create:mechanical_crafting>.removeRecipe(<item:create:extendo_grip>);
+//<recipetype:create:mechanical_crafting>.removeRecipe(<item:create:extendo_grip>);
 
 // Palette Removal ================================================================================
 craftingTable.removeRecipe(<item:create:oak_window>);

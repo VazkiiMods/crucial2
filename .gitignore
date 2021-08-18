@@ -12,3 +12,4 @@
 /ship/output
 /config/sodium-options.json
 *.pyc
+config/sodium-options.json
