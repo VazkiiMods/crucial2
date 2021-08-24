@@ -291,10 +291,10 @@ JEI.hideItem(<item:frozenup:mug_of_chocolate_milk>);
 JEI.hideItem(<item:frozenup:mug_of_truffle_hot_chocolate>);
 
 // Schematic Removal ==============================================================================
-craftingTable.removeRecipe(<item:create:schematicannon>);
-craftingTable.removeRecipe(<item:create:schematic_table>);
-craftingTable.removeRecipe(<item:create:empty_schematic>);
-craftingTable.removeRecipe(<item:create:schematic_and_quill>);
+//craftingTable.removeRecipe(<item:create:schematicannon>);
+//craftingTable.removeRecipe(<item:create:schematic_table>);
+//craftingTable.removeRecipe(<item:create:empty_schematic>);
+//craftingTable.removeRecipe(<item:create:schematic_and_quill>);
 
 // Endgame Removal ================================================================================
 craftingTable.removeRecipe(<item:create:shadow_steel_casing>);
