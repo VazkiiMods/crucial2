@@ -1910,8 +1910,8 @@
 		"Food Compression Threshold" = 4
 		"Map Require Shift" = false
 		"Shulker Tooltips" = true
-		"Food Tooltips" = true
-		"Show Saturation" = true
+		"Food Tooltips" = false
+		"Show Saturation" = false
 		"Map Tooltips" = true
 		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "quark:pickarang", "farmersdelight:diamond_knife", "minecraft:shield", "minecraft:shulker_box"]
 
@@ -1921,9 +1921,10 @@
 		"Affect Leaves" = true
 
 		[client.greener_grass.color_matrix]
-			R = [0.89, 0.0, 0.0]
-			B = [0.0, 0.0, 0.89]
-			G = [0.0, 1.11, 0.0]
+			R = [0.86, 0.0, 0.0]
+			B = [0.0, 0.0, 0.72]
+			G = [0.12, 1.0, 0.12]
+
 
 [oddities]
 	"Totem Of Holding" = true
