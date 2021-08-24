@@ -1921,9 +1921,9 @@
 		"Affect Leaves" = true
 
 		[client.greener_grass.color_matrix]
-			R = [0.89, 0.0, 0.0]
-			B = [0.0, 0.0, 0.89]
-			G = [0.0, 1.11, 0.0]
+			R = [0.88, 0.0, 0.0]
+			B = [0.12, 1.0, 0.12]
+			G = [0.0, 0.0, 0.72]
 
 [oddities]
 	"Totem Of Holding" = true
