@@ -1922,8 +1922,8 @@
 
 		[client.greener_grass.color_matrix]
 			R = [0.88, 0.0, 0.0]
-			B = [0.12, 1.0, 0.12]
-			G = [0.0, 0.0, 0.72]
+			B = [0.0, 0.0, 0.72]
+			G = [0.12, 1.0, 0.12]
 
 [oddities]
 	"Totem Of Holding" = true
