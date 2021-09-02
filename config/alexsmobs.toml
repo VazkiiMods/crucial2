@@ -25,6 +25,8 @@
 	blobfishSpawnHeight = 38
 	#Whether guster spawns are limited to when it is raining/thundering.
 	limitGusterSpawnsToWeather = true
+	#Whether seagulls should steal food out of players' hotbar slots.
+	seagullStealing = true
 	#Whether all players should get an Animal Dictionary when joining the world for the first time.
 	giveBookOnStartup = false
 	#Maximum world y-level that cave centipedes can spawn at
@@ -74,6 +76,8 @@
 	#Relative volume of cachalot whales compared to other animals. Note that irl they are the loudest animal. Turn this down if you find their clicks annoying.
 	#Range: 0.0 ~ 10.0
 	cachalotVolume = 3.0
+	#Whether the Clinging Potion effect should flip the screen. Warning: may cause nausea.
+	clingingFlipEffect = false
 	#Whether emu should target skeletons.
 	emuTargetSkeletons = true
 	#Lava Opacity for the Lava Vision Potion.
@@ -212,6 +216,9 @@
 		warpedMoscoSpawnWeight = 1
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
+		seagullSpawnWeight = 21
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
 		cockroachSpawnWeight = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
@@ -240,6 +247,9 @@
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		mimicOctopusSpawnWeight = 0
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		seagullSpawnRolls = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		tigerSpawnRolls = 0
