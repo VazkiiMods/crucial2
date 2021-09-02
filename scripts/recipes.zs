@@ -117,6 +117,8 @@ var yak_hair = <item:environmental:yak_hair>;
 var chests = <tag:items:forge:chests/wooden>;
 var planks = <tag:items:minecraft:planks>;
 var drawers = <item:storagedrawers:oak_full_drawers_1>;
+var seed_pouch = <item:quark:seed_pouch>;
+var seed_pouchable = <tag:items:quark:seed_pouch_holdable>;
 
 // Remove specific recipes
 craftingTable.removeByName("minecraft:lead");
@@ -360,3 +362,11 @@ craftingTable.addShaped("drawers_with_iron",
 		[[iron_ingot, planks, iron_ingot],
 		[air, chests, air],
 		[iron_ingot, planks, iron_ingot]]);
+
+// Seed Pouch with Leather
+craftingTable.removeRecipe(seed_pouch);
+craftingTable.addShaped("seed_pouch_leather",
+		seed_pouch,
+		[[air, _string, air],
+		[leather, seed_pouchable, leather],
+		[air, leather, air]]);
