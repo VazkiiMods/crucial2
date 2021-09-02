@@ -8,6 +8,8 @@ CTEventManager.register<crafttweaker.api.event.entity.player.MCPlayerLoggedInEve
 	player.sendMessage("WARNING: Create Integration!");
 	player.sendMessage("CreateTweaker is required for Create integration to work properly. Please make sure you have the latest version installed:");
 	player.sendMessage("https://www.curseforge.com/minecraft/mc-mods/createtweaker");
+	player.sendMessage(" ");
+	player.sendMessage("IMPORTANT: This world needs to either be recreated, or the Create datapack's priority lowered to work, as you've loaded it without CreateTweaker.");
 });
 #snip end
 
