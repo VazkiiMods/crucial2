@@ -10,7 +10,7 @@
 	#The number of item stacks held in a basic unit of storage.
 	#1x1 drawers hold 8 units, 1x2 drawers hold 4 units, 2x2 drawers hold 2 units.
 	#Half-depth drawers hold half those amounts.
-	baseStackStorage = 512
+	baseStackStorage = 125
 	enableExtraCompactingRules = true
 	#Range: 1 ~ 50
 	controllerRange = 12

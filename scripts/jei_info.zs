@@ -693,7 +693,7 @@ i(<item:quark:seed_pouch>, "Can hold 10 stacks of a seed. Right click the seed o
 i(<item:quark:soul_compass>, "Points to where you last died.");
 i(<item:quark:trowel>, "Randomly places one block from your hotbar, great for paths!");
 i(<item:quark:abacus>, "Right Click a block to set the source - from there, the Abacus will count the distance from the block you're looking at to that one, provided you're holding it.");
-i(<item:quark:crate>, "Can hold up to 640 items. Unlike Chests, the amount of slots expands based on the different items you put in, so it's good for holding a high variety of things.");
+i(<item:quark:crate>, "Can hold up to 1000 items. Unlike Chests, the amount of slots expands based on the different items you put in, so it's good for holding a high variety of things.");
 i(<item:quark:chute>, "Can receive items with Hoppers and the like. Any items that end up in it are immediately ejected downwards into the world.");
 
 i(<item:structuredcrafting:structured_crafter>, "When powered, crafts based on the recipe in blocks or items in chests behind it in a 3x3 area.");
@@ -829,3 +829,5 @@ i(<item:infernalexp:basalt_iron_ore>, "Can be found in the Basalt Deltas biome i
 i(<item:infernalexp:basaltic_magma>, "Can be found in the Basalt Deltas biome in the Nether. Can be used to warm Striders or create a bubble column.");
 i(<item:infernalexp:quartz_glass>, "Can withstand explosions better than regular glass.");
 i(<item:infernalexp:quartz_glass_pane>, "Can withstand explosions better than regular glass.");
+
+i(<item:storagedrawers:oak_full_drawers_1>, "Can store up to 1000 stacks of any one item. Items can be added by right-clicking and removed by left-clicking. Sneak while doing so to move entire stacks.");

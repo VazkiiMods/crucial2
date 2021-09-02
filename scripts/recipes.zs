@@ -114,6 +114,9 @@ var vanilla_cookie = <item:cookielicious:vanilla_cookie>;
 var wheat = <item:minecraft:wheat>;
 var wicks = <tag:items:buzzier_bees:candle_wick>;
 var yak_hair = <item:environmental:yak_hair>;
+var chests = <tag:items:forge:chests/wooden>;
+var planks = <tag:items:minecraft:planks>;
+var drawers = <item:storagedrawers:oak_full_drawers_1>;
 
 // Remove specific recipes
 craftingTable.removeByName("minecraft:lead");
@@ -349,3 +352,11 @@ craftingTable.removeRecipe(pancake);
 craftingTable.addShapeless("pancake_with_syrup",
 		pancake * 4,
 		[sugar, milk, wheat, eggs, syrup]);
+
+// Drawers with Iron
+craftingTable.removeRecipe(drawers);
+craftingTable.addShaped("drawers_with_iron",
+		drawers,
+		[[iron_ingot, planks, iron_ingot],
+		[air, chests, air],
+		[iron_ingot, planks, iron_ingot]]);
