@@ -307,6 +307,18 @@
 		"infernalexp:cooked_hogchop",
 		"environmental:truffle",
 		"environmental:truffle_mash",
-		"environmental:truffle_pie"
+		"environmental:truffle_pie",
+		"abnormals_delight:cherry_cookie",
+		"abnormals_delight:mulberry_cookie",
+		"abnormals_delight:maple_cookie",
+		"abnormals_delight:duck_noodles",
+		"abnormals_delight:perch_with_mushrooms",
+		"abnormals_delight:venison_with_bamboo_shoots",
+		"abnormals_delight:pike_with_beetroot",
+		"abnormals_delight:maple_glazed_bacon",
+		"abnormals_delight:slabdish",
+		"abnormals_delight:cherry_cream_soda",
+		"abnormals_delight:passion_aloe_nectar",
+		"abnormals_delight:pickerelweed_juice"
 	]
 }
