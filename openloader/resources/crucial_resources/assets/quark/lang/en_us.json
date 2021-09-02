@@ -14,5 +14,7 @@
 	"block.quark.dirt_bricks_stairs": "Crude Dirt Brick Stairs",
 	"block.quark.dirt_bricks_slab": "Crude Dirt Brick Slab",
 	"block.quark.dirt_bricks_vertical_slab": "Crude Dirt Brick Vertical Slab",
-	"block.quark.dirt_bricks_wall": "Crude Dirt Brick Wall"
+	"block.quark.dirt_bricks_wall": "Crude Dirt Brick Wall",
+
+	"block.quark.crate": "Storage Crate"
 }
