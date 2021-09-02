@@ -2,7 +2,6 @@ var cooking = <recipetype:farmersdelight:cooking>;
 var warping = <recipetype:architects_palette:warping>;
 
 craftingTable.removeRecipe(<item:environmental:apple_pie>);
-cooking.removeByName("abnormals_delight:environmental/cooking/squid_ink_risotto");
 
 craftingTable.removeByName("minecraft:yellow_dye_from_sunflower");
 
