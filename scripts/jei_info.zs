@@ -625,6 +625,7 @@ i(<item:alexsmobs:leafcutter_ant_pupa>, s);
 i(<item:alexsmobs:enderiophage_rocket>, s);
 i(<item:alexsmobs:leafcutter_anthill>, s);
 i(<item:alexsmobs:leafcutter_ant_chamber>, s);
+i(<item:alexsmobs:hummingbird_feeder>, s);
 
 i(<item:alexsmobs:crocodile_scute>, "Sourced from Crocodiles, which spawn in Rivers and Swamps. Crocodiles may kill you. Consult an Animal Dictionary for more information.");
 i(<item:alexsmobs:animal_dictionary>, "Contains information on Alex's Mobs.");
