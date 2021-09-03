@@ -727,6 +727,25 @@ i(<item:supplementaries:bomb>, "Can be thrown, explodes on contact for explosive
 i(<item:supplementaries:raked_gravel>, "Can be gotten by using a Hoe on Gravel. Doing it from different directions creates unique patterns.");
 i(<item:supplementaries:flower_box>, "Can be placed on the floor or the side of a block. Holds up to 3 flowers.");
 i(<item:minecraft:rotten_flesh>, "Can be used to turn a Skeleton Horse into a Zombie Horse, by feeding it an entire stack.");
+i(<item:minecraft:stick>, "Besides being your average stick, it can also be placed in the world as decoration.");
+
+s = "Can be placed atop a pole of sticks, and raised or lowered when right-clicked.";
+i(<item:supplementaries:flag_white>, s);
+i(<item:supplementaries:flag_orange>, s);
+i(<item:supplementaries:flag_magenta>, s);
+i(<item:supplementaries:flag_light_blue>, s);
+i(<item:supplementaries:flag_yellow>, s);
+i(<item:supplementaries:flag_lime>, s);
+i(<item:supplementaries:flag_pink>, s);
+i(<item:supplementaries:flag_gray>, s);
+i(<item:supplementaries:flag_light_gray>, s);
+i(<item:supplementaries:flag_cyan>, s);
+i(<item:supplementaries:flag_purple>, s);
+i(<item:supplementaries:flag_blue>, s);
+i(<item:supplementaries:flag_brown>, s);
+i(<item:supplementaries:flag_green>, s);
+i(<item:supplementaries:flag_red>, s);
+i(<item:supplementaries:flag_black>, s);
 
 s = "Works like a normal wooden one when unpowered. When powered, ignores interactions.";
 i(<item:supplementaries:gold_door>, s);
@@ -829,3 +848,37 @@ i(<item:infernalexp:basalt_iron_ore>, "Can be found in the Basalt Deltas biome i
 i(<item:infernalexp:basaltic_magma>, "Can be found in the Basalt Deltas biome in the Nether. Can be used to warm Striders or create a bubble column.");
 i(<item:infernalexp:quartz_glass>, "Can withstand explosions better than regular glass.");
 i(<item:infernalexp:quartz_glass_pane>, "Can withstand explosions better than regular glass.");
+
+// Fairy Lights
+i(<item:fairylights:letter_bunting>, "Places as an empty bunting. Shift-right click after placing to edit text. You can use several colors at once by highlighting your text and then selecting a color.");
+i(<item:fairylights:hanging_lights>, "The base recipe for string lights. Add up to 6 different lights, or white dye to change the string color. Use string or sticks after placing to adjust slack!");
+i(<item:fairylights:pennant_bunting>, "The base recipe for pennant strings. Add up to 6 different pennant flags. After placing, use string or sticks to adjust slack, or shift-right click to add text!");
+i(<item:fairylights:tinsel>, "A garland of a single color. Cannot mix with lights, pennants, or other tinsels.");
+
+s = "Craft these individually before using in the hanging lights recipe. Add glowstone to make some lights twinkle!";
+i(<item:fairylights:fairy_light>, s);
+i(<item:fairylights:paper_lantern>, s);
+i(<item:fairylights:orb_lantern>, s);
+i(<item:fairylights:flower_light>, s);
+i(<item:fairylights:candle_lantern_light>, s);
+i(<item:fairylights:oil_lantern_light>, s);
+i(<item:fairylights:jack_o_lantern>, s);
+i(<item:fairylights:skull_light>, s);
+i(<item:fairylights:ghost_light>, s);
+i(<item:fairylights:spider_light>, s);
+i(<item:fairylights:witch_light>, s);
+i(<item:fairylights:snowflake_light>, s);
+i(<item:fairylights:heart_light>, s);
+i(<item:fairylights:moon_light>, s);
+i(<item:fairylights:star_light>, s);
+i(<item:fairylights:icicle_lights>, s);
+i(<item:fairylights:meteor_light>, s);
+i(<item:fairylights:oil_lantern>, s);
+i(<item:fairylights:candle_lantern>, s);
+i(<item:fairylights:incandescent_light>, s);
+
+s = "Craft these individually before using in the hanging lights recipe. Cannot mix with lights.";
+i(<item:fairylights:triangle_pennant>, s);
+i(<item:fairylights:spearhead_pennant>, s);
+i(<item:fairylights:swallowtail_pennant>, s);
+i(<item:fairylights:square_pennant>, s);

@@ -48,6 +48,7 @@ var eggs = <tag:items:forge:eggs>;
 var emerald = <tag:items:forge:gems/emerald>;
 var ender_eye = <item:minecraft:ender_eye>;
 var ender_pearl = <item:minecraft:ender_pearl>;
+var feather = <tag:items:forge:feathers>;
 var glass_item_frame = <item:quark:glass_item_frame>;
 var globe = <item:supplementaries:globe>;
 var globe_pattern = <item:minecraft:globe_banner_pattern>;
@@ -60,12 +61,14 @@ var grimwood_sapling = <item:atmospheric:grimwood_sapling>;
 var honeycomb = <item:minecraft:honeycomb>;
 var ice_bricks = <item:environmental:ice_bricks>;
 var infernal_painting = <item:infernalexp:infernal_painting>;
+var ink = <item:minecraft:ink_sac>;
 var iron_ingot = <tag:items:forge:ingots/iron>;
 var koi = <item:environmental:koi>;
 var koi_barrel = <item:fish_in_planks:koi_barrel>;
 var kousa_sapling = <item:atmospheric:kousa_sapling>;
 var lantern = <item:minecraft:lantern>;
 var lapis = <tag:items:forge:gems/lapis>;
+var lattice = <item:decorative_blocks:lattice>;
 var leather = <item:minecraft:leather>;
 var logs = <tag:items:minecraft:logs>;
 var milk = <tag:items:forge:milk>;
@@ -349,3 +352,18 @@ craftingTable.removeRecipe(pancake);
 craftingTable.addShapeless("pancake_with_syrup",
 		pancake * 4,
 		[sugar, milk, wheat, eggs, syrup]);
+		
+// Conflicting lattice recipe fix
+craftingTable.removeRecipe(lattice);
+craftingTable.addShaped("lattice_fix",
+		lattice,
+		[[air, stick, air],
+		[stick, stick, stick],
+		[air, stick, air]]);
+		
+// Letter bunting bad data fix
+craftingTable.removeByName("fairylights:letter_bunting");
+craftingTable.addShaped("letter_bunting_fix", 
+		<item:fairylights:letter_bunting>.withTag({text: {styling: [15], value: " " as string}}),
+		[[iron_ingot, _string, iron_ingot],
+		[paper, ink, feather]]);
