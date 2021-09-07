@@ -12,6 +12,8 @@
 		"farmersdelight:cooking_pot",
 		"upgrade_aquatic:bedroll",
 		"quark:glass_item_frame",
-		"environmental:sawmill"
+		"environmental:sawmill",
+		"bundlesplus:bundle",
+		"quark:soul_compass"
 	]
 }

@@ -832,3 +832,5 @@ i(<item:infernalexp:quartz_glass>, "Can withstand explosions better than regular
 i(<item:infernalexp:quartz_glass_pane>, "Can withstand explosions better than regular glass.");
 
 i(<item:storagedrawers:oak_full_drawers_1>, "Can store up to 1000 stacks of any one item. Items can be added by right-clicking and removed by left-clicking. Sneak while doing so to move entire stacks.");
+
+i(<item:bundlesplus:bundle>, "Can hold up to 64 items. Right click items on it to add them and right click the Bundle item to remove them.");

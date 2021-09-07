@@ -1,5 +1,5 @@
 {
   "STACK_MODE": "UpTo16",
   "BUTTON": "Right",
-  "TOOLTIP": false
+  "TOOLTIP": true
 }
