@@ -507,3 +507,11 @@ craftingTable.removeRecipe(<item:supplementaries:stone_lamp>);
 craftingTable.removeRecipe(<item:supplementaries:timber_brace>);
 craftingTable.removeRecipe(<item:supplementaries:timber_cross_brace>);
 craftingTable.removeRecipe(<item:supplementaries:timber_frame>);
+
+furnace.removeRecipe(<item:charm:refined_obsidian>);
+craftingTable.removeRecipe(<item:charm:refined_obsidian_stairs>);
+craftingTable.removeRecipe(<item:charm:refined_obsidian_slab>);
+craftingTable.removeRecipe(<item:charm:refined_obsidian_wall>);
+stoneCutter.removeRecipe(<item:charm:refined_obsidian_stairs>);
+stoneCutter.removeRecipe(<item:charm:refined_obsidian_slab>);
+stoneCutter.removeRecipe(<item:charm:refined_obsidian_wall>);
