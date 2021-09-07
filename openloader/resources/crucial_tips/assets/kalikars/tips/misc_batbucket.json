@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Miscellaneous",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Bats can be bucketed and unbucketed to release a sonar pulse, highlighting any nearby mobs for a short time."
+  }
+}

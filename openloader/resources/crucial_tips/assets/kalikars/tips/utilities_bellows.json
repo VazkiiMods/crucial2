@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Utilities",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Bellows will speed up furnaces and other cooking blocks, when powered by redstone."
+  }
+}

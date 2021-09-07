@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Potion Effects",
+    "bold": true,
+    "color": "light_purple"
+  },
+  "tip": {
+    "text": "Repellence gives poison to any entities upon contact. Vibing will give regen on contact instead."
+  }
+}

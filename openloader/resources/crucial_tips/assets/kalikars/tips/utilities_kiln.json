@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Utilities",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Kilns are speedier furnaces, but won't smelt anything a blast furnace/smoker can."
+  }
+}

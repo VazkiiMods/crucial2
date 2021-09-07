@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Based Foods",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "Aloe-based foods will extinguish players when consumed, as well as reduce fire damage and increase health regen."
+  }
+}

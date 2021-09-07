@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Utilities",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Bedrolls will let you sleep the night, but won't set your spawn point!"
+  }
+}

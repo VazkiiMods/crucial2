@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Armor and Tools",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "An Antique Atlas is a map that automatically fills in places around you. You can even make pins on it!"
+  }
+}

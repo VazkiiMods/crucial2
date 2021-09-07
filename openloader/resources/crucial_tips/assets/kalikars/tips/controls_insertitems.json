@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Controls",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Right clicking a sack or shulker box in your inventory with an item selected will deposit it into the container. Doing this with a lava bucket will destroy it!"
+  }
+}

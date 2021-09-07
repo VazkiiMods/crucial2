@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Armor and Tools",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Certain animals may provide resources for armor pieces or tools. Consult JEI and the animal dictionary!"
+  }
+}

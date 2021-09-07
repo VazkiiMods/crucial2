@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Armor and Tools",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "A Bottled Cloud will allow you to make a temporary platform that can be stepped on or replaced by another block."
+  }
+}

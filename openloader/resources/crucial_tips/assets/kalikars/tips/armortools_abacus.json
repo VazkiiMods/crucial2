@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Armor and Tools",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "An Abacus can help you determine how far away two locations are, like a tape ruler."
+  }
+}
