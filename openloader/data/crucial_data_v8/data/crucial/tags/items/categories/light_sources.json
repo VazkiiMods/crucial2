@@ -286,6 +286,10 @@
 		"bamboo_blocks:ender_bamboo_torch",
 		"muchmoremodcompat:glow_chandelier",
 		"muchmoremodcompat:glow_brazier",
-		"supplementaries:sconce_glow"
+		"supplementaries:sconce_glow",
+		"architects_palette:polished_glowstone",
+		"architects_palette:polished_glowstone_slab",
+		"architects_palette:polished_glowstone_vertical_slab",
+		"architects_palette:runic_glowstone"
 	]
 }

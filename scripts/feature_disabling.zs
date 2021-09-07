@@ -406,10 +406,6 @@ craftingTable.removeRecipe(<item:architects_palette:redstone_cage_lantern>);
 craftingTable.removeRecipe(<item:architects_palette:glowstone_cage_lantern>);
 craftingTable.removeRecipe(<item:architects_palette:algal_cage_lantern>);
 craftingTable.removeRecipe(<item:architects_palette:scute_block>);
-craftingTable.removeRecipe(<item:architects_palette:polished_glowstone_vertical_slab>);
-craftingTable.removeRecipe(<item:architects_palette:polished_glowstone>);
-craftingTable.removeRecipe(<item:architects_palette:polished_glowstone_slab>);
-craftingTable.removeRecipe(<item:architects_palette:runic_glowstone>);
 
 craftingTable.removeRecipe(<item:infernalexp:polished_basalt_tiles>);
 craftingTable.removeRecipe(<item:infernalexp:polished_basalt_tiles_slab>);

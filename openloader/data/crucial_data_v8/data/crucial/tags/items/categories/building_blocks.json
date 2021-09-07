@@ -1094,6 +1094,8 @@
 		"supplementaries:daub_cross_brace",
 		"supplementaries:stone_tile",
 		"supplementaries:blackstone_tile",
-		"environmental:truffle_crate"
+		"environmental:truffle_crate",
+		"architects_palette:polished_glowstone",
+		"architects_palette:runic_glowstone"
 	]
 }
