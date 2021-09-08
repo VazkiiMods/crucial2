@@ -1,0 +1,23 @@
+{
+	"include": [
+	    {
+	        "template": "patchouli:crucial_kit_items",
+	        "as": "incl",
+	    	"x": 12,
+	    	"y": 15
+	    }
+	],
+	"components": [
+		{
+			"type": "header",
+			"text": "Items",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "text",
+			"text": "The items in the $(thing)Crucial Kit$(). Look it up in $(item)JEI$() for more info!",
+			"y": 110
+		}
+	]
+}

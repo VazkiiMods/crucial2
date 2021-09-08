@@ -2,10 +2,11 @@
 	"name": "Wild Towers",
 	"icon": "minecraft:filled_map",
 	"category": "patchouli:intro",
+	"sortnum": 3,
 	"pages": [
 		{
 			"type": "text",
-			"text": "Strewn across the overworld, you will rarely find new $(thing)Wild Towers$(). These tall structures contain a $(item)Waystone$() on top, as well as some goodies to loot.$(br2)$(item)Waystones$() can be used to teleport between towers instantly. Simply right click one, and choose where you want to go. You can only teleport between ones you've already discovered. though!"
+			"text": "Strewn across the overworld, you will rarely find new $(thing)Wild Towers$(). These tal structures contain a $(item)Waystone$() on top, as well as some goodies to loot.$(br2)$(item)Waystones$() can be used to teleport between towers instantly. Simply right click one, and choose where you want to go. You can only teleport between ones you've already discovered. though!"
 		},
         {
             "type": "image",

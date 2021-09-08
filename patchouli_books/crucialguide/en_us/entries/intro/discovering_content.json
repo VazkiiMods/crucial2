@@ -2,6 +2,7 @@
 	"name": "Discovering Content",
 	"icon": "minecraft:compass",
 	"category": "patchouli:intro",
+	"sortnum": 0,
 	"pages": [
 		{
 			"type": "text",

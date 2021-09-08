@@ -45,5 +45,10 @@
     "show_entity_hp": false,
     "show_states": false,
     "show_entities": true
+  },
+  "storagedrawers": {
+    "display.stacklimit": false,
+    "display.content": true,
+    "display.status": false
   }
 }
