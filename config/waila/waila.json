@@ -1,7 +1,7 @@
 {
   "general": {
     "displayTooltip": true,
-    "shiftForDetails": false,
+    "shiftForDetails": true,
     "displayMode": "TOGGLE",
     "hideFromPlayerList": true,
     "hideFromDebug": true,

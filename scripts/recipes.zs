@@ -98,6 +98,8 @@ var raw_gold = <item:iron_and_gold:raw_gold>;
 var raw_iron = <item:iron_and_gold:raw_iron>;
 var redstone = <tag:items:forge:dusts/redstone>;
 var roasted_adzuki_beans = <item:neapolitan:roasted_adzuki_beans>;
+var rope = <item:farmersdelight:rope>;
+var rope_and_nail = <item:comforts:rope_and_nail>;
 var sack = <item:supplementaries:sack>;
 var salmon = <item:minecraft:salmon>;
 var salmon_log = <item:architects_palette:salmon_log>;
@@ -367,3 +369,10 @@ craftingTable.addShaped("letter_bunting_fix",
 		<item:fairylights:letter_bunting>.withTag({text: {styling: [15], value: " " as string}}),
 		[[iron_ingot, _string, iron_ingot],
 		[paper, ink, feather]]);
+
+// Comforts rope uses real rope
+craftingTable.removeRecipe(rope_and_nail);
+craftingTable.addShaped("comforts_real_rope_and_nail",
+		rope_and_nail * 2,
+		[[rope, iron_ingot],
+		[iron_ingot, rope]]);

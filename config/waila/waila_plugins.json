@@ -15,7 +15,7 @@
     "show_entity_armor": false,
     "total_ench_power": false,
     "chicken_egg": false,
-    "horse_stat": false,
+    "horse_stat": true,
     "brewing_stand": false,
     "note_block": true,
     "inventory": false,
@@ -23,7 +23,7 @@
     "player_head": false,
     "effective_tool": false,
     "harvest_tool": false,
-    "hide_mod_name": true,
+    "hide_mod_name": false,
     "armor_stand": false,
     "profession": true,
     "item_tooltip": true,
@@ -44,6 +44,6 @@
     "show_registry": false,
     "show_entity_hp": false,
     "show_states": false,
-    "show_entities": false
+    "show_entities": true
   }
 }
