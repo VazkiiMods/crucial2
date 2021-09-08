@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Food Effects",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "Boiled pickleweed refills some of your oxygen meter when consumed underwater."
+  }
+}

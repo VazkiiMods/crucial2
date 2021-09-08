@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Armor and Tools",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Backpacks provide an additional 27 slots, but can't be taken off unless empty and must be worn on your chest."
+  }
+}

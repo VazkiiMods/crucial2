@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Farmer's Delight",
+    "bold": true,
+    "color": "light_purple"
+  },
+  "tip": {
+    "text": "Fruit salads and mixed salads will give regeneration for a short time after being eaten."
+  }
+}

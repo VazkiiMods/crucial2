@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Miscellaneous",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Many new items have compression recipes, like ingots in vanilla. If you have a lot of something, try doing a 3x3!"
+  }
+}

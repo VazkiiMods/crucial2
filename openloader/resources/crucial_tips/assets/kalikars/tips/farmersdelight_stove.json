@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Farmer's Delight",
+    "bold": true,
+    "color": "light_purple"
+  },
+  "tip": {
+    "text": "A stove acts like a an improved campfire, cooking up to 6 foods faster with no fuel needed!"
+  }
+}

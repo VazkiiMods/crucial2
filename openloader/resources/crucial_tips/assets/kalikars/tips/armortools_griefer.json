@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Armor and Tools",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "The Griefer Armor set will negate all explosion damage when worn. It won't stop environmental damage, however."
+  }
+}

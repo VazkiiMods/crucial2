@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Controls",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Press [NUMPAD_0] by default to configure WAILA, the mod that displays what you are looking at at the top of your screen."
+  }
+}

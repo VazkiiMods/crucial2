@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Armor and Tools",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "A Magic Feather can be used for creative-style flight. However, you must be in range of a beacon!"
+  }
+}

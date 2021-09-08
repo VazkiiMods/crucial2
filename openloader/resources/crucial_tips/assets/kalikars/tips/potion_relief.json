@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Potion Effects",
+    "bold": true,
+    "color": "light_purple"
+  },
+  "tip": {
+    "text": "Relief decreases damage taken. Worsening will increase damage taken."
+  }
+}

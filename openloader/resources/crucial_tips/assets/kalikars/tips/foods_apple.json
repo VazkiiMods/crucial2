@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Food Effects",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "Plain apples now grant sustaining, increasing the food point values of any additional foods."
+  }
+}
