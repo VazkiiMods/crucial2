@@ -422,3 +422,20 @@ craftingTable.removeRecipe(<item:infernalexp:basalt_cobbled_vertical_slab>);
 furnace.removeRecipe(<item:infernalexp:basalt_cobbled>);
 
 furnace.removeRecipe(<item:charm:smooth_glowstone>);
+
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_white>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_orange>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_magenta>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_light_blue>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_yellow>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_lime>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_pink>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_gray>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_light_gray>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_cyan>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_purple>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_blue>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_brown>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_green>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_red>);
+craftingTable.removeRecipe(<item:comforts:sleeping_bag_black>);

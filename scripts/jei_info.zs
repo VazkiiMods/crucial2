@@ -882,3 +882,24 @@ i(<item:fairylights:triangle_pennant>, s);
 i(<item:fairylights:spearhead_pennant>, s);
 i(<item:fairylights:swallowtail_pennant>, s);
 i(<item:fairylights:square_pennant>, s);
+
+// Comforts
+i(<item:comforts:rope_and_nail>, "Used to hang hammocks. Place on walls with a 2 block gap and right click with a hammock cloth.");
+
+s = "Used to sleep during the day, setting the time to dusk.";
+i(<item:comforts:hammock_white>, s);
+i(<item:comforts:hammock_orange>, s);
+i(<item:comforts:hammock_magenta>, s);
+i(<item:comforts:hammock_light_blue>, s);
+i(<item:comforts:hammock_yellow>, s);
+i(<item:comforts:hammock_lime>, s);
+i(<item:comforts:hammock_pink>, s);
+i(<item:comforts:hammock_gray>, s);
+i(<item:comforts:hammock_light_gray>, s);
+i(<item:comforts:hammock_cyan>, s);
+i(<item:comforts:hammock_purple>, s);
+i(<item:comforts:hammock_blue>, s);
+i(<item:comforts:hammock_brown>, s);
+i(<item:comforts:hammock_green>, s);
+i(<item:comforts:hammock_red>, s);
+i(<item:comforts:hammock_black>, s);
