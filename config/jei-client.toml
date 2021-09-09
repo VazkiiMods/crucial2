@@ -14,7 +14,7 @@
 	LowMemorySlowSearchEnabled = false
 	#Max number of columns shown
 	#Range: 4 ~ 100
-	MaxColumns = 100
+	MaxColumns = 12
 
 [colors]
 	#Color values to search for

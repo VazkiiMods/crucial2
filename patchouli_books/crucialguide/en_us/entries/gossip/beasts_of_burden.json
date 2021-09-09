@@ -1,6 +1,6 @@
 {
 	"name": "Beasts of Burden",
-	"icon": "minecraft:chest",
+	"icon": "minecraft:carrot_on_a_stick",
 	"category": "patchouli:gossip",
 	"read_by_default": true,
 	"pages": [

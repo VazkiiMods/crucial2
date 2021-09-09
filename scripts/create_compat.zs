@@ -4,10 +4,12 @@
 #snip modloaded createtweaker
 import crafttweaker.api.events.CTEventManager;
 CTEventManager.register<crafttweaker.api.event.entity.player.MCPlayerLoggedInEvent>((event) => {
-     var player = event.player;
-     player.sendMessage("WARNING: Create Integration!");
-     player.sendMessage("CreateTweaker is required for Create integration to work properly. Please make sure you have the latest version installed:");
-     player.sendMessage("https://www.curseforge.com/minecraft/mc-mods/createtweaker");
+	var player = event.player;
+	player.sendMessage("WARNING: Create Integration!");
+	player.sendMessage("CreateTweaker is required for Create integration to work properly. Please make sure you have the latest version installed:");
+	player.sendMessage("https://www.curseforge.com/minecraft/mc-mods/createtweaker");
+	player.sendMessage(" ");
+	player.sendMessage("IMPORTANT: This world needs to either be recreated, or the Create datapack's priority lowered to work, as you've loaded it without CreateTweaker.");
 });
 #snip end
 
@@ -64,6 +66,18 @@ furnace.addRecipe("chocolate_stone", <item:neapolitan:chocolate_block>, <item:cr
 <recipetype:create:milling>.addRecipe("chocolate_milling", [<item:minecraft:soul_sand>, <item:neapolitan:chocolate_bar> % 50], <item:create:scoria_cobblestone>);
 <recipetype:create:crushing>.addRecipe("chocolate_crushing", [<item:minecraft:soul_sand>, <item:neapolitan:chocolate_bar> % 50], <item:create:scoria_cobblestone>);
 <recipetype:create:compacting>.addRecipe("blastproof_create", "none", <item:savageandravage:blast_proof_plating>, [<item:savageandravage:creeper_spores> * 3, <item:minecraft:gold_ingot> * 2], []);
+craftingTable.removeRecipe(<item:create:mechanical_drill>);
+craftingTable.addShaped("mechanical_drill", <item:create:mechanical_drill>, [
+	[<item:minecraft:air>, <item:create:andesite_alloy>, <item:minecraft:air>],
+	[<item:create:andesite_alloy>, <item:quark:iron_rod>, <item:create:andesite_alloy>],
+	[<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>]
+]);
+craftingTable.removeRecipe(<item:create:mechanical_saw>);
+craftingTable.addShaped("mechanical_saw", <item:create:mechanical_saw>, [
+	[<item:minecraft:air>, <item:create:iron_sheet>, <item:minecraft:air>],
+	[<item:create:iron_sheet>, <item:quark:iron_rod>, <item:create:iron_sheet>],
+	[<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>]
+]);
 // Fix nether gold ore giving cobblestone
 <recipetype:create:crushing>.removeByName("create:crushing/gold_ore");
 <recipetype:create:crushing>.addRecipe("gold_ore_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> * 2 % 30, <item:minecraft:cobblestone> % 12], <item:minecraft:gold_ore>);

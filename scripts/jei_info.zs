@@ -625,6 +625,7 @@ i(<item:alexsmobs:leafcutter_ant_pupa>, s);
 i(<item:alexsmobs:enderiophage_rocket>, s);
 i(<item:alexsmobs:leafcutter_anthill>, s);
 i(<item:alexsmobs:leafcutter_ant_chamber>, s);
+i(<item:alexsmobs:hummingbird_feeder>, s);
 
 i(<item:alexsmobs:crocodile_scute>, "Sourced from Crocodiles, which spawn in Rivers and Swamps. Crocodiles may kill you. Consult an Animal Dictionary for more information.");
 i(<item:alexsmobs:animal_dictionary>, "Contains information on Alex's Mobs.");
@@ -693,7 +694,7 @@ i(<item:quark:seed_pouch>, "Can hold 10 stacks of a seed. Right click the seed o
 i(<item:quark:soul_compass>, "Points to where you last died.");
 i(<item:quark:trowel>, "Randomly places one block from your hotbar, great for paths!");
 i(<item:quark:abacus>, "Right Click a block to set the source - from there, the Abacus will count the distance from the block you're looking at to that one, provided you're holding it.");
-i(<item:quark:crate>, "Can hold up to 640 items. Unlike Chests, the amount of slots expands based on the different items you put in, so it's good for holding a high variety of things.");
+i(<item:quark:crate>, "Can hold up to 1000 items. Unlike Chests, the amount of slots expands based on the different items you put in, so it's good for holding a high variety of things.");
 i(<item:quark:chute>, "Can receive items with Hoppers and the like. Any items that end up in it are immediately ejected downwards into the world.");
 
 i(<item:structuredcrafting:structured_crafter>, "When powered, crafts based on the recipe in blocks or items in chests behind it in a 3x3 area.");
@@ -848,6 +849,10 @@ i(<item:infernalexp:basalt_iron_ore>, "Can be found in the Basalt Deltas biome i
 i(<item:infernalexp:basaltic_magma>, "Can be found in the Basalt Deltas biome in the Nether. Can be used to warm Striders or create a bubble column.");
 i(<item:infernalexp:quartz_glass>, "Can withstand explosions better than regular glass.");
 i(<item:infernalexp:quartz_glass_pane>, "Can withstand explosions better than regular glass.");
+
+i(<item:storagedrawers:oak_full_drawers_1>, "Can store up to 1000 stacks of any one item. Items can be added by right-clicking and removed by left-clicking. Sneak while doing so to move entire stacks.");
+
+i(<item:bundlesplus:bundle>, "Can hold up to 64 items. Right click items on it to add them and right click the Bundle item to remove them.");
 
 // Fairy Lights
 i(<item:fairylights:letter_bunting>, "Places as an empty bunting. Shift-right click after placing to edit text. You can use several colors at once by highlighting your text and then selecting a color.");

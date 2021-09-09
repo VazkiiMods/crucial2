@@ -1,0 +1,71 @@
+
+#Settings
+[settings]
+	#Whether Blocks and Entities slow the creative player down when carried
+	slownessInCreative = false
+	#Use Whitelist instead of Blacklist for Stacking
+	useWhitelistStacking = false
+	#Allow all blocks to be picked up, not just Tile Entites
+	pickupAllBlocks = false
+	#Slowness multiplier for entities
+	#Range: 0.0 ~ 1.7976931348623157E308
+	entitySlownessMultiplier = 1.0
+	#Use Whitelist instead of Blacklist for Entities
+	useWhitelistEntities = true
+	#Maximum distance from where Blocks and Entities can be picked up
+	#Range: 0.0 ~ 1.7976931348623157E308
+	maxDistance = 2.5
+	#Whether the player can hit blocks and entities while carrying or not
+	hitWhileCarrying = false
+	#More complex Tile Entities slow down the player more
+	heavyTiles = true
+	#Max width of entities that can be picked up in survival mode
+	#Range: 0.0 ~ 10.0
+	maxEntityWidth = 1.5
+	#Whether the player drops the carried object when hit or not
+	dropCarriedWhenHit = false
+	#Use Whitelist instead of Blacklist for Blocks
+	useWhitelistBlocks = false
+	#Larger Entities slow down the player more
+	heavyEntities = true
+	#Allow babies to be carried even when adult mob is blacklisted (or not whitelisted)
+	allowBabies = false
+	#Use custom Pickup Scripts. Having this set to false, will not allow you to run scripts, but will increase your performance
+	useScripts = false
+	#Max height of entities that can be picked up in survival mode
+	#Range: 0.0 ~ 10.0
+	maxEntityHeight = 1.5
+	#Maximum stack limit for entities
+	#Range: > 1
+	maxEntityStackLimit = 10
+	#Whether entities' size matters when stacking or not
+	stackableEntities = true
+	#Whether hostile mobs should be able to picked up in survival mode
+	pickupHostileMobs = false
+	#Slowness multiplier for blocks
+	#Range: 0.0 ~ 1.7976931348623157E308
+	blockSlownessMultiplier = 1.0
+
+[blacklist]
+	#Entities that cannot have other entities stacked on top of them
+	forbiddenStacking = ["minecraft:horse"]
+	#Entities that cannot be picked up
+	forbiddenEntities = ["minecraft:end_crystal", "minecraft:ender_dragon", "minecraft:ghast", "minecraft:shulker", "minecraft:leash_knot", "minecraft:armor_stand", "minecraft:item_frame", "minecraft:painting", "minecraft:shulker_bullet", "animania:hamster", "animania:ferret*", "animania:hedgehog*", "animania:cart", "animania:wagon", "mynko:*", "pixelmon:*", "mocreatures:*", "quark:totem", "vehicle:*"]
+	#Blocks that cannot be picked up
+	forbiddenTiles = ["#forge:immovable", "#forge:relocation_not_supported", "botania:*",
+	"create:*", "waystones:*", "minecraft:spawner", "quark:monster_box"]
+
+[whitelist]
+	#Entities that CAN have other entities stacked on top of them (useWhitelistStacking must be true)
+	allowedStacking = []
+	#Blocks that CAN be picked up (useWhitelistBlocks must be true)
+	allowedBlocks = []
+	#Entities that CAN be picked up (useWhitelistEntities must be true)
+	allowedEntities = []
+
+[custom_pickup_conditions]
+	#Custom Pickup Conditions for Blocks
+	customPickupConditionsBlocks = []
+	#Custom Pickup Conditions for Entities
+	customPickupConditionsEntities = []
+

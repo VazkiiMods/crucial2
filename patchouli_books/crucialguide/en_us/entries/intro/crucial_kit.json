@@ -1,0 +1,15 @@
+{
+	"name": "Crucial Kit",
+	"icon": "minecraft:chest",
+	"category": "patchouli:intro",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(thing)Crucial 2$() can be daunting at first with all the content available in it.$(br2)If you're feeling aimless, try pulling up $(item)JEI$() and searching for $(thing)Crucial Kit$(). This will give you a small list of quality of life improvements you can look to get!"
+		},
+		{
+			"type": "patchouli:crucial_kit"
+		}
+	]
+}

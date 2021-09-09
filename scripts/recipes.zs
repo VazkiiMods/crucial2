@@ -119,6 +119,11 @@ var vanilla_cookie = <item:cookielicious:vanilla_cookie>;
 var wheat = <item:minecraft:wheat>;
 var wicks = <tag:items:buzzier_bees:candle_wick>;
 var yak_hair = <item:environmental:yak_hair>;
+var chests = <tag:items:forge:chests/wooden>;
+var planks = <tag:items:minecraft:planks>;
+var drawers = <item:storagedrawers:oak_full_drawers_1>;
+var seed_pouch = <item:quark:seed_pouch>;
+var seed_pouchable = <tag:items:quark:seed_pouch_holdable>;
 
 // Remove specific recipes
 craftingTable.removeByName("minecraft:lead");
@@ -354,7 +359,23 @@ craftingTable.removeRecipe(pancake);
 craftingTable.addShapeless("pancake_with_syrup",
 		pancake * 4,
 		[sugar, milk, wheat, eggs, syrup]);
-		
+
+// Drawers with Iron
+craftingTable.removeRecipe(drawers);
+craftingTable.addShaped("drawers_with_iron",
+		drawers,
+		[[iron_ingot, planks, iron_ingot],
+		[air, chests, air],
+		[iron_ingot, planks, iron_ingot]]);
+
+// Seed Pouch with Leather
+craftingTable.removeRecipe(seed_pouch);
+craftingTable.addShaped("seed_pouch_leather",
+		seed_pouch,
+		[[air, _string, air],
+		[leather, seed_pouchable, leather],
+		[air, leather, air]]);
+
 // Conflicting lattice recipe fix
 craftingTable.removeRecipe(lattice);
 craftingTable.addShaped("lattice_fix",
@@ -362,10 +383,10 @@ craftingTable.addShaped("lattice_fix",
 		[[air, stick, air],
 		[stick, stick, stick],
 		[air, stick, air]]);
-		
+
 // Letter bunting bad data fix
 craftingTable.removeByName("fairylights:letter_bunting");
-craftingTable.addShaped("letter_bunting_fix", 
+craftingTable.addShaped("letter_bunting_fix",
 		<item:fairylights:letter_bunting>.withTag({text: {styling: [15], value: " " as string}}),
 		[[iron_ingot, _string, iron_ingot],
 		[paper, ink, feather]]);
