@@ -1096,6 +1096,9 @@
 		"supplementaries:blackstone_tile",
 		"environmental:truffle_crate",
 		"architects_palette:polished_glowstone",
-		"architects_palette:runic_glowstone"
+		"architects_palette:runic_glowstone",
+		"supplementaries:deepslate_lamp",
+		"supplementaries:end_stone_lamp",
+		"supplementaries:blackstone_lamp"
 	]
 }

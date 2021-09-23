@@ -1,0 +1,14 @@
+{
+	"name": "Placeable Items",
+	"icon": "minecraft:stick",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:stick",
+            "title": "Placeable Items",
+            "text": "The following items can now be placed in block form:$(li)$(item)Sticks$()$(li)$(item)Blaze Rods$()$(li)$(item)Gunpowder$()$(li)$(item)Books$()$(li)$(item)Enchanted Books$()$(br2)As expected, $(item)Gunpowder$() can also be set on fire, and will naturally ignite adjacent $(item)TNT$()."
+        }
+	]
+}

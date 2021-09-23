@@ -27,8 +27,8 @@
 		#Range: 1 ~ 27
 		slots = 9
 		#Penalize the player with slowness effect when carrying too many sacks
-		sack_penality = true
-		#maximum number of sacks after which the slowness effect will be applied. each multiple of this number will further slow the player down
+		sack_penalty = true
+		#Maximum number of sacks after which the slowness effect will be applied. each multiple of this number will further slow the player down
 		#Range: 0 ~ 50
 		sack_increment = 2
 
@@ -61,7 +61,7 @@
 		velocity_changed_flag = true
 
 	[blocks.notice_board]
-		#allow notice boards to accept and display any item, not just maps and books
+		#Allows notice boards to accept and display any item, not just maps and books
 		allow_any_item = false
 
 	[blocks.iron_gate]
@@ -69,10 +69,12 @@
 		double_opening = true
 
 	[blocks.cage]
-		#allow all baby mobs to be captured by cages
+		#Allows all baby mobs to be captured by cages
 		cage_allow_all_babies = false
-		#allow all entities to be captured by cages and jars. Not meant for survival
-		cage_allow_all_mobs = false
+		#Allows all entities to be captured by cages and jars. Not meant for survival
+		allow_all_mobs = false
+		#Dynamically allows all small mobs inside cages depending on their hitbox size
+		cage_auto_detect = false
 
 	[blocks.globe]
 		#how many globe trades to give to the wandering trader. This will effectively increase the chance of him having a globe trader. Increase this if you have other mods that add stuff to that trader
@@ -85,6 +87,8 @@
 	[blocks.timber_frame]
 		#Replace a timber frame with wattle and daub block when daub is placed in it
 		replace_daub = true
+		#Allow placing a timber frame directly on a block by holding shift
+		swap_on_shift = false
 
 	[blocks.spring_launcher]
 		#fall distance needed to trigger the automatic spring launch
@@ -131,10 +135,14 @@
 		simple_safes = false
 
 	[blocks.jar]
-		#allow right click to instantly eat or drink food or potions inside a jar.
-		#Disable if you think this ability is op. Cookies are excluded
+		#Dynamically allows all small mobs inside jars depending on their hitbox size. Tinted jars can accept hostile mbos too
+		jar_auto_detect = false
+		#Allow right click to instantly eat or drink food or potions inside a placed jar.
+		#Disable if you think this ability is op (honey for example). Cookies are excluded
 		drink_from_jar = true
-		#jar liquid capacity: leave at 12 for pixel accuracy
+		#Allows the player to directly drink from jar items
+		drink_from_jar_item = false
+		#Jar liquid capacity: leave at 12 for pixel accuracy
 		#Range: 0 ~ 1024
 		capacity = 12
 
@@ -162,6 +170,9 @@
 		weight = 3
 
 	[spawns.structures]
+
+		[spawns.structures.wild_flax]
+			enabled = true
 
 		[spawns.structures.way_sign]
 			#Average distance apart in chunks between spawn attempts
@@ -204,30 +215,30 @@
 		#Amount of rotten flesh needed
 		#Range: 1 ~ 1000
 		rotten_flesh = 64
+		#Allows zombie horses to be ridden underwater
+		rideable_underwater = true
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
 		zombie_horse_conversion = true
 
-	[tweaks.throwable_bricks]
-		#throw bricks at your foes! Might break glass blocks
+	[tweaks.placeable_gunpowder]
+		#Allow placeable gunpowder
 		enabled = true
+		#Number of ticks it takes for gunpowder to burn 1 stage (out of 8). Increase to slow it down
+		#Range: 0 ~ 20
+		speed = 2
+		#Age at which it spread to the next gunpowder block. Also affects speed
+		#Range: 0 ~ 8
+		spread_age = 2
 
 	[tweaks.hanging_flower_pots]
 		#allows you to place hanging flower pots. Works with any modded pot too
 		enabled = true
 
-	[tweaks.raked_gravel]
-		#allow gravel to be raked with a hoe
-		enabled = true
-
 	[tweaks.placeable_sticks]
-		#allow placeable blaze rods
-		enabled = true
-
-	[tweaks.cake_tweaks]
-		#allows you to place a cake ontop of another
-		double_cake = true
-		#replaces normal cake placement with a directional one
-		directional_cake = true
+		#Allow placeable sticks
+		sticks = true
+		#Allow placeable blaze rods
+		blaze_rods = true
 
 	[tweaks.bottle_xp]
 		#bottling health cost
@@ -245,6 +256,24 @@
 
 	[tweaks.ceiling_banners]
 		#Allow banners to be placed on ceilings
+		enabled = true
+
+	[tweaks.throwable_bricks]
+		#throw bricks at your foes! Might break glass blocks
+		enabled = true
+
+	[tweaks.raked_gravel]
+		#allow gravel to be raked with a hoe
+		enabled = true
+
+	[tweaks.cake_tweaks]
+		#allows you to place a cake ontop of another
+		double_cake = true
+		#replaces normal cake placement with a directional one
+		directional_cake = true
+
+	[tweaks.placeable_books]
+		#Allow books and enchanted books to be placed on the ground
 		enabled = true
 
 	[tweaks.map_tweaks]
@@ -279,6 +308,24 @@
 		#Range: 0 ~ 500
 		unbound_radius = 64
 
+	[items.slingshot]
+		#Slingshot range multiplier
+		#Range: 0.0 ~ 5.0
+		range_multiplier = 1.0
+		#Allow enderman to intercept any slingshot projectile
+		unrestricted_enderman_intercept = true
+		#Time in ticks to fully charge a slingshot
+		#Range: 0 ~ 100
+		charge_time = 20
+
+	[items.blue_bomb]
+		#Do bombs break blocks like tnt?
+		#Allowed Values: ALL, WEAK, NONE
+		break_blocks = "WEAK"
+		#Bomb explosion radius (damage depends on this)
+		#Range: 0.1 ~ 10.0
+		explosion_radius = 5.15
+
 	[items.bomb]
 		#Do bombs break blocks like tnt?
 		#Allowed Values: ALL, WEAK, NONE
@@ -290,4 +337,7 @@
 	[items.rope_arrow]
 		#If you don't like my ropes you can specify here the block id ofa rope from another mod which will get deployed by rope arrows instead of mine
 		rope_arrow_override = "farmersdelight:rope"
+		#Max number of robe items allowed to be stored inside a rope arrow
+		#Range: 1 ~ 256
+		capacity = 24
 
