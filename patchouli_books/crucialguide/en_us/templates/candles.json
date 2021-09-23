@@ -252,7 +252,6 @@
 							"lvl": 1,
 							"id": "farmersdelight:backstabbing"
 						},
-						,
 						{
 							"lvl": 1,
 							"id": "ensorcellation:frost_aspect"
@@ -391,7 +390,6 @@
 							"lvl": 1,
 							"id": "minecraft:projectile_protection"
 						},
-						,
 						{
 							"lvl": 1,
 							"id": "ensorcellation:damage_ender"
