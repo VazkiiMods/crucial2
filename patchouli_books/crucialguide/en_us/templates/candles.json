@@ -80,6 +80,10 @@
 						{
 							"lvl": 1,
 							"id": "allurement:reeling"
+						},
+						{
+							"lvl": 1,
+							"id": "ensorcellation:air_affinity"
 						}
 					]
 				}
@@ -105,6 +109,14 @@
 						{
 							"lvl": 1,
 							"id": "minecraft:luck_of_the_sea"
+						},
+						{
+							"lvl": 1,
+							"id": "ensorcellation:hunter"
+						},
+						{
+							"lvl": 1,
+							"id": "ensorcellation:angler"
 						}
 					]
 				}
@@ -160,6 +172,10 @@
 						{
 							"lvl": 1,
 							"id": "minecraft:bane_of_arthropods"
+						},
+						{
+							"lvl": 1,
+							"id": "ensorcellation:pilfering"
 						}
 					]
 				}
@@ -177,6 +193,14 @@
 						{
 							"lvl": 1,
 							"id": "minecraft:protection"
+						},
+						{
+							"lvl": 1,
+							"id": "ensorcellation:phalanx"
+						},
+						{
+							"lvl": 1,
+							"id": "ensorcellation:damage_illager"
 						}
 					]
 				}
@@ -227,6 +251,11 @@
 						{
 							"lvl": 1,
 							"id": "farmersdelight:backstabbing"
+						},
+						,
+						{
+							"lvl": 1,
+							"id": "ensorcellation:frost_aspect"
 						}
 					]
 				}
@@ -311,6 +340,10 @@
 						{
 							"lvl": 1,
 							"id": "minecraft:piercing"
+						},
+						{
+							"lvl": 1,
+							"id": "ensorcellation:trueshot"
 						}
 					]
 				}
@@ -357,6 +390,11 @@
 						{
 							"lvl": 1,
 							"id": "minecraft:projectile_protection"
+						},
+						,
+						{
+							"lvl": 1,
+							"id": "ensorcellation:damage_ender"
 						}
 					]
 				}

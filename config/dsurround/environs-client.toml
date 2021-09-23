@@ -22,7 +22,7 @@
 	#Enable/disable Water Ripple effects for rain and water splash
 	"Water Ripples" = true
 	#Enable/disable Fire Jets in lava
-	"Fire Jets" = true
+	"Fire Jets" = false
 	#Enable/disable Bubble Jets under water
 	"Bubble Jets" = true
 	#Enable/disable Dust Motes dropping from under blocks
@@ -37,7 +37,7 @@
 	#Enable/disable Fountain Jets spraying
 	"Fountain Jets" = true
 	#Enable/disable Water Splash effects when water spills down
-	"Waterfall Splash" = true
+	"Waterfall Splash" = false
 	#Enable/disable Minecraft's Underwater particle effect
 	"Disable Underwater Particles" = false
 
@@ -57,7 +57,7 @@
 	#Higher the player elevation the more haze that is experienced
 	"Elevation Haze" = false
 	#Enable biome specific fog density and color
-	"Biome Fog" = true
+	"Biome Fog" = false
 
 #Options for defining sound behavior
 ["Sound Options"]

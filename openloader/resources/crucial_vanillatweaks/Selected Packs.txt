@@ -14,17 +14,10 @@ Packs:
 	ClearerWater
 	WhiterSnow
 	QuieterRain
-	QuieterDispensersDroppers
-	QuieterGhasts
 	QuieterMinecarts
 	QuieterVillagers
 	QuieterFire
-	QuieterPistons
-	QuieterCows
-	QuieterShulkers
-	QuieterEndermen
 	QuieterWater
-	QuieterNetherPortals
 	DirectionalHoppers
 	UnobtrusiveRain
 	UnobtrusiveSnow
@@ -38,11 +31,7 @@ Packs:
 	JappaClock
 	JappaPaintingBack
 	JappaToasts
-	PixelConsistentGhast
-	PixelConsistentElderGuardian
-	PixelConsistentWither
 	TripwireHookFix
-	PixelConsistentXPOrbs
 	PixelConsistentBeaconBeam
 	PixelConsistentGuardianBeam
 	BlazeFix

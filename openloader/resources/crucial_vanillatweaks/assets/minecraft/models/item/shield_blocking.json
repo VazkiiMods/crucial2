@@ -1,0 +1,83 @@
+{
+    "comment": "Made by Stridey",
+    "parent": "builtin/entity",
+	"gui_light": "front",
+    "textures": {
+        "particle": "block/oak_log"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                0,
+                90,
+                0
+            ],
+            "translation": [
+                10.51,
+                6,
+                -4
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                0,
+                90,
+                0
+            ],
+            "translation": [
+                10.51,
+                6,
+                12
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 180, -5 ],
+            "translation": [ -15, 2.25, -11 ],
+            "scale": [ 1.25, 1.25, 1.25 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                180,
+                -5
+            ],
+            "translation": [
+                5,
+                4,
+                -11
+            ],
+            "scale": [
+                1.25,
+                1.25,
+                1.25
+            ]
+        },
+        "gui": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                4.9,
+                5.3,
+                0
+            ],
+            "scale": [
+                0.65,
+                0.65,
+                0.65
+            ]
+        }
+    }
+}

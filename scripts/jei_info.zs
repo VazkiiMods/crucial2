@@ -882,7 +882,7 @@ i(<item:fairylights:oil_lantern>, s);
 i(<item:fairylights:candle_lantern>, s);
 i(<item:fairylights:incandescent_light>, s);
 
-s = "Craft these individually before using in the hanging lights recipe. Cannot mix with lights.";
+s = "Craft these individually before using in the pennant string recipe. Cannot mix with lights.";
 i(<item:fairylights:triangle_pennant>, s);
 i(<item:fairylights:spearhead_pennant>, s);
 i(<item:fairylights:swallowtail_pennant>, s);
@@ -891,7 +891,7 @@ i(<item:fairylights:square_pennant>, s);
 // Comforts
 i(<item:comforts:rope_and_nail>, "Used to hang hammocks. Place on walls with a 2 block gap and right click with a hammock cloth.");
 
-s = "Used to sleep during the day, setting the time to dusk.";
+s = "Used to sleep during the day, setting the time to dusk. Needs to be hung via rope and nail.";
 i(<item:comforts:hammock_white>, s);
 i(<item:comforts:hammock_orange>, s);
 i(<item:comforts:hammock_magenta>, s);
