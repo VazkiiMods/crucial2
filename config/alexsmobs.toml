@@ -16,6 +16,8 @@
 	raccoonStealFromChests = false
 	#Whether mimicream can be used to duplicate items.
 	mimicreamRepair = true
+	#List of items that seagulls cannot take from players.
+	seagullStealingBlacklist = []
 	#Whether acacia blossoms should drop from blocks tagged with #alexsmobs:drops_acacia_blossoms
 	acaciaBlossomsDropFromLeaves = true
 	#Whether lava can be bottled with a right click of a glass bottle.
