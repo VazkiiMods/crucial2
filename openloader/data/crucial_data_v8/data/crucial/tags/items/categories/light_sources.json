@@ -290,6 +290,9 @@
 		"architects_palette:polished_glowstone",
 		"architects_palette:polished_glowstone_slab",
 		"architects_palette:polished_glowstone_vertical_slab",
-		"architects_palette:runic_glowstone"
+		"architects_palette:runic_glowstone",
+		"supplementaries:deepslate_lamp",
+		"supplementaries:end_stone_lamp",
+		"supplementaries:blackstone_lamp"
 	]
 }

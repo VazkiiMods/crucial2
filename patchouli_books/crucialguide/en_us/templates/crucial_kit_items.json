@@ -93,7 +93,7 @@
 		{
 			"type": "item",
 			"item": {
-				"item": "quark:crate"
+				"item": "supplementaries:slingshot"
 			},
 			"framed": true,
 			"x": 48,
@@ -102,7 +102,7 @@
 		{
 			"type": "item",
 			"item": {
-				"item": "storagedrawers:oak_full_drawers_1"
+				"item": "quark:crate"
 			},
 			"framed": true,
 			"x": 72,
@@ -111,7 +111,7 @@
 		{
 			"type": "item",
 			"item": {
-				"item": "environmental:sawmill"
+				"item": "storagedrawers:oak_full_drawers_1"
 			},
 			"framed": true,
 			"x": 0,
@@ -120,10 +120,19 @@
 		{
 			"type": "item",
 			"item": {
-				"item": "farmersdelight:cooking_pot"
+				"item": "environmental:sawmill"
 			},
 			"framed": true,
 			"x": 24,
+			"y": 72
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "farmersdelight:cooking_pot"
+			},
+			"framed": true,
+			"x": 48,
 			"y": 72
 		}
 	]

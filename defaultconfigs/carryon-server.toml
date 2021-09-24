@@ -53,7 +53,7 @@
 	forbiddenEntities = ["minecraft:end_crystal", "minecraft:ender_dragon", "minecraft:ghast", "minecraft:shulker", "minecraft:leash_knot", "minecraft:armor_stand", "minecraft:item_frame", "minecraft:painting", "minecraft:shulker_bullet", "animania:hamster", "animania:ferret*", "animania:hedgehog*", "animania:cart", "animania:wagon", "mynko:*", "pixelmon:*", "mocreatures:*", "quark:totem", "vehicle:*"]
 	#Blocks that cannot be picked up
 	forbiddenTiles = ["#forge:immovable", "#forge:relocation_not_supported", "botania:*",
-	"create:*", "waystones:*", "minecraft:spawner", "quark:monster_box"]
+	"create:*", "waystones:*", "minecraft:spawner", "quark:monster_box", "minecraft:*_bed"]
 
 [whitelist]
 	#Entities that CAN have other entities stacked on top of them (useWhitelistStacking must be true)

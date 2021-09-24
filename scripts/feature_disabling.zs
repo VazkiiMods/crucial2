@@ -500,6 +500,11 @@ craftingTable.removeRecipe(<item:supplementaries:sign_post_twisted>);
 craftingTable.removeRecipe(<item:supplementaries:soul_jar>);
 craftingTable.removeRecipe(<item:supplementaries:speaker_block>);
 craftingTable.removeRecipe(<item:supplementaries:stone_lamp>);
+//craftingTable.removeRecipe(<item:supplementaries:timber_brace>);
+//craftingTable.removeRecipe(<item:supplementaries:timber_cross_brace>);
+//craftingTable.removeRecipe(<item:supplementaries:timber_frame>);
+craftingTable.removeRecipe(<item:supplementaries:flint_block>);
+craftingTable.removeRecipe(<item:supplementaries:feather_block>);
 
 furnace.removeRecipe(<item:charm:refined_obsidian>);
 craftingTable.removeRecipe(<item:charm:refined_obsidian_stairs>);
@@ -508,6 +513,10 @@ craftingTable.removeRecipe(<item:charm:refined_obsidian_wall>);
 stoneCutter.removeRecipe(<item:charm:refined_obsidian_stairs>);
 stoneCutter.removeRecipe(<item:charm:refined_obsidian_slab>);
 stoneCutter.removeRecipe(<item:charm:refined_obsidian_wall>);
+
+var tag_carpets = <tag:items:minecraft:carpets>;
+tag_carpets.remove(<item:farmersdelight:full_tatami_mat>);
+tag_carpets.remove(<item:farmersdelight:half_tatami_mat>);
 
 craftingTable.removeRecipe(<item:comforts:sleeping_bag_white>);
 craftingTable.removeRecipe(<item:comforts:sleeping_bag_orange>);
