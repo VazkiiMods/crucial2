@@ -1,0 +1,11 @@
+This is a combination pack intended for private distribution only. I take no credit for
+any of the assets developed in this pack. If you would like to use these packs for
+yourself, follow these links and download each pack seperately:
+
+Stay True: https://www.curseforge.com/minecraft/texture-packs/stay-true
+Botania Improved Flowers: https://www.curseforge.com/minecraft/texture-packs/botania-improved-flowers
+
+From backto4myula:
+	All non-Botania assets (from StayTrue)
+From inpaladin & futurazoo (Artist)
+	All Botania assets (from Botania Improved Flowers)

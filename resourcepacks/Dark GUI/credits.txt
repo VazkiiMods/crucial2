@@ -1,0 +1,7 @@
+This is a pack intended for private distribution only. I take no credit for the assets
+developed by the VanillaTweaks team. If you would like to download their assets for
+yourself, follow this link and use the pack builder to select the "Dark UI" pack:
+
+VanillaTweaks: https://vanillatweaks.net/picker/resource-packs/
+
+Edits for all other assets done by Kalikars.
