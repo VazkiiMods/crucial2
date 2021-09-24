@@ -14,6 +14,7 @@
 		"quark:glass_item_frame",
 		"environmental:sawmill",
 		"bundlesplus:bundle",
-		"quark:soul_compass"
+		"quark:soul_compass",
+		"supplementaries:slingshot"
 	]
 }

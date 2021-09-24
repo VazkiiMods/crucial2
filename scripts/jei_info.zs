@@ -728,6 +728,7 @@ i(<item:supplementaries:bomb>, "Can be thrown, explodes on contact for explosive
 i(<item:supplementaries:raked_gravel>, "Can be gotten by using a Hoe on Gravel. Doing it from different directions creates unique patterns.");
 i(<item:supplementaries:flower_box>, "Can be placed on the floor or the side of a block. Holds up to 3 flowers.");
 i(<item:minecraft:rotten_flesh>, "Can be used to turn a Skeleton Horse into a Zombie Horse, by feeding it an entire stack.");
+i(<item:supplementaries:slingshot>, "When used, fires the first block in your hotbar as a projectile. Try using it to throw torches!");
 i(<item:minecraft:stick>, "Besides being your average stick, it can also be placed in the world as decoration.");
 
 s = "Can be placed atop a pole of sticks, and raised or lowered when right-clicked.";
