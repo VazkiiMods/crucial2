@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Utilities",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Storage vaults can store up to 1000 stacks of a single item type. Useful if you have a ton of something!"
+  }
+}

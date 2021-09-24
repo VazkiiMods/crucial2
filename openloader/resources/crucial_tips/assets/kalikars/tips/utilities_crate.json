@@ -5,6 +5,6 @@
     "color": "red"
   },
   "tip": {
-    "text": "Crates are storage blocks that have infinite slots, but can only store 640 items. Useful for a variety of items and tools!"
+    "text": "Crates can store up to 1000 items, and don't use slots like chests. Useful for a variety of items and tools!"
   }
 }

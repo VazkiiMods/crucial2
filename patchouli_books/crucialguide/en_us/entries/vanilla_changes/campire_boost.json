@@ -8,7 +8,7 @@
             "type": "spotlight",
             "item": "minecraft:campfire",
             "title": "Campfire Boost",
-            "text": "Flying with an $(item)Elytra$() over a $(item)Campfire$() with a $(item)Hay Bale$() underneath will give you a quick altitude boost.$(br2)$(item)Soul Camprfires$() have the inverse effect, instead pulling you down."
+            "text": "Flying with an $(item)Elytra$() over a $(item)Campfire$() with a $(item)Hay Bale$() underneath will give you a quick altitude boost.$(br2)$(item)Soul Campfires$() have the inverse effect, instead pulling you down."
         }
 	]
 }

@@ -1925,7 +1925,6 @@
 			B = [0.0, 0.0, 0.72]
 			G = [0.12, 1.0, 0.12]
 
-
 [oddities]
 	"Totem Of Holding" = true
 	Backpack = true
@@ -1954,7 +1953,7 @@
 		#Set to false to disable the ability to influence enchantment outcomes with candles (requires the Tallow and Candles module enabled)
 		"Allow Influencing" = true
 		#A list of enchantment IDs you don't want the enchantment table to be able to create
-		"Disallowed Enchantments" = ["charm:tinted", "charm:aerial_affinity", "alexsmobs:straddle_jump", "alexsmobs:lavawax", "alexsmobs:serpentfriend", "alexsmobs:board_return"]
+		"Disallowed Enchantments" = ["charm:tinted", "charm:aerial_affinity", "alexsmobs:straddle_jump", "alexsmobs:lavawax", "alexsmobs:serpentfriend", "alexsmobs:board_return", "ensorcellation:soulbound", "ensorcellation:magic_protection", "ensorcellation:displacement", "ensorcellation:fire rebuke", "ensorcellation:frost_rebuke", "ensorcellation:reach", "ensorcellation:vitality", "ensorcellation:gourmand", "ensorcellation:exp_boost", "ensorcellation:cavalier", "ensorcellation:leech", "ensorcellation:instigating", "ensorcellation:magic_edge", "ensorcellation:damage_villager", "ensorcellation:vorpal", "ensorcellation:excavating", "ensorcellation:furrowing", "ensorcellation:tilling", "ensorcellation:weeding", "ensorcellation:quick_draw", "ensorcellation:volley", "ensorcellation:bulwark", "ensorcellation:curse_fool", "ensorcellation:curse_mercy", "walljump:doublejump", "walljump:speedboost", "walljump:walljump"]
 		#How much to multiply the frequency of pieces where at least one of the same type has been generated
 		"Dupe Multiplier" = 1.4
 		#The maximum enchanting power the matrix enchanter can accept
@@ -1980,7 +1979,7 @@
 		#The higher this is, the better enchantments you'll get on books
 		"Book Enchantability" = 12
 		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
-		"Influences List" = ["minecraft:unbreaking", "minecraft:fire_protection", "minecraft:knockback,minecraft:punch,charm:acquisition,allurement:launch", "minecraft:feather_falling,step:stepping,allurement:reeling", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea", "minecraft:blast_protection", "minecraft:silk_touch,minecraft:channeling", "minecraft:bane_of_arthropods", "minecraft:protection", "minecraft:respiration,minecraft:loyalty,minecraft:infinity", "minecraft:sweeping,minecraft:multishot,farmersdelight:backstabbing", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide", "minecraft:thorns,minecraft:piercing", "minecraft:fire_aspect,minecraft:flame,allurement:shockwave", "minecraft:smite,minecraft:projectile_protection"]
+		"Influences List" = ["minecraft:unbreaking", "minecraft:fire_protection", "minecraft:knockback,minecraft:punch,charm:acquisition,allurement:launch", "minecraft:feather_falling,step:stepping,allurement:reeling,ensorcellation:air_affinity", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea,ensorcellation:hunter,ensorcellation:angler", "minecraft:blast_protection", "minecraft:silk_touch,minecraft:channeling", "minecraft:bane_of_arthropods,ensorcellation:pilfering", "minecraft:protection,ensorcellation:phalanx,ensorcellation:damage_illager", "minecraft:respiration,minecraft:loyalty,minecraft:infinity", "minecraft:sweeping,minecraft:multishot,farmersdelight:backstabbing,ensorcellation:frost_aspect", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide", "minecraft:thorns,minecraft:piercing,ensorcellation:trueshot", "minecraft:fire_aspect,minecraft:flame,allurement:shockwave", "minecraft:smite,minecraft:projectile_protection,ensorcellation:damage_ender"]
 		#How many pieces a single Lapis can generate
 		"Charge Per Lapis" = 4
 		#How many pieces you can generate without any bookshelves (for Books)

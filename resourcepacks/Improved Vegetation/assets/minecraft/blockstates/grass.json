@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "": [ { "model": "block/grass", "weight":4 }
+,{ "model": "block/grass1", "weight":4 }
+,{ "model": "block/grass2", "weight":4 }
+,{ "model": "block/grass3", "weight":3 }
+,{ "model": "block/grass4", "weight":3 }
+,{ "model": "block/grass5", "weight":2 }
+,{ "model": "block/grass6", "weight":3 }
+,{ "model": "block/grass7", "weight":2 }
+,{ "model": "block/grass8", "weight":2 }
+,{ "model": "block/grass9", "weight":2 }
+,{ "model": "block/grass10", "weight":3 }
+,{ "model": "block/grass11", "weight":3 }
+,{ "model": "block/grass12", "weight":2 }
+,{ "model": "block/grass13", "weight":3 }
+,{ "model": "block/grass14", "weight":2 }
+,{ "model": "block/grass15", "weight":2 }
+
+ ]   }
+}

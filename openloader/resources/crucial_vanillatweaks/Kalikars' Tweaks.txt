@@ -1,0 +1,15 @@
+Additional Vanilla Tweaks Packs:
+	CatFix
+	IronBarsFix
+	LowerShield
+	LowerFire
+	SidewaysNuggets
+	StickyPistonSides
+	TransparentPumpkin
+	Visual Honey Stages
+
+Additional Asset Credits:
+	Bo Tie: GoldenNugget (textures/item)
+	RecodedZaphod: NetheriteLeggingsFix (textures/models/armor)
+	Foony: ImprovedPrismarineBricks/VTSlabs (textures/blocks)
+	Sucro120: SkinnierTrident (textures/item)
