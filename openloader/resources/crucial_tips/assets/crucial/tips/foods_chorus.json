@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Food Effects",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "Chorus Fruits normally teleport you randomly when eaten, but if there any nearby Ender Pearl Blocks, they will teleport you to those instead."
+  }
+}
