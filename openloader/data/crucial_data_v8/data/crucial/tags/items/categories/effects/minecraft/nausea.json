@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:pufferfish",
+		"abnormals_delight:slabdish",
+		"farmersdelight:nether_salad",
+		"upgrade_aquatic:lionfish"
+	]
+}

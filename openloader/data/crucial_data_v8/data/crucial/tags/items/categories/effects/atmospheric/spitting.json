@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"atmospheric:passionfruit",
+		"atmospheric:shimmering_passionfruit",
+		"atmospheric:passionfruit_tart",
+		"peculiars:passionfruit_ice_cream",
+		"peculiars:tropical_salad"
+	]
+}

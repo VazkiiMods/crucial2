@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		"atmospheric:yucca_gateau",
+		"abnormals_delight:yucca_gateau_slice",
+		"atmospheric:roasted_yucca_fruit",
+		"atmospheric:yucca_juice",
+		"peculiars:yucca_ice_cream",
+		"peculiars:yucca_fudge",
+		"peculiars:yucca_cake",
+		"peculiars:tropical_salad"
+	]
+}

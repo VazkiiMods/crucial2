@@ -1,0 +1,24 @@
+{
+	"replace": false,
+	"values": [
+		"abnormals_delight:slabdish",
+		"abnormals_delight:chocolate_cake_slice",
+		"abnormals_delight:strawberry_cake_slice",
+		"abnormals_delight:banana_cake_slice",
+		"abnormals_delight:mint_cake_slice",
+		"abnormals_delight:adzuki_cake_slice",
+		"abnormals_delight:yucca_gateau_slice",
+		"farmersdelight:apple_pie",
+		"farmersdelight:sweet_berry_cheesecake",
+		"farmersdelight:chocolate_pie",
+		"farmersdelight:cake_slice",
+		"farmersdelight:apple_pie_slice",
+		"farmersdelight:sweet_berry_cheesecake_slice",
+		"farmersdelight:chocolate_pie_slice",
+		"farmersdelight:dog_food",
+		"farmersdelight:horse_feed",
+		"frozenup:mug_of_chocolate_milk",
+		"infernalexp:cured_jerky",
+		"irregularchef:traffic_jam_roll"
+	]
+}

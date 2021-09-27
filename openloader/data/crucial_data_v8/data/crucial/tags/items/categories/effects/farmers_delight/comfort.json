@@ -1,0 +1,20 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:mushroom_stew",
+		"minecraft:rabbit_stew",
+		"minecraft:beetroot_soup",
+		"farmersdelight:cooked_rice",
+		"farmersdelight:beef_stew",
+		"farmersdelight:chicken_soup",
+		"farmersdelight:vegetable_soup",
+		"farmersdelight:fish_stew",
+		"farmersdelight:pumpkin_soup",
+		"farmersdelight:baked_cod_stew",
+		"farmersdelight:noodle_soup",
+		"neapolitan:adzuki_stew",
+		"irregularchef:turkey_pot_pie",
+		"irregularchef:turkey_pot_pie_slice",
+		"irregularchef:birds_nest_soup"
+	]
+}

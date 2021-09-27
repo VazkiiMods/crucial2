@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"seasonals:roasted_pumpkin",
+		"seasonals:pumpkin_feast",
+		"seasonals:pumpkin_ice_cream",
+		"seasonals:pumpkin_cake",
+		"seasonals:chocolate_pumpkin_muffin"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"atmospheric:aloe_leaves",
+		"atmospheric:aloe_gel_bottle",
+		"peculiars:aloe_ice_cream",
+		"peculiars:aloe_jelly_slice",
+		"peculiars:aloe_berry_smoothie",
+		"peculiars:aloe_cake",
+		"peculiars:tropical_salad"
+	]
+}
