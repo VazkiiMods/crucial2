@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Controls",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Shulker boxes will now open instead of placing upon right clicking. Crouch and then click to place them!"
+  }
+}

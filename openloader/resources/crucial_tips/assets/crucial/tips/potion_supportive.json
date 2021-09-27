@@ -5,6 +5,6 @@
     "color": "light_purple"
   },
   "tip": {
-    "text": "Supportive gives nearby entities certain effects: Hostile = resistance, neutral = strength, passive = regeneration."
+    "text": "Supportive gives nearby mobs certain effects: Hostile = resistance, neutral = strength, passive = regeneration."
   }
 }

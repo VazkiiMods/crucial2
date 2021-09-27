@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Utilities",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Windchimes can be interacted with to reset your insomnia level. They make nice sounds too!"
+  }
+}

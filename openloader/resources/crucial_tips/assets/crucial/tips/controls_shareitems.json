@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Controls",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can show items in chat by hovering over them and pressing [SHIFT] + your chat keybind."
+  }
+}
