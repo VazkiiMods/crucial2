@@ -493,7 +493,7 @@
 	"Big Dungeon" = true
 	Speleothems = true
 	"Elder Prismarine Underground Biome" = true
-	"Blossom Trees" = false
+	"Blossom Trees" = true
 	"Sandstone Underground Biome" = true
 	"Glowshroom Underground Biome" = true
 	"Permafrost Underground Biome" = true
@@ -881,15 +881,15 @@
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 					# beach, void, overworld, nether, end]
-					"Biome Types" = ["savanna"]
+					"Biome Types" = []
 					"Is Blacklist" = false
 
 				[world.blossom_trees.orange.biome_config.biomes]
 					Biomes = []
-					"Is Blacklist" = true
+					"Is Blacklist" = false
 
 			[world.blossom_trees.orange.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 				"Is Blacklist" = false
 
 		[world.blossom_trees.red]
@@ -903,15 +903,15 @@
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 					# beach, void, overworld, nether, end]
-					"Biome Types" = ["mesa"]
+					"Biome Types" = []
 					"Is Blacklist" = false
 
 				[world.blossom_trees.red.biome_config.biomes]
 					Biomes = []
-					"Is Blacklist" = true
+					"Is Blacklist" = false
 
 			[world.blossom_trees.red.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 				"Is Blacklist" = false
 
 		[world.blossom_trees.pink]
@@ -925,15 +925,15 @@
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 					# beach, void, overworld, nether, end]
-					"Biome Types" = ["mountain"]
+					"Biome Types" = []
 					"Is Blacklist" = false
 
 				[world.blossom_trees.pink.biome_config.biomes]
 					Biomes = []
-					"Is Blacklist" = true
+					"Is Blacklist" = false
 
 			[world.blossom_trees.pink.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 				"Is Blacklist" = false
 
 		[world.blossom_trees.blue]
@@ -947,15 +947,15 @@
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 					# beach, void, overworld, nether, end]
-					"Biome Types" = ["snowy"]
+					"Biome Types" = []
 					"Is Blacklist" = false
 
 				[world.blossom_trees.blue.biome_config.biomes]
 					Biomes = []
-					"Is Blacklist" = true
+					"Is Blacklist" = false
 
 			[world.blossom_trees.blue.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 				"Is Blacklist" = false
 
 		[world.blossom_trees.yellow]
@@ -969,12 +969,12 @@
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 					# beach, void, overworld, nether, end]
-					"Biome Types" = ["plains"]
+					"Biome Types" = []
 					"Is Blacklist" = false
 
 				[world.blossom_trees.yellow.biome_config.biomes]
 					Biomes = []
-					"Is Blacklist" = true
+					"Is Blacklist" = false
 
 			[world.blossom_trees.yellow.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -991,15 +991,15 @@
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 					# beach, void, overworld, nether, end]
-					"Biome Types" = ["swamp"]
+					"Biome Types" = []
 					"Is Blacklist" = false
 
 				[world.blossom_trees.lavender.biome_config.biomes]
 					Biomes = []
-					"Is Blacklist" = true
+					"Is Blacklist" = false
 
 			[world.blossom_trees.lavender.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 				"Is Blacklist" = false
 
 	[world.mega_caves]

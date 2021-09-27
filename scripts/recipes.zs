@@ -124,6 +124,17 @@ var planks = <tag:items:minecraft:planks>;
 var drawers = <item:storagedrawers:oak_full_drawers_1>;
 var seed_pouch = <item:quark:seed_pouch>;
 var seed_pouchable = <tag:items:quark:seed_pouch_holdable>;
+var sweet_sapling = <item:quark:pink_blossom_sapling>;
+var fiery_sapling = <item:quark:red_blossom_sapling>;
+var warm_sapling = <item:quark:orange_blossom_sapling>;
+var sunny_sapling = <item:quark:yellow_blossom_sapling>;
+var frosty_sapling = <item:quark:blue_blossom_sapling>;
+var serene_sapling = <item:quark:lavender_blossom_sapling>;
+var cherry_sapling = <item:environmental:cherry_sapling>;
+var flowering_redbud_sapling = <item:abundance:flowering_redbud_sapling>;
+var orange_maple_sapling = <item:autumnity:orange_maple_sapling>;
+var blue_wisteria_sapling = <item:environmental:blue_wisteria_sapling>;
+var jacaranda_sapling = <item:abundance:jacaranda_sapling>;
 
 // Remove specific recipes
 craftingTable.removeByName("minecraft:lead");
@@ -397,3 +408,11 @@ craftingTable.addShaped("comforts_real_rope_and_nail",
 		rope_and_nail * 2,
 		[[rope, iron_ingot],
 		[iron_ingot, rope]]);
+		
+// Blossom trees recipes
+craftingTable.addShapeless("sweet_sapling", sweet_sapling, [mimicream, cherry_sapling]);
+craftingTable.addShapeless("fiery_sapling", fiery_sapling, [mimicream, flowering_redbud_sapling]);
+craftingTable.addShapeless("warm_sapling", warm_sapling, [mimicream, orange_maple_sapling]);
+craftingTable.addShapeless("sunny_sapling", sunny_sapling, [mimicream, aspen_sapling]);
+craftingTable.addShapeless("frosty_sapling", frosty_sapling, [mimicream, blue_wisteria_sapling]);
+craftingTable.addShapeless("serene_sapling", serene_sapling, [mimicream, jacaranda_sapling]);

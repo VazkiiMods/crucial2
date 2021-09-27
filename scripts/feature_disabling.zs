@@ -134,6 +134,8 @@ craftingTable.removeRecipe(<item:alexsmobs:shield_of_the_deep>);
 craftingTable.removeRecipe(<item:alexsmobs:shrimp_fried_rice>);
 craftingTable.removeRecipe(<item:alexsmobs:endolocator>);
 craftingTable.removeRecipe(<item:alexsmobs:echolocator>);
+craftingTable.removeRecipe(<item:alexsmobs:hemolymph_blaster>);
+craftingTable.removeRecipe(<item:alexsmobs:shark_tooth_arrow>);
 
 craftingTable.removeRecipe(<item:paraglider:spirit_orb>);
 craftingTable.removeRecipe(<item:paraglider:horned_statue>);
@@ -504,7 +506,7 @@ craftingTable.removeRecipe(<item:supplementaries:stone_lamp>);
 //craftingTable.removeRecipe(<item:supplementaries:timber_cross_brace>);
 //craftingTable.removeRecipe(<item:supplementaries:timber_frame>);
 craftingTable.removeRecipe(<item:supplementaries:flint_block>);
-craftingTable.removeRecipe(<item:supplementaries:feather_block>);
+//craftingTable.removeRecipe(<item:supplementaries:feather_block>);
 
 furnace.removeRecipe(<item:charm:refined_obsidian>);
 craftingTable.removeRecipe(<item:charm:refined_obsidian_stairs>);
