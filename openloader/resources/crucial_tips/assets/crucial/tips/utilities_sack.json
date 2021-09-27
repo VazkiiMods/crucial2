@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Utilities",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Sacks are like mini-shulker boxes, carrying 9 items. Carrying more than 2 will incur slowness, however."
+  }
+}

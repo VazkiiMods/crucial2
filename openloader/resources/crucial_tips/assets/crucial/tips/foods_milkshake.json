@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Food Effects",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "Milkshakes are unique foods that deal with effect manipulation, and can even be fed to mobs. Look them up in JEI!"
+  }
+}

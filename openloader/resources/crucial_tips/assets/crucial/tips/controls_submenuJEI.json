@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Controls",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can click on items even in sub-menus of JEI. You can also click on the recipe category itself to see all recipes of that type."
+  }
+}

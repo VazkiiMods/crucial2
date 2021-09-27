@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Controls",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can carry certain container blocks by getting very close and [SHIFT] + right-clicking them with empty hands."
+  }
+}

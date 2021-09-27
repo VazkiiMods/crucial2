@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Controls",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Press [ESC] when setting a keybind to unbind it. Some keybinds will work even if they are conflicting."
+  }
+}

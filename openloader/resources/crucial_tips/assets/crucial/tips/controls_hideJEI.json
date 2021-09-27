@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Controls",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can hide the JEI page in your inventory by inputting [CTRL+O] by default."
+  }
+}

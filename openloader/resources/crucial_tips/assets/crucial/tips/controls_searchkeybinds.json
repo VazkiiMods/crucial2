@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Controls",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Keybinds can be searched by function name, key, category, and conflicting/unbound status. Useful for rebinding!"
+  }
+}

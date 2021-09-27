@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Controls",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can hide the item zoom in your inventory by inputting [SHIFT+Z] by default."
+  }
+}
