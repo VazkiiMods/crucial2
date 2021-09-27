@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Potion Effects",
+    "bold": true,
+    "color": "light_purple"
+  },
+  "tip": {
+    "text": "Supportive gives nearby mobs certain effects: Hostile = resistance, neutral = strength, passive = regeneration."
+  }
+}

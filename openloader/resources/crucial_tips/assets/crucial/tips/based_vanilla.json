@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Based Foods",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "Vanilla-based foods will block any new incoming status effects after being consumed."
+  }
+}

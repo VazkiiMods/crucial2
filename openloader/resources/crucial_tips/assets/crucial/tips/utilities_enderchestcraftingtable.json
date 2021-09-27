@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Utilities",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Crafting Tables and Ender Chests can be directly accessed from your inventory."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Easter Eggs",
+    "bold": true,
+    "color": "aqua"
+  },
+  "tip": {
+    "text": "1 in 2048 = Shiny!"
+  }
+}

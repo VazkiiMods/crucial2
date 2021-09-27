@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Armor and Tools",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "The Pickarang will break blocks at a distance and carry them back to you. You'll need a Heart of Diamond, however..."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Controls",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Don't know any of the items these tips are talking about? Search JEI with the bar on the bottom right of your inventory!"
+  }
+}

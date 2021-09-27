@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Potion Effects",
+    "bold": true,
+    "color": "light_purple"
+  },
+  "tip": {
+    "text": "Succumbing will inflict a short poison effect any time other damage is taken."
+  }
+}
