@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:sweet_berries",
+		"seasonals:sweet_berry_ice_cream",
+		"seasonals:sweet_berry_cake",
+		"seasonals:sweet_berry_vanilla_yogurt"
+	]
+}

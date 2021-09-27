@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:rotten_flesh",
+		"minecraft:pufferfish",
+		"minecraft:chicken",
+		"farmersdelight:chicken_cuts",
+		"environmental:duck",
+		"abnormals_delight:duck_fillet",
+		"autumnity:turkey_piece",
+		"farmersdelight:raw_pasta"
+	]
+}

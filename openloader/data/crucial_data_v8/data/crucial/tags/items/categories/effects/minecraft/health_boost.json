@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"environmental:truffle",
+		"environmental:truffle_mash",
+		"environmental:truffle_pie"
+	]
+}

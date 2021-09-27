@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:rabbit_stew",
+		"farmersdelight:horse_feed",
+		"infernalexp:blindsight_tongue_stew"
+	]
+}
