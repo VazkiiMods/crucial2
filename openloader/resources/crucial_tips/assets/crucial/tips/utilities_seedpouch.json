@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Utilities",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Seed pouches can store up to 10 stacks of any sapling or seed. They can also plant their contents when used!"
+  }
+}

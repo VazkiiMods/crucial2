@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Utilities",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Snailboxes can be used to send items to other players. You'll need envelopes (and stamps, of course)."
+  }
+}

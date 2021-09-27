@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Utilities",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Crates can store up to 1000 items and don't use slots like chests. Useful for a variety of items and tools!"
+  }
+}
