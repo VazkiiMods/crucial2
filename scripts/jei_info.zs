@@ -710,7 +710,7 @@ i(<item:supplementaries:jar>, "Can store many liquids, potion, stew, cookies, fi
 i(<item:supplementaries:jar_tinted>, "Can capture vexes and endermites.");
 i(<item:supplementaries:notice_board>, "Can display maps, or the first page of a written book.");
 i(<item:supplementaries:pedestal>, "Can display items, including their names. Can also be stacked vertically for decor.");
-i(<item:supplementaries:piston_launcher>, "Pushes entities, like the original piston mod! You can also jump on it while it's extended.");
+i(<item:supplementaries:spring_launcher>, "Pushes entities, like the original piston mod! You can also jump on it while it's extended.");
 i(<item:supplementaries:planter>, "Can grow crops just like irrigated farmland.");
 i(<item:supplementaries:planter_rich>, "Can grow crops just like irrigated farmland, but with the faster speed of rich soil.");
 i(<item:supplementaries:redstone_illuminator>, "Outputs a lower light level the higher the redstone signal its given.");
