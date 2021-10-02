@@ -1,3 +1,4 @@
 {
-	"item.charm.bat_bucket": "Bucket of Bat"
+	"item.charm.bat_bucket": "Bucket of Bat",
+    "enchantment.charm.acquisition.desc": "Tools automatically pick up drops."
 }
