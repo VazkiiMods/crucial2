@@ -3,7 +3,7 @@
 	"icon": "minecraft:enchanting_table",
     "category": "patchouli:vanilla_changes",
     "read_by_default": true,
-    "sortnum": 4,
+    "sortnum": 5,
     "priority": true,
 	"pages": [
         {

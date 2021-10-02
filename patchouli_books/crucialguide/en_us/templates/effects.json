@@ -1,0 +1,36 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#header_1",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "text",
+			"text": "#description_1",
+			"y": 10
+		},
+		{
+			"type": "image",
+			"image": "patchouli:divider.png",
+			"width": 110,
+			"height": 3,
+			"texture_width": 128,
+			"texture_height": 4,
+			"y": 67,
+			"x": 3
+		},
+		{
+			"type": "header",
+			"text": "#header_2",
+			"x": -1,
+			"y": 75
+		},
+		{
+			"type": "text",
+			"text": "#description_2",
+			"y": 85
+		}
+	]
+}

@@ -1,0 +1,158 @@
+{
+	"name": "Status Effects",
+	"icon": "minecraft:brewing_stand",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+    "sortnum": 4,
+	"priority": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "In $(thing)Crucial 2$() you may run into an array of new $(item)Status Effects$() which can either help you or hurt you in your adventures.$(br2)These status effects can be inflicted by many sources, whether it be from items you can consume or from mobs who may attack you."
+		},
+        {
+			"type": "text",
+			"text": "To locate some of the items you can obtain status effects from, you can use $(item)JEI$() to search for items by the effect that they apply. If you want to know even more about what effects an item can apply you can even use $(item)Advanced Tooltips$() ($(thing)F3$() + $(thing)H$()) to list them!$(br2)The following pages will provide some insight into what the various status effects in this modpack can do."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Agility",
+			"description_1": "Allows climbing onto any vertical surface.",
+			"header_2": "Berserking",
+			"description_2": "Increases attack damage as more mobs are killed."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Comfort",
+			"description_1": "Removes and prevents weakness, slowness, and hunger status effects from being applied.",
+			"header_2": "Danger Sight",
+			"description_2": "Allows seeing the places where monsters can spawn. There may be a $(thing)Gossip$() entry that can provide more insight here."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Ender Flu",
+			"description_1": "Applied by Enderiophages, and will cause another one to spawn once the effect is over, inflicting damage in the process.",
+			"header_2": "Extension",
+			"description_2": "Increases the duration of newly applied effects."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Foul Taste",
+			"description_1": "Once this effect is applied, the next consumed food will fill more food points. Afterwards, the effect is removed.",
+			"header_2": "Frostbite",
+			"description_2": "Greatly slows down movement speed, and slowly inflicts damage. Inflicted by an icey illager foe."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Gelled",
+			"description_1": "Extinguishes burning if not in a fire source. Also reduces damage from burning and slowly applies regeneration.",
+			"header_2": "Glowing Vision",
+			"description_2": "Causes Unicorns in a radius of 500 blocks to obtain the glowing effect, making them easier to locate."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Harmony",
+			"description_1": "Causes nearby monsters in the vicinity to run away.",
+			"header_2": "Infection",
+			"description_2": "Slowly causes damage until at half a heart, and can also be spread to other entities through attacking them."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Insomnia",
+			"description_1": "Increases insomnia levels.",
+			"header_2": "Knockback Resistance",
+			"description_2": "Prevents receiving knockback from incoming attacks."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Lava Vision",
+			"description_1": "Allows seeing under lava, as if it were like water.",
+			"header_2": "Luminance",
+			"description_2": "Causes one to become a light source."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Nourishment",
+			"description_1": "Prevents losing hunger from any action besides healing.",
+			"header_2": "Orca's Might",
+			"description_2": "Grants increased attack speed after swimming with Orcas."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Panic",
+			"description_1": "Boosts movement speed after being hit while wearing a Healer's Pouch.",
+			"header_2": "Persistence",
+			"description_2": "Increases movement speed proportional to greater hunger."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Puppeteering",
+			"description_1": "When one with this effect attacks an entity, it copies their own movement onto the entity.",
+			"header_2": "Relief",
+			"description_2": "Reduces the amount of damage taken from attacks."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Repellence",
+			"description_1": "Applies poison to any mobs collided with.",
+			"header_2": "Resilience",
+			"description_2": "Prevents receiving knockback from incoming attacks."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Restfulness",
+			"description_1": "Decreases insomnia levels.",
+			"header_2": "Serenity",
+			"description_2": "Prevents mobs from spawning nearby. There may be a $(thing)Gossip$() entry that can provide more insight here."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Slipping",
+			"description_1": "Makes it hard to stand still, as if slipping around. Can be caused by stepping on a banana peel.",
+			"header_2": "Soulsteal",
+			"description_2": "Attacking enemies will have the chance to steal some of their health."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Spitting",
+			"description_1": "Causes the rapid spitting of seeds as long as the effect is active.",
+			"header_2": "Succumbing",
+			"description_2": "Causes the damage one takes to also inflict poison."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Sugar Rush",
+			"description_1": "Increases movement speed at the start of the status effect, but movement will begin to slow down as the effect goes on.",
+			"header_2": "Sunbird's Blessing",
+			"description_2": "Makes falling occur slower, and also makes it easier to fly with an elytra."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Sunbird's Curse",
+			"description_1": "Makes falling occur faster, making it almost impossible to fly with an elytra.",
+			"header_2": "Sunny",
+			"description_2": "Makes some entities behave as if it were daytime. A type of cow that blooms flowers on its back may be handy in harnessing this effect."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Supportive",
+			"description_1": "Applies regeneration, strength, or resistance to nearby mobs depending if they're passive, neutral, or hostile.",
+			"header_2": "Sustaining",
+			"description_2": "Increases the food points filled when consuming foods."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Thorn Resistance",
+			"description_1": "Provides immunity to thorny damage sources.",
+			"header_2": "Vanilla Scent",
+			"description_2": "Blocks any incoming status effects from being applied."
+		},
+		{
+			"type": "patchouli:effects",
+			"header_1": "Vibing",
+			"description_1": "Applies regeneration to any mobs collided with.",
+			"header_2": "Worsening",
+			"description_2": "Increases the amount of damage taken from attacks."
+		}
+	]
+}
