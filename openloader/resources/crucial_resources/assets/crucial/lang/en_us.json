@@ -67,5 +67,16 @@
 	"block.architects_palette.chiseled_gold_ore_bricks": "Gold Etched Stone Bricks",
 	"block.architects_palette.chiseled_emerald_ore_bricks": "Emerald Etched Stone Bricks",
 	"block.architects_palette.chiseled_diamond_ore_bricks": "Diamond Etched Stone Bricks",
-	"block.architects_palette.blank_acacia_totem": "Acacia Totem"
+	"block.architects_palette.blank_acacia_totem": "Acacia Totem",
+	
+    "enchantment.charm.acquisition.desc": "Tools automatically pick up drops.",
+	"enchantment.allurement.alleviating.desc": "Heals the player upon collection of experience.",
+	"enchantment.allurement.launch.desc": "Launches the target upwards instead of away.",
+	"enchantment.allurement.reeling.desc": "Pulls targets towards the user upon arrow impact.",
+	"enchantment.allurement.reforming.desc": "Repairs the durability items very slowly over time when in use.",
+	"enchantment.allurement.shockwave.desc": "Creates a shockwave when taking fall damage that damages nearby entities.",
+	"enchantment.allurement.vengeance.desc": "Stores some incoming damage and applies it to your next attack.",
+    "enchantment.supplementaries.stasis.desc": "Blocks fired from the slingshot will not be affected by gravity.",
+    "enchantment.shulker_enchantments.siphon.desc": "Picked up items will go directly into the shulker box.",
+    "enchantment.shulker_enchantments.refill.desc": "Refills held block and item stacks from the shulker box inventory."
 }
