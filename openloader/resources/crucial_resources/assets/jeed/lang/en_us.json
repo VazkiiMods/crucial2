@@ -1,8 +1,8 @@
 {
-	 "effect.minecraft.absorption.description": "Adds damage absorption (additional hearts that can't be regenerated).",
+	"effect.minecraft.absorption.description": "Adds damage absorption (additional hearts that can't be regenerated).",
 	"effect.minecraft.unluck.description": "Can reduce chances of high-quality and more loot.",
 	"effect.minecraft.bad_omen.description": "Causes an illager raid to start upon entering a village.",
-	"effect.minecraft.blindness.description": "	Impairs vision and disables the ability to sprint and critical hit.",
+	"effect.minecraft.blindness.description": "Impairs vision and disables the ability to sprint and critical hit.",
 	"effect.minecraft.conduit_power.description": "Increases underwater visibility and mining speed, prevents drowning.",
 	"effect.minecraft.dolphins_grace.description": "Increases swimming speed (only obtainable from dolphins).",
 	"effect.minecraft.fire_resistance.description": "Prevents the affected entity from taking damage due to fire, lava and other sources of fire damage.",
