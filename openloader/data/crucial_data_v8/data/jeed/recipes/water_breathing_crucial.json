@@ -1,0 +1,17 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:water_breathing"
+  },
+  "providers": [
+    {
+      "item": "abnormals_delight:pickerelweed_juice"
+    },
+    {
+      "item": "irregularchef:turtle_gallimaufry"
+    },
+    {
+      "item": "irregularchef:turtle_gallimaufry_block"
+    }
+  ]
+}

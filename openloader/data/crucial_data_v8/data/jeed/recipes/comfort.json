@@ -1,0 +1,53 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "farmersdelight:comfort"
+  },
+  "providers": [
+    {
+      "item": "minecraft:mushroom_stew"
+    },
+    {
+      "item": "minecraft:rabbit_stew"
+    },
+    {
+      "item": "minecraft:beetroot_soup"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "farmersdelight:beef_stew"
+    },
+    {
+      "item": "farmersdelight:chicken_soup"
+    },
+    {
+      "item": "farmersdelight:vegetable_soup"
+    },
+    {
+      "item": "farmersdelight:fish_stew"
+    },
+    {
+      "item": "farmersdelight:pumpkin_soup"
+    },
+    {
+      "item": "farmersdelight:baked_cod_stew"
+    },
+    {
+      "item": "farmersdelight:noodle_soup"
+    },
+    {
+      "item": "neapolitan:adzuki_stew"
+    },
+    {
+      "item": "irregularchef:turkey_pot_pie"
+    },
+    {
+      "item": "irregularchef:turkey_pot_pie_slice"
+    },
+    {
+      "item": "irregularchef:birds_nest_soup"
+    }
+  ]
+}

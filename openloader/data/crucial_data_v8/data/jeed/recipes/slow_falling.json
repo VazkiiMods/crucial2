@@ -1,0 +1,11 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:slow_falling"
+  },
+  "providers": [
+    {
+      "item": "abnormals_delight:cherry_cream_soda"
+    }
+  ]
+}

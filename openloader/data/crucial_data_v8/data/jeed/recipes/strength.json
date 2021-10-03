@@ -1,0 +1,20 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:strength"
+  },
+  "providers": [
+    {
+      "item": "farmersdelight:chicken_sandwich"
+    },
+    {
+      "item": "farmersdelight:hamburger"
+    },
+    {
+      "item": "farmersdelight:dog_food"
+    },
+    {
+      "item": "irregularchef:thrasher_soup"
+    }
+  ]
+}

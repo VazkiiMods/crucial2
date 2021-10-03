@@ -1,0 +1,38 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "neapolitan:vanilla_scent"
+  },
+  "providers": [
+    {
+      "item": "neapolitan:vanilla_cake"
+    },
+    {
+      "item": "abnormals_delight:vanilla_cake_slice"
+    },
+    {
+      "item": "cookielicious:vanilla_cookie"
+    },
+    {
+      "item": "neapolitan:dried_vanilla_pods"
+    },
+    {
+      "item": "neapolitan:vanilla_fudge"
+    },
+    {
+      "item": "neapolitan:vanilla_ice_cream"
+    },
+    {
+      "item": "neapolitan:vanilla_pudding"
+    },
+    {
+      "item": "neapolitan:vanilla_chocolate_fingers"
+    },
+    {
+      "item": "neapolitan:neapolitan_ice_cream"
+    },
+    {
+      "item": "seasonals:sweet_berry_vanilla_yogurt"
+    }
+  ]
+}

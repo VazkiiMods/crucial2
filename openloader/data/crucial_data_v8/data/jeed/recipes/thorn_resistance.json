@@ -1,0 +1,20 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "seasonals:thorn_resistance"
+  },
+  "providers": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "seasonals:sweet_berry_ice_cream"
+    },
+    {
+      "item": "seasonals:sweet_berry_cake"
+    },
+    {
+      "item": "seasonals:sweet_berry_vanilla_yogurt"
+    }
+  ]
+}

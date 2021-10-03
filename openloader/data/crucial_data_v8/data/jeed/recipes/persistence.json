@@ -1,0 +1,32 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "atmospheric:persistence"
+  },
+  "providers": [
+    {
+      "item": "atmospheric:yucca_gateau"
+    },
+    {
+      "item": "abnormals_delight:yucca_gateau_slice"
+    },
+    {
+      "item": "atmospheric:roasted_yucca_fruit"
+    },
+    {
+      "item": "atmospheric:yucca_juice"
+    },
+    {
+      "item": "peculiars:yucca_ice_cream"
+    },
+    {
+      "item": "peculiars:yucca_fudge"
+    },
+    {
+      "item": "peculiars:yucca_cake"
+    },
+    {
+      "item": "peculiars:tropical_salad"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:jump_boost"
+  },
+  "providers": [
+    {
+      "item": "minecraft:rabbit_stew"
+    },
+    {
+      "item": "farmersdelight:horse_feed"
+    },
+    {
+      "item": "infernalexp:blindsight_tongue_stew"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:invisibility"
+  },
+  "providers": [
+    {
+      "item": "irregularchef:hunters_casserole"
+    }
+  ]
+}

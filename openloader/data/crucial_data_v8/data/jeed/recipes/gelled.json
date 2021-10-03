@@ -1,0 +1,29 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "atmospheric:gelled"
+  },
+  "providers": [
+    {
+      "item": "atmospheric:aloe_leaves"
+    },
+    {
+      "item": "atmospheric:aloe_gel_bottle"
+    },
+    {
+      "item": "peculiars:aloe_ice_cream"
+    },
+    {
+      "item": "peculiars:aloe_jelly_slice"
+    },
+    {
+      "item": "peculiars:aloe_berry_smoothie"
+    },
+    {
+      "item": "peculiars:aloe_cake"
+    },
+    {
+      "item": "peculiars:tropical_salad"
+    }
+  ]
+}

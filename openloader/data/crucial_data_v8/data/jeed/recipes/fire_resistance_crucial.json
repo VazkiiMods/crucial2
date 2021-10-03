@@ -1,0 +1,20 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:fire_resistance"
+  },
+  "providers": [
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "abnormals_delight:slabdish"
+    },
+    {
+      "item": "farmersdelight:melon_popsicle"
+    },
+    {
+      "item": "irregularchef:charcoal_waffles"
+    }
+  ]
+}

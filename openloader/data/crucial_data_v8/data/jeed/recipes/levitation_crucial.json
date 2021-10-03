@@ -1,0 +1,14 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:levitation"
+  },
+  "providers": [
+    {
+      "item": "endergetic:bolloom_fruit"
+    },
+    {
+      "item": "irregularchef:purple_cow_float"
+    }
+  ]
+}

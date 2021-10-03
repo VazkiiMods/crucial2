@@ -1,0 +1,17 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:health_boost"
+  },
+  "providers": [
+    {
+      "item": "environmental:truffle"
+    },
+    {
+      "item": "environmental:truffle_mash"
+    },
+    {
+      "item": "environmental:truffle_pie"
+    }
+  ]
+}

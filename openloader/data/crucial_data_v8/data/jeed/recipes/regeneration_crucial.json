@@ -1,0 +1,32 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:regeneration"
+  },
+  "providers": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "abnormals_delight:slabdish"
+    },
+    {
+      "item": "farmersdelight:fruit_salad"
+    },
+    {
+      "item": "farmersdelight:mixed_salad"
+    },
+    {
+      "item": "frozenup:mug_of_chocolate_milk"
+    },
+    {
+      "item": "frozenup:mug_of_truffle_hot_chocolate"
+    },
+    {
+      "item": "inspirations:heartbeet"
+    }
+  ]
+}

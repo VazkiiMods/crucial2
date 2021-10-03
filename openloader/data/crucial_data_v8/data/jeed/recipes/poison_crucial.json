@@ -1,0 +1,23 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:poison"
+  },
+  "providers": [
+    {
+      "item": "minecraft:pufferfish"
+    },
+    {
+      "item": "minecraft:poisonous_potato"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "neapolitan:chocolate_spider_eye"
+    },
+    {
+      "item": "upgrade_aquatic:lionfish"
+    }
+  ]
+}

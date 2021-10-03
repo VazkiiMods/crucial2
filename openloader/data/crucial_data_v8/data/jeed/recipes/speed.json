@@ -1,0 +1,65 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:speed"
+  },
+  "providers": [
+    {
+      "item": "abnormals_delight:slabdish"
+    },
+    {
+      "item": "abnormals_delight:chocolate_cake_slice"
+    },
+    {
+      "item": "abnormals_delight:strawberry_cake_slice"
+    },
+    {
+      "item": "abnormals_delight:banana_cake_slice"
+    },
+    {
+      "item": "abnormals_delight:mint_cake_slice"
+    },
+    {
+      "item": "abnormals_delight:adzuki_cake_slice"
+    },
+    {
+      "item": "abnormals_delight:yucca_gateau_slice"
+    },
+    {
+      "item": "farmersdelight:apple_pie"
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cheesecake"
+    },
+    {
+      "item": "farmersdelight:chocolate_pie"
+    },
+    {
+      "item": "farmersdelight:cake_slice"
+    },
+    {
+      "item": "farmersdelight:apple_pie_slice"
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cheesecake_slice"
+    },
+    {
+      "item": "farmersdelight:chocolate_pie_slice"
+    },
+    {
+      "item": "farmersdelight:dog_food"
+    },
+    {
+      "item": "farmersdelight:horse_feed"
+    },
+    {
+      "item": "frozenup:mug_of_chocolate_milk"
+    },
+    {
+      "item": "infernalexp:cured_jerky"
+    },
+    {
+      "item": "irregularchef:traffic_jam_roll"
+    }
+  ]
+}

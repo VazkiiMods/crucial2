@@ -1,0 +1,20 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "fruitful:sustaining"
+  },
+  "providers": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "farmersdelight:apple_pie_slice"
+    },
+    {
+      "item": "farmersdelight:fruit_salad"
+    },
+    {
+      "item": "fruitful:baked_apple"
+    }
+  ]
+}
