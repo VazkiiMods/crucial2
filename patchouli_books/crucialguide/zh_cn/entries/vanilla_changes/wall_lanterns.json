@@ -1,0 +1,14 @@
+{
+	"name": "壁灯",
+	"icon": "minecraft:lantern",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:lantern",
+            "title": "壁灯",
+            "text": "$(thing)灯笼$()现在可以挂在墙壁上而非像往常那样只能放在天花板上。你还可以把它挂在$(item)木柱$()下,（$(item)锁链$()也与灯笼同理）."
+        }
+	]
+}

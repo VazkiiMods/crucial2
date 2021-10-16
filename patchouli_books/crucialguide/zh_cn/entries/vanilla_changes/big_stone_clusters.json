@@ -1,0 +1,14 @@
+{
+	"name": "大型石簇",
+	"icon": "minecraft:andesite",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+		{
+            "type": "spotlight",
+            "item": "minecraft:andesite",
+            "title": "大型石簇",
+            "text": "如像$(item)安山岩$()那样的岩石将会以大型簇团的形式生成。$(br2)不同的岩石会生成在不同的生物群系，查看$(item)JEI$()即可了解要在哪里找到它们。"
+        }
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "营火助推",
+	"icon": "minecraft:campfire",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:campfire",
+            "title": "营火助推",
+            "text": "在使用$(item)鞘翅$()飞行时经过底下放了$(item)干草块$()的$(item)营火$()会让你获得向上的助推，$(br2)$(item)灵魂营火$()则有相反的效果。"
+        }
+	]
+}

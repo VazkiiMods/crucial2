@@ -1,0 +1,14 @@
+{
+	"name": "锄头收割",
+	"icon": "minecraft:diamond_hoe",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:diamond_hoe",
+            "title": "锄头收割",
+            "text": "$(item)锄$()可以用于破坏3x3范围的植物，$(item)钻石锄$()与$(item)下界合金锄$()则能够破坏5x5范围，$(br2)另外，你可以通过右键直接收割并补种农作物，使用$(item)锄$()则能收割大范围的同类作物。"
+        }
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "盾牌附魔",
+	"icon": "minecraft:shield",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:shield",
+            "title": "盾牌附魔",
+			"text": "$(item)盾牌$()现在可以像其它物品那样附魔了，其可用附魔都来自原版并会产生对应的产生合理效果。"
+        }
+	]
+}

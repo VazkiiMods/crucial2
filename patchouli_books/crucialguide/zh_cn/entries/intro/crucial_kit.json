@@ -1,0 +1,15 @@
+{
+	"name": "重要（Crucial）装备",
+	"icon": "minecraft:chest",
+	"category": "patchouli:intro",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "text",
+			"text": "将$(thing)Crucial 2$()的所有内容都一下子摆在你眼前或许会让你感到望而却步。$(br2)要是觉得没有方向，拉出$(item)JEI$()并输入$(thing)Crucial Kit$()，之后它会为你列出一份包含了各种实用物品的小清单。"
+		},
+		{
+			"type": "patchouli:crucial_kit"
+		}
+	]
+}

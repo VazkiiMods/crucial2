@@ -1,0 +1,24 @@
+{
+	"name": "荒野之塔",
+	"icon": "minecraft:filled_map",
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "在探索的过程中你会发现一种罕见却又遍布世界的新结构——$(thing)荒野之塔$()。 这种高大建筑的顶端设置了一座$(item)传送石$()和可供搜刮的战利品箱。$(br2)$(item)传送石$()可以使使用者在各个高塔之间瞬间传送。只需要右键点击传送石，再选择你想要抵达的目的地即可。不过你只能在已经交互过的传送石之间传送。"
+		},
+        {
+            "type": "image",
+            "images": [
+                "patchouli:wild_towers.png"
+            ],
+            "title": "Wild Towers",
+            "border": true,
+            "text": "$(thing)荒野之塔$()和你能从那里得到的战利品。"
+        },
+        {
+			"type": "text",
+			"text": "$(thing)荒野之塔$()的箱子中你会至少发现一个$(item)滑翔伞$()——手持它跳入空中即可缓慢降落并滑翔一段距离。$(br2)最后，请务必记住$(item)传送石$()$(l)不可掉落$()，被玩家采掘只会使其像$(item)刷怪笼$()那样被破坏掉。"
+		}
+	]
+}

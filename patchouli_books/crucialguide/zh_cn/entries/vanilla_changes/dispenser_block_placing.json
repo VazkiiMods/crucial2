@@ -1,0 +1,14 @@
+{
+	"name": "发射器放置方块",
+	"icon": "minecraft:dispenser",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:dispenser",
+            "title": "",
+            "text": "$(item)发射器$()现在可以直接在前方放置任何方块。（同时其方向也会与发射器对应）"
+        }
+	]
+}

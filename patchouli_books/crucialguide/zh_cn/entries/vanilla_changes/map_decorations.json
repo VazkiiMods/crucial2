@@ -1,0 +1,14 @@
+{
+	"name": "地图标记",
+	"icon": "minecraft:filled_map",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:filled_map",
+            "title": "地图标记",
+            "text": "$(item)地图$()可以使用更多类型的标记了.$(br2)右键点击$(item)信标$(), $(item)磁石$(), $(item)重生锚$(), $(item)床$(), $(item)潮涌核心$(), $(item)传送门$(), 或 $(item)路标$()即可添加相应的标记。"
+        }
+	]
+}

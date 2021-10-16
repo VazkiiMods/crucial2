@@ -1,0 +1,17 @@
+{
+	"name": "特性削弱",
+	"icon": "minecraft:wooden_hoe",
+	"sortnum": 1,
+	"priority": true,
+	"category": "patchouli:vanilla_changes",
+	"pages": [
+		{
+			"type": "text",
+			"text": "为了配合新加入的内容或是单纯为了平衡，本整合包对原版基本特性作出了一些削弱性变化。"
+		},
+		{
+			"type": "text",
+			"text": "以下列出了一些被削弱的原版特性列表：$(br) $(li)$(item)村民$()被治愈后提供的折扣将不再叠加，以防玩家反复治愈村民导致价格降低至1$(br) $(li)$(item)铁傀儡$()将不再掉落$(item)铁锭$()以此来废除传统的刷铁机。 注：刷铁的渠道依旧是存在的，具体请查阅$(thing)JEI$()。"
+		}
+	]
+}

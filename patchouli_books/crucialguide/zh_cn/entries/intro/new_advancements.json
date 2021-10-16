@@ -1,0 +1,15 @@
+{
+	"name": "新进度",
+	"icon": "minecraft:grass_block",
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "为了帮助你找到更多的挑战，$(thing)Crucial 2$()添加了一些$(item)新进度$()。$(br2)点击暂停界面的$(item)进度$()按钮即可查看！$(br2)另外你可以通过使用$(thing)Shift$()键查看达成进度所需的具体要求。（尤其是物品收集类进度）"
+		},
+        {
+			"type": "text",
+			"text": "$(br2)在进度界面的左侧排列的格子是$(item)头衔$()。只要你完成了它们所关联的进度，你就可以点击使其在多人游戏中在名字的下方显示！"
+		}
+	]
+}

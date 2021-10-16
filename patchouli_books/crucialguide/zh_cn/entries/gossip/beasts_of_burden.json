@@ -1,0 +1,16 @@
+{
+	"name": "驮运之兽",
+	"icon": "minecraft:carrot_on_a_stick",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称， $(thing)热带草原$()生活着一种大型的温顺啮齿动物。他们以对苹果的嗜好，驮运能装下多个$(item)箱子$()的大量物品的本领和对$(item)木棍$()的迷之服从的特性著称。$(br2)有这样的动物在身边应该会对运输大量物品的任务大有裨益。"
+		},
+		{
+			"type": "quest",
+			"text": "发现并驯服一只“驮运之兽”。"
+		}
+	]
+}

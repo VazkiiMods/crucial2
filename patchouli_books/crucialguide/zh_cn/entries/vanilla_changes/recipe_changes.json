@@ -1,0 +1,24 @@
+{
+	"name": "合成配方",
+	"icon": "minecraft:crafting_table",
+	"category": "patchouli:vanilla_changes",
+	"read_by_default": true,
+	"sortnum": 3,
+    "priority": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "为了更贴合本整合包的主题，一些原版物品的配方发生了一些改变。$(br2)其中最相关的是$(item)末影之眼$()的变化，现在这个物品的配方将会需要一些会鼓励玩家探索新内容的物品。"
+		},
+		{
+			"type": "crafting",
+			"recipe": "crafttweaker:cool_ender_eye",
+			"recipe2": "farmersdelight:lead_from_rope"
+		},
+		{
+			"type": "crafting",
+			"recipe": "farmersdelight:painting_from_canvas",
+			"recipe2": "farmersdelight:scaffolding_from_canvas"
+		}
+	]
+}

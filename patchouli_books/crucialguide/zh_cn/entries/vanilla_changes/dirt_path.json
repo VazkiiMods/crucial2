@@ -1,0 +1,14 @@
+{
+	"name": "夯土草径",
+	"icon": "minecraft:grass_path",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:grass_path",
+            "title": "夯土草径",
+            "text": "现在可以直接在$(item)泥土$()上铲出$(item)草径$()了。在上面进一步使用$(item)锄$()可以做出$(item)水洼$()（顾名思义，这种方块是可以含水的。）$(br2)同时也可以在其它土壤方块上铲出草径。"
+        }
+	]
+}

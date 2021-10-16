@@ -1,0 +1,16 @@
+{
+	"name": "状态效果操纵",
+	"icon": "minecraft:potion",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，有一类基于牛奶的冷饮因其改变食用者体质的特性而著称。据报告称这些饮品会让将其饮用者身上的$(thing)药水效果$()发生改变。$(br2)据推测，不同的已知口味会带来不同的变化。"
+		},
+		{
+			"type": "quest",
+			"text": "了解更多关于这类导致神秘的药水效果转化的饮料的事情，亦或者直接自己做一些。"
+		}
+	]
+}

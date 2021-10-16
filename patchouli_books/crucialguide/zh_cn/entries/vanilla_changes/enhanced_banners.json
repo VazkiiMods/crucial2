@@ -1,0 +1,14 @@
+{
+	"name": "改进的旗帜",
+	"icon": "minecraft:pink_banner",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:pink_banner",
+            "title": "改进的旗帜",
+            "text": "$(item)Banners$()现在可以吊在天花板上， 以及沿着墙壁或墙放置$(br2)并且你将拥有更多的$(item)旗帜图案$()可供选择，另外现在一张旗帜可以同时堆叠16种图案，而非像原版那样只能堆叠6种。"
+        }
+	]
+}

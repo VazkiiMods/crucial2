@@ -1,0 +1,11 @@
+{
+	"name": "探索玩法设置",
+	"icon": "minecraft:leather_boots",
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "如果你更想在游戏过程中自行探索发现内容而非通过$(item)JEI$()直接把每种物品的资料摆到你面前——你可以直接通过在物品栏按下$(thing)Ctrl+O$()关闭JEI，但与此同时通过使用$(thing)R键$()或$(thing)U键$()查看配方的功能依旧会照常保留。$(br2)对于那些更想要一场专注于探索的体验的玩家来说这样的设置绝对值得推荐的。"
+		}
+	]
+}

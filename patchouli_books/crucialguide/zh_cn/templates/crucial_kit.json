@@ -1,0 +1,23 @@
+{
+	"include": [
+	    {
+	        "template": "patchouli:crucial_kit_items",
+	        "as": "incl",
+	    	"x": 12,
+	    	"y": 15
+	    }
+	],
+	"components": [
+		{
+			"type": "header",
+			"text": "物品列表",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "text",
+			"text": "$(thing)重要装备$()所包含的物品。具体信息请查看$(item)JEI$()",
+			"y": 110
+		}
+	]
+}

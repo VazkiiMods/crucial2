@@ -1,0 +1,130 @@
+{
+	"components": [
+		{
+			"type": "item",
+			"item": {
+				"item": "antiqueatlas:empty_antique_atlas"
+			},
+			"framed": true,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "quark:backpack"
+			},
+			"framed": true,
+			"x": 24,
+			"y": 0
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "bundlesplus:bundle"
+			},
+			"framed": true,
+			"x": 48,
+			"y": 0
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "paraglider:paraglider"
+			},
+			"framed": true,
+			"x": 72,
+			"y": 0
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "upgrade_aquatic:bedroll"
+			},
+			"framed": true,
+			"x": 0,
+			"y": 24
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "farsight_spyglasses:spyglass"
+			},
+			"framed": true,
+			"x": 24,
+			"y": 24
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "quark:soul_compass"
+			},
+			"framed": true,
+			"x": 48,
+			"y": 24
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "quark:trowel"
+			},
+			"framed": true,
+			"x": 72,
+			"y": 24
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "quark:abacus"
+			},
+			"framed": true,
+			"x": 0,
+			"y": 48
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "quark:glass_item_frame"
+			},
+			"framed": true,
+			"x": 24,
+			"y": 48
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "quark:crate"
+			},
+			"framed": true,
+			"x": 48,
+			"y": 48
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "storagedrawers:oak_full_drawers_1"
+			},
+			"framed": true,
+			"x": 72,
+			"y": 48
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "environmental:sawmill"
+			},
+			"framed": true,
+			"x": 0,
+			"y": 72
+		},
+		{
+			"type": "item",
+			"item": {
+				"item": "farmersdelight:cooking_pot"
+			},
+			"framed": true,
+			"x": 24,
+			"y": 72
+		}
+	]
+}

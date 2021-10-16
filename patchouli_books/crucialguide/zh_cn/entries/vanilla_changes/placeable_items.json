@@ -1,0 +1,14 @@
+{
+	"name": "可放置物品",
+	"icon": "minecraft:stick",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:stick",
+            "title": "可放置物品",
+            "text": "以下物品现在都拥有了方块形态：$(li)$(item)木棍$()$(li)$(item)烈焰棒$()$(li)$(item)火药$()$(li)$(item)书$()$(li)$(item)附魔书$()$(br2)且其中的$(item)火药$() can 可以被火点燃并很自然地激活旁边的$(item)TNT$()。"
+        }
+	]
+}

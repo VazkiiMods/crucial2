@@ -1,0 +1,17 @@
+{
+	"name": "原版调整",
+	"icon": "minecraft:diamond_hoe",
+	"sortnum": 0,
+	"priority": true,
+	"category": "patchouli:vanilla_changes",
+	"pages": [
+		{
+			"type": "text",
+			"text": "为了让游戏体验更有趣，$(thing)Crucial 2$()对许多原版特性做出了很多调整。而这一章将会为你快速提供一些你可能想知道的关键信息。$(br2)记住，这不是一个完整列表，而你肯定能够在游戏过程中发掘出更多内容。"
+		},
+		{
+			"type": "text",
+			"text": "右侧标有感叹号的都是应当尽快了解的重要条目，其余则尽可以等到有需要的时候再查看$(br2)请务必经常查阅以免错过某些有趣的变化。"
+		}
+	]
+}

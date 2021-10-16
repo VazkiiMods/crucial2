@@ -1,0 +1,16 @@
+{
+	"name": "生物群系定位",
+	"icon": "minecraft:map",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，一些村民近期已经开始出售直接指向特定生物群系的地图。$(br2)如果有某些你特别想要前往的生物群系，那为此特地拜访或许会很值得。"
+		},
+		{
+			"type": "quest",
+			"text": "找到交易群系地图的方法。"
+		}
+	]
+}

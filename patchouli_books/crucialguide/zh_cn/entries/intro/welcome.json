@@ -1,0 +1,16 @@
+{
+	"name": "欢迎游玩Crucial 2",
+	"icon": "minecraft:writable_book",
+	"sortnum": 0,
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "欢迎游玩$(thing)Crucial 2$()！这本书将会教你在游玩整合包时所需要了解的各种知识。$(br2)书中的行文方式是被特地设计成简洁亲切的形式的。因此还请你专心阅读本书以免耗费太多时间精力在这！"
+		},
+		{
+			"type": "text",
+			"text": "$(thing)Crucial 2$()是一个原版风格的整合包，致力于尽可能给予你最好的MC游戏体验的同时为各种类型的玩家加入了大批新内容。$(br2)请花一小段时间阅读$(thing)欢迎$()类别的所有内容——这些章节都不会太长，并且这会使你了解你所需要知道的一切。"
+		}
+	]
+}

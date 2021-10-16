@@ -1,0 +1,16 @@
+{
+	"name": "刷怪检测",
+	"icon": "minecraft:lantern",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，有一种方法可以让人轻易看出哪个地方可以刷怪。$(br2)“感知”或许可以作为为此努力的提示或方向。"
+		},
+		{
+			"type": "quest",
+			"text": "找出能够使你看到可刷怪地点的方法"
+		}
+	]
+}

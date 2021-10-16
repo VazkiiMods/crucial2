@@ -1,0 +1,14 @@
+{
+	"name": "村民吸引",
+	"icon": "minecraft:emerald_block",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:emerald_block",
+            "title": "村民吸引",
+            "text": "$(thing)村民$()会跟随任何手持$(item)绿宝石块$()的玩家，这样将他们移动到各处就更容易了。"
+        }
+	]
+}

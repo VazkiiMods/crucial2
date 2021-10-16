@@ -1,0 +1,16 @@
+{
+	"name": "会收纳的鸟",
+	"icon": "minecraft:egg",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，有一种鸟因它那可用于收纳工作的组织技巧而著称。$(br2)也许查阅$(item)动物图鉴$()能帮助你构思行动方案。"
+		},
+		{
+			"type": "quest",
+			"text": "找到这种古怪的，会收纳的鸟"
+		}
+	]
+}
