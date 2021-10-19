@@ -1,0 +1,50 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:slowness"
+  },
+  "providers": [
+    {
+      "item": "neapolitan:chocolate_ice_cream"
+    },
+    {
+      "item": "neapolitan:strawberry_ice_cream"
+    },
+    {
+      "item": "neapolitan:vanilla_ice_cream"
+    },
+    {
+      "item": "neapolitan:banana_ice_cream"
+    },
+    {
+      "item": "neapolitan:mint_ice_cream"
+    },
+    {
+      "item": "neapolitan:adzuki_ice_cream"
+    },
+    {
+      "item": "neapolitan:neapolitan_ice_cream"
+    },
+    {
+      "item": "peculiars:yucca_ice_cream"
+    },
+    {
+      "item": "peculiars:aloe_ice_cream"
+    },
+    {
+      "item": "peculiars:passionfruit_ice_cream"
+    },
+    {
+      "item": "seasonals:pumpkin_ice_cream"
+    },
+    {
+      "item": "seasonals:sweet_berry_ice_cream"
+    },
+    {
+      "item": "irregularchef:traffic_jam_roll"
+    },
+    {
+      "item": "irregularchef:charcoal_waffles"
+    }
+  ]
+}

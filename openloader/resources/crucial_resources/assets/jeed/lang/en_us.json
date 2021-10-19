@@ -1,0 +1,89 @@
+{
+	"effect.minecraft.absorption.description": "Adds damage absorption (additional hearts that can't be regenerated).",
+	"effect.minecraft.unluck.description": "Can reduce chances of high-quality and more loot.",
+	"effect.minecraft.bad_omen.description": "Causes an illager raid to start upon entering a village.",
+	"effect.minecraft.blindness.description": "Impairs vision and disables the ability to sprint and critical hit.",
+	"effect.minecraft.conduit_power.description": "Increases underwater visibility and mining speed, prevents drowning.",
+	"effect.minecraft.dolphins_grace.description": "Increases swimming speed (only obtainable from dolphins).",
+	"effect.minecraft.fire_resistance.description": "Prevents the affected entity from taking damage due to fire, lava and other sources of fire damage.",
+	"effect.minecraft.glowing.description": "Outlines the affected entity (can be seen through blocks).",
+	"effect.minecraft.haste.description": "Increases mining and attack speed.",
+	"effect.minecraft.health_boost.description": "Increases maximum health.",
+	"effect.minecraft.hero_of_the_village.description": "Gives discounts on trades with villagers, and makes villagers throw items at the player depending on their profession.",
+	"effect.minecraft.hunger.description": "Increases food exhaustion.",
+	"effect.minecraft.instant_damage.description": "Damages living entities, heals undead.",
+	"effect.minecraft.instant_health.description": "Heals living entities, damages undead.",
+	"effect.minecraft.invisibility.description": "Grants invisibility, making the affected entity invisible (but not the item they hold), and reduces other mobs' detection range for the affected entity.",
+	"effect.minecraft.jump_boost.description": "Increases jump height and reduces fall damage.",
+	"effect.minecraft.levitation.description": "Floats the affected entity upward.",
+	"effect.minecraft.luck.description": "Can increase chances of high-quality and more loot.",
+	"effect.minecraft.mining_fatigue.description": "Decreases mining and attack speed.",
+	"effect.minecraft.nausea.description": "Wobbles and warps the screen.",
+	"effect.minecraft.night_vision.description": "Lets the player see well in darkness and underwater.",
+	"effect.minecraft.poison.description": "Inflicts damage over time (but can't kill).",
+	"effect.minecraft.regeneration.description": "Regenerates health over time.",
+	"effect.minecraft.resistance.description": "Reduces damage.",
+	"effect.minecraft.saturation.description": "Restores hunger and saturation.",
+	"effect.minecraft.slow_falling.description": "Decreases falling speed and negates fall damage.",
+	"effect.minecraft.slowness.description": "Decreases walking speed.",
+	"effect.minecraft.speed.description": "Increases walking speed.",
+	"effect.minecraft.strength.description": "Increases melee damage.",
+	"effect.minecraft.water_breathing.description": "Prevents drowning and lets the affected entity breathe underwater.",
+	"effect.minecraft.weakness.description": "Decreases melee damage.",
+	"effect.minecraft.wither.description": "Inflicts damage over time (can kill).",
+	
+	"effect.abundance.succumbing.description": "Received damage will also inflict poison.",
+	"effect.abundance.supportive.description": "Gives regeneration to passive mobs, strength to neutral mobs and resistance to hostile mobs.",
+
+	"effect.atmospheric.gelled.description": "Extinguishes burning if not in a fire source. Also reduces damage from burning and slowly applies regeneration.",
+	"effect.atmospheric.persistence.description": "Increases movement speed proportional to lower hunger levels.",
+	"effect.atmospheric.relief.description": "Reduces the amount of damage taken from attacks.",
+	"effect.atmospheric.spitting.description": "Causes the rapid spitting of seeds as long as the effect is active.",
+	"effect.atmospheric.worsening.description": "Increases the amount of damage taken from attacks.",
+
+	"effect.autumnity.extension.description": "Increases the duration of newly applied effects.",
+	"effect.autumnity.foul_taste.description": "Once this effect is applied, the next consumed food will fill more food points. Afterwards, the effect is removed.",
+
+	"effect.buzzier_bees.sunny.description": "Makes some entities behave as if it were daytime; Phantoms ignore mobs with the effect, bees won't sleep, and undead will burn.",
+
+	"effect.environmental.panic.description": "Boosts movement speed proportional to lower health levels (applied after being hit while wearing a Healer's Pouch).",
+	"effect.environmental.serenity.description": "Prevents mobs from spawning nearby. There may be a $(thing)Gossip$() entry that can provide more insight here.",
+
+	"effect.fantasy.glowing_vision.description": "Causes Unicorns in a radius of 500 blocks to obtain the glowing effect, making them easier to locate.",
+	
+	"effect.farmersdelight.comfort.description": "Removes and prevents weakness, slowness, and hunger status effects from being applied.",
+	"effect.farmersdelight.nourished.description": "Prevents losing hunger from any action besides healing.",
+
+	"effect.fruitful.sustaining.description": "Increases the food points filled when consuming foods.",
+	
+	"effect.infernalexp.infection.description": "Slowly causes damage until at half a heart, and can also be spread to other entities through attacking them.",
+	"effect.infernalexp.luminous.description": "Causes one to become a light source, and causes undead to burn.",
+
+	"effect.neapolitan.agility.description": "Allows climbing onto any vertical surface.",
+	"effect.neapolitan.berserking.description": "Increases attack damage and defense as more mobs are killed.",
+	"effect.neapolitan.harmony.description": "Causes nearby monsters in the vicinity to run away.",
+	"effect.neapolitan.slipping.description": "Makes it hard to stand still, as if slipping around. Can be caused by stepping on a banana peel.",
+	"effect.neapolitan.sugar_rush.description": "Increases movement speed at the start of the status effect, but movement will begin to slow down as the effect goes on.",
+	"effect.neapolitan.vanilla_scent.description": "Blocks any incoming status effects from being applied.",
+	
+	"effect.quark.danger_sight.description": "Allows seeing the places where monsters can spawn. There may be a $(thing)Gossip$() entry that can provide more insight here.",
+	"effect.quark.resilience.description": "Reduces knockback from incoming attacks.",
+	
+	"effect.savageandravage.frostbite.description": "Greatly slows down movement speed, and slowly inflicts damage. Inflicted by an icey illager foe.",
+
+	"effect.seasonals.puppeteering.description": "When one with this effect attacks an entity, it copies their own movement onto the entity.",
+	"effect.seasonals.thorn_resistance.description": "Provides resistance to thorny damage sources.",
+
+	"effect.upgrade_aquatic.insomnia.description": "Increases insomnia levels.",
+	"effect.upgrade_aquatic.repellence.description": "Applies poison to any mobs collided with.",
+	"effect.upgrade_aquatic.restfulness.description": "Decreases insomnia levels.",
+	"effect.upgrade_aquatic.vibing.description": "Applies regeneration to any mobs collided with.",
+
+	"effect.alexsmobs.ender_flu.description": "Applied by Enderiophages, and will cause another one to spawn once the effect is over, inflicting damage in the process.",
+	"effect.alexsmobs.knockback_resistance.description": "Reduces knockback from incoming attacks",
+	"effect.alexsmobs.lava_vision.description": "Allows seeing under lava, as if it were like water.",
+	"effect.alexsmobs.orcas_might.description": "Grants increased attack speed after swimming with Orcas.",
+	"effect.alexsmobs.soulsteal.description": "Attacking enemies will have the chance to steal some of their health.",
+	"effect.alexsmobs.sunbird_blessing.description": "Makes falling occur slower, and also makes it easier to fly with an elytra.",
+	"effect.alexsmobs.sunbird_curse.description": "Makes falling occur faster, making it almost impossible to fly with an elytra."
+}

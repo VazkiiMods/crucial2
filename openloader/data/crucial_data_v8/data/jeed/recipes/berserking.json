@@ -1,0 +1,35 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "neapolitan:berserking"
+  },
+  "providers": [
+    {
+      "item": "neapolitan:mint_cake"
+    },
+    {
+      "item": "abnormals_delight:mint_cake_slice"
+    },
+    {
+      "item": "cookielicious:mint_cookie"
+    },
+    {
+      "item": "neapolitan:mint_leaves"
+    },
+    {
+      "item": "neapolitan:mint_candies"
+    },
+    {
+      "item": "neapolitan:mint_ice_cream"
+    },
+    {
+      "item": "neapolitan:mint_chops"
+    },
+    {
+      "item": "neapolitan:cooked_mint_chops"
+    },
+    {
+      "item": "neapolitan:mint_chocolate"
+    }
+  ]
+}

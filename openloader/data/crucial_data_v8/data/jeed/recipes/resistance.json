@@ -1,0 +1,23 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:resistance"
+  },
+  "providers": [
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "abnormals_delight:maple_glazed_bacon"
+    },
+    {
+      "item": "farmersdelight:bacon_sandwich"
+    },
+    {
+      "item": "farmersdelight:mutton_wrap"
+    },
+    {
+      "item": "farmersdelight:dog_food"
+    }
+  ]
+}

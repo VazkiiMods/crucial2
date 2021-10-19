@@ -1,0 +1,35 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "neapolitan:harmony"
+  },
+  "providers": [
+    {
+      "item": "neapolitan:adzuki_cake"
+    },
+    {
+      "item": "abnormals_delight:adzuki_cake_slice"
+    },
+    {
+      "item": "cookielicious:adzuki_cookie"
+    },
+    {
+      "item": "neapolitan:roasted_adzuki_beans"
+    },
+    {
+      "item": "neapolitan:adzuki_bun"
+    },
+    {
+      "item": "neapolitan:adzuki_ice_cream"
+    },
+    {
+      "item": "neapolitan:adzuki_stew"
+    },
+    {
+      "item": "neapolitan:strawberry_bean_bonbons"
+    },
+    {
+      "item": "neapolitan:adzuki_curry"
+    }
+  ]
+}

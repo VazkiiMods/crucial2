@@ -1,0 +1,44 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:instant_health"
+  },
+  "providers": [
+    {
+      "item": "cookielicious:strawberry_cookie"
+    },
+    {
+      "item": "neapolitan:strawberry_cake"
+    },
+    {
+      "item": "abnormals_delight:strawberry_cake_slice"
+    },
+    {
+      "item": "neapolitan:strawberries"
+    },
+    {
+      "item": "neapolitan:white_strawberries"
+    },
+    {
+      "item": "neapolitan:strawberry_ice_cream"
+    },
+    {
+      "item": "neapolitan:strawberry_scones"
+    },
+    {
+      "item": "neapolitan:chocolate_strawberries"
+    },
+    {
+      "item": "neapolitan:strawberry_banana_smoothie"
+    },
+    {
+      "item": "neapolitan:strawberry_bean_bonbons"
+    },
+    {
+      "item": "neapolitan:neapolitan_ice_cream"
+    },
+    {
+      "item": "peculiars:aloe_berry_smoothie"
+    }
+  ]
+}

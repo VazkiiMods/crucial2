@@ -1,0 +1,44 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "neapolitan:sugar_rush"
+  },
+  "providers": [
+    {
+      "item": "neapolitan:chocolate_cake"
+    },
+    {
+      "item": "abnormals_delight:chocolate_cake_slice"
+    },
+    {
+      "item": "cookielicious:chocolate_cookie"
+    },
+    {
+      "item": "neapolitan:chocolate_bar"
+    },
+    {
+      "item": "neapolitan:chocolate_spider_eye"
+    },
+    {
+      "item": "neapolitan:chocolate_ice_cream"
+    },
+    {
+      "item": "neapolitan:chocolate_strawberries"
+    },
+    {
+      "item": "neapolitan:vanilla_chocolate_fingers"
+    },
+    {
+      "item": "neapolitan:mint_chocolate"
+    },
+    {
+      "item": "neapolitan:neapolitan_ice_cream"
+    },
+    {
+      "item": "peculiars:yucca_fudge"
+    },
+    {
+      "item": "seasonals:chocolate_pumpkin_muffin"
+    }
+  ]
+}

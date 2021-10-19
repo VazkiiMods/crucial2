@@ -1,0 +1,14 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "atmospheric:relief"
+  },
+  "providers": [
+    {
+      "item": "abnormals_delight:passion_aloe_nectar"
+    },
+    {
+      "item": "peculiars:passionfruit_cake"
+    }
+  ]
+}

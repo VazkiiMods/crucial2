@@ -1,0 +1,38 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "neapolitan:agility"
+  },
+  "providers": [
+    {
+      "item": "neapolitan:banana_cake"
+    },
+    {
+      "item": "abnormals_delight:banana_cake_slice"
+    },
+    {
+      "item": "cookielicious:banana_cookie"
+    },
+    {
+      "item": "neapolitan:banana"
+    },
+    {
+      "item": "neapolitan:banana_ice_cream"
+    },
+    {
+      "item": "neapolitan:dried_banana"
+    },
+    {
+      "item": "neapolitan:banana_bread"
+    },
+    {
+      "item": "neapolitan:strawberry_banana_smoothie"
+    },
+    {
+      "item": "neapolitan:adzuki_curry"
+    },
+    {
+      "item": "irregularchef:steamed_beef_wrap"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "autumnity:foul_taste"
+  },
+  "providers": [
+    {
+      "item": "autumnity:foul_berries"
+    },
+    {
+      "item": "autumnity:foul_soup"
+    }
+  ]
+}

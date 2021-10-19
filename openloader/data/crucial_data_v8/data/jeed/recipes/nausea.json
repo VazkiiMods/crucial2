@@ -1,0 +1,20 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:nausea"
+  },
+  "providers": [
+    {
+      "item": "minecraft:pufferfish"
+    },
+    {
+      "item": "abnormals_delight:slabdish"
+    },
+    {
+      "item": "farmersdelight:nether_salad"
+    },
+    {
+      "item": "upgrade_aquatic:lionfish"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "abundance:supportive"
+  },
+  "providers": [
+    {
+      "item": "abundance:lavender_tea"
+    }
+  ]
+}

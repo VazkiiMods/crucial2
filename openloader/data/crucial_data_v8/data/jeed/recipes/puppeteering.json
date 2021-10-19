@@ -1,0 +1,23 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "seasonals:puppeteering"
+  },
+  "providers": [
+    {
+      "item": "seasonals:roasted_pumpkin"
+    },
+    {
+      "item": "seasonals:pumpkin_feast"
+    },
+    {
+      "item": "seasonals:pumpkin_ice_cream"
+    },
+    {
+      "item": "seasonals:pumpkin_cake"
+    },
+    {
+      "item": "seasonals:chocolate_pumpkin_muffin"
+    }
+  ]
+}

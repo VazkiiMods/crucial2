@@ -1,0 +1,23 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "atmospheric:spitting"
+  },
+  "providers": [
+    {
+      "item": "atmospheric:passionfruit"
+    },
+    {
+      "item": "atmospheric:shimmering_passionfruit"
+    },
+    {
+      "item": "atmospheric:passionfruit_tart"
+    },
+    {
+      "item": "peculiars:passionfruit_ice_cream"
+    },
+    {
+      "item": "peculiars:tropical_salad"
+    }
+  ]
+}

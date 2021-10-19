@@ -1,0 +1,32 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "minecraft:hunger"
+  },
+  "providers": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:pufferfish"
+    },
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "farmersdelight:chicken_cuts"
+    },
+    {
+      "item": "environmental:duck"
+    },
+    {
+      "item": "abnormals_delight:duck_fillet"
+    },
+    {
+      "item": "autumnity:turkey_piece"
+    },
+    {
+      "item": "farmersdelight:raw_pasta"
+    }
+  ]
+}

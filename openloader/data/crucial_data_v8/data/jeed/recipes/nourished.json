@@ -1,0 +1,95 @@
+{
+  "type": "jeed:effect_provider",
+  "effect":{
+    "id": "farmersdelight:nourished"
+  },
+  "providers": [
+    {
+      "item": "abnormals_delight:seared_venison"
+    },
+    {
+      "item": "abnormals_delight:passionfruit_glazed_duck"
+    },
+    {
+      "item": "abnormals_delight:dune_platter"
+    },
+    {
+      "item": "abnormals_delight:duck_noodles"
+    },
+    {
+      "item": "abnormals_delight:perch_with_mushrooms"
+    },
+    {
+      "item": "abnormals_delight:pike_with_beetroot"
+    },
+    {
+      "item": "abnormals_delight:venison_with_bamboo_shoots"
+    },
+    {
+      "item": "farmersdelight:fried_rice"
+    },
+    {
+      "item": "farmersdelight:pasta_with_meatballs"
+    },
+    {
+      "item": "farmersdelight:pasta_with_mutton_chop"
+    },
+    {
+      "item": "farmersdelight:roasted_mutton_chops"
+    },
+    {
+      "item": "farmersdelight:vegetable_noodles"
+    },
+    {
+      "item": "farmersdelight:steak_and_potatoes"
+    },
+    {
+      "item": "farmersdelight:ratatouille"
+    },
+    {
+      "item": "farmersdelight:squid_ink_pasta"
+    },
+    {
+      "item": "farmersdelight:grilled_salmon"
+    },
+    {
+      "item": "farmersdelight:roast_chicken_block"
+    },
+    {
+      "item": "farmersdelight:roast_chicken"
+    },
+    {
+      "item": "farmersdelight:stuffed_pumpkin_block"
+    },
+    {
+      "item": "farmersdelight:stuffed_pumpkin"
+    },
+    {
+      "item": "farmersdelight:honey_glazed_ham_block"
+    },
+    {
+      "item": "farmersdelight:honey_glazed_ham"
+    },
+    {
+      "item": "farmersdelight:shepherds_pie_block"
+    },
+    {
+      "item": "farmersdelight:shepherds_pie"
+    },
+    {
+      "item": "irregularchef:steamed_beef_wrap"
+    },
+    {
+      "item": "irregularchef:turkey_pot_pie"
+    },
+    {
+      "item": "irregularchef:turkey_pot_pie_slice"
+    },
+    {
+      "item": "irregularchef:turtle_gallimaufry_block"
+    },
+    {
+      "item": "irregularchef:turtle_gallimaufry"
+    }
+  ]
+}
