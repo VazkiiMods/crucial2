@@ -3,15 +3,12 @@
     "cloud_quality": "DEFAULT",
     "weather_quality": "DEFAULT",
     "enable_vignette": true,
-    "enable_fog": true,
     "enable_clouds": true,
     "smooth_lighting": "HIGH"
   },
   "advanced": {
     "use_vertex_array_objects": true,
     "use_chunk_multidraw": false,
-    "translucency_sorting": true,
-    "use_leaves_culling": false,
     "animate_only_visible_textures": true,
     "use_entity_culling": true,
     "use_particle_culling": true,
@@ -21,5 +18,10 @@
     "allow_direct_memory_access": true,
     "ignore_driver_blacklist": false
   },
-  "fps_counter": false
+  "debug": {
+    "display_fps": false
+  },
+  "notifications": {
+    "hide_donation_button": false
+  }
 }
