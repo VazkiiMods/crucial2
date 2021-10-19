@@ -79,6 +79,16 @@ craftingTable.addShapeless("cool_ender_eye",
 		ender_eye, 
 		[ender_pearl, blaze_powder, prismarine_crystals, emerald, honeycomb, sugilite]);
 
+
+// 1.17 Raw Ores =============
+
+craftingTable.addShaped("raw_silver_compact", <item:contenttweaker:raw_silver_block>, [[<item:contenttweaker:raw_silver>, <item:contenttweaker:raw_silver>, <item:contenttweaker:raw_silver>], [<item:contenttweaker:raw_silver>, <item:contenttweaker:raw_silver>, <item:contenttweaker:raw_silver>], [<item:contenttweaker:raw_silver>, <item:contenttweaker:raw_silver>, <item:contenttweaker:raw_silver>]]);
+craftingTable.addShapeless("raw_silver_uncompact", <item:contenttweaker:raw_silver> * 9, [<item:contenttweaker:raw_silver_block>]);
+JEI.addInfo(<item:contenttweaker:raw_silver>, ["Drops from Silver Ore when mined without Silk Touch. Using Fortune increases the amount dropped."]);
+
+furnace.addRecipe("raw_silver_smelting", <item:caverns_and_chasms:silver_ingot>, <item:contenttweaker:raw_silver>, 0.1, 200);
+blastFurnace.addRecipe("raw_silver_blasting", <item:caverns_and_chasms:silver_ingot>, <item:contenttweaker:raw_silver>, 0.1, 100);
+
 // TAGS ======================
 
 var tag = <tag:items:crucial:categories/building_blocks>;
