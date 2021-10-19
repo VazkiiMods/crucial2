@@ -1,0 +1,10 @@
+#How many marks you can draw with a single chalk. Default: 64
+#Range: > 0
+ChalkUses = 64
+#List of items that can make mark glow. "modid:itemRegistryName"
+#Default values: [minecraft:glowstone_dust, cavesandcliffs:glow_ink_sac, upgrade_aquatic:glowing_ink_sac]
+GlowItems = ["minecraft:glowstone_dust", "cavesandcliffs:glow_ink_sac", "upgrade_aquatic:glowing_ink_sac"]
+#If enabled, Chalks will generate in Dungeons, Abandoned Mineshafts, Planes and Savanna villages, Cartographer houses
+#Default: true
+ShouldGenerateInChests = true
+
