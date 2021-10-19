@@ -67,6 +67,8 @@
 	[blocks.iron_gate]
 		#Allows two iron gates to be opened simultaneously when on top of the other
 		double_opening = true
+		#Makes iron (ang gold) gates behave like their door counterpart so for example iron gates will only be openeable by redstone
+		door-like_gates = false
 
 	[blocks.cage]
 		#Allows all baby mobs to be captured by cages
@@ -206,10 +208,12 @@
 [tweaks]
 
 	[tweaks.wall_lantern]
-		#mod ids of mods that have lantern block that extend the base lantern class but don't look like one
+		#Mod ids of mods that have lantern block that extend the base lantern class but don't look like one
 		mod_blacklist = ["extlights"]
-		#allow wall lanterns placement
+		#Allow wall lanterns placement
 		enabled = true
+		#Gives high priority to wall lantern placement. Enable to override other wall lanterns placements, disable if it causes issues with other mods that use lower priority block click events
+		high_priority = true
 
 	[tweaks.zombie_horse]
 		#Amount of rotten flesh needed
@@ -259,7 +263,7 @@
 		enabled = true
 
 	[tweaks.throwable_bricks]
-		#throw bricks at your foes! Might break glass blocks
+		#Throw bricks at your foes! Might break glass blocks
 		enabled = true
 
 	[tweaks.raked_gravel]
@@ -267,14 +271,22 @@
 		enabled = true
 
 	[tweaks.cake_tweaks]
-		#allows you to place a cake ontop of another
+		#Allows you to place a cake on top of another
 		double_cake = true
-		#replaces normal cake placement with a directional one
+		#Replaces normal cake placement with a directional one
 		directional_cake = true
 
 	[tweaks.placeable_books]
+		#Allow all books to be placed both vertically and horizontally
+		mixed_books = false
+		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
+		#Range: 0.0 ~ 5.0
+		enchanted_book_power = 1.334
 		#Allow books and enchanted books to be placed on the ground
 		enabled = true
+		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
+		#Range: 0.0 ~ 5.0
+		book_power = 1.0
 
 	[tweaks.map_tweaks]
 		#In this section you can add custom structure maps to cartographers
@@ -309,7 +321,10 @@
 		unbound_radius = 64
 
 	[items.slingshot]
-		#Slingshot range multiplier
+		#Deceleration for the stasis projectile
+		#Range: 0.1 ~ 1.0
+		stasis_deceleration = 0.9625
+		#Slingshot range multiplier. Affect the initial projectile speed
 		#Range: 0.0 ~ 5.0
 		range_multiplier = 1.0
 		#Allow enderman to intercept any slingshot projectile
@@ -340,4 +355,9 @@
 		#Max number of robe items allowed to be stored inside a rope arrow
 		#Range: 1 ~ 256
 		capacity = 24
+
+#General settings
+[general]
+	#Turn this on to disable any interaction on blocks placed by other players. This affects item shelves, signs, flower pots, and boards. Useful for protected servers. Note that it will affect only blocks placed after this is turned on and such blocks will keep being protected after this option is disabled
+	server_protection = false
 

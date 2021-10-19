@@ -30,7 +30,7 @@
 		# - <height>,<width>: these are the added height and width that will be added to the actual mob hitbox to determine its scale inside a cage or jar 
 		#   You can increase them so this 'adjusted hitbox' will match the actual mob shape
 		#   In other words increase the to make the mob smaller
-		# - <light_level> determines if and how much light should the mob emit
+		# - <light_level> determines if and how much light should the mob emit (currently broken)
 		# - <animation_type> is used to associate each mob an animation.
 		#It can be set to the following values:
 		# - 'air' to make it stand in mid air like a flying animal (note that such mobs are set to this value by default)
@@ -40,6 +40,8 @@
 		# - 0 or any other values will be ignored and treated as default
 		#Note that only the first 3 parameters are needed, the others are optional
 		rendering_parameters = [["minecraft:bee", "0.3125", "0.0"], ["minecraft:vex", "0.0", "0.125", "0", "FLOATING"], ["minecraft:silverfish", "0.0", "0.25"], ["minecraft:chicken", "0.25", "0.3125"], ["minecraft:endermite", "0.0", "0.0", "5"], ["supplementaries:firefly", "0.0", "0.0", "9", "FLOATING"], ["druidcraft:lunar_moth", "0.375", "0.1375", "10", "FLOATING"], ["iceandfire:pixie", "0.0", "0.0", "10"], ["minecraft:fish", "0.0", "0.125", "0", "1"], ["minecraft:tropical_fish", "0.0", "0.125", "0", "2"], ["minecraft:salmon", "0.0", "0.125", "0", "3"], ["minecraft:cod", "0.0", "0.125", "0", "4"], ["minecraft:pufferfish", "0.0", "0.125", "0", "5"], ["minecraft:axolotl", "0.0", "0.125", "0", "6"], ["fins:pea_wee", "0.0", "0.125", "0", "7"], ["fins:wee_wee", "0.0", "0.125", "0", "8"], ["fins:vibra_wee", "0.0", "0.125", "0", "9"], ["fins:blu_wee", "0.0", "0.125", "0", "10"], ["fins:ornate_bugfish", "0.0", "0.125", "0", "11"], ["fins:spindly_gem_crab", "0.0", "0.125", "0", "12"], ["fins:phantom_nudibranch", "0.0", "0.125", "0", "13"], ["fins:high_finned_blue", "0.0", "0.125", "0", "14"], ["fins:teal_arrowfish", "0.0", "0.125", "0", "15"], ["fins:midnight_squid", "0.0", "0.125", "0", "16"], ["fins:banded_redback_shrimp", "0.0", "0.125", "0", "17"], ["fins:flatback_sucker", "0.0", "0.125", "0", "18"], ["fins:swamp_mucker", "0.0", "0.125", "0", "19"], ["upgrade_aquatic:lionfish", "0.0", "0.125", "0", "20"], ["upgrade_aquatic:nautilus", "0.0", "0.125", "0", "21"], ["upgrade_aquatic:pike", "0.0", "0.125", "0", "22"], ["alexsmobs:stradpole", "0.0", "0.125", "0", "23"], ["alexsmobs:blobfish", "0.0", "0.125", "0", "24"], ["unnamedanimalmod:flashlight_fish", "0.0", "0.125", "0", "25"], ["unnamedanimalmod:elephantnose_fish", "0.0", "0.125", "0", "26"], ["unnamedanimalmod:black_diamond_stingray", "0.0", "0.125", "0", "27"], ["unnamedanimalmod:humphead_parrotfish", "0.0", "0.125", "0", "28"], ["unnamedanimalmod:tomato_frog", "0.0", "0.125", "0", "29"], ["unnamedanimalmod:pacman_frog", "0.0", "0.125", "0", "30"], ["bettas:betta_fish", "0.0", "0.125", "0", "31"], ["pogfish:pogfish", "0.0", "0.125", "0", "32"], ["undergarden:gwibling", "0.0", "0.125", "0", "33"], ["environmental:koi", "0.0", "0.125", "0", "34"], ["betterendforge:end_fish", "0.0", "0.125", "0", "35"], ["betteranimalsplus:flying_fish", "0.0", "0.125", "0", "36"], ["betteranimalsplus:nautilus", "0.0", "0.125", "0", "37"], ["betteranimalsplus:eel_freshwater", "0.0", "0.125", "0", "38"], ["betteranimalsplus:eel_saltwater", "0.0", "0.125", "0", "39"], ["betteranimalsplus:lamprey", "0.0", "0.125", "0", "40"], ["betteranimalsplus:piranha", "0.0", "0.125", "0", "41"], ["betteranimalsplus:barracuda", "0.0", "0.125", "0", "42"], ["rediscovered:fish", "0.0", "0.125", "0", "1"]]
+		#A list of mobs that can be ticked on client side when inside jars. Mainly used for stuff that has particles. Can cause issues and side effects so use with care
+		tickable_inside_jars = ["iceandfire:pixie", "druidcraft:dreadfish", "druidcraft:lunar_moth", "alexsmobs:hummingbird"]
 
 	[blocks.firefly_jar]
 		#Particle in firefly jars spawn as explained below:
@@ -91,6 +93,10 @@
 		#How much the wave amplitude increases each pixel. (Amplitude increment per pixel)
 		#Range: 0.0 ~ 10.0
 		intensity_increment = 0.3
+
+	[blocks.bamboo_spikes]
+		#Populate the creative inventory with all tipped spikes variations
+		populate_creative_tab = true
 
 	[blocks.wind_vane]
 		#This should be kept period_1/3 for a symmetric animation

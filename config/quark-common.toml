@@ -196,6 +196,9 @@
 		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:endcity=quark:purpur_chest", "bettermineshafts:mineshaft=quark:oak_chest", "cobbler:shulker_factory=quark:purpur_chest", "conjurer_illager:theatre=quark:dark_oak_chest", "dungeoncrawl:dungeon=quark:oak_chest", "dungeons_plus:bigger_dungeon=quark:oak_chest", "dungeons_plus:end_ruins=quark:purpur_chest", "dungeons_plus:leviathan=quark:jungle_chest", "dungeons_plus:snowy_temple=quark:spruce_chest", "dungeons_plus:soul_prison=quark:warped_chest", "dungeons_plus:tower=quark:oak_chest", "dungeons_plus:warped_garden=quark:warped__chest", "hunterillager:hunterhouse=quark:oak_chest", "iceandfire:gorgon_temple=quark:jungle_chest", "pandoras_creatures:end_prison=quark:purpur_chest", "repurposed_structures:fortress_jungle=quark:jungle_chest", "repurposed_structures:igloo_grassy=quark:oak_chest", "repurposed_structures:igloo_stone=quark:spruce_chest", "repurposed_structures:mineshaft_birch=quark:birch_chest", "repurposed_structures:mineshaft_desert=quark:jungle_chest", "repurposed_structures:mineshaft_end=quark:purpur_chest", "repurposed_structures:mineshaft_icy=quark:spruce_chest", "repurposed_structures:mineshaft_jungle=quark:jungle_chest", "repurposed_structures:mineshaft_nether=quark:nether_brick_chest", "repurposed_structures:mineshaft_ocean=quark:prismarine_chest", "repurposed_structures:mineshaft_savanna=quark:acacia_chest", "repurposed_structures:mineshaft_stone=quark:spruce_chest", "repurposed_structures:mineshaft_swamp_or_dark_forest=quark:dark_oak_chest", "repurposed_structures:mineshaft_taiga=quark:spruce_chest", "repurposed_structures:outpost_badlands=quark:dark_oak_chest", "repurposed_structures:outpost_birch=quark:birch_chest", "repurposed_structures:outpost_crimson=quark:crimson_chest", "repurposed_structures:outpost_desert=quark:jungle_chest", "repurposed_structures:outpost_giant_tree_taiga=quark:spruce_chest", "repurposed_structures:outpost_icy=quark:spruce_chest", "repurposed_structures:outpost_jungle=quark:jungle_chest", "repurposed_structures:outpost_nether_brick=quark:nether_brick_chest", "repurposed_structures:outpost_snowy=quark:spruce_chest", "repurposed_structures:outpost_warped=quark:warped_chest", "repurposed_structures:pyramid_badlands=quark:dark_oak_chest", "repurposed_structures:pyramid_nether=quark:nether_brick_chest", "repurposed_structures:ruined_portal_end=quark:purpur_chest", "repurposed_structures:shipwreck_crimson=quark:crimson_chest", "repurposed_structures:shipwreck_end=quark:purpur_chest", "repurposed_structures:shipwreck_nether_bricks=quark:nether_brick_chest", "repurposed_structures:shipwreck_warped=quark:warped_chest", "repurposed_structures:stronghold_nether=quark:nether_brick_chest", "repurposed_structures:stronghold_stonebrick=quark:oak_chest", "repurposed_structures:temple_nether_basalt=quark:nether_brick_chest", "repurposed_structures:temple_nether_crimson=quark:crimson_chest", "repurposed_structures:temple_nether_soul=quark:warped_chest", "repurposed_structures:temple_nether_warped=quark:warped_chest", "repurposed_structures:temple_nether_wasteland=quark:nether_brick_chest", "repurposed_structures:village_badlands=quark:dark_oak_chest", "repurposed_structures:village_birch=quark:birch_chest", "repurposed_structures:village_crimson=quark:crimson_chest", "repurposed_structures:village_dark_oak=quark:dark_oak_chest", "repurposed_structures:village_giant_taiga=quark:spruce_chest", "repurposed_structures:village_jungle=quark:jungle_chest", "repurposed_structures:village_mountains=quark:spruce_chest", "repurposed_structures:village_oak=quark:oak_chest", "repurposed_structures:village_swamp=quark:oak_chest", "repurposed_structures:village_warped=quark:warped_chest", "valhelsia_structures:castle=quark:spruce_chest", "valhelsia_structures:castle_ruin=quark:oak_chest", "valhelsia_structures:desert_house=quark:spruce_chest", "valhelsia_structures:forge=quark:spruce_chest", "valhelsia_structures:player_house=quark:oak_chest", "valhelsia_structures:small_castle=quark:oak_chest", "valhelsia_structures:small_dungeon=quark:oak_chest", "valhelsia_structures:tower_ruin=quark:spruce_chest"]
 
+	[building.gold_bars]
+		"Generate In Nether Fortress" = true
+
 	[building.more_brick_types]
 		"Enable Magma Bricks" = true
 		#This also comes with a utility recipe for Red Nether Bricks
@@ -253,6 +256,7 @@
 	"Pathfinder Maps" = true
 	"Bottled Cloud" = true
 	"Color Runes" = true
+	"Endermosh Music Disc" = true
 	"Ancient Tomes" = true
 	"Slime In A Bucket" = true
 	Camera = true
@@ -317,6 +321,12 @@
 		"Show All Variants In Creative" = true
 		"Shift Range" = 3
 		"Max Items" = 640
+
+	[tools.endermosh_music_disc]
+		"Play Endermosh During Enderdragon Fight" = false
+		"Loot Quality" = 1
+		"Add To End City Loot" = true
+		"Loot Weight" = 5
 
 	[tools.color_runes]
 		"Jungle Temple Weight" = 8
@@ -869,6 +879,7 @@
 			"Is Blacklist" = false
 
 	[world.blossom_trees]
+		"Drop Leaf Particles" = true
 
 		[world.blossom_trees.orange]
 			Rarity = 100
@@ -1663,6 +1674,12 @@
 
 	[mobs.toretoise]
 		"Max Y Level" = 32
+		#The items that can be fed to toretoises to make them regrow ores.
+		Foods = ["quark:root_item", "minecraft:cactus"]
+		#Feeding a toretoise after cooldown will regrow them with a one-in-this-number chance. Set to 1 to always regrow, or 0 to disable.
+		"Regrow Chance" = 3
+		#The number of ticks from mining a tortoise until feeding it could cause it to regrow.
+		"Cooldown Ticks" = 1200
 
 		[mobs.toretoise.spawn_config]
 			#Allowed values: (0,)
@@ -1893,6 +1910,7 @@
 		"Enable L G B T Bees" = true
 		"Enable Shiny Rabbit" = true
 		"Enable Cow" = true
+		"Enable Shiny Dolphin" = true
 
 	[client.improved_tooltips]
 		"Shulker Box Require Shift" = false
@@ -2020,6 +2038,7 @@
 	"Overlay Shader" = false
 	"Custom Underground Biome" = false
 	"Game Nerfs" = true
+	Pallet = false
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0

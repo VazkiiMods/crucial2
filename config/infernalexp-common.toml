@@ -96,11 +96,6 @@
 	#CHANGING THIS REQUIRES A GAME RESTART
 	biomesListIsWhitelist = false
 
-	["World Generation"."Dangerous Configs"]
-		#Replaces existing worlds' vanilla nether biome provider with ours.
-		#THIS CAN BREAK YOUR WORLD, DO NOT TURN ON IF YOU DON'T KNOW WHAT YOU'RE DOING
-		replaceNetherBiomeProvider = true
-
 ["Bonemeal Behaviour"]
 	#Determines if a shroomlight tear will grow when a shroomlight is bonemealed (overrides shroomlightGrowChance)
 	isShroomlightGrowable = true
