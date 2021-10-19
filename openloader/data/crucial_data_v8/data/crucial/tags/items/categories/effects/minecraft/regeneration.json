@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:golden_apple",
+		"minecraft:enchanted_golden_apple",
+		"abnormals_delight:slabdish",
+		"farmersdelight:fruit_salad",
+		"farmersdelight:mixed_salad",
+		"frozenup:mug_of_chocolate_milk",
+		"frozenup:mug_of_truffle_hot_chocolate",
+		"inspirations:heartbeet"
+	]
+}

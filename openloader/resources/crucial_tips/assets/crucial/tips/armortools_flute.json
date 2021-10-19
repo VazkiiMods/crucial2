@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Armor and Tools",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "The Flute will teleport any nearby non-sitting pet to you. You can also bind it to a specific pet to work on sitting pets!"
+  }
+}

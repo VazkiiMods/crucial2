@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Controls",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Left clicking on an item in JEI will generally tell you how to get that item."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Food Effects",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "Ice cream flavors give greatly enhanced versions of their base effects, but slow for a short bit after consuming."
+  }
+}

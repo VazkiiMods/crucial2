@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Potion Effects",
+    "bold": true,
+    "color": "light_purple"
+  },
+  "tip": {
+    "text": "Extension will add 30 seconds to any incoming effects received. Great for short, beneficial effects!"
+  }
+}

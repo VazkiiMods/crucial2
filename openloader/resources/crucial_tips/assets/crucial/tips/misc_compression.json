@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Miscellaneous",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Many items can be compressed into blocks, like ingots in vanilla. If you have a lot of something, try filling a crafting grid!"
+  }
+}

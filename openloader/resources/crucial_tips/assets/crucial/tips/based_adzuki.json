@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Based Foods",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "Adzuki-based foods make nearby hostile mobs run away. Helpful when overwhelmed, but watch out for ranged attacks!"
+  }
+}

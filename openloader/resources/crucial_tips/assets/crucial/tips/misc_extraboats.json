@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Miscellaneous",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Furnace boats go faster when powered with coal. Large boats can seat 4. Chest boats... well, you know."
+  }
+}

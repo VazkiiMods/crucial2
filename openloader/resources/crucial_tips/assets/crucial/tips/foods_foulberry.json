@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Food Effects",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "Foul berries and foul berry stew make other foods taste better, restoring more hunger points after being consumed."
+  }
+}

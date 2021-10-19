@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Miscellaneous",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You will not be affected by cactai/berry bushes if you are wearing a chestplate/boots."
+  }
+}

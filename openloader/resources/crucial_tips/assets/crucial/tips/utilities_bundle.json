@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Utilities",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Bundles can store up to 64 different items into a single slot. Wait, what version is this again?"
+  }
+}

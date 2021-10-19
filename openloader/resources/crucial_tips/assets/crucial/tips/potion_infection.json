@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Potion Effects",
+    "bold": true,
+    "color": "light_purple"
+  },
+  "tip": {
+    "text": "Infection will cause damage over time, but will also spread to nearby mobs (for 1/2 the remaining time)."
+  }
+}

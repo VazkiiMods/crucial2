@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Miscellaneous",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Runes change the color of enchanted items. Use dyes to color them, or Corundum to make them!"
+  }
+}

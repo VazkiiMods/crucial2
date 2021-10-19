@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:pufferfish",
+		"minecraft:poisonous_potato",
+		"minecraft:spider_eye",
+		"neapolitan:chocolate_spider_eye",
+		"upgrade_aquatic:lionfish"
+	]
+}

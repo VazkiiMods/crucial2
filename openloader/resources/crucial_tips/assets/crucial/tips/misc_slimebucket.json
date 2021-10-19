@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Miscellaneous",
+    "bold": true,
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Slimes can be bucketed and will get excited when you're within a slime chunk."
+  }
+}
