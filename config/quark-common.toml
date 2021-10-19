@@ -359,7 +359,7 @@
 	"Lock Rotation" = true
 	"Dragon Scales" = true
 	"Replace Scaffolding" = true
-	"Axe Leaf Harvesting" = true
+	"Axe Leaf Harvesting" = false
 	"Sign Editing" = true
 	"Dirt To Path" = true
 	"Simple Harvest" = true
