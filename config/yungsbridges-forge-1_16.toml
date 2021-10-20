@@ -19,6 +19,10 @@
 	# Note that it is ONLY an attempt - the bridge will only spawn if the chunk contains fitting river terrain.
 	###########################################################################################################
 	["YUNG's Bridges"."Spawn Rates"]
+		# The spawn rate for large bridges.
+		# Default: 2
+		#Range: 1 ~ 100
+		"Large Bridge Spawn Rate" = 2
 		# The spawn rate for small bridges.
 		# Default: 25
 		#Range: 1 ~ 100
@@ -27,8 +31,4 @@
 		# Default: 6
 		#Range: 1 ~ 100
 		"Medium Bridge Spawn Rate" = 6
-		# The spawn rate for large bridges.
-		# Default: 2
-		#Range: 1 ~ 100
-		"Large Bridge Spawn Rate" = 2
 

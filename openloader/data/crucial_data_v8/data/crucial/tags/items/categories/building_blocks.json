@@ -1099,6 +1099,11 @@
 		"architects_palette:runic_glowstone",
 		"supplementaries:deepslate_lamp",
 		"supplementaries:end_stone_lamp",
-		"supplementaries:blackstone_lamp"
+		"supplementaries:blackstone_lamp",
+		"infernalexp:luminous_stem",
+		"infernalexp:luminous_hyphae",
+		"infernalexp:stripped_luminous_stem",
+		"infernalexp:stripped_luminous_hyphae",
+		"quark:dusky_myalite"
 	]
 }

@@ -15,6 +15,7 @@
 		"environmental:sawmill",
 		"bundlesplus:bundle",
 		"quark:soul_compass",
-		"supplementaries:slingshot"
+		"supplementaries:slingshot",
+		"chalk:white_chalk"
 	]
 }

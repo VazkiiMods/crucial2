@@ -305,6 +305,16 @@
           }
         ]
       }
+    },
+    "music_disc_endermosh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "quark:music_disc_endermosh"
+          }
+        ]
+      }
     }
   }
 }

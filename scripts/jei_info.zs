@@ -382,7 +382,9 @@ i(<item:quark:yellow_slime_block>, s);
 // Chimes
 s = "This can be right clicked to remove your insomnia level without having to sleep. It also makes a nice sound!";
 i(<item:chimes:bamboo_chimes>, s);
-i(<item:chimes:metal_chimes>, s);
+i(<item:chimes:iron_chimes>, s);
+
+i(<item:chimes:carved_bamboo_chimes>, "Can be acquired by using an Axe on a Bamboo Wind Chime.");
 
 // Traveller's Armor
 i(<item:environmental:architect_belt>, "Part of the Traveller's Armor set. Can be bought by master level Masons, Carpenters, or Ceramists and leveled up with use.");
@@ -548,6 +550,7 @@ i(<item:farmersdelight:cutting_board>, "Right click with an item and a knife to 
 i(<item:farmersdelight:rich_soil>, "Can be used to plant crops. Crops planted in this will grow faster, as if bone mealed every now and then. Can be tilled into Rich Farmland, which doesn't get trampled.");
 i(<item:farmersdelight:brown_mushroom_colony>, "Can be gotten by planting Brown Mushrooms on Rich Soil under sufficient darkness.");
 i(<item:farmersdelight:red_mushroom_colony>, "Can be gotten by planting Red Mushrooms on Rich Soil under sufficient darkness.");
+i(<item:farmersdelight:skillet>, "Can be placed down or used to cook in a handheld fashion if near a heat source. Also packs a punch as a heavyweight melee weapon.");
 
 // Quark Tweaks
 i(<item:minecraft:poisonous_potato>, "Feeding this to a baby animal may poison it and prevent it from growing.");
@@ -586,7 +589,6 @@ i(<item:quark:dragon_scale>, "Drops from enderdragons summoned by a player. Can 
 i(<item:quark:soul_bead>, "Drops from wraiths, in the Soul Sand Valley. When right clicked, will fly towards the nearest Nether Fortress.");
 i(<item:quark:forgotten_hat>, "Drops from Forgotten skeletons, deep underground.");
 i(<item:quark:frog_leg>, "Drops from Frogs, which spawn in swamps. Breed them with Spider Eyes, or any type of Fish.");
-
 i(<item:quark:slime_in_a_bucket>, "Right click a tiny slime to capture it. It gets excited when you're in a slime chunk!");
 
 // Alex's Mobs
@@ -686,6 +688,7 @@ i(<item:quark:iron_ladder>, "Can stand without a block behind it as long as at l
 i(<item:quark:iron_rod>, "Breaks any blocks in front when pushed by a piston. Can also be used to mine the ore on a Toretoise.");
 i(<item:quark:magnet>, "Can push or pull metallic blocks when powered. When moved, stonecutters break the block above, and hoppers drop the item in front, or plant, if it's a seed.");
 i(<item:quark:myalite_crystal>, "Can be found in Spiral Pillars in the outer end. If placed in a line, can redirect any enderman or ender pearl teleportations between the two ends.");
+i(<item:quark:dusky_myalite>, "Can be found in Spiral Pillars in the outer end.");
 i(<item:quark:obsidian_pressure_plate>, "Only players can trigger this.");
 i(<item:quark:pipe>, "Put items in with a hopper. Items prefer to flow downwards, then forwards, sideways, and lastly upwards. Disable specific pipes with a redstone signal. Items can also fall out of and into open ends.");
 i(<item:quark:redstone_inductor>, "Adds up the inputs, can also be locked by pointing a repeater at it.");
@@ -696,6 +699,7 @@ i(<item:quark:trowel>, "Randomly places one block from your hotbar, great for pa
 i(<item:quark:abacus>, "Right Click a block to set the source - from there, the Abacus will count the distance from the block you're looking at to that one, provided you're holding it.");
 i(<item:quark:crate>, "Can hold up to 1000 items. Unlike Chests, the amount of slots expands based on the different items you put in, so it's good for holding a high variety of things.");
 i(<item:quark:chute>, "Can receive items with Hoppers and the like. Any items that end up in it are immediately ejected downwards into the world.");
+i(<item:quark:music_disc_endermosh>, "Can be acquired from chests in End Cities");
 
 i(<item:structuredcrafting:structured_crafter>, "When powered, crafts based on the recipe in blocks or items in chests behind it in a 3x3 area.");
 
@@ -710,7 +714,7 @@ i(<item:supplementaries:jar>, "Can store many liquids, potion, stew, cookies, fi
 i(<item:supplementaries:jar_tinted>, "Can capture vexes and endermites.");
 i(<item:supplementaries:notice_board>, "Can display maps, or the first page of a written book.");
 i(<item:supplementaries:pedestal>, "Can display items, including their names. Can also be stacked vertically for decor.");
-i(<item:supplementaries:piston_launcher>, "Pushes entities, like the original piston mod! You can also jump on it while it's extended.");
+i(<item:supplementaries:spring_launcher>, "Pushes entities, like the original piston mod! You can also jump on it while it's extended.");
 i(<item:supplementaries:planter>, "Can grow crops just like irrigated farmland.");
 i(<item:supplementaries:planter_rich>, "Can grow crops just like irrigated farmland, but with the faster speed of rich soil.");
 i(<item:supplementaries:redstone_illuminator>, "Outputs a lower light level the higher the redstone signal its given.");
@@ -835,3 +839,21 @@ i(<item:infernalexp:quartz_glass_pane>, "Can withstand explosions better than re
 i(<item:storagedrawers:oak_full_drawers_1>, "Can store up to 1000 stacks of any one item. Items can be added by right-clicking and removed by left-clicking. Sneak while doing so to move entire stacks.");
 
 i(<item:bundlesplus:bundle>, "Can hold up to 64 items. Right click items on it to add them and right click the Bundle item to remove them.");
+
+s = "Can be used on a block to draw an arrow or a dot, based on which part of the block it's used on. If sneaking, can make a cross instead, is also available in a variety of other colors.";
+i(<item:chalk:white_chalk>, s);
+i(<item:chalk:orange_chalk>, s);
+i(<item:chalk:magenta_chalk>, s);
+i(<item:chalk:light_blue_chalk>, s);
+i(<item:chalk:yellow_chalk>, s);
+i(<item:chalk:lime_chalk>, s);
+i(<item:chalk:pink_chalk>, s);
+i(<item:chalk:gray_chalk>, s);
+i(<item:chalk:light_gray_chalk>, s);
+i(<item:chalk:cyan_chalk>, s);
+i(<item:chalk:purple_chalk>, s);
+i(<item:chalk:blue_chalk>, s);
+i(<item:chalk:brown_chalk>, s);
+i(<item:chalk:green_chalk>, s);
+i(<item:chalk:red_chalk>, s);
+i(<item:chalk:black_chalk>, s);

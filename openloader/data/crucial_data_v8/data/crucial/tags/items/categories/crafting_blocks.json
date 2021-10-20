@@ -23,6 +23,7 @@
 		"farmersdelight:cooking_pot",
 		"farmersdelight:cutting_board",
 		"structuredcrafting:structured_crafter",
-		"endergetic:ender_campfire"
+		"endergetic:ender_campfire",
+		"farmersdelight:skillet"
 	]
 }

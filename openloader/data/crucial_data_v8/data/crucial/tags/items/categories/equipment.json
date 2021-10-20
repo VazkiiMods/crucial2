@@ -99,6 +99,10 @@
 		"supplementaries:rope_arrow",
 		"alexsmobs:emu_leggings",
 		"alexsmobs:fedora",
-		"conjurer_illager:conjurer_hat"
+		"conjurer_illager:conjurer_hat",
+		"farmersdelight:skillet",
+		"infernalexp:ascus_bomb",
+		"infernalexp:glowsilk_bow",
+		"infernalexp:blindsight_tongue_whip"
 	]
 }

@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Utilities",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Chalk comes in 16 different colors and can be used to draw dots, crosses, and arrows on blocks."
+  }
+}
