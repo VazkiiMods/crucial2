@@ -517,3 +517,5 @@ stoneCutter.removeRecipe(<item:charm:refined_obsidian_wall>);
 var tag_carpets = <tag:items:minecraft:carpets>;
 tag_carpets.remove(<item:farmersdelight:full_tatami_mat>);
 tag_carpets.remove(<item:farmersdelight:half_tatami_mat>);
+
+villagerTrades.removeWanderingTrade(1, <item:supplementaries:flax_seeds>);
