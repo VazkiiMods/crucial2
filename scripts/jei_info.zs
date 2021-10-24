@@ -815,7 +815,7 @@ i(<item:infernalexp:crimson_nylium_path>, s);
 i(<item:infernalexp:warped_nylium_path>, s);
 i(<item:infernalexp:soul_soil_path>, s);
 
-i(<item:infernalexp:infernal_painting>, "Displays different art from the regular one.");
+i(<item:infernalexp:infernal_painting>, "Displays different art from the regular one. Temporarily disabled as it will crash your game if you place it.");
 i(<item:infernalexp:raw_hogchop>, "Dropped by Hoglins.");
 i(<item:infernalexp:glowcoal>, "Dropped by Glowsquitoes, which can be found in the Glowstone Canyon biome in the Nether.");
 i(<item:infernalexp:glownuggets>, "Dropped by mining Dullstone or Dimstone, which can be found in the Glowstone Canyon biome in the Nether.");
