@@ -67,9 +67,5 @@
 	"block.architects_palette.chiseled_gold_ore_bricks": "Gold Etched Stone Bricks",
 	"block.architects_palette.chiseled_emerald_ore_bricks": "Emerald Etched Stone Bricks",
 	"block.architects_palette.chiseled_diamond_ore_bricks": "Diamond Etched Stone Bricks",
-	"block.architects_palette.blank_acacia_totem": "Acacia Totem",
-	
-	"patchouli.guide_book": "Crucial 2 Guide",
-	"patchouli.guide_book.ver": "Dev Version",
-	"patchouli.guide_book.desc": "The guide for Crucial 2!$(br2)Here you'll find everything you need to know about the modpack."
+	"block.architects_palette.blank_acacia_totem": "Acacia Totem"
 }
