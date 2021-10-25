@@ -1,9 +1,9 @@
 {
-    "name": "patchouli.guide_book",
-    "book_texture": "patchouli:textures/gui/book_purple.png",
-    "model": "patchouli:book_purple",
-    "landing_text": "patchouli.guide_book.desc",
-    "version": "0",
-    "subtitle": "patchouli.guide_book.ver",
-    "show_progress": false
+	"name": "Crucial 2 Guide",
+	"book_texture": "patchouli:textures/gui/book_purple.png",
+	"model": "patchouli:book_purple",
+	"landing_text": "The guide for Crucial 2!$(br2)Here you'll find everything you need to know about the modpack.",
+	"version": "0",
+	"subtitle": "Dev Version",
+	"show_progress": false
 }
