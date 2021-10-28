@@ -726,10 +726,10 @@ stoneCutter.removeRecipe(<item:create:overgrown_dark_scoria>);
 
 // Overlap Removal ================================================================================
 craftingTable.removeRecipe(<item:supplementaries:turn_table>);
-craftingTable.removeRecipe(<item:supplementaries:piston_launcher>);
+craftingTable.removeRecipe(<item:supplementaries:spring_launcher>);
 craftingTable.removeRecipe(<item:structuredcrafting:structured_crafter>);
 JEI.hideItem(<item:supplementaries:turn_table>);
-JEI.hideItem(<item:supplementaries:piston_launcher>);
+JEI.hideItem(<item:supplementaries:spring_launcher>);
 JEI.hideItem(<item:structuredcrafting:structured_crafter>);
 craftingTable.removeRecipe(<item:quark:white_stool>);
 craftingTable.addShapeless("white_stool_convert", <item:create:white_seat>, [<item:quark:white_stool>]);
