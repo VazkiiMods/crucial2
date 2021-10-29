@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+      "ianon:atum_sand_plains": 1,
+      "antiqueatlas:sand": 4,
+      "antiqueatlas:sand2": 4
+    }
+  }
+}

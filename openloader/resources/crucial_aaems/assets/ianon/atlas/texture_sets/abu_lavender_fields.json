@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+      "ianon:abu_lavfields1": 1,
+      "ianon:abu_lavfields2": 1,
+      "ianon:abu_lavfields3": 4
+    }
+  }
+}

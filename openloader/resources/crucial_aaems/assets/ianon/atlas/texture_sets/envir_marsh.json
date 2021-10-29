@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+	  "ianon:envir_marsh": 4,
+	  "ianon:envir_marsh2": 4,
+	  "ianon:envir_marsh3": 1,
+	  "ianon:envir_marsh4": 1
+    }
+  }
+}

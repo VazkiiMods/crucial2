@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+      "ianon:endergetic_poise_forest": 2,
+	  "ianon:endergetic_poise_forest2": 1,
+	  "ianon:endergetic_poise_forest3": 2
+    }
+  }
+}

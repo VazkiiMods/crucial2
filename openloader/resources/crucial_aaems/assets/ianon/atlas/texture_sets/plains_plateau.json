@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+      "antiqueatlas:plateau_grass": 1,
+	  "antiqueatlas:plateau_grass2": 1,
+      "antiqueatlas:plateau_grass3": 1
+    },
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+	  "ianon:autum_yellow_spotted_forest": 1,
+	  "ianon:autum_yellow_spotted_forest2": 1,
+	  "ianon:autum_yellow_spotted_forest3": 1
+    }
+  }
+}

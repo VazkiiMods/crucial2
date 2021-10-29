@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+      "ianon:atum_sand_plains": 1
+    },
+    "stitch": {
+      "antiqueatlas:mesa": "both",
+      "antiqueatlas:bryce": "both"
+    }
+  }
+}

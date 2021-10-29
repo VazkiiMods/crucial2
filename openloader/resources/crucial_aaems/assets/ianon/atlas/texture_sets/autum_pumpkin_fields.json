@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+      "ianon:autum_pumpkin_fields": 1,
+	  "ianon:autum_pumpkin_fields2": 1,
+	  "ianon:autum_pumpkin_fields3": 1,
+	  "ianon:autum_pumpkin_fields4": 2
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+      "antiqueatlas:sand_bushes": 1,
+      "ianon:atum_dead_oasis": 2
+    },
+    "stitch": {
+      "antiqueatlas:mesa": "both",
+      "antiqueatlas:bryce": "both"
+    }
+  }
+}

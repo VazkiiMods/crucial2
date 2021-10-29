@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+      "ianon:ars_forest": 2,
+	  "ianon:ars_forest2": 2,
+	  "ianon:ars_forest3": 2,
+	  "ianon:ars_forest4": 2,
+	  "ianon:ars_forest5": 1
+    }
+  }
+}

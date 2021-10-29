@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+      "antiqueatlas:sand": 4,
+      "antiqueatlas:sand": 4,
+      "antiqueatlas:desert_hills": 8,
+      "ianon:atum_sand_dunes": 1
+    }
+  }
+}

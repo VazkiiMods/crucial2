@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+      "ianon:bayou_bayou": 1,
+	  "ianon:bayou_bayou2": 1,
+	  "ianon:bayou_bayou3": 3
+    }
+  }
+}

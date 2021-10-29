@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+      "ianon:autum_maple_forest_hills": 2,
+	  "ianon:autum_maple_forest_hills2": 2,
+	  "ianon:autum_maple_forest_hills3": 2,
+	  "ianon:autum_maple_forest_hills4": 1
+    }
+  }
+}

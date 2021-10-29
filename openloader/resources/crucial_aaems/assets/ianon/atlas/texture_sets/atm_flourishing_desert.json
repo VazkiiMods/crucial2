@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+      "ianon:atm_sand": 1,
+      "ianon:atm_sand2": 1,
+      "ianon:atm_sand3": 1,
+      "ianon:atm_sand_bushes": 1,
+      "ianon:atm_dunes": 1
+    },
+    "stitch": {
+      "antiqueatlas:mesa": "both",
+      "antiqueatlas:bryce": "both"
+    }
+  }
+}

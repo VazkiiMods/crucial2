@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+	  "antiqueatlas:desert_hills": 4,
+      "antiqueatlas:sand": 2,
+      "antiqueatlas:sand2": 2,
+      "antiqueatlas:sand3": 2,
+      "antiqueatlas:sand_bushes": 1,
+      "ianon:atm_dunes": 1,
+      "antiqueatlas:cacti": 1
+    },
+    "stitch": {
+      "antiqueatlas:mesa": "both",
+      "antiqueatlas:bryce": "both"
+    }
+  }
+}

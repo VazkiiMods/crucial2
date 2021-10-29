@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+	  "ianon:envir_blossom_valleys": 1,
+	  "ianon:envir_blossom_valleys2": 1,
+	  "ianon:envir_blossom_valleys3": 3,
+	  "ianon:envir_blossom_valleys4": 2
+    }
+  }
+}

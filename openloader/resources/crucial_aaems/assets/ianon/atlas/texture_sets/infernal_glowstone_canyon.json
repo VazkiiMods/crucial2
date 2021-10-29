@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+	  "ianon:infernal_glowstone_canyon": 1,
+	  "ianon:infernal_glowstone_canyon2": 2
+    }
+  }
+}

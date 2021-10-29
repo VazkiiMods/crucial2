@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "data": {
+    "textures": {
+      "antiqueatlas:plateau_savanna": 1,
+      "antiqueatlas:plateau_savanna2": 1,
+      "antiqueatlas:plateau_savanna3": 1,
+      "antiqueatlas:plateau_savanna4": 4
+    }
+  }
+}
