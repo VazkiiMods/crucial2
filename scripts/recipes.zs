@@ -300,13 +300,11 @@ craftingTable.addShaped("blank_acacia_totem",
 
 // Canvas for Infernal Painting
 craftingTable.removeRecipe(infernal_painting);
-/* Temporarily off
 craftingTable.addShaped("canvas_infernal_painting", 
 		infernal_painting, 
 		[[blaze_rod, stick, blaze_rod], 
 		[stick, canvas, stick], 
 		[blaze_rod, stick, blaze_rod]]);
-*/
 
 // Consistent cookies
 craftingTable.removeRecipe(gooseberry_jam_cookie);
