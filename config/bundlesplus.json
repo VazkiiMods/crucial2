@@ -1,5 +1,6 @@
 {
   "STACK_MODE": "UpTo16",
   "BUTTON": "Right",
-  "TOOLTIP": false
+  "BUNDLE_TOOLTIP": true,
+  "SHULKER_TOOLTIP": false
 }
