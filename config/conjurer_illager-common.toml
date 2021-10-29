@@ -1,16 +1,16 @@
 
 [theater]
-	#Spacing between structures
+	#The average distance between structures of this type, measured in chunks.
 	#Range: > 1
 	spacing = 40
-	#Offsets the spacing of the structures randomly
+	#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 	#Range: > 0
 	offset = 10
-	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
-	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
 	biomes = "dark_forest, dark_forest_hills"
-	#Chance of generating in an allowed chunk
+	#Percent chance of generating in an allowed chunk.
 	#Range: 0.0 ~ 1.0
 	probability = 0.5
 

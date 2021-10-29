@@ -13,6 +13,8 @@
 	#Number of background threads to handle sound effect calculations (0 is default)
 	#Range: 0 ~ 8
 	"Background Workers" = 0
+	#Enable HRTF processing in OpenAL
+	"Enable HRTF Processing" = false
 	#Occlude RECORDS sounds
 	"Occlude RECORDS Sounds" = false
 	#Enable sound occlusion calculations (sound muffling when positioned behind blocks)
