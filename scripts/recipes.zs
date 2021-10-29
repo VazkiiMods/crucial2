@@ -58,6 +58,7 @@ var gooseberry_jam = <item:bayou_blues:gooseberry_jam>;
 var gooseberry_jam_cookie = <item:bayou_blues:gooseberry_jam_cookie>;
 var grimwood_sapling = <item:atmospheric:grimwood_sapling>;
 var honeycomb = <item:minecraft:honeycomb>;
+var honey_bottle = <item:minecraft:honey_bottle>;
 var ice_bricks = <item:environmental:ice_bricks>;
 var infernal_painting = <item:infernalexp:infernal_painting>;
 var iron_ingot = <tag:items:forge:ingots/iron>;
@@ -102,6 +103,7 @@ var soul_lantern = <item:minecraft:soul_lantern>;
 var spruce_sapling = <item:minecraft:spruce_sapling>;
 var spyglass = <item:farsight_spyglasses:spyglass>;
 var stick = <item:minecraft:stick>;
+var sticky_piston = <item:minecraft:sticky_piston>;
 var stone_bricks = <item:minecraft:stone_bricks>;
 var strawberries = <item:neapolitan:strawberries>;
 var strawberry_cookie = <item:cookielicious:strawberry_cookie>;
@@ -370,3 +372,9 @@ craftingTable.addShaped("seed_pouch_leather",
 		[[air, _string, air],
 		[leather, seed_pouchable, leather],
 		[air, leather, air]]);
+
+// Honey Sticky Piston
+craftingTable.addShaped("honey_sticky_piston",
+		sticky_piston,
+		[[honey_bottle],
+		[piston]]);

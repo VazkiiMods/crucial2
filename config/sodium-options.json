@@ -18,7 +18,7 @@
     "allow_direct_memory_access": true,
     "ignore_driver_blacklist": false
   },
-  "debug": {
+  "experimental": {
     "display_fps": false
   },
   "notifications": {
