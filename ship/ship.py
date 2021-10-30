@@ -188,4 +188,4 @@ def zip_files(src_dir, denom):
 	out_file = out_dir + '/' + pack_name.replace(' ', '') + '-' + version + denom
 	shutil.make_archive(out_file, 'zip', src_dir)
 
-build_pack()1.
+build_pack()
