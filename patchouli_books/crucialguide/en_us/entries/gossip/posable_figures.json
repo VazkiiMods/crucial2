@@ -1,0 +1,16 @@
+{
+	"name": "Posable Figures",
+	"icon": "minecraft:armor_stand",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, $(item)Armor Stands$() are no longer the hottest sticks on the block.$(br2)Supposedly, a new type of figure that allows for full joint movement and posing has been discovered. It's even known to take hits without a scratch!"
+		},
+		{
+			"type": "quest",
+			"text": "Discover this new method of display."
+		}
+	]
+}

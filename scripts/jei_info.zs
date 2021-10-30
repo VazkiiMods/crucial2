@@ -857,3 +857,5 @@ i(<item:chalk:brown_chalk>, s);
 i(<item:chalk:green_chalk>, s);
 i(<item:chalk:red_chalk>, s);
 i(<item:chalk:black_chalk>, s);
+
+i(<item:mannequins:mannequin>, "Can be given two items to hold, as well as chest and head slot armor, can also be posed in any way you want.");
