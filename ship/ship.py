@@ -6,7 +6,8 @@ pack_name = 'Crucial 2'
 pack_author = 'Vazkii'
 
 book_file = 'patchouli_books/crucialguide/book.json'
-files_to_copy = ['config', 'defaultconfigs', 'openloader', 'patchouli_books', 'scripts', 'packmenu']
+dirs_to_copy = ['config', 'defaultconfigs', 'openloader', 'patchouli_books', 'scripts', 'packmenu']
+files_to_copy = ['SERVER_README.txt']
 blacklisted_files = [
 	'config/jei/ingredient-list-mod-sort-order.ini',
 	'config/jei/ingredient-list-type-sort-order.ini',
@@ -47,6 +48,7 @@ def build_pack():
 	clear_dir(out_dir)
 
 	# Client files
+	copy_files(dirs_to_copy, '', overrides_dir)
 	copy_files(files_to_copy, '', overrides_dir)
 	clear_files(overrides_dir, blacklisted_files)
 	update_book()
@@ -61,12 +63,12 @@ def build_pack():
 
 # Ensure we're working in the right directory
 def ensure_directory():
-	for f in files_to_copy:
+	for f in dirs_to_copy:
 		if not os.path.isdir(f):
 			os.chdir('..')
 			break
 
-	for f in files_to_copy:
+	for f in dirs_to_copy:
 		assert os.path.isdir(f)
 
 # Clear out old dir, make new one

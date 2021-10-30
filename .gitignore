@@ -9,5 +9,6 @@
 !/packmenu/
 !/ship/
 !/.gitignore
+!SERVER_README.txt
 /ship/output
 *.pyc
