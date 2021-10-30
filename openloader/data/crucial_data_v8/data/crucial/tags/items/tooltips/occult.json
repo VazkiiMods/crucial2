@@ -1,6 +1,10 @@
 {
 	"replace": false,
 	"values": [
-		
+		"minecraft:elytra",
+		"#minecraft:shulker_boxes",
+		"endergetic:booflo_vest",
+		"minecraft:end_crystal",
+		"quark:dragon_scale"
 	]
 }

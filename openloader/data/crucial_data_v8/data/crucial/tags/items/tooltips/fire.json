@@ -17,6 +17,10 @@
 		"charm:netherite_nugget",
 		"farmersdelight:netherite_knife",
 		"supplementaries:netherite_door",
-		"supplementaries:netherite_trapdoor"
+		"supplementaries:netherite_trapdoor",
+		"supplementaries:safe",
+		"quark:flamerang",
+		"minecraft:lodestone",
+		"alexsmobs:straddleboard"
 	]
 }

@@ -1,6 +1,14 @@
 {
 	"replace": false,
 	"values": [
-		
+		"quark:soul_compass",
+		"minecraft:totem_of_undying",
+		"minecraft:player_head",
+		"minecraft:wither_skeleton_skull",
+		"minecraft:skeleton_skull",
+		"minecraft:zombie_head",
+		"minecraft:creeper_head",
+		"minecraft:dragon_head",
+		"minecraft:respawn_anchor"
 	]
 }

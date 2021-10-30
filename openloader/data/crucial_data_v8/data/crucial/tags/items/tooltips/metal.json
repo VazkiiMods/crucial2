@@ -1,6 +1,13 @@
 {
 	"replace": false,
 	"values": [
-		
+		"quark:magnet",
+		"quark:pipe",
+		"structuredcrafting:structured_crafter",
+		"supplementaries:pulley_block",
+		"supplementaries:spring_launcher",
+		"supplementaries:turn_table",
+		"minecraft:sticky_piston",
+		"minecraft:piston"
 	]
 }

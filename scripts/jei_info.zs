@@ -693,7 +693,7 @@ i(<item:quark:obsidian_pressure_plate>, "Only players can trigger this.");
 i(<item:quark:pipe>, "Put items in with a hopper. Items prefer to flow downwards, then forwards, sideways, and lastly upwards. Disable specific pipes with a redstone signal. Items can also fall out of and into open ends.");
 i(<item:quark:redstone_inductor>, "Adds up the inputs, can also be locked by pointing a repeater at it.");
 i(<item:quark:redstone_randomizer>, "Randomly repeats the input to the left or right.");
-i(<item:quark:seed_pouch>, "Can hold 10 stacks of a seed. Right click the seed onto it to add. Can also place 1 or 3x3 if sneaking.");
+i(<item:quark:seed_pouch>, "Can hold 10 stacks of anything plantable. Right click the item onto it to add. Can also place 1 or 3x3 if sneaking. Plantable items have a flowery tooltip for easy identification.");
 i(<item:quark:soul_compass>, "Points to where you last died.");
 i(<item:quark:trowel>, "Randomly places one block from your hotbar, great for paths!");
 i(<item:quark:abacus>, "Right Click a block to set the source - from there, the Abacus will count the distance from the block you're looking at to that one, provided you're holding it.");

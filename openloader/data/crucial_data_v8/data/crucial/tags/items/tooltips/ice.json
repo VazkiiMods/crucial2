@@ -1,6 +1,9 @@
 {
 	"replace": false,
 	"values": [
-		
+		"minecraft:trident",
+		"upgrade_aquatic:elder_eye",
+		"minecraft:heart_of_the_sea",
+		"minecraft:conduit"
 	]
 }

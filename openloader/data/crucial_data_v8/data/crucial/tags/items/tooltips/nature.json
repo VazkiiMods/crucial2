@@ -1,6 +1,9 @@
 {
 	"replace": false,
 	"values": [
-		
+		"skinnedlanterns:tiny_potato_lantern_block",
+		"skinnedlanterns:tiny_potato_soul_lantern_block",
+		"#quark:seed_pouch_holdable",
+		"quark:seed_pouch"
 	]
 }
