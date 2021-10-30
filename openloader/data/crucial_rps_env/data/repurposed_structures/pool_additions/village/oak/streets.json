@@ -1,0 +1,15 @@
+{
+  "name": "repurposed_structures:village/oak/streets",
+  "fallback": "repurposed_structures:village/oak/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "environmental:village/streets/street_oak",
+        "processors": "repurposed_structures:village/oak/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

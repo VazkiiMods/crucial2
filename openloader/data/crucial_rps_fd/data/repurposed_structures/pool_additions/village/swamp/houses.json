@@ -1,0 +1,15 @@
+{
+  "name": "repurposed_structures:village/swamp/houses",
+  "fallback": "repurposed_structures:village/swamp/terminators",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "farmersdelight:village/swamp/houses/compost_pile_1",
+        "processors": "repurposed_structures:village/swamp/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

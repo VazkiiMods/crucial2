@@ -1,0 +1,15 @@
+{
+  "name": "environmental:village/birch_houses",
+  "fallback": "environmental:village/birch_houses",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "environmental:village/carpenter_house_birch_1",
+        "processors": "repurposed_structures:village/birch/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

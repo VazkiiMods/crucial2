@@ -1,0 +1,15 @@
+{
+  "name": "repurposed_structures:village/dark_forest/streets",
+  "fallback": "repurposed_structures:village/dark_forest/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "environmental:village/streets/street_dark_forest",
+        "processors": "repurposed_structures:village/dark_forest/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

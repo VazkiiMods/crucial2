@@ -1,0 +1,40 @@
+#
+# Only make supports downward if there is land below.
+# (Helps make structure look better in floating island worlds instead of support going down to void at world bottom)
+pillarOnlyToLand = true
+#
+# Add Birch Mansions to modded Birch biomes.
+# 1 for spawning in most chunks and 1001 for none.
+#Range: 1 ~ 1001
+mansionBirchMaxChunkDistance = 1001
+#
+# Add Jungle Mansions to modded Jungle biomes.
+# 1 for spawning in most chunks and 1001 for none.
+#Range: 1 ~ 1001
+mansionJungleMaxChunkDistance = 1001
+#
+# Add Oak Mansions to modded forest category biomes that are not birch or dark forest.
+# 1 for spawning in most chunks and 1001 for none.
+#Range: 1 ~ 1001
+mansionOakMaxChunkDistance = 1001
+#
+# Add Savanna Mansions to modded Savanna biomes.
+# 1 for spawning in most chunks and 1001 for none.
+#Range: 1 ~ 1001
+mansionSavannaMaxChunkDistance = 1001
+#
+# Add Taiga Mansions to modded non-snowy Taiga biomes.
+# 1 for spawning in most chunks and 1001 for none.
+#Range: 1 ~ 1001
+mansionTaigaMaxChunkDistance = 1001
+#
+# Add Desert Mansions to modded Desert biomes.
+# 1 for spawning in most chunks and 1001 for none.
+#Range: 1 ~ 1001
+mansionDesertMaxChunkDistance = 1001
+#
+# Add Snowy Mansions to modded Snowy biomes.
+# 1 for spawning in most chunks and 1001 for none.
+#Range: 1 ~ 1001
+mansionSnowyMaxChunkDistance = 1001
+

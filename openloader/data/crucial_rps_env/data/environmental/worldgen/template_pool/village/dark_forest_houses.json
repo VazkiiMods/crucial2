@@ -1,0 +1,15 @@
+{
+  "name": "environmental:village/dark_forest_houses",
+  "fallback": "environmental:village/dark_forest_houses",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "environmental:village/carpenter_house_dark_forest_1",
+        "processors": "repurposed_structures:village/dark_forest/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

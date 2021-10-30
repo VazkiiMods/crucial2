@@ -1,0 +1,24 @@
+{
+  "name": "repurposed_structures:village/mountains/houses",
+  "fallback": "repurposed_structures:village/mountains/terminators",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "environmental:village/carpenter_house_mountains_1",
+        "processors": "repurposed_structures:village/mountains/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "environmental:village/ceramist_house_mountains_1",
+        "processors": "repurposed_structures:village/mountains/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}
