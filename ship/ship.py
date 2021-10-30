@@ -15,7 +15,7 @@ blacklisted_files = [
 	'config/sodium-options.json'
 ]
 
-server_files_to_copy = ['setup_server.bat', 'setup_server.sh', 'SERVER_BLACKLIST.txt']
+server_files_to_copy = ['setup_server.bat', 'setup_server.sh', 'SERVER_README.txt']
 server_mods_blacklist = [
 	401648, # BetterF3
 	440465, # Panorama
@@ -188,4 +188,4 @@ def zip_files(src_dir, denom):
 	out_file = out_dir + '/' + pack_name.replace(' ', '') + '-' + version + denom
 	shutil.make_archive(out_file, 'zip', src_dir)
 
-build_pack()
+build_pack()1.
