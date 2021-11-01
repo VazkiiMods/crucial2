@@ -81,7 +81,7 @@
 #Crying obsidian and refined obsidian can be used to construct nether portal frames.
 "MorePortalFrames enabled" = true
 #Villages can spawn in swamps and jungles.
-"MoreVillageBiomes enabled" = true
+"MoreVillageBiomes enabled" = false
 #Playing a record in a jukebox stops background music from playing at the same.
 #Creative music tracks may also play in survival mode.
 "MusicImprovements enabled" = true
