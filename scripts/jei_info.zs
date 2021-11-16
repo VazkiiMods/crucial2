@@ -717,6 +717,7 @@ i(<item:supplementaries:pedestal>, "Can display items, including their names. Ca
 i(<item:supplementaries:spring_launcher>, "Pushes entities, like the original piston mod! You can also jump on it while it's extended.");
 i(<item:supplementaries:planter>, "Can grow crops just like irrigated farmland.");
 i(<item:supplementaries:planter_rich>, "Can grow crops just like irrigated farmland, but with the faster speed of rich soil.");
+i(<item:supplementaries:planter_rich_soul>, "Can grow crops just like irrigated farmland, but with the faster speed of rich soul soil.");
 i(<item:supplementaries:redstone_illuminator>, "Outputs a lower light level the higher the redstone signal its given.");
 i(<item:supplementaries:sack>, "Can store items, you can take it with you like a shulker box. If you try to carry multiple, it'll slow you down.");
 i(<item:supplementaries:turn_table>, "While powered, keeps rotating whatever block is attached to it. Also rotates entities on top. Right click to invert the rotation.");
@@ -816,7 +817,6 @@ i(<item:infernalexp:warped_nylium_path>, s);
 i(<item:infernalexp:soul_soil_path>, s);
 
 i(<item:infernalexp:infernal_painting>, "Displays different art from the regular one.");
-i(<item:infernalexp:raw_hogchop>, "Dropped by Hoglins.");
 i(<item:infernalexp:glowcoal>, "Dropped by Glowsquitoes, which can be found in the Glowstone Canyon biome in the Nether.");
 i(<item:infernalexp:glownuggets>, "Dropped by mining Dullstone or Dimstone, which can be found in the Glowstone Canyon biome in the Nether.");
 i(<item:infernalexp:blindsight_tongue>, "Dropped by Blindsights, which can be found in the Glowstone Canyon biome in the Nether.");
@@ -859,3 +859,14 @@ i(<item:chalk:red_chalk>, s);
 i(<item:chalk:black_chalk>, s);
 
 i(<item:mannequins:mannequin>, "Can be given two items to hold, as well as chest and head slot armor, can also be posed in any way you want.");
+
+i(<item:nethers_delight:hoglin_loin>, "Dropped by Hoglins.");
+i(<item:nethers_delight:hoglin_hide>, "Dropped when hitting a Hoglin with a knife.");
+i(<item:nethers_delight:strider_slice>, "Dropped when hitting a Strider with a knife.");
+i(<item:nethers_delight:blackstone_stove>, "Serves as heat source for a Cooking Pot.");
+i(<item:nethers_delight:rich_soul_soil>, "Under sufficient darkness, this can grow Mimicarnations on top of it.");
+i(<item:nethers_delight:mimicarnation>, "Can be combined with any flower or sapling in a cooking pot to duplicate it.");
+i(<item:nethers_delight:crimson_fungus_colony>, "Can be gotten by planting Crimson Fungi on Rich Soil under sufficient darkness.");
+i(<item:nethers_delight:warped_fungus_colony>, "Can be gotten by planting Warped Fungi on Rich Soil under sufficient darkness.");
+i(<item:nethers_delight:propelplant_cane>, "Can be safely harvested by cutting a propelplant with a knife. Can also be chopped on a cutting board for gunpowder.");
+i(<item:nethers_delight:propelpearl>, "Can be obtained by shearing a propelplant.");
