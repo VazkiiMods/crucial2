@@ -866,7 +866,7 @@ i(<item:nethers_delight:strider_slice>, "Dropped when hitting a Strider with a k
 i(<item:nethers_delight:blackstone_stove>, "Serves as heat source for a Cooking Pot.");
 i(<item:nethers_delight:rich_soul_soil>, "Under sufficient darkness, this can grow Mimicarnations on top of it.");
 i(<item:nethers_delight:mimicarnation>, "Can be combined with any flower or sapling in a cooking pot to duplicate it.");
-i(<item:nethers_delight:crimson_fungus_colony>, "Can be gotten by planting Crimson Fungi on Rich Soil under sufficient darkness.");
-i(<item:nethers_delight:warped_fungus_colony>, "Can be gotten by planting Warped Fungi on Rich Soil under sufficient darkness.");
+i(<item:nethers_delight:crimson_fungus_colony_item>, "Can be gotten by planting Crimson Fungi on Rich Soil under sufficient darkness.");
+i(<item:nethers_delight:warped_fungus_colony_item>, "Can be gotten by planting Warped Fungi on Rich Soil under sufficient darkness.");
 i(<item:nethers_delight:propelplant_cane>, "Can be safely harvested by cutting a propelplant with a knife. Can also be chopped on a cutting board for gunpowder.");
 i(<item:nethers_delight:propelpearl>, "Can be obtained by shearing a propelplant.");
