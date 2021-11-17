@@ -860,8 +860,8 @@ i(<item:chalk:black_chalk>, s);
 
 i(<item:mannequins:mannequin>, "Can be given two items to hold, as well as chest and head slot armor, can also be posed in any way you want.");
 
-i(<bettas:blackwater_bottle>, "Can be used to heal Betta Fish.");
+i(<item:bettas:blackwater_bottle>, "Can be used to heal Betta Fish.");
 
 s = "Consult The Book of Baby Fat for more information.";
-i(<babyfat:ranchu>, s);
-i(<babyfat:water_lettuce>, s);
+i(<item:babyfat:ranchu>, s);
+i(<item:babyfat:water_lettuce>, s);
