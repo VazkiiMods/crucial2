@@ -1,0 +1,16 @@
+{
+	"name": "Enchanting Ores",
+	"icon": "minecraft:emerald",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, new ores that apply enchantments to items using a Smithing Table can be found throught all the dimensions.$(br2)Supposedly, these ores can apply enchantments that can't be applied through an Enchantment Table!"
+		},
+		{
+			"type": "quest",
+			"text": "Discover these new ores of enchantment."
+		}
+	]
+}
