@@ -859,3 +859,14 @@ i(<item:chalk:red_chalk>, s);
 i(<item:chalk:black_chalk>, s);
 
 i(<item:mannequins:mannequin>, "Can be given two items to hold, as well as chest and head slot armor, can also be posed in any way you want.");
+
+i(<item:miningmaster:fire_ruby>, "Grants Flame, Fire Aspect, or Fire Protection, dependent on the item. Most commonly found under desert biomes.");
+i(<item:miningmaster:ice_sapphire>, "Grants Frost Walker, Freezing, or Snowpiercer, dependent on the item. Most commonly found under icy biomes.");
+i(<item:miningmaster:spirit_garnet>, "Grants Thorns, Leeching, or Loyalty, dependent on the item. Most commonly found under extremely hilly biomes.");
+i(<item:miningmaster:haste_peridot>, "Grants Efficiency, Quick Draw, or  Lure, dependent on the item. Most commonly found under jungle biomes.");
+i(<item:miningmaster:lucky_citrine>, "Grants Fortune, Looting, or Luck of the Sea, dependent on the item. Most commonly found under mesa biomes.");
+i(<item:miningmaster:dive_aquamarine>, "Grants Aqua Affinity, Riptide, or Grace, dependent on the item. Most commonly found under ocean biomes.");
+i(<item:miningmaster:heart_rhodonite>, "Grants Heartfelt, which can be applied to all armour pieces. Most commonly found in the Soul Sand Valley.");
+i(<item:miningmaster:power_pyrite>, "Grants Power, Sharpness, or Stonebreaker, dependent on the item. Most commonly found in the Nether Wastes.");
+i(<item:miningmaster:kinetic_opal>, "Grants Blast Protection, Smelting, or Runner, dependent on the item. Most commonly found in the Basalt Deltas");
+i(<item:miningmaster:air_malachite>, "Grants Feather Falling, Knight Jump, or Floatation, dependent on the item. Most commonly found in the Outer End.");
