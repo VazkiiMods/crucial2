@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cobblestone",
+    "minecraft:stone",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:granite",
+    "quark:brimstone",
+    "quark:permafrost",
+    "quark:marble",
+    "quark:jasper",
+    "quark:limestone",
+    "quark:slate",
+    "quark:cobbled_deepslate",
+    "minecraft:netherrack"
+  ]
+}
