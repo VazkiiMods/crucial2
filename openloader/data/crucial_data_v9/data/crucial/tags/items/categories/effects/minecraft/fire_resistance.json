@@ -4,6 +4,10 @@
 		"minecraft:enchanted_golden_apple",
 		"abnormals_delight:slabdish",
 		"farmersdelight:melon_popsicle",
-		"irregularchef:charcoal_waffles"
+		"irregularchef:charcoal_waffles",
+		"nethers_delight:strider_slice",
+		"nethers_delight:ground_strider",
+		"nethers_delight:grilled_strider",
+		"nethers_delight:magma_gelatin"
 	]
 }
