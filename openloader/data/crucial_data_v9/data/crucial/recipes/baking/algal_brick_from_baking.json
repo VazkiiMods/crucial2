@@ -1,0 +1,9 @@
+{
+  "type": "environmental:baking",
+  "ingredient": {
+    "item": "architects_palette:algal_blend"
+  },
+  "result": "architects_palette:algal_brick",
+  "experience": 0.3,
+  "cookingtime": 100
+}
