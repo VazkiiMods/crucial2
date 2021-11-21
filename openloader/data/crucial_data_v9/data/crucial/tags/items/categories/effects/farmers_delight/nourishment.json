@@ -29,6 +29,11 @@
 		"irregularchef:turkey_pot_pie",
 		"irregularchef:turkey_pot_pie_slice",
 		"irregularchef:turtle_gallimaufry_block",
-		"irregularchef:turtle_gallimaufry"
+		"irregularchef:turtle_gallimaufry",
+		"nethers_delight:grilled_strider",
+		"nethers_delight:roast_hoglin_snout",
+		"nethers_delight:roast_hoglin_ham",
+		"nethers_delight:roast_hoglin",
+		"nethers_delight:stuffed_hoglin_item"
 	]
 }
