@@ -128,7 +128,7 @@
 	"effect.buzzier_bees.sunny.description": "Makes some entities behave as if it were daytime; Phantoms ignore mobs with the effect, bees won't sleep, and undead will burn.",
 
 	"effect.environmental.panic.description": "Boosts movement speed proportional to lower health levels (applied after being hit while wearing a Healer's Pouch).",
-	"effect.environmental.serenity.description": "Prevents mobs from spawning nearby. There may be a $(thing)Gossip$() entry that can provide more insight here.",
+	"effect.environmental.serenity.description": "Prevents mobs from spawning nearby. There may be a Gossip entry that can provide more insight here.",
 
 	"effect.fantasy.glowing_vision.description": "Causes Unicorns in a radius of 500 blocks to obtain the glowing effect, making them easier to locate.",
 	
@@ -137,7 +137,7 @@
 
 	"effect.fruitful.sustaining.description": "Increases the food points filled when consuming foods.",
 	
-	"effect.infernalexp.infection.description": "Slowly causes damage until at half a heart, and can also be spread to other entities through attacking them.",
+	"effect.infernalexp.infection.description": "Slowly causes damage until at half a heart, and can also be spread to nearby entities.",
 	"effect.infernalexp.luminous.description": "Causes one to become a light source, and causes undead to burn.",
 
 	"effect.neapolitan.agility.description": "Allows climbing onto any vertical surface.",
@@ -147,7 +147,7 @@
 	"effect.neapolitan.sugar_rush.description": "Increases movement speed at the start of the status effect, but movement will begin to slow down as the effect goes on.",
 	"effect.neapolitan.vanilla_scent.description": "Blocks any incoming status effects from being applied.",
 	
-	"effect.quark.danger_sight.description": "Allows seeing the places where monsters can spawn. There may be a $(thing)Gossip$() entry that can provide more insight here.",
+	"effect.quark.danger_sight.description": "Allows seeing the places where monsters can spawn. There may be a Gossip entry that can provide more insight here.",
 	"effect.quark.resilience.description": "Reduces knockback from incoming attacks.",
 	
 	"effect.savageandravage.frostbite.description": "Greatly slows down movement speed, and slowly inflicts damage. Inflicted by an icey illager foe.",
