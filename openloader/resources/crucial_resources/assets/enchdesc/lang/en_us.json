@@ -1,0 +1,6 @@
+{
+  "tooltip.enchdesc.activate": "%s%s%s for Descriptions",
+  
+  "enchantment.minecraft.feather_falling.desc": "Reduces fall damage and prevents crop trampling.",
+  "enchantment.minecraft.bane_of_arthropods.desc": "Increases damage against bugs and makes Cobwebs break faster."
+}
