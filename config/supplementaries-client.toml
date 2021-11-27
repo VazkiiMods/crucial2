@@ -126,6 +126,10 @@
 		#Note that they will not be centered vertically this way
 		supported_blocks = true
 
+	[blocks.turn_table]
+		#Display visual particles when a block is rotated
+		turn_particles = true
+
 #Particle parameters
 [particles]
 

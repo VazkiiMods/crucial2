@@ -22,7 +22,8 @@ server_mods_blacklist = [
 	238372, # Neat
 	448233, # Entity Culling
 	460819, # LazyDFU
-	441114  # Neko's Enchanted Books
+	441114, # Neko's Enchanted Books
+	532127  # Legendary Tooltips
 ]
 server_blacklisted_files = [
 	'openloader/resources',

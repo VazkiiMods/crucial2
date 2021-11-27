@@ -15,7 +15,7 @@
 	# Custom borders are broken into 16 "levels", with level 0 being intended for the "best" or "rarest" items. Only level 0 has a custom border built-in, but others can be added with resource packs.
 	[client.custom_borders]
 
-		# The start and end border colors of each levels' borders. Note that they can be entered as a hex code in the format "0xAARRGGBB" for convenience.
+		# The start and end border colors of each levels' borders. Note that they can be entered as a hex code in the format "0xAARRGGBB" or "0xRRGGBB" for convenience.
 		[client.custom_borders.colors]
 			#Range: 0 ~ 4294967295
 			level0_start_color = 4288244002
@@ -87,14 +87,14 @@
 			priorities = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1, 2]
 
 		# Entry types:
-		#   Item name - Use item name for vanilla items or include mod name for modded items.  Examples: minecraft:stick, iron_ore
-		#   Tag - $ followed by tag name.  Examples: $forge:stone or $planks
-		#   Mod name - @ followed by mod identifier.  Examples: @spoiledeggs
-		#   Rarity - ! followed by item's rarity.  This is ONLY vanilla rarities.  Examples: !uncommon, !rare, !epic
-		#   Item name color - # followed by color hex code, the hex code must match exactly.  Examples: #23F632
-		#   Display name - % followed by any text.  Will match any item with this text in its tooltip display name.  Examples: %[Uncommon]
-		#   Tooltip text - ^ followed by any text.  Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: ^Rarity: Legendary
-		#
+		#   Item name - Use item name for vanilla items or include mod name for modded items.  Examples: "minecraft:stick", "iron_ore"
+		#   Tag - $ followed by tag name.  Examples: "$forge:stone" or "$planks"
+		#   Mod name - @ followed by mod identifier.  Examples: "@spoiledeggs"
+		#   Rarity - ! followed by item's rarity.  This is ONLY vanilla rarities.  Examples: "!uncommon", "!rare", "!epic"
+		#   Item name color - # followed by color hex code, the hex code must match exactly.  Examples: "#23F632"
+		#   Display name - % followed by any text.  Will match any item with this text in its tooltip display name.  Examples: "%[Uncommon]"
+		#   Tooltip text - ^ followed by any text.  Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: "^Legendary"
+		#   NBT tag - & followed by tag name and optional comparator (=, >, <, or !=) and value, in the format <tag><comparator><value> or just <tag>.  Examples: "&Damage=0", "&Tier>1", "&Broken", "&map!=128"
 		[client.custom_borders.definitions]
 			level0_entries = ["!epic", "$crucial:tooltips/gold"]
 			level1_entries = ["!rare", "$crucial:tooltips/silver"]

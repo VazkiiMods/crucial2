@@ -1954,6 +1954,7 @@
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
 		"Dark Souls Mode" = true
+		#Totem will always spawn if the player killer is himself.
 		"Spawn Totem on PVP Kill" = false
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = false
@@ -2019,6 +2020,7 @@
 		"Extra Chance Per Looting" = 0.5
 		#Set this to true to allow the backpacks to be unequipped even with items in them
 		"Super Op Mode" = false
+		"Items In Backpack Tick" = true
 
 	[oddities.crate]
 		"Max Items" = 1000
@@ -2039,6 +2041,7 @@
 	"Custom Underground Biome" = false
 	"Game Nerfs" = true
 	Pallet = false
+	"Microcrafting Helper" = false
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0

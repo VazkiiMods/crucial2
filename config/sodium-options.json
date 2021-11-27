@@ -2,6 +2,7 @@
   "quality": {
     "cloud_quality": "DEFAULT",
     "weather_quality": "DEFAULT",
+    "leaves_quality": "DEFAULT",
     "enable_vignette": true,
     "enable_clouds": true,
     "smooth_lighting": "HIGH"
@@ -19,7 +20,8 @@
     "ignore_driver_blacklist": false
   },
   "experimental": {
-    "display_fps": false
+    "display_fps": false,
+    "display_fps_pos": 2
   },
   "notifications": {
     "hide_donation_button": false
