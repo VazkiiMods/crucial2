@@ -98,8 +98,8 @@ craftingTable.addShaped("mechanical_saw", <item:create:mechanical_saw>, [
 // Food and Drinks ================================================================================
 <recipetype:create:compacting>.removeRecipe(<item:create:bar_of_chocolate>);
 <recipetype:create:compacting>.addRecipe("neapolitan_chocolate_create", "none", <item:neapolitan:chocolate_bar> * 4, [], [<fluid:create:chocolate> * 250]);
-<recipetype:create:compacting>.addRecipe("wheat_pancake", "none", <item:autumnity:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:minecraft:wheat> * 2], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:compacting>.addRecipe("flour_pancake", "none", <item:autumnity:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:create:wheat_flour> * 2], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:compacting>.addRecipe("wheat_pancake", "none", <item:supplementaries:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:minecraft:wheat> * 2], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:compacting>.addRecipe("flour_pancake", "none", <item:supplementaries:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:create:wheat_flour> * 2], [<fluid:minecraft:milk> * 250]);
 <recipetype:create:emptying>.addRecipe("hot_cocoa_emptying", <item:minecraft:glass_bottle>, <fluid:create:chocolate> * 250, <item:farmersdelight:hot_cocoa>);
 <recipetype:create:filling>.addRecipe("hot_cocoa_filling", <item:farmersdelight:hot_cocoa>, <item:minecraft:glass_bottle>, <fluid:create:chocolate> * 250);
 <recipetype:create:emptying>.addRecipe("milk_emptying", <item:minecraft:glass_bottle>, <fluid:minecraft:milk> * 250, <item:neapolitan:milk_bottle>);
