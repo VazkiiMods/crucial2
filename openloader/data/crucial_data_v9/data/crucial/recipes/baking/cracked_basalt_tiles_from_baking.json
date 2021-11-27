@@ -1,0 +1,9 @@
+{
+  "type": "environmental:baking",
+  "ingredient": {
+    "item": "architects_palette:basalt_tiles"
+  },
+  "result": "architects_palette:cracked_basalt_tiles",
+  "experience": 0.1,
+  "cookingtime": 100
+}

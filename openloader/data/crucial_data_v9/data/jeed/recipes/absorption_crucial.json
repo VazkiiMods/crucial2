@@ -5,6 +5,9 @@
   },
   "providers": [
     {
+      "item": "farmersdelight:apple_cider"
+    },
+    {
       "item": "minecraft:golden_apple"
     },
     {
