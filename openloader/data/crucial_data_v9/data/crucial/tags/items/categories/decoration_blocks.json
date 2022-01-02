@@ -865,6 +865,23 @@
 		"farmersdelight:green_canvas_sign",
 		"farmersdelight:red_canvas_sign",
 		"farmersdelight:black_canvas_sign",
-		"mannequins:mannequin"
+		"mannequins:mannequin",
+		"supplementaries:present",
+		"supplementaries:present_white",
+		"supplementaries:present_orange",
+		"supplementaries:present_magenta",
+		"supplementaries:present_light_blue",
+		"supplementaries:present_yellow",
+		"supplementaries:present_lime",
+		"supplementaries:present_pink",
+		"supplementaries:present_gray",
+		"supplementaries:present_light_gray",
+		"supplementaries:present_cyan",
+		"supplementaries:present_purple",
+		"supplementaries:present_blue",
+		"supplementaries:present_brown",
+		"supplementaries:present_green",
+		"supplementaries:present_red",
+		"supplementaries:present_black"
 	]
 }

@@ -859,3 +859,22 @@ i(<item:chalk:red_chalk>, s);
 i(<item:chalk:black_chalk>, s);
 
 i(<item:mannequins:mannequin>, "Can be given two items to hold, as well as chest and head slot armor, can also be posed in any way you want.");
+
+s = "Can hold one item, as well as a small message to give to a friend.";
+i(<item:supplementaries:present>, s);
+i(<item:supplementaries:present_white>, s);
+i(<item:supplementaries:present_orange>, s);
+i(<item:supplementaries:present_magenta>, s);
+i(<item:supplementaries:present_light_blue>, s);
+i(<item:supplementaries:present_yellow>, s);
+i(<item:supplementaries:present_lime>, s);
+i(<item:supplementaries:present_pink>, s);
+i(<item:supplementaries:present_gray>, s);
+i(<item:supplementaries:present_light_gray>, s);
+i(<item:supplementaries:present_cyan>, s);
+i(<item:supplementaries:present_purple>, s);
+i(<item:supplementaries:present_blue>, s);
+i(<item:supplementaries:present_brown>, s);
+i(<item:supplementaries:present_green>, s);
+i(<item:supplementaries:present_red>, s);
+i(<item:supplementaries:present_black>, s);

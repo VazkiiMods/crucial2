@@ -206,7 +206,23 @@
 		"supplementaries:planter_rich",
 		"architects_palette:sunstone",
 		"architects_palette:moonstone",
-		"bamboo_blocks:bamboo_beehive"
-
+		"bamboo_blocks:bamboo_beehive",
+		"supplementaries:present",
+		"supplementaries:present_white",
+		"supplementaries:present_orange",
+		"supplementaries:present_magenta",
+		"supplementaries:present_light_blue",
+		"supplementaries:present_yellow",
+		"supplementaries:present_lime",
+		"supplementaries:present_pink",
+		"supplementaries:present_gray",
+		"supplementaries:present_light_gray",
+		"supplementaries:present_cyan",
+		"supplementaries:present_purple",
+		"supplementaries:present_blue",
+		"supplementaries:present_brown",
+		"supplementaries:present_green",
+		"supplementaries:present_red",
+		"supplementaries:present_black"
 	]
 }
