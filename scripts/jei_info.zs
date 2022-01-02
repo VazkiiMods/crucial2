@@ -758,6 +758,7 @@ i(<item:endergetic:music_disc_kilobyte>, "Can be acquired from chests in End Cit
 i(<item:berry_good:music_disc_fox>, "Can be acquired from Foxes, who randomly spawn with it in their mouths.");
 i(<item:infernalexp:music_disc_soul_spunk>, "Is rarely dropped by Embodies, which spawn in Soul Sand Valleys.");
 i(<item:infernalexp:music_disc_flush>, "Is rarely dropped by Glowsquitoes, which spawn in the Glowstone Canyon biome in the Nether.");
+i(<item:neapolitan:music_disc_hullabaloo>, "Much ado about the Chimpanzeee Hullabaloo...");
 
 s = "Can be cooked by placing above a fire or campfire. This will result in a slight loss of fish.";
 i(<item:fish_in_planks:cod_barrel>, s);

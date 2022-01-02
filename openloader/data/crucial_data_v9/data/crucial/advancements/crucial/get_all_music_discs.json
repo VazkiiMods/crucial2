@@ -315,6 +315,16 @@
           }
         ]
       }
+    },
+    "music_disc_hullabaloo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "neapolitan:music_disc_hullabaloo"
+          }
+        ]
+      }
     }
   }
 }

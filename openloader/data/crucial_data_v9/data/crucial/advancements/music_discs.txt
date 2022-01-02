@@ -28,3 +28,4 @@ quark:music_disc_chatter
 infernalexp:music_disc_soul_spunk
 infernalexp:music_disc_flush
 quark:music_disc_endermosh
+neapolitan:music_disc_hullabaloo
