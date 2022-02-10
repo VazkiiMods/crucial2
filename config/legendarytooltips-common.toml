@@ -112,4 +112,6 @@
 			level13_entries = []
 			level14_entries = []
 			level15_entries = []
+			# Enter blacklist selectors here using the same format as above.  Any items that match these selectors will NOT show a border.
+			blacklist = []
 
