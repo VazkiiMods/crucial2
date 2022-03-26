@@ -733,6 +733,7 @@ i(<item:supplementaries:raked_gravel>, "Can be gotten by using a Hoe on Gravel. 
 i(<item:supplementaries:flower_box>, "Can be placed on the floor or the side of a block. Holds up to 3 flowers.");
 i(<item:minecraft:rotten_flesh>, "Can be used to turn a Skeleton Horse into a Zombie Horse, by feeding it an entire stack.");
 i(<item:supplementaries:slingshot>, "When used, fires the first block in your hotbar as a projectile. Try using it to throw torches!");
+i(<item:supplementaries:wrench>, "Can be used to rotate any directional facing block.");
 
 s = "Works like a normal wooden one when unpowered. When powered, ignores interactions.";
 i(<item:supplementaries:gold_door>, s);

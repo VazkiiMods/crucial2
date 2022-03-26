@@ -110,6 +110,7 @@
 		"chalk:brown_chalk",
 		"chalk:green_chalk",
 		"chalk:red_chalk",
-		"chalk:black_chalk"
+		"chalk:black_chalk",
+		"supplementaries:wrench"
 	]
 }
