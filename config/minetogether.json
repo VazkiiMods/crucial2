@@ -1,0 +1,20 @@
+{
+  "curseProjectID": "crucial-2",
+  "promoCode": "vazkiiu0x",
+  "creeperhostEnabled": true,
+  "mpMenuEnabled": true,
+  "mainMenuEnabled": false,
+  "serverHostButtonImage": true,
+  "serverHostMenuImage": true,
+  "sivIntegration": false,
+  "serverListEnabled": false,
+  "chatEnabled": false,
+  "autoMT": false,
+  "enableFriendOnlineToasts": false,
+  "enableMainMenuFriends": false,
+  "replaceRealms": true,
+  "issueTrackerUrl": "https://pste.ch/",
+  "firstConnect": "MT2E6F5AE3CAC6EBC8E2E41E4634AA",
+  "debugMode": false,
+  "pregenDiameter": 120
+}
