@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:story/iron_tools",
+  "display": {
+    "icon": {
+      "item": "advancementframes:advancement_frame"
+    },
+    "title": {
+      "translate": "advancement.crucial.get_advancement_frame"
+    },
+    "description": {
+      "translate": "advancement.crucial.get_advancement_frame.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancement_frame": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "advancementframes:advancement_frame"
+          }
+        ]
+      }
+    }
+  }
+}
