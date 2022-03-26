@@ -208,7 +208,7 @@ s = "This wood spawns in Flower Forests.";
 i(<item:environmental:wisteria_log>, s);
 i(<item:environmental:wisteria_planks>, s);
 
-s = "This wood spawns in watery areas. It does not have a sapling variation, so it's in limited supply.";
+s = "This wood spawns in watery areas and can be acquired by fishing. It does not have a sapling variation, so it's in limited supply.";
 i(<item:upgrade_aquatic:driftwood_log>, s);
 i(<item:upgrade_aquatic:driftwood_planks>, s);
 
