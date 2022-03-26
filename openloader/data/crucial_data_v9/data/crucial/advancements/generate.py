@@ -12,6 +12,7 @@ fetch('get_paraglider', 'paraglider:paraglider', 'minecraft:adventure/sleep_in_b
 fetch('get_seed_pouch', 'quark:seed_pouch', 'minecraft:husbandry/plant_seed')
 fetch('get_beanstalk', 'neapolitan:beanstalk', 'minecraft:husbandry/plant_seed')
 fetch('get_spyglass', 'farsight_spyglasses:spyglass', 'minecraft:adventure/sleep_in_bed')
+fetch('get_advancement_frame', 'advancementframes:advancement_frame', 'minecraft:story/iron_tools')
 
 fetch('get_tater', 'skinnedlanterns:tiny_potato_lantern_block', 'minecraft:nether/summon_wither', display_type='hidden')
 
