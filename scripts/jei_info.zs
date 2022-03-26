@@ -879,3 +879,6 @@ i(<item:supplementaries:present_brown>, s);
 i(<item:supplementaries:present_green>, s);
 i(<item:supplementaries:present_red>, s);
 i(<item:supplementaries:present_black>, s);
+
+i(<item:moyai:moyai>, "Can be found in Mushroom Fields, and rarely in Beaches. Can fall and deal contact damage just like an Anvil.");
+i(<item:advancementframes:advancement_frame>, "Allows you to display one of your Advancements on the wall, floor, or ceiling.");

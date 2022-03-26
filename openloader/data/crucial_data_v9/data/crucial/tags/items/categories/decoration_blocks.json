@@ -882,6 +882,8 @@
 		"supplementaries:present_brown",
 		"supplementaries:present_green",
 		"supplementaries:present_red",
-		"supplementaries:present_black"
+		"supplementaries:present_black",
+		"moyai:moyai",
+		"advancementframes:advancement_frame"	
 	]
 }
