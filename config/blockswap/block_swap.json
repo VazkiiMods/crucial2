@@ -2,6 +2,9 @@
   "retroGen": false,
   "swapper": {
     "infernalexp:polished_basalt_tiles": "architects_palette:basalt_tiles",
-    "infernalexp:polished_basalt_tiles_slab": "architects_palette:basalt_tile_slab"
+    "infernalexp:polished_basalt_tiles_slab": "architects_palette:basalt_tile_slab",
+    "mirabilis:birch_leave_carpet": "quark:birch_leaf_carpet",
+    "mirabilis:oak_leave_carpet": "quark:oak_leaf_carpet",
+    "mirabilis:spruce_leave_carpet": "quark:spruce_leaf_carpet"
   }
 }

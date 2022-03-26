@@ -32,6 +32,9 @@
 	"Maximum Bands" = 3
 	#Enable/disable Aurora processing
 	Auroras = true
+	#Limit sounds to waterfall strengths above this value
+	#Range: 0 ~ 10
+	"Waterfall Strength Cutoff" = 0
 	#Enable/disable Firefly effect around plants
 	Fireflies = true
 	#Enable/disable Fountain Jets spraying
@@ -49,13 +52,13 @@
 	"Weather Fog" = true
 	#Increase fog at bedrock layers
 	"Bedrock Fog" = false
-	#Chance morning fog will occurs expressed as 1 in N
-	#Range: > 0
-	"Morning Fog Chance" = 1
 	#Show morning fog that eventually burns off
 	"Morning Fog" = false
 	#Higher the player elevation the more haze that is experienced
 	"Elevation Haze" = false
+	#Percentage chance morning fog will occur
+	#Range: 1 ~ 100
+	"Morning Fog Chance Percentage" = 80
 	#Enable biome specific fog density and color
 	"Biome Fog" = true
 
