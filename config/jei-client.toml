@@ -17,6 +17,8 @@
 	MaxColumns = 12
 	#Enable cheating items into the hotbar by using the shift+number keys.
 	CheatToHotbarUsingHotkeysEnabled = false
+	#Enable fast batched item rendering for JEI (disable this if items in JEI are not rendering correctly)
+	FastItemRenderingEnabled = true
 
 [colors]
 	#Color values to search for
