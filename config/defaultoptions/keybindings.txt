@@ -99,3 +99,4 @@ key_key.jei.bookmark:key.keyboard.a:NONE
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown:NONE
 key_key.waila.show_recipes:key.keyboard.keypad.3:NONE
 key_key.waila.show_uses:key.keyboard.keypad.4:NONE
+key_key.zoom:NONE
