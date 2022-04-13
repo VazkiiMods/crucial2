@@ -153,7 +153,8 @@
 	"effect.quark.resilience.description": "Reduces knockback from incoming attacks.",
 	
 	"effect.savageandravage.frostbite.description": "Greatly slows down movement speed, and slowly inflicts damage. Inflicted by an icey illager foe.",
-
+	"effect.savageandravage.weight.description": "Greatly slows down movement speed, and prevents jumping. Inflicted by a tricky illager foe.",
+	
 	"effect.seasonals.puppeteering.description": "When one with this effect attacks an entity, it copies their own movement onto the entity.",
 	"effect.seasonals.thorn_resistance.description": "Provides resistance to thorny damage sources.",
 
