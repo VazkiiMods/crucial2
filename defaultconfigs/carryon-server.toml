@@ -54,7 +54,7 @@
 	#Blocks that cannot be picked up
 	forbiddenTiles = ["#forge:immovable", "#forge:relocation_not_supported", "botania:*",
 	"create:*", "waystones:*", "minecraft:spawner", "quark:monster_box", "minecraft:lectern", "minecraft:cauldron", 
-	"bedspreads:*", "minecraft:*_bed", "upgrade_aquatic:bedroll", "upgrade_aquatic:*_bedroll", "supplementaries:book_pile", "supplementaries:book_pile_horizontal"]
+	"bedspreads:*", "minecraft:*_bed", "upgrade_aquatic:bedroll", "upgrade_aquatic:*_bedroll", "supplementaries:book_pile", "supplementaries:book_pile_horizontal", "chimes:*"]
 
 [whitelist]
 	#Entities that CAN have other entities stacked on top of them (useWhitelistStacking must be true)

@@ -861,6 +861,7 @@ i(<item:chalk:red_chalk>, s);
 i(<item:chalk:black_chalk>, s);
 
 i(<item:mannequins:mannequin>, "Can be given two items to hold, as well as chest and head slot armor, can also be posed in any way you want.");
+i(<item:mannequins:statue>, "Can be given two items to hold, as well as chest and head slot armor, can also be posed in any way you want.");
 
 s = "Can hold one item, as well as a small message to give to a friend.";
 i(<item:supplementaries:present>, s);
