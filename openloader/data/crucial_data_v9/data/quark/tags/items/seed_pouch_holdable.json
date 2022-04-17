@@ -1,0 +1,23 @@
+{
+	"replace": false,
+	"values": [
+		"abundance:flowering_redbud_sapling",
+		"abundance:flowering_redbud_sapling",
+		"abundance:lavender",
+		"atmospheric:aloe_kernels",
+		"autumnity:foul_berry_pips",
+		"bayou_blues:cypress_branch",
+		"berry_good:sweet_berry_pips",
+		"environmental:cattail_seeds",
+		"farmersdelight:onion",
+		"neapolitan:adzuki_beans",
+		"neapolitan:mint_sprout",
+		"neapolitan:strawberry_pips",
+		"neapolitan:vanilla_pods",
+		"upgrade_aquatic:mulberry",
+		"upgrade_aquatic:ochre_kelp",
+		"upgrade_aquatic:polar_kelp",
+		"upgrade_aquatic:thorny_kelp",
+		"upgrade_aquatic:tongue_kelp"
+	]
+}
