@@ -112,6 +112,8 @@ craftingTable.addShaped("mechanical_saw", <item:create:mechanical_saw>, [
 <recipetype:create:mixing>.removeByName("create:mixing/chocolate");
 <recipetype:create:mixing>.addRecipe("neapolitan_chocolate", "none", <fluid:create:chocolate> * 250, [<item:minecraft:sugar>, <item:minecraft:cocoa_beans> * 2], [<fluid:minecraft:milk> * 250]);
 <recipetype:create:mixing>.addRecipe("vanilla_fudge", "none", <item:neapolitan:vanilla_fudge> * 4, [<item:minecraft:sugar>, <item:neapolitan:dried_vanilla_pods> * 2], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("neapolitan_chocolate_fluid", "heated", <fluid:create:chocolate> * 250, [<item:neapolitan:chocolate_bar> * 4]);
+<recipetype:create:mixing>.removeByName("create:mixing/chocolate_melting");
 
 <recipetype:create:mixing>.addRecipe("vanilla_milkshake", "none", <item:neapolitan:vanilla_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
 <recipetype:create:mixing>.addRecipe("chocolate_milkshake_ice", "none", <item:neapolitan:chocolate_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:chocolate_bar>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
