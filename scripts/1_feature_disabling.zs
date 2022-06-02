@@ -534,3 +534,24 @@ tag_carpets.remove(<item:farmersdelight:full_tatami_mat>);
 tag_carpets.remove(<item:farmersdelight:half_tatami_mat>);
 
 villagerTrades.removeWanderingTrade(1, <item:supplementaries:flax_seeds>);
+
+furnace.removeRecipe(<item:decorative_winter:oak_thin_branch>);
+furnace.removeRecipe(<item:decorative_winter:birch_thin_branch>);
+furnace.removeRecipe(<item:decorative_winter:spruce_thin_branch>);
+furnace.removeRecipe(<item:decorative_winter:acacia_thin_branch>);
+furnace.removeRecipe(<item:decorative_winter:jungle_thin_branch>);
+furnace.removeRecipe(<item:decorative_winter:dark_oak_thin_branch>);
+
+campfire.removeRecipe(<item:decorative_winter:oak_thin_branch>);
+campfire.removeRecipe(<item:decorative_winter:birch_thin_branch>);
+campfire.removeRecipe(<item:decorative_winter:spruce_thin_branch>);
+campfire.removeRecipe(<item:decorative_winter:acacia_thin_branch>);
+campfire.removeRecipe(<item:decorative_winter:jungle_thin_branch>);
+campfire.removeRecipe(<item:decorative_winter:dark_oak_thin_branch>);
+
+smoker.removeRecipe(<item:decorative_winter:oak_thin_branch>);
+smoker.removeRecipe(<item:decorative_winter:birch_thin_branch>);
+smoker.removeRecipe(<item:decorative_winter:spruce_thin_branch>);
+smoker.removeRecipe(<item:decorative_winter:acacia_thin_branch>);
+smoker.removeRecipe(<item:decorative_winter:jungle_thin_branch>);
+smoker.removeRecipe(<item:decorative_winter:dark_oak_thin_branch>);
