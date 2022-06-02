@@ -273,12 +273,14 @@ craftingTable.addShaped("charred_log",
 		[[charcoal], [logs], [charcoal]]);
 
 // Salmon and Cod Cuts
+craftingTable.removeRecipe(salmon_log);
 craftingTable.addShaped("salmon_cut", 
 		salmon_log * 4, 
 		[[salmon, salmon, salmon], 
 		[salmon, bone_block, salmon], 
 		[salmon, salmon, salmon]]);
 
+craftingTable.removeRecipe(cod_log);
 craftingTable.addShaped("cod_cut", // crl
 		cod_log * 4, 
 		[[cod, cod, cod], 
