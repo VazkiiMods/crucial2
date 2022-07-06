@@ -1,3 +1,5 @@
+#priority 100
+
 import crafttweaker.api.tag.MCTag;
 
 var tag = <tag:items:quark:seed_pouch_holdable>;

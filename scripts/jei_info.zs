@@ -1,3 +1,5 @@
+#priority 100
+
 import mods.jei.JEI as JEI;
 import crafttweaker.api.item.IItemStack;
 

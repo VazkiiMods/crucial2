@@ -1,4 +1,5 @@
 #loader contenttweaker
+#priority 80
 
 #snip modnotloaded caverns_and_chasms
 

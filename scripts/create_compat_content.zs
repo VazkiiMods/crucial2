@@ -1,4 +1,5 @@
 #loader contenttweaker
+#priority 80
 
 #snip modnotloaded create
 #snip modnotloaded createtweaker

@@ -1,4 +1,7 @@
+#priority 90
+
 #snip modnotloaded caverns_and_chasms
+
 import mods.jei.JEI as JEI;
 import crafttweaker.api.item.IItemStack;
 

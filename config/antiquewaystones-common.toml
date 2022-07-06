@@ -2,5 +2,5 @@
 #General settings
 [general]
 	#Use the tower icon when Towers of the Wild is loaded
-	use_tower_icon = true
+	use_tower_icon = false
 
