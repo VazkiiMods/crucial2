@@ -5,4 +5,6 @@
 	nourishmentHungerOverlay = true
 	#Should food tooltips display which effects they provide?
 	foodEffectTooltip = true
+	#Should the health bar have a silver sheen when the player has the Comfort effect?
+	comfortHealthOverlay = true
 

@@ -11,6 +11,8 @@
 		tooltip_shadow = true
 		# If enabled, items showing a custom border will have a special shine effect when hovered over.
 		shine_effect = true
+		# If enabled, utilizes some workarounds to improve compatibility with mods that alter tooltips.
+		compatibility_mode = false
 
 	# Custom borders are broken into 16 "levels", with level 0 being intended for the "best" or "rarest" items. Only level 0 has a custom border built-in, but others can be added with resource packs.
 	[client.custom_borders]
