@@ -54,7 +54,11 @@ import stdlib.List;
             nameData.put("Name", customName);
 
             val itemData = new MapData();
-            itemData.put("Items", items);
+
+            //If the sack wasn't empty, the script transfers the items.
+            if (items != null) {
+              itemData.put("Items", items);
+            }
 
             val newData = new MapData();
             newData.put("display", nameData);
