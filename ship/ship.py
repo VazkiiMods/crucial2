@@ -108,7 +108,7 @@ def update_book():
 
 # Build and write manifest.json
 def make_manifests():
-	with open('minecraftinstance.json', 'r') as in_file:
+	with open('minecraftinstance.json', 'r', encoding="utf8") as in_file:
 		data = json.load(in_file)
 
 		modloader = data['baseModLoader']

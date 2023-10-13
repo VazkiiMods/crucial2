@@ -55,8 +55,27 @@ Updating the Server
 	- Enjoy!
 
 ===================================================
+Troubleshooting
 
-If you need help, try the Violet Moon discord:
+If nothing happens when you run the server, try the following steps:
+	- Open the folder where your server is installed
+	- Click the address bar and type cmd
+		- Then press enter
+	- This will open a terminal, type java -d64 -Xmx3G -jar forge-1.16.5-36.2.39.jar
+		- Then press enter
+		- This will likely show an error, refer to the following:
+
+Unrecognized option: -d64
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+	OR
+Error: This Java instance does not support a 64-bit JVM.
+Please install the desired version.	
+
+SOLUTION: Install Java 8 64 Bit here: 
+https://adoptium.net/temurin/releases/?version=8 
+
+For other less common errors, try the Violet Moon discord:
 discord.gg/vm
 
 ===================================================
