@@ -886,3 +886,4 @@ i(<item:supplementaries:present_black>, s);
 
 i(<item:moyai:moyai>, "Can be found in Mushroom Fields, and rarely in Beaches. Can fall and deal contact damage just like an Anvil.");
 i(<item:advancementframes:advancement_frame>, "Allows you to display one of your Advancements on the wall, floor, or ceiling.");
+i(<item:fantasy:diamond_carrot>, "Can also be used to soften up wild Unicorns so you can mount and tame them.");
