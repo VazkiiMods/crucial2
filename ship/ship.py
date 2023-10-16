@@ -24,8 +24,7 @@ server_mods_blacklist = [
 	460819, # LazyDFU
 	441114, # Neko's Enchanted Books
 	532127, # Legendary Tooltips
-	574856, # Rubidium
-	558905  # Magnesium Extras
+	825358  # Embeddium Extras
 ]
 server_blacklisted_files = [
 	'openloader/resources',
