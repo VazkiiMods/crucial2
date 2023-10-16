@@ -24,7 +24,7 @@ server_mods_blacklist = [
 	460819, # LazyDFU
 	441114, # Neko's Enchanted Books
 	532127, # Legendary Tooltips
-	825358  # Embeddium Extras
+	920353  # Embeddium Extension
 ]
 server_blacklisted_files = [
 	'openloader/resources',
