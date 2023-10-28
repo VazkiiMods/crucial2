@@ -1,0 +1,16 @@
+{
+	"name": "下界要塞定位",
+	"icon": "minecraft:nether_wart",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，游魂们都会在灵魂沙峡谷游荡。据推测击杀他们并用它们的残余定位下界要塞是完全有可能的。"
+		},
+		{
+			"type": "quest",
+			"text": "在灵魂沙峡谷找出定位下界要塞的方法。"
+		}
+	]
+}

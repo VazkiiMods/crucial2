@@ -1,0 +1,14 @@
+{
+	"name": "窗户衔接",
+	"icon": "minecraft:glass_pane",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:glass_pane",
+            "title": "窗户衔接",
+            "text": "你现在可以在$(item)台阶，楼梯，栅栏或墙$()上放置$(item)窗户$()，玻璃板或其它同类型方块——只需要在在一个已经放置的方块上手持窗户右键就能将其衔接在一起（参考含水方块的特性——译注）"
+        }
+	]
+}

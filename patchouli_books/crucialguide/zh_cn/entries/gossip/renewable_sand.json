@@ -1,0 +1,16 @@
+{
+	"name": "可再生沙子",
+	"icon": "minecraft:sand",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，有一种方法可以不用毁掉沙漠就能获得无限的$(item)沙子$()。$(br2)具体细节还很模糊，但可以确定的是这和气泡有关系。也许在得出方法后你还可以将其沿用到其它会受到重力影响的自然方块。"
+		},
+		{
+			"type": "quest",
+			"text": "找出使$(item)沙子$()及其类似方块可再生的方法。"
+		}
+	]
+}

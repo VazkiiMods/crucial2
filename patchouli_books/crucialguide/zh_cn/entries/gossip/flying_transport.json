@@ -1,0 +1,16 @@
+{
+	"name": "飞行载具",
+	"icon": "minecraft:oak_boat",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，在末路之地的深处，有一种材料可以用来制造可以在船或生物身上使用的漂浮附件。$(br)据推测，只需要正确使用，船就能转变成一种飞行载具！"
+		},
+		{
+			"type": "quest",
+			"text": "前往末地并找出能够制作飞行载具的原料。"
+		}
+	]
+}

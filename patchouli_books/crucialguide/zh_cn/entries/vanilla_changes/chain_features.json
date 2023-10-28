@@ -1,0 +1,14 @@
+{
+	"name": "锁链功能",
+	"icon": "minecraft:chain",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:chain",
+            "title": "锁链功能",
+            "text": "$(item)锁链$()可以用来连接$(thing)船$()和$(thing)矿车$()。$(br2)而当被$(item)活塞$()移动时，锁链也能够带动其连着的方块一起移动。"
+        }
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"include": [
+	    {
+	        "template": "patchouli:candles",
+	        "as": "incl",
+	    	"x": 12,
+	    	"y": 15
+	    }
+	],
+	"components": [
+		{
+			"type": "header",
+			"text": "蜡烛影响",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "text",
+			"text": "在周围放置至多四个同类蜡烛能使特定魔咒更容易出现。",
+			"y": 110
+		}
+	]
+}

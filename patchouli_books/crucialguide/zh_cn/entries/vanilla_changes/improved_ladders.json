@@ -1,0 +1,14 @@
+{
+	"name": "改进的梯子",
+	"icon": "minecraft:ladder",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:ladder",
+            "title": "改进的梯子",
+            "text": "$(item)梯子$()现在只需要在一个梯子上右键就能往底部继续放置梯子$(br2)而且现在你只需要视角朝下就能快速从梯子上滑下去。"
+        }
+	]
+}

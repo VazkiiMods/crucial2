@@ -1,0 +1,14 @@
+{
+	"name": "自定义床被",
+	"icon": "minecraft:red_bed",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:red_bed",
+            "title": "自定义床被",
+            "text": "$(item)床$()可以使用$(item)旗帜$()在被子印上图案，很适合作为卧室的进一步装饰。"
+        }
+	]
+}

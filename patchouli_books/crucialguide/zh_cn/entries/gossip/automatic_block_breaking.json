@@ -1,0 +1,16 @@
+{
+	"name": "采掘自动化",
+	"icon": "minecraft:diamond_pickaxe",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，在远离世界的地带，有种方块协同活塞能够达到自动破坏方块的效果。依靠这个原理制造的机械通常会被称为“方块破坏器”。."
+		},
+		{
+			"type": "quest",
+			"text": "找到建造方块破坏器的方法。"
+		}
+	]
+}

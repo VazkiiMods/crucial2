@@ -1,0 +1,17 @@
+{
+	"name": "自动合成",
+	"icon": "minecraft:crafting_table",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称,一种方块可以自动合成任何$(item)工作台$()可以制作的东西，据推测其具体使用方式为在其背后存放合成材料——无论是以放在箱子的形式还是直接放置在外界。"
+		},
+		{
+			"type": "quest",
+			"text": "找到自动合成的方法。"
+		}
+	],
+	"flag": "!mod:create"
+}

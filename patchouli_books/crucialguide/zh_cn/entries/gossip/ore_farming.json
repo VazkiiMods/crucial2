@@ -1,0 +1,16 @@
+{
+	"name": "快速熔炼",
+	"icon": "minecraft:furnace",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，有一种居住在下界的动物会从它的体内释放大量热能。据推测这种热能能够使熔炼的过程加快。$(br2)驯服这种凶猛动物或许会需要来自元素的保护和一些拿给它啃的燃料。"
+		},
+		{
+			"type": "quest",
+			"text": "找到驯服这种下界动物的方法以加快熔炉的熔炼速度"
+		}
+	]
+}

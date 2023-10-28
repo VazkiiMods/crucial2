@@ -1,0 +1,16 @@
+{
+	"name": "史莱姆区块定位",
+	"icon": "minecraft:slime_ball",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，利用史莱姆自身的习性就可以找到难以捉摸的史莱姆区块$(br2)不过要想利用史莱姆就得首先捉一个"
+		},
+		{
+			"type": "quest",
+			"text": "找到捕捉史莱姆的方法并用它们定位史莱姆区块。"
+		}
+	]
+}

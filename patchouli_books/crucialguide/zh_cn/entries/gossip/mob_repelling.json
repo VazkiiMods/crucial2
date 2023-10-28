@@ -1,0 +1,16 @@
+{
+	"name": "怪物驱逐",
+	"icon": "minecraft:skeleton_skull",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，怪物们不愿看到同类的头颅被插在矛上的情景。$(br2)或许搞来主世界的常见怪物的头颅再将其放在栅栏上会让目睹它的“有心人”心生恐惧。"
+		},
+		{
+			"type": "quest",
+			"text": "利用怪物的头颅驱逐它们。"
+		}
+	]
+}

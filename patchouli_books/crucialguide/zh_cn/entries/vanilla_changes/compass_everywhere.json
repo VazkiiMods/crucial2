@@ -1,0 +1,14 @@
+{
+	"name": "通用指南针",
+	"icon": "minecraft:compass",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:compass",
+            "title": "通用指南针",
+            "text": "$(item)指南针$()现在在$(thing)下界$()和$(thing)末地$()也能使用了，在$(thing)下界$()指南针会指向你进入下界时所使用的传送门，在$(thing)末地$()则会指向用于离开末地的传送门。 "
+        }
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "可扩展储存",
+	"icon": "minecraft:barrel",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，有一种非传统的储存方块可以用来储存许多种不同的物品。$(br2)不像$(item)箱子$()及其类似物品那样固定为27个物品栏。这种方块能储存非常非常多的物品。"
+		},
+		{
+			"type": "quest",
+			"text": "找出这种特殊的$(thing)储存方块$()以储存多种不同方块。"
+		}
+	]
+}

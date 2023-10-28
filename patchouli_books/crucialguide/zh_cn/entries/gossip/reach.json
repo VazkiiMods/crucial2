@@ -1,0 +1,16 @@
+{
+	"name": "增加触及范围",
+	"icon": "minecraft:piston",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，一种可以在地下深处发现的孤独生物手中隐藏着能够在更远的距离采掘并放置方块的秘密。$(br2)据称这种罕见生物生活在地下的深处，携带者附魔的装备。而且据说这种生物会是一个劲敌。"
+		},
+		{
+			"type": "quest",
+			"text": "发现这种失落的生灵并得到触及范围增加的能力。"
+		}
+	]
+}

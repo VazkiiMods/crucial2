@@ -1,0 +1,14 @@
+{
+	"name": "自定义鞘翅",
+	"icon": "minecraft:elytra",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:elytra",
+            "title": "自定义鞘翅",
+            "text": "$(item)鞘翅$()现在能像皮革护甲那样被染色，你还可以用$(item)旗帜$()在上面印上图案，只要通过与盾牌一样的方式即可。另外你现在右键使用烟花就能直接起飞。（呜呼！）"
+        }
+	]
+}

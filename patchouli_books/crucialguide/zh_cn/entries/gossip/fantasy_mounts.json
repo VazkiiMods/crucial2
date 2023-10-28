@@ -1,0 +1,16 @@
+{
+	"name": "奇异坐骑",
+	"icon": "minecraft:diamond_horse_armor",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，有人发现了一种极其罕见的亮闪闪带角的马在这片土地上漫游。$(br2)那些声称自己已经驯服了这种神秘野兽的人则吹嘘着它们那闪电般的速度，让水面结为冰霜的先天本领和能多骑乘一个人的能力。"
+		},
+		{
+			"type": "quest",
+			"text": "找到并驯服这种难以捉摸的$(thing)“带角马”$()。"
+		}
+	]
+}

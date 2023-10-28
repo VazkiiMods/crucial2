@@ -1,0 +1,14 @@
+{
+	"name": "铺毯楼梯",
+	"icon": "minecraft:pink_carpet",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:pink_carpet",
+            "title": "铺毯楼梯",
+            "text": "手持$(item)地毯$()或$(item)雪$()对任意种类的楼梯右键即可在上面铺一层地毯或雪。"
+        }
+	]
+}

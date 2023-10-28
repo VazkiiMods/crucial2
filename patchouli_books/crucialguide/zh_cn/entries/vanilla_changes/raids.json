@@ -1,0 +1,23 @@
+{
+	"name": "袭击更改",
+	"icon": "minecraft:totem_of_undying",
+	"category": "patchouli:vanilla_changes",
+    "sortnum": 2,
+    "priority": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "触发$(item)袭击$()的方式在$(thing)Crucial 2$()发生了变化，现在要想触发袭击你需要先像往常那样获得一副$(item)灾厄旗帜$()。之后你需要将旗帜放置在地上再使用$(item)打火石$()烧掉。$(br2)另外你或许在此之前已经察觉一些新的灾厄村民的出现并开始为此警惕。"
+		},
+        {
+            "type": "image",
+            "images": [
+                "patchouli:burning_banner.png",
+                "patchouli:griefer.png"
+            ],
+            "title": "Burning a Banner",
+            "border": true,
+            "text": "一副被烧掉的旗帜与一种新敌人。"
+        }
+	]
+}

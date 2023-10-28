@@ -1,0 +1,14 @@
+{
+	"name": "活塞加成",
+	"icon": "minecraft:piston",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:piston",
+            "title": "活塞加成",
+            "text": "$(item)活塞$()现在可以移动两倍数量的方块，最高能达到24格，而且现在它获得了移动复杂方块的能力。也就是所谓的$(thing)方块实体$() (如$(item)箱子$()，$(item)熔炉$()等).$(br2)如果需要不可移动的方块的话，可以使用$(item)固化石头$()。"
+        }
+	]
+}

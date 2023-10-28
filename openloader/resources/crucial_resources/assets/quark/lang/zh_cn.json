@@ -1,0 +1,20 @@
+{
+	"block.quark.cobblestone_bricks": "粗制圆石砖",
+	"block.quark.mossy_cobblestone_bricks": "粗制苔圆石砖",
+	"block.quark.cobblestone_bricks_stairs": "粗制圆石砖楼梯",
+	"block.quark.mossy_cobblestone_bricks_stairs": "粗制苔圆石砖楼梯",
+	"block.quark.cobblestone_bricks_slab": "粗制圆石砖台阶",
+	"block.quark.mossy_cobblestone_bricks_slab": "粗制苔圆石砖台阶",
+	"block.quark.cobblestone_bricks_vertical_slab": "粗制圆石砖竖直台阶",
+	"block.quark.mossy_cobblestone_bricks_vertical_slab": "粗制苔圆石砖竖直台阶",
+	"block.quark.cobblestone_bricks_wall": "粗制圆石砖墙",
+	"block.quark.mossy_cobblestone_bricks_wall": "粗制苔圆石砖墙",
+	
+	"block.quark.dirt_bricks": "粗制Dirt 砖",
+	"block.quark.dirt_bricks_stairs": "粗制土砖楼梯",
+	"block.quark.dirt_bricks_slab": "粗制土砖台阶",
+	"block.quark.dirt_bricks_vertical_slab": "粗制土砖竖直台阶",
+	"block.quark.dirt_bricks_wall": "粗制土砖墙",
+
+	"block.quark.crate": "仓储板条箱"
+}

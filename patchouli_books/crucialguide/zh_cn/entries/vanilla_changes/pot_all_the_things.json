@@ -1,0 +1,14 @@
+{
+	"name": "啥都能放的花盆！",
+	"icon": "minecraft:flower_pot",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:flower_pot",
+            "title": "啥都能放的花盆！",
+            "text": "$(item)花盆$()现在可以放置成吨种类的花卉和作物，无论是原版还是其它的。$(br2)你还可以将其挂在天花板或是$(item)锁链$()上。"
+        }
+	]
+}

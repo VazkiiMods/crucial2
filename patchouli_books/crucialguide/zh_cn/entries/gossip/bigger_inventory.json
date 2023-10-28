@@ -1,0 +1,16 @@
+{
+	"name": "更大的物品栏",
+	"icon": "minecraft:chest",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，有一种人工制品能够使你携带更多的物品，至少当前来看你的物品栏和那些散落各个储藏地的物品方块相比只能用杯水车薪来形容。"
+		},
+		{
+			"type": "quest",
+			"text": "找到增加你的物品栏空间的方法。$(br2)或许主动上外头找会对达成目的更有帮助...?"
+		}
+	]
+}

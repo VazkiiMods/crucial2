@@ -1,0 +1,16 @@
+{
+	"name": "阻止怪物生成",
+	"icon": "minecraft:glowstone",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，那些找到了内心宁静的玩家将不再会被怪物的出现所扰。$(br2)要想达到如此境界的$(thing)宁静$()绝非一般常识所能触及，但据称一种特殊的，外来的鱼类能将其催生出来。"
+		},
+		{
+			"type": "quest",
+			"text": "寻找这种能够阻止怪物生成的鱼。"
+		}
+	]
+}

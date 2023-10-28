@@ -1,0 +1,16 @@
+{
+	"name": "返回死亡地点",
+	"icon": "minecraft:compass",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言称，一种神秘的实体会储存玩家死后遗留的物品。据推测除非你再次死亡，否则你的物品在你返回之前都会是安全的。$(br2)似乎将一种物品进行改造也可以使其指向死亡地点..."
+		},
+		{
+			"type": "quest",
+			"text": "找到使你能够更容易前往死亡地点的方法。"
+		}
+	]
+}

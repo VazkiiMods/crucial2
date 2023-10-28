@@ -1,0 +1,16 @@
+{
+	"name": "矿石自动化",
+	"icon": "minecraft:iron_nugget",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "有传言你，除了古代才有条件使用的铁傀儡刷铁法场以外，还有一种难以捉摸的生物可以让你想要多少铁就得多少铁。甚至有人说它可以生成其它种类的矿石！"
+		},
+		{
+			"type": "quest",
+			"text": "找到产出铁或其它矿石的方法。$(br2)Hmm... 有哪些矿石通常情况下是不可再生的来着？"
+		}
+	]
+}

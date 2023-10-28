@@ -1,0 +1,14 @@
+{
+	"name": "自动化唱片机",
+	"icon": "minecraft:jukebox",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:jukebox",
+            "title": "自动化唱片机",
+            "text": "$(item)唱片机$()现在能通过旁边放置朝向唱片机的$(item)发射器$()实现自动播放。在唱片机底部放置$(item)漏斗$()则能够取出唱片。"
+        }
+	]
+}
